@@ -6,6 +6,9 @@ import re
 import cv2
 import numpy as np
 
+# Muhammad -> Importing pafy for playing youtube video as part of prototype
+import pafy 
+
 from vehicle_counter import VehicleCounter
 
 road = None
@@ -180,10 +183,16 @@ def main ():
 
 	load_cropped()
 	cap = None
-	
+
 	# Muhammad -> Allows for live camera profile mode to be read in.
 	if (road_name == "Camera_Feed"):
 		cap = cv2.VideoCapture(0)
+	elif (road_name == "Prototype_Feed"):
+		# Below three lines are sourced from:
+		# https://stackoverflow.com/questions/37555195/is-it-possible-to-stream-video-from-https-e-g-youtube-into-python-with-ope
+		vPafy = pafy.new(road["stream_url"])
+		play = vPafy.getbest(preftype='webm')
+		cap = cv2.VideoCapture(play.url)
 	else:
 		cap = cv2.VideoCapture(road['stream_url'])
 	cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)

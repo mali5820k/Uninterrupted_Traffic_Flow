@@ -10,7 +10,7 @@
         "cropped_rects": []
     },
 
-    "Prototype_View": {
+    "Prototype_Feed": {
         "stream_url": "https://www.youtube.com/watch?v=6fmtLhrFOa0",
         "divider": 350,
         "divider_horizontal": true,
