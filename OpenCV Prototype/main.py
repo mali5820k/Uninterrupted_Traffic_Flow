@@ -193,6 +193,7 @@ def main ():
 		# Other youtube-dl issues:
 		# https://stackoverflow.com/questions/70297028/i-have-a-problem-with-dislike-error-when-creating-an-pafy-new-url-perhaps-its
 		# Had to use the mp4 option: https://stackoverflow.com/questions/56578102/error-215assertion-failed-error-when-trying-to-capture-youtube-video-using
+		# https://stackoverflow.com/questions/56578102/error-215assertion-failed-error-when-trying-to-capture-youtube-video-using
 		url = road["stream_url"]
 		vPafy = pafy.new(url)
 		play = vPafy.getbest(preftype='mp4') # changing this from webm fixed it
