@@ -11,7 +11,8 @@ from vehicle_counter import VehicleCounter
 road = None
 
 if len(sys.argv) < 2:
-	raise Exception("No road specified.")
+	#raise Exception("No road specified.")
+	raise Exception("Not enough CMDLINE arguments.\n\tSample Usage:\n\tpython3 main.py viewName\n")
 
 road_name = sys.argv[1]
 
