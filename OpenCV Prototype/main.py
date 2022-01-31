@@ -190,11 +190,24 @@ def main ():
 	elif (road_name == "Prototype_Feed"):
 		# Below three lines are sourced from:
 		# https://stackoverflow.com/questions/37555195/is-it-possible-to-stream-video-from-https-e-g-youtube-into-python-with-ope
-		vPafy = pafy.new(road["stream_url"])
-		play = vPafy.getbest(preftype='webm')
+		# Other youtube-dl issues:
+		# https://stackoverflow.com/questions/70297028/i-have-a-problem-with-dislike-error-when-creating-an-pafy-new-url-perhaps-its
+		# vPafy = pafy.new(road['stream_url'])
+		# play = vPafy.getbest(preftype="webm")
+
+		# cap = cv2.VideoCapture(play.url)
+		# Had to use the mp4 option: https://stackoverflow.com/questions/56578102/error-215assertion-failed-error-when-trying-to-capture-youtube-video-using
+		
+		url = "https://www.youtube.com/watch?v=6fmtLhrFOa0"
+		vPafy = pafy.new(url)
+		play = vPafy.getbest(preftype='mp4')
+
 		cap = cv2.VideoCapture(play.url)
+
+
 	else:
 		cap = cv2.VideoCapture(road['stream_url'])
+
 	cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)
 
 	cv2.namedWindow('Source Image')
