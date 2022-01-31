@@ -143,6 +143,8 @@ def process_frame(frame_number, frame, bg_subtractor, car_counter):
 	# remove specified cropped regions
 	cropped, processed = remove_cropped(gray, processed)
 
+	# Muhammad -> This is where we can draw in multiple dividers and will need to update the current car's divider to the closest
+	# one.
 	if car_counter.is_horizontal:
 		cv2.line(processed, (0, car_counter.divider), (frame.shape[1], car_counter.divider), DIVIDER_COLOR, 1)
 	else:
