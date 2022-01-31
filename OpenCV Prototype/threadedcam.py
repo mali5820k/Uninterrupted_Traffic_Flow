@@ -32,6 +32,7 @@ class ThreadedCamera(object):
 # Can change the input video source to what we need it to be:
 if __name__ == '__main__':
     src = 'http://wzmedia.dot.ca.gov:1935/D3/80_donner_lake.stream/index.m3u8'
+    #src = 0 # Setting src to 0 makes the camera feed in data rather than the url source
     threaded_camera = ThreadedCamera(src)
     while True:
         try:

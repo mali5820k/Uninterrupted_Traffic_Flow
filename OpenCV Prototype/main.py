@@ -16,7 +16,7 @@ if len(sys.argv) < 2:
 
 road_name = sys.argv[1]
 
-with open('settings.json') as f:
+with open('overviewSettings.json') as f:
 	data = json.load(f)
 
 	try:
@@ -57,7 +57,7 @@ def click_and_crop (event, x, y, flags, param):
 def save_cropped():
 	global ref_rects
 
-	with open('settings.json', 'r+') as f:
+	with open('overviewSettings.json', 'r+') as f:
 		data = json.load(f)
 		data[road_name]['cropped_rects'] = ref_rects
 
@@ -65,7 +65,7 @@ def save_cropped():
 		json.dump(data, f, indent=4)
 		f.truncate()
 
-	print('Saved ref_rects to settings.json!')
+	print('Saved ref_rects to overviewSettings.json!')
 
 # Load any saved cropped rectangles
 def load_cropped ():
@@ -73,7 +73,7 @@ def load_cropped ():
 
 	ref_rects = road['cropped_rects']
 
-	print('Loaded ref_rects from settings.json!')
+	print('Loaded ref_rects from overviewSettings.json!')
 
 # Remove cropped regions from frame
 def remove_cropped (gray, color):
@@ -179,8 +179,13 @@ def main ():
 	car_counter = None
 
 	load_cropped()
-
-	cap = cv2.VideoCapture(road['stream_url'])
+	cap = None
+	
+	# Muhammad -> Allows for live camera profile mode to be read in.
+	if (road_name == "Camera_Feed"):
+		cap = cv2.VideoCapture(0)
+	else:
+		cap = cv2.VideoCapture(road['stream_url'])
 	cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)
 
 	cv2.namedWindow('Source Image')
