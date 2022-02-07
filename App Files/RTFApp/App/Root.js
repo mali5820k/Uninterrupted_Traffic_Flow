@@ -34,57 +34,16 @@ import {
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-const SDLogo = require('./components/SDLogo');
-const TextLoader = require('./components/TextLoader');
+const Screens = require('./screens');
 
 /**
  * Conclude Imports
  */
 
 /**
- * Begin Element Definitions
- */
-
-const InitScreen = (): Node => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <>
-      <View
-        style={{
-          backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          flex: 4,
-          flexDirection: 'column',
-          justifyContent: 'center',
-        }}>
-        <SDLogo />
-      </View>
-
-      <View
-        style={{
-          backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          flex: 8,
-          flexDirection: 'column',
-          justifyContent: 'center',
-        }}>
-        <TextLoader
-          text="Connecting to Central Server..."
-          style={{
-            marginTop: 'auto',
-            marginBottom: 'auto',
-          }}
-        />
-      </View>
-    </>
-  );
-};
-
-/**
- * Conclude Element Definitions
- */
-
-/**
  * Begin Master App Definition
  */
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -93,10 +52,26 @@ const App: () => Node = () => {
     flex: 1,
   };
 
+  let state = 1;
+
+  let GetScreen = state => {
+    switch (state) {
+      default:
+      case 1:
+        return Screens.InitScreen();
+    }
+  };
+
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <InitScreen />
+      <View
+        style={{
+          flex: 1,
+          backgroundColor: isDarkMode ? Colors.black : Colors.white,
+        }}>
+        <GetScreen state={state} />
+      </View>
     </SafeAreaView>
   );
 };

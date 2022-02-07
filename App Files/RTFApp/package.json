@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.67.2"
+    "react-native": "0.67.2",
+    "rn-mobile-barcode-scanner": "^8.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -25,5 +26,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "Road-to-Traveller Feedback app for Senior Design Team 4",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mali5820k/Uninterrupted_Traffic_Flow.git"
+  },
+  "author": "Alexander Ing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mali5820k/Uninterrupted_Traffic_Flow/issues"
+  },
+  "homepage": "https://github.com/mali5820k/Uninterrupted_Traffic_Flow#readme"
 }

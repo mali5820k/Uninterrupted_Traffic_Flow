@@ -1,0 +1,35 @@
+
+
+                     = StatusBar Component =
+
+== Overview ==
+
+The StatusBar component controls the app's status bar, the zone,
+typically at the top of the screen, that displays the current time,
+WiFi and cellular network info, battery level, and/or other status
+icons.
+
+
+== Props ==
+
+The most critical props for the status bar are
+
+1. barStyle [StatusBarStyle] - Sets the color of the status bar text
+
+    b) StatusBarStyle [enum] - Status bar style type
+
+       | Value           | Type   | Description                            |
+       |-----------------|--------|----------------------------------------|
+       | 'default'       | string | Default status bar style               |
+       | 'light-content' | string | Dark background, white texts and icons |
+       | 'dark-content'  | string | Light background, dark texts and icons |
+
+2. animated [boolean] - If the transition between status bar property changes should be animated. Supported for "backgroundColor", "barStyle", and "hidden" properties
+
+
+{{https://reactnative.dev/docs/statusbar|React Native Docs: StatusBar}}
+
+
+_Navigation_
+
+[[State Machine|Back to State Machine]]
