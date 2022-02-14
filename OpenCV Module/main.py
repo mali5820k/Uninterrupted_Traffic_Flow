@@ -2,10 +2,16 @@ import gridSystem as gs
 import cv2 as cv
 
 tagPositions = None
+class CameraResolution():
+    def __init__(self, resX, resY):
+        self.x = resX
+        self.y = resY
 
+camRes = CameraResolution(640, 480) # Feel free to change this since this is my laptop's camera resolution
+#camRes = CameraResolution(1920, 1080)
 def calibrateGrid():
     global tagPositions
-    tagPositions = {"topL": (0, 0), "topR": (1279, 0), "botL": (0, 719), "botR": (1279, 719)}
+    tagPositions = {"topL": (0, 0), "topR": (camRes.x-1, 0), "botL": (0, camRes.y-1), "botR": (camRes.x-1, camRes.y-1)}
 
 
 def main():
