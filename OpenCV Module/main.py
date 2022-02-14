@@ -8,7 +8,7 @@ class CameraResolution():
         self.y = resY
 
 camRes = CameraResolution(640, 480) # Feel free to change this since this is my laptop's camera resolution
-#camRes = CameraResolution(1920, 1080)
+
 def calibrateGrid():
     global tagPositions
     tagPositions = {"topL": (0, 0), "topR": (camRes.x-1, 0), "botL": (0, camRes.y-1), "botR": (camRes.x-1, camRes.y-1)}
@@ -22,7 +22,13 @@ def main():
     if not cap.isOpened():
         print("Cannot Open Camera, exiting program"); exit()
 
-    # Capture AR tags from 4x4 cartesian road grid
+    # Set Camera resolution from connected camera:
+    camRes.x = int(cap.get(cv.CAP_PROP_FRAME_WIDTH))
+    camRes.y = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
+
+    print("Detected Camera Resolution is:\n Width: {}\n Height: {}".format(camRes.x, camRes.y))
+
+    # In Future: Capture AR tags from 4x4 cartesian road grid
     calibrateGrid()
 
     startX = tagPositions.get("topL")[0]
