@@ -1,0 +1,9 @@
+{
+  "useHTTPS": true,
+  "defaultHost": "server.tld",
+  "defaultPort": 443,
+  "api": {
+    "initPath": ""
+  },
+  "debugMode": true
+}
