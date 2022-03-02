@@ -2,8 +2,10 @@
   "useHTTPS": true,
   "defaultHost": "server.tld",
   "defaultPort": 443,
+  "defaultWsPort": 8080,
   "api": {
-    "initPath": ""
+    "initPath": "",
+    "wsPath": "wsPath"
   },
   "debugMode": true
 }

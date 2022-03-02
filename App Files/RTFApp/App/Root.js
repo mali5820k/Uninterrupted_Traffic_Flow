@@ -57,9 +57,10 @@ const Colors = {
 
 let globalState = {
   connectionDetails: {
-    useHTTPS: true,
+    useSecure: true,
     host: config.defaultHost,
     port: config.defaultPort,
+    wsPort: config.defaultWsPort,
   },
   selectedid: -1,
   vehicles: [
@@ -240,9 +241,9 @@ class WelcomeScreen extends React.Component {
   }
 
   attemptConnection = async () => {
-    console.log(`Attempting handshake with ${this.props.connectionDetails.host} on port ${this.props.connectionDetails.port} (using ${this.props.connectionDetails.useHTTPS ? 'https' : 'http'})`);
+    console.log(`Attempting handshake with ${this.props.connectionDetails.host} on port ${this.props.connectionDetails.port} (using ${this.props.connectionDetails.useSecure ? 'https' : 'http'})`);
     return fetch(
-      `${this.props.connectionDetails.useHTTPS ? 'https' : 'http'}://${this.props.connectionDetails.host}:${this.props.connectionDetails.port}/${config.api.initPath}`,
+      `${this.props.connectionDetails.useSecure ? 'https' : 'http'}://${this.props.connectionDetails.host}:${this.props.connectionDetails.port}/${config.api.initPath}`,
     )
       .then(response => {
         if (response.ok) {
@@ -340,22 +341,22 @@ class HTTPSToggle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      useHTTPS: globalState.connectionDetails.useHTTPS,
+      useSecure: globalState.connectionDetails.useSecure,
     };
   }
 
   toggleState = newState => {
     this.setState((state, props) => {
       return {
-        useHTTPS: newState,
+        useSecure: newState,
       };
     });
   };
 
   componentDidUpdate(prevProps, prevState) {
-    if (prevState.useHTTPS !== this.state.useHTTPS) {
-      globalState.connectionDetails.useHTTPS = this.state.useHTTPS;
-      console.log(`aaaah ${this.state.useHTTPS} ${globalState.connectionDetails.useHTTPS}`);
+    if (prevState.useSecure !== this.state.useSecure) {
+      globalState.connectionDetails.useSecure = this.state.useSecure;
+      console.log(`aaaah ${this.state.useSecure} ${globalState.connectionDetails.useSecure}`);
     }
   }
 
@@ -365,7 +366,7 @@ class HTTPSToggle extends React.Component {
         trackColor={{false: Colors.debugRed, true: Colors.masonGreen}}
         thumbColor={Colors.white}
         onValueChange={value => this.toggleState(value)}
-        value={this.state.useHTTPS}
+        value={this.state.useSecure}
       />
     );
   }
@@ -375,7 +376,7 @@ class ManualConnectionScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      useHTTPS: globalState.connectionDetails.useHTTPS,
+      useSecure: globalState.connectionDetails.useSecure,
       hostSelected: false,
       portSelected: false,
     };
@@ -384,7 +385,7 @@ class ManualConnectionScreen extends React.Component {
   toggleState = newState => {
     this.setState((state, props) => {
       return {
-        useHTTPS: newState,
+        useSecure: newState,
       };
     });
   };
@@ -419,7 +420,7 @@ class ManualConnectionScreen extends React.Component {
   };
 
   render() {
-    let HTTPSText = this.state.useHTTPS ? 'Use HTTPS' : 'Use HTTP';
+    let HTTPSText = this.state.useSecure ? 'Use HTTPS' : 'Use HTTP';
     const backgroundStyle = {
       flex: 1,
       backgroundColor: this.props.isDarkMode ? Colors.black : Colors.white,
@@ -436,7 +437,7 @@ class ManualConnectionScreen extends React.Component {
               trackColor={{false: Colors.debugRed, true: Colors.masonGreen}}
               thumbColor={Colors.white}
               onValueChange={value => this.toggleState(value)}
-              value={this.state.useHTTPS}
+              value={this.state.useSecure}
             />
           </View>
           <KeyboardAvoidingView>
@@ -560,8 +561,21 @@ class VehicleSelectionScreen extends React.Component {
 class VehicleFollowScreen extends React.Component {
   constructor(props) {
     super(props);
+    this.socket = new WebSocket(
+      `${this.props.connectionDetails.useSecure ? 'wss' : 'ws'}://${
+        this.props.connectionDetails.host
+      }:${this.props.connectionDetails.wsPort}/${config.api.wsPath}`,
+    );
   }
 
+  /**
+        this.setState(() => {
+          return {
+            hostSelected: true,
+            portSelected: false,
+          };
+        });
+        */
   render() {
     const backgroundStyle = {
       flex: 1,
@@ -666,6 +680,7 @@ const App: () => Node = () => {
             return (
               <VehicleFollowScreen
                 navigation={navigation}
+                connectionDetails={globalState.connectionDetails}
                 isDarkMode={isDarkMode}
                 color={isDarkMode ? Colors.masonGold : Colors.masonGreen}
               />
@@ -708,7 +723,6 @@ const style = StyleSheet.create({
     marginRight: 'auto',
     marginVertical: 20,
     fontSize: 16,
-    color: Colors.white,
   },
   fixToText: {
     flexDirection: 'row',
