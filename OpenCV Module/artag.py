@@ -13,14 +13,14 @@ cap=cv2.VideoCapture(0)
 while True:
 #    try:
     success, img =cap.read()
-    grayScale=cv2.cvtColor(img,cv2.COLORBGR2GRAY)
-    key=getattr(aruco, f'DICT{markerSize}X{markerSize}_{totalMarkers}')
+    grayScale=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+    key=getattr(aruco, f'DICT_{markerSize}X{markerSize}_{totalMarkers}')
     arucoDict=aruco.Dictionary_get(key)
     arucoParam=aruco.DetectorParameters_create()
     corners,ids,rejected=aruco.detectMarkers(grayScale,arucoDict, parameters=arucoParam)
     #ids type is numpy.ndarray
     #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
-    temp=ids.tolist()
+    #temp=ids.tolist()
     print(corners)
     # if counter==0 and len(ids)==2:
         # ids.sort()
