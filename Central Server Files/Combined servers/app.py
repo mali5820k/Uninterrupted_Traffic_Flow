@@ -2,9 +2,13 @@ from crypt import methods
 from flask import Flask
 from flask import render_template
 from flask import request
-import websocket_server as ws
 import json
 
+# Base was used from MIT licensed code from websockets repo
+import websocket_server as ws
+from websocket_server import WebsocketServer
+
+# This is the flask server code below:
 app = Flask(__name__)
 
 def getOpenCVInfo():
@@ -18,7 +22,6 @@ def hello_world():
 
 @app.route("/websocket_portal", methods=["GET", "POST"])
 def websocket_Page():
-    ws.
     return 
 
 @app.route("/openCV_Info", methods=["GET", "POST"])
