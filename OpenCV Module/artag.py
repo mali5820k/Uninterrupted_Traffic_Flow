@@ -20,7 +20,7 @@ while True:
         corners,ids,rejected=aruco.detectMarkers(grayScale,arucoDict, parameters=arucoParam)
         #ids type is numpy.ndarray
         #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
-        #temp=ids.tolist()
+        temp=ids.tolist()
         print(corners)
         # if counter==0 and len(ids)==2:
             # ids.sort()
