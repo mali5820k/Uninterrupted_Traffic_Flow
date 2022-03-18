@@ -9,7 +9,11 @@ import time
 markerSize = 6 # Default 6
 totalMarkers = 250 # Default 250
 debug = True # Enable or disable the drawing of boxes around detected ArUco tags
-
+lastPositions = {}
+velocities = {}
+startTime = 0
+endTime = 0
+elapsedTime = 0
 
 # WORKS DON'T TOUCH
 def cornersTo2D(corners):
@@ -58,9 +62,21 @@ def makePositionDict(centers, ids):
     
     return positionDict
 
+def computeVelocities(lastPositions, positions):
+    global elapsedTime
+    velocitiesVector = {}
+    elapsedTime = abs(endTime - startTime)
+    x1, x2, y1, y2 = 0, 0, 0, 0
+    for key in positions:
+        x2, y2 = positions.get(key)
+        x1, y1 = lastPositions.get(key)
+        velocitiesVector[key] = [[(x2 - x1)/elapsedTime], [(y2 - y1)/elapsedTime]]
+    
+    return velocitiesVector
+
 # Feel free to change the parameters in the function to fit your approach
 # Function needs to draw a box around the tags that were detected.
-def debugViewOfDetectedTags(img, corners, centers, ids):
+def debugViewOfDetectedTags(img, corners, centers, tagPositions, ids):
     if debug == False:
         return
     
@@ -71,6 +87,7 @@ def debugViewOfDetectedTags(img, corners, centers, ids):
     print(f"Corners Array is: {corners}")
     print(f"Center of Tags are: {centers}\n")
     print(f"Tag Positions: {tagPositions}")
+    print(f"Tag Velocities: {velocities}")
     print(f"\n_________________________________________________________________________")
     
     # Do the display logic here:
@@ -80,45 +97,58 @@ def debugViewOfDetectedTags(img, corners, centers, ids):
 
 # For the combined implementation, encapsulate this entire region below within a function call and
 # eliminate the while-loop so the actions only occur once per function call.
+def main():
+    global velocities
+    global lastPositions
+    global startTime, endTime
+    
+    cap = cv2.VideoCapture(0)
 
-cap = cv2.VideoCapture(0)
+    while True:
+        try:
+            success, img = cap.read()
+            grayScale=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+            key=getattr(aruco, f'DICT_{markerSize}X{markerSize}_{totalMarkers}')
+            arucoDict=aruco.Dictionary_get(key)
+            arucoParam=aruco.DetectorParameters_create()
+            corners,ids,rejected=aruco.detectMarkers(grayScale,arucoDict, parameters=arucoParam)
+            centers = []
 
-while True:
-    try:
-        success, img = cap.read()
-        grayScale=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-        key=getattr(aruco, f'DICT_{markerSize}X{markerSize}_{totalMarkers}')
-        arucoDict=aruco.Dictionary_get(key)
-        arucoParam=aruco.DetectorParameters_create()
-        corners,ids,rejected=aruco.detectMarkers(grayScale,arucoDict, parameters=arucoParam)
-        centers = []
-
-        #ids type is numpy.ndarray
-        #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
-        #temp=ids.tolist()
-        
-        temp = np.array(ids)
-        temp = temp.flatten()
-        corners = np.array(corners)
-        corners = corners.flatten()
-        corners = cornersTo2D(corners)
-        corners = cornersReformatted(corners)
-        centers = getCenters(corners)
-        tagPositions = makePositionDict(centers, temp)
-        
-        # This function will draw the boxes around each detected ArUco tag
-        debugViewOfDetectedTags(img, corners, centers, temp)
-        
-        cv2.imshow("Image", img)
-        cv2.waitKey(1)
-        
-    except KeyboardInterrupt:
-        print("Quitting Program")
-        cap.release() # Release the capture stream
-        cv2.destroyAllWindows() # Close all windows that were created from this program and openCV.
-        break
-    # Comment the below exception out if trying to find source of error
-    except:
-        print("No tags in camera detection view!\n")
-        continue
-        
+            #ids type is numpy.ndarray
+            #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
+            #temp=ids.tolist()
+            
+            temp = np.array(ids)
+            temp = temp.flatten()
+            corners = np.array(corners)
+            corners = corners.flatten()
+            corners = cornersTo2D(corners)
+            corners = cornersReformatted(corners)
+            centers = getCenters(corners)
+            tagPositions = makePositionDict(centers, temp)
+            startTime = time.time()
+            
+            if (not(len(lastPositions) == 0)):
+                velocities.update(computeVelocities(lastPositions, tagPositions))
+            
+            lastPositions.update(tagPositions)
+            endTime = time.time()
+            
+            # This function will draw the boxes around each detected ArUco tag
+            debugViewOfDetectedTags(img, corners, centers, tagPositions, temp)
+            
+            cv2.imshow("Image", img)
+            cv2.waitKey(1)
+            
+        except KeyboardInterrupt:
+            print("Quitting Program")
+            cap.release() # Release the capture stream
+            cv2.destroyAllWindows() # Close all windows that were created from this program and openCV.
+            break
+        # Comment the below exception out if trying to find source of error
+        except:
+            print("No tags in camera detection view!\n")
+            continue
+            
+            
+if __name__ == "__main__": main()
