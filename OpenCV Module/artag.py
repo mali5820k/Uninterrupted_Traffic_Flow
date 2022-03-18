@@ -4,11 +4,12 @@ import cv2.aruco as aruco
 import numpy as np
 import os
 import time
-markerSize=6
-totalMarkers=250
-draw=True
-counter=0
-x=[]
+
+# DO NOT CHANGE THESE TWO PARAMETERS UNLESS THE WHOLE SYSTEM RELIES ON DIFFERENT ArUco TAG DIMENSIONS!!!!
+markerSize = 6 # Default 6
+totalMarkers = 250 # Default 250
+debug = True # Enable or disable the drawing of boxes around detected ArUco tags
+
 
 # WORKS DON'T TOUCH
 def cornersTo2D(corners):
@@ -17,11 +18,10 @@ def cornersTo2D(corners):
         corners2D.append([corners[i-1], corners[i]])
     return corners2D
 
-def cornersToDict(corners):
+def cornersReformatted(corners):
     # grab every 4 indices and store them into a list
     # store those lists under the ID for that tag
     cornersLen = int(len(corners))
-    print(f'Length of cornersToDict corners array is: {cornersLen}')
     cornersFormatted = []
     
     for i in range(0, cornersLen, 4):
@@ -41,15 +41,42 @@ def getCenter(tagCorners):
     centerX = (topLeft[0] + topRight[0])/2
     centerY = (bottomRight[1] - topRight[1])/2 + topRight[1]
     
-    return [centerX, centerY]
+    return [int(centerX), int(centerY)]
 
 def getCenters(corners):
     centers = []
     for i in range(0, len(corners)):
-        print(f'Getting center for corners: {corners[i]}')
         centers.append(getCenter(corners[i]))
     
     return centers
+
+def makePositionDict(centers, ids):
+    positionDict = {}
+    
+    for i in range(0, len(ids)):
+        positionDict[ids[i]] = centers[i]
+    
+    return positionDict
+
+# Feel free to change the parameters in the function to fit your approach
+# Function needs to draw a box around the tags that were detected.
+def debugViewOfDetectedTags(img, corners, centers, ids):
+    if debug == False:
+        return
+    
+    ### For debugging in more detail, uncomment or comment the below print statements
+    print(f"\n_________________________________________________________________________")
+    print(f"\nMarker ID is: {ids}")
+    print(f"\nThe length of the corners array is: {len(corners)}\n")
+    print(f"Corners Array is: {corners}")
+    print(f"Center of Tags are: {centers}\n")
+    print(f"Tag Positions: {tagPositions}")
+    print(f"\n_________________________________________________________________________")
+    
+    # Do the display logic here:
+    #cv2.rectangle(img, (int(corners[0][0]), int(corners[0][1])), (int(corners[2][0]), int(corners[2][1])), (50, 50, 255), 2)
+    #cv2.line(img, (int(centers[0]), int(centers[1])), (int(centers[0]), int(centers[1])), (200, 0, 200), 6)
+
 
 # For the combined implementation, encapsulate this entire region below within a function call and
 # eliminate the while-loop so the actions only occur once per function call.
@@ -75,21 +102,23 @@ while True:
         corners = np.array(corners)
         corners = corners.flatten()
         corners = cornersTo2D(corners)
-        print(f"CornersTo2D Array is: {corners}")
-        corners = cornersToDict(corners)
-        print(f"Marker ID is: {temp}")
-        print(f"\nThe length of the corners array is: {len(corners)}\n")
-        print(f"Corners Array is: {corners}")
+        corners = cornersReformatted(corners)
         centers = getCenters(corners)
-        print(f"Center of Tags are: {centers}")
-        # cv2.rectangle(img, (int(corners[0][0]), int(corners[0][1])), (int(corners[2][0]), int(corners[2][1])), (50, 50, 255), 2)
-        # cv2.line(img, (int(centers[0]), int(centers[1])), (int(centers[0]), int(centers[1])), (200, 0, 200), 6)
+        tagPositions = makePositionDict(centers, temp)
+        
+        # This function will draw the boxes around each detected ArUco tag
+        debugViewOfDetectedTags(img, corners, centers, temp)
+        
         cv2.imshow("Image", img)
         cv2.waitKey(1)
+        
     except KeyboardInterrupt:
         print("Quitting Program")
+        cap.release() # Release the capture stream
+        cv2.destroyAllWindows() # Close all windows that were created from this program and openCV.
         break
-    # except:
-    #     print("No tags in camera detection view!\n")
-    #     continue
+    # Comment the below exception out if trying to find source of error
+    except:
+        print("No tags in camera detection view!\n")
+        continue
         
