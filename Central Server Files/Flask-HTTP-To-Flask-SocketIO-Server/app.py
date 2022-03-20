@@ -29,7 +29,7 @@ def index():
 
 @app.route("/debug", methods = ["GET"])
 def debugView():
-    return f"<p>Green Arrow Data: \n\t{greenArrowData}\nCar data: \n\t{carData}\nUsers Connected: \n\t{usersConnected}\n</p>"
+    return f"<p>Green Arrow Data: \n\t{greenArrowData}\nCar data: \n\t{carData}\nUsers Connected: \n\t{connectedUsers}\n</p>"
 
 ### For three-way handshake on new connection
 ### Client must use socketIO in either javascript or python to connect and must implement socket.on('handshake', (msg) => {}) and socket.on('after connect', (msg) => {})
