@@ -23,7 +23,7 @@ connectedUsers = {} # Users that are connected given an ID
 #     sampleData = json.dumps(sampleJson)
 #     return sampleData
 
-@app.route("/", methods = ["GET"])
+@app.route("/", methods = ["GET", "POST"])
 def index():
     return "<p>Welcome to the Flask HTTP/Flask-SocketIO server. You are on the root-page that's being managed by the HTTP side of the Flask framework.</p>"
 
@@ -40,7 +40,8 @@ def debugView():
 
 @socketio.on('connect')
 def connectionHandshake():
-    emit('handshake', {'data': 'Ack from server, waiting on client handshake ack'})
+    print("User has connected")
+    emit('handshake client', {'data': 'Ack from server, waiting on client handshake ack'})
 
 @socketio.on('handshake')
 def connectionConfirmed(msg):
