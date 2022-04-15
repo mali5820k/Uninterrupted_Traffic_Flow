@@ -81,7 +81,7 @@ def makePositionDict(centers, ids):
 
 # Feel free to change the parameters in the function to fit your approach
 # Function needs to draw a box around the tags that were detected.
-def debugViewOfDetectedTags(img, corners, centers, tagPositions, ids):
+def debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, ids):
     if debug == False:
         return
     
@@ -98,16 +98,10 @@ def debugViewOfDetectedTags(img, corners, centers, tagPositions, ids):
     # Do the display logic here:
     #cv2.rectangle(img, (int(corners[0][0]), int(corners[0][1])), (int(corners[2][0]), int(corners[2][1])), (50, 50, 255), 2)
     #cv2.line(img, (int(centers[0]), int(centers[1])), (int(centers[0]), int(centers[1])), (200, 0, 200), 6)
-    if (len(corners) < 4):
-        return img
-    for i in range(3, len(corners), 4):
-        corner1 = (int(corners[i][0]), int(corners[i][1]))
-        corner2 = (int(corners[i-1][0]), int(corners[i-1][1]))
-        corner3 = (int(corners[i-2][0]), int(corners[i-2][1]))
-        corner4 = (int(corners[i-3][0]), int(corners[i-3][1]))
-        #cv2.line(img, corner1[0][0], corner1[0][1], corner[]) # This method takes too long and is like 4 calls
-        cv2.rectangle(img, corner1[0][0], corner1[0][1], corner2[0][0], corner2[0][1], (50, 50, 255), 2)
-    return img
+    color = (200, 0, 250)
+    # Using this source: https://aliyasineser.medium.com/aruco-marker-tracking-with-opencv-8cb844c26628
+    aruco.drawDetectedMarkers(img, unformatted_corners, borderColor = color)
+    
 
 # For the combined implementation, encapsulate this entire region below within a function call and
 # eliminate the while-loop so the actions only occur once per function call.
@@ -127,12 +121,21 @@ def main():
             arucoParam=aruco.DetectorParameters_create()
             corners,ids,rejected=aruco.detectMarkers(grayScale,arucoDict, parameters=arucoParam)
             centers = []
+            unformatted_corners = corners
 
             #ids type is numpy.ndarray
             #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
             #temp=ids.tolist()
             temp = np.array(ids)
             temp = temp.flatten()
+            rej_corners = np.array(rejected)
+            #rej_corners.flatten()
+            #rej_corners = cornersTo2D(rej_corners)
+            #rej_corners = cornersReformatted(rej_corners)
+            print(f"The rejected tag values: {rej_corners}, ids: {temp}")
+            #if (len(rej_corners) != 0 and len(temp) != 0):
+                #corners.append(rejected)
+
             corners = np.array(corners)
             corners = corners.flatten()
             corners = cornersTo2D(corners)
@@ -140,7 +143,7 @@ def main():
             centers = getCenters(corners)
             tagPositions = makePositionDict(centers, temp)
             startTime = time.time()
-            print(f"The rejected tag values: {rejected}, ids: {temp}")
+            
             # if (not(len(lastPositions) == 0)):
             #     velocities.update(computeVelocities(lastPositions, tagPositions))
             
@@ -148,7 +151,7 @@ def main():
             endTime = time.time()
             
             # This function will draw the boxes around each detected ArUco tag
-            img = debugViewOfDetectedTags(img, corners, centers, tagPositions, temp)
+            debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, temp)
             
             cv2.imshow("Image", img)
             cv2.waitKey(1)
@@ -158,13 +161,5 @@ def main():
             cap.release() # Release the capture stream
             cv2.destroyAllWindows() # Close all windows that were created from this program and openCV.
             break
-        # Comment the below exception out if trying to find source of error
-        # except Exception as e:
-        #     print("No tags in camera detection view!\n")
-        #     print(f"Error: {e}\n")
-        #     cv2.imshow("Image", img)
-        #     cv2.waitKey(1)
-        #     continue
-            
             
 if __name__ == "__main__": main()
