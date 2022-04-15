@@ -4,6 +4,7 @@ import cv2.aruco as aruco
 import numpy as np
 import os
 import time
+import moduleToServer
 
 # DO NOT CHANGE THESE TWO PARAMETERS UNLESS THE WHOLE SYSTEM RELIES ON DIFFERENT ArUco TAG DIMENSIONS!!!!
 markerSize = 6 # Default 6
@@ -14,6 +15,9 @@ velocities = {}
 startTime = 0
 endTime = 0
 elapsedTime = 0
+
+greenArrowData = {} # Starting and ending points of the vector, Velocity, and GUID (unique reference number to that green Arrow)
+carData = {1: ([0, 0], [0, 0])} # position and velocity of cars with an associated GUID
 
 # WORKS DON'T TOUCH
 def cornersTo2D(corners):
@@ -152,9 +156,13 @@ def main():
             
             # This function will draw the boxes around each detected ArUco tag
             debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, temp)
-            
+
             cv2.imshow("Image", img)
             cv2.waitKey(1)
+
+            # Send the data to the server:
+
+
             
         except KeyboardInterrupt:
             print("Quitting Program")

@@ -10,6 +10,8 @@ import json
 
 ### And a little bit of this just to understand how Flask works:
 # https://www.techwithtim.net/tutorials/flask/http-methods-get-post/
+host_ = "0.0.0.0"
+port_ = 5000
 
 app = Flask(__name__)
 socketio = SocketIO(app)
@@ -65,4 +67,4 @@ def disconnectConfirmed():
     print("User has disconnected")
 
 if __name__ == "__main__":
-    socketio.run(app, host='0.0.0.0') # We can change the port on which we end up hosting if necessary
+    socketio.run(app, port=port_, host=host_) # We can change the port on which we end up hosting if necessary
