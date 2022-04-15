@@ -56,14 +56,19 @@ def debugView():
 def updateSystemData(new_GreenArrow_And_CarData): # This param is a tuple or list of the two dictionaries
     global greenArrowData, carData
     # The two dictionaries are split into two separate variables
-    greenArrowData = new_GreenArrow_And_CarData[0]
-    carData = new_GreenArrow_And_CarData[1]
+    newData = new_GreenArrow_And_CarData
+    greenArrowData = newData['greenArrowData']
+    carData = newData['carData']
     #dataToSend = json.loads(new_GreenArrow_And_CarData) ### Don't know if this is better than sending two separate jsons
     
     # The two dictionaries are loaded up into JSON's and sent to the server via an emitted event
     carDataJSON = json.loads(carData)
     greenArrowDataJSON = json.loads(greenArrowData)
-    emit("data update", data=(greenArrowDataJSON, carDataJSON), broadcast=True) ### broadcast sends the message to all clients connected to the server
+    packagedData = {
+            "carData": carDataJSON,
+            "greenArrowData": greenArrowDataJSON
+            }
+    emit("data update", packagedData, broadcast=True) ### broadcast sends the message to all clients connected to the server
     
 @socketio.on('disconnect')
 def disconnectConfirmed():

@@ -1,0 +1,10 @@
+            = Dataflow Model =
+
+1. Python/OpenCV
+
+    Directly replies to GET requests from app, sending JSON-formatted
+    object with all data representative of selected car.
+
+Each ray (wave) has a unique ID, instantaneous coordinate position,
+heading, length, and velocity. The data for all active ray is
+transmitted in the JSON object.

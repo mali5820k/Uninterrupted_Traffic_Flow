@@ -1,0 +1,12 @@
+
+
+*State 01 - Welcome*
+
+This state is the landing page for opening the app. Here it will attempt a handshake with the central server and prompt the user to connect manually if necessary.
+
+When a connection is made successfully, the app will prompt the user to press next to continue to [[State 02]], but only on the first launch. Otherwise, it continues to [[State 02]] automatically.
+
+
+[[State 02|Next State: (02) Vehicle Selection]]
+[[State Machine|All States]]
+[[index|Return to Wiki Index]]

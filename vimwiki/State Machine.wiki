@@ -1,0 +1,21 @@
+
+
+*State Machine* - this model is intended to describe the user
+experience flow of the app in terms of states, which represent the
+overarching screen the app is showing
+
+_States_
+
+[[State 01|State 01 - Welcome Screen]]
+[[State 02|State 02 - Vehicle Selection Screen]]
+[[State 03|State 03 - Vehicle Follow Screen]]
+
+
+_Per-state settings_
+
+[[StatusBar|StatusBar Component]]
+
+
+_Navigation_
+
+[[index|Return to Index]]

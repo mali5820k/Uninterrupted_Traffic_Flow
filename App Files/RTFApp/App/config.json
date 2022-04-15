@@ -1,7 +1,7 @@
 {
-  "useHTTPS": true,
-  "defaultHost": "server.tld",
-  "defaultPort": 443,
+  "useHTTPS": false,
+  "defaultHost": "192.168.1.3",
+  "defaultPort": 5000,
   "defaultWsPort": 8080,
   "api": {
     "initPath": "",

@@ -1,0 +1,11 @@
+
+
+*State 02 - Vehicle Select*
+
+In this state, the app will prompt the user to scan the QR code on the vehicle they wish to follow, or enter its GUID manually.
+
+
+[[State 01|Prev State: (01) Welcome]]
+[[State 03|Next State: (03) Vehicle Follow]]
+[[State Machine|All States]]
+[[index|Return to Wiki Index]]

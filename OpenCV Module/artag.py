@@ -5,6 +5,7 @@ import numpy as np
 import os
 import time
 import moduleToServer as ms
+import json
 
 # DO NOT CHANGE THESE TWO PARAMETERS UNLESS THE WHOLE SYSTEM RELIES ON DIFFERENT ArUco TAG DIMENSIONS!!!!
 markerSize = 6 # Default 6
@@ -174,7 +175,10 @@ def main():
             #.....#
 
             # package data to send to the server:
-            packaged_data = (greenArrowData, carData)
+            packaged_data = {
+                    "greenArrowData": json.dumps(greenArrowData),
+                    "carData": json.dumps(carData)
+                    }
 
             # Send the data to the server:
             ms.sendCarLocalizationDataToServer(packaged_data)

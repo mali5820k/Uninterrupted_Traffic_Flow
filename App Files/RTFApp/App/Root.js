@@ -36,9 +36,11 @@ import {
 } from 'react-native';
 import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {io} from 'socket.io-client';
 
 const config = require('./config.json');
 const logo = require('./images/SD.png');
+let socketio = null;
 
 /**
  * GLOBAL VARIABLES
@@ -57,10 +59,9 @@ const Colors = {
 
 let globalState = {
   connectionDetails: {
-    useSecure: true,
+    useSecure: config.useHTTPS,
     host: config.defaultHost,
     port: config.defaultPort,
-    wsPort: config.defaultWsPort,
   },
   selectedid: -1,
   vehicles: [
@@ -129,6 +130,7 @@ let globalState = {
       name: 'Vehicle 16',
     },
   ],
+  centralServerData: {},
 };
 
 let queueConnRetry;
@@ -252,6 +254,14 @@ class WelcomeScreen extends React.Component {
               connected: true,
               attempting: false,
             };
+          });
+          // Connect to socket.io server
+          socketio = io(`${this.props.connectionDetails.useSecure ? 'wss' : 'ws'}://${this.props.connectionDetails.host}:${this.props.connectionDetails.port}`);
+          socketio.on('handshake client', () => {
+            socketio.emit('handshake');
+          });
+          socketio.on('data update', data => {
+            globalState.centralServerData = data;
           });
         } else {
           this.setState((state, props) => {
@@ -383,6 +393,7 @@ class ManualConnectionScreen extends React.Component {
   }
 
   toggleState = newState => {
+    globalState.connectionDetails.useSecure = newState;
     this.setState((state, props) => {
       return {
         useSecure: newState,
@@ -561,11 +572,20 @@ class VehicleSelectionScreen extends React.Component {
 class VehicleFollowScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.socket = new WebSocket(
-      `${this.props.connectionDetails.useSecure ? 'wss' : 'ws'}://${
-        this.props.connectionDetails.host
-      }:${this.props.connectionDetails.wsPort}/${config.api.wsPath}`,
-    );
+    this.state = {
+      data: {
+        dataUnset: true,
+      },
+    };
+    this.socket = socketio;
+    this.socket.on('data update', newData => {
+      console.log('new data', newData);
+      this.setState((state, props) => {
+        return {
+          data: newData,
+        };
+      });
+    });
   }
 
   /**
@@ -576,6 +596,12 @@ class VehicleFollowScreen extends React.Component {
           };
         });
         */
+  componentWillUnmount() {
+    // Disconnect when this screen is left
+    console.log('left VehicleFollowScreen, disconnecting from socketio');
+    this.socket.removeAllListeners('data update');
+  }
+
   render() {
     const backgroundStyle = {
       flex: 1,
@@ -601,6 +627,7 @@ class VehicleFollowScreen extends React.Component {
     return (
       <View style={backgroundStyle}>
         <Text>Current Selected Vehicle: {globalState.selectedid}</Text>
+        <Text>Data: {JSON.stringify(this.state.data)}</Text>
       </View>
     );
   }

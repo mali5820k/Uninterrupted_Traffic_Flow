@@ -33,5 +33,5 @@ def disconnect():
     print("OpenCV module to server disconnected")
 
 def sendCarLocalizationDataToServer(dataDictionary):
-    generatedJson = json.dumps(dataDictionary)
+    generatedJson = dataDictionary # used to dump to json
     sio.emit("update green-arrow data", generatedJson)
