@@ -4,7 +4,7 @@ import cv2.aruco as aruco
 import numpy as np
 import os
 import time
-import moduleToServer
+import moduleToServer as ms
 
 # DO NOT CHANGE THESE TWO PARAMETERS UNLESS THE WHOLE SYSTEM RELIES ON DIFFERENT ArUco TAG DIMENSIONS!!!!
 markerSize = 6 # Default 6
@@ -17,7 +17,8 @@ endTime = 0
 elapsedTime = 0
 
 greenArrowData = {} # Starting and ending points of the vector, Velocity, and GUID (unique reference number to that green Arrow)
-carData = {1: ([0, 0], [0, 0])} # position and velocity of cars with an associated GUID
+# carData = {1: ([0, 0], [0, 0])} # This is the format
+carData = {} # position and velocity of cars with an associated GUID
 
 # WORKS DON'T TOUCH
 def cornersTo2D(corners):
@@ -113,8 +114,11 @@ def main():
     global velocities
     global lastPositions
     global startTime, endTime
-    
+    global greenArrowData, carData
     cap = cv2.VideoCapture(0)
+
+    # setup module to server connection
+    ms.setup()
 
     while True:
         try:
@@ -159,9 +163,21 @@ def main():
 
             cv2.imshow("Image", img)
             cv2.waitKey(1)
+            
+            # Assembled car data
+            for i in range(0, len(centers)):
+                position = centers[i]
+                cur_id = temp[i]
+                carData[cur_id] = position
+
+            # Assemble greenArrowData here when it's ready:
+            #.....#
+
+            # package data to send to the server:
+            packaged_data = (greenArrowData, carData)
 
             # Send the data to the server:
-
+            ms.sendCarLocalizationDataToServer(packaged_data)
 
             
         except KeyboardInterrupt:

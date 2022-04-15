@@ -40,24 +40,27 @@ def debugView():
 
 ### All clients should have an event for "updated data" so that the car
 
-@socketio.on('connect')
-def connectionHandshake():
-    print("User has connected")
-    emit('handshake client', {'data': 'Ack from server, waiting on client handshake ack'})
+# @socketio.on('connect')
+# def connectionHandshake():
+#     print("User has connected")
+#     emit('handshake client', {'data': 'Ack from server, waiting on client handshake ack'})
 
-@socketio.on('handshake')
-def connectionConfirmed(msg):
-    print(msg.data)
-    emit('after connect', {'data': "Ack from client received, three-way handshake complete, 200 OK"})
+# @socketio.on('handshake')
+# def connectionConfirmed(msg):
+#     print(msg.data)
+#     emit('after connect', {'data': "Ack from client received, three-way handshake complete, 200 OK"})
 
 ### This event will be invoked by the openCV module to update the data on the serverside and to invoke an update 
 ### across all connected users
 @socketio.on('update green-arrow data')
-def updateSystemData(new_GreenArrow_And_CarData):
+def updateSystemData(new_GreenArrow_And_CarData): # This param is a tuple or list of the two dictionaries
     global greenArrowData, carData
+    # The two dictionaries are split into two separate variables
     greenArrowData = new_GreenArrow_And_CarData[0]
     carData = new_GreenArrow_And_CarData[1]
     #dataToSend = json.loads(new_GreenArrow_And_CarData) ### Don't know if this is better than sending two separate jsons
+    
+    # The two dictionaries are loaded up into JSON's and sent to the server via an emitted event
     carDataJSON = json.loads(carData)
     greenArrowDataJSON = json.loads(greenArrowData)
     emit("data update", data=(greenArrowDataJSON, carDataJSON), broadcast=True) ### broadcast sends the message to all clients connected to the server
