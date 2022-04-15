@@ -56,23 +56,28 @@ def getCenters(corners):
 
 def makePositionDict(centers, ids):
     positionDict = {}
-    
+    if (len(centers) < 1):
+        return {}
     for i in range(0, len(ids)):
         positionDict[ids[i]] = centers[i]
     
     return positionDict
 
-def computeVelocities(lastPositions, positions):
-    global elapsedTime
-    velocitiesVector = {}
-    elapsedTime = abs(endTime - startTime)
-    x1, x2, y1, y2 = 0, 0, 0, 0
-    for key in positions:
-        x2, y2 = positions.get(key)
-        x1, y1 = lastPositions.get(key)
-        velocitiesVector[key] = [[(x2 - x1)/elapsedTime], [(y2 - y1)/elapsedTime]]
+# This function is broken
+# def computeVelocities(lastPositions, positions):
+#     global elapsedTime
+#     velocitiesVector = {}
+#     elapsedTime = abs(endTime - startTime)
+#     x1, x2, y1, y2 = 0, 0, 0, 0
+
+#     for key in positions:
+#         if (key == None):
+#             break
+#         x2, y2 = positions.get(key)
+#         x1, y1 = lastPositions.get(key)
+#         velocitiesVector[key] = [[(x2 - x1)/elapsedTime], [(y2 - y1)/elapsedTime]]
     
-    return velocitiesVector
+#     return velocitiesVector
 
 # Feel free to change the parameters in the function to fit your approach
 # Function needs to draw a box around the tags that were detected.
@@ -93,7 +98,16 @@ def debugViewOfDetectedTags(img, corners, centers, tagPositions, ids):
     # Do the display logic here:
     #cv2.rectangle(img, (int(corners[0][0]), int(corners[0][1])), (int(corners[2][0]), int(corners[2][1])), (50, 50, 255), 2)
     #cv2.line(img, (int(centers[0]), int(centers[1])), (int(centers[0]), int(centers[1])), (200, 0, 200), 6)
-
+    if (len(corners) < 4):
+        return img
+    for i in range(3, len(corners), 4):
+        corner1 = (int(corners[i][0]), int(corners[i][1]))
+        corner2 = (int(corners[i-1][0]), int(corners[i-1][1]))
+        corner3 = (int(corners[i-2][0]), int(corners[i-2][1]))
+        corner4 = (int(corners[i-3][0]), int(corners[i-3][1]))
+        #cv2.line(img, corner1[0][0], corner1[0][1], corner[]) # This method takes too long and is like 4 calls
+        cv2.rectangle(img, corner1[0][0], corner1[0][1], corner2[0][0], corner2[0][1], (50, 50, 255), 2)
+    return img
 
 # For the combined implementation, encapsulate this entire region below within a function call and
 # eliminate the while-loop so the actions only occur once per function call.
@@ -117,7 +131,6 @@ def main():
             #ids type is numpy.ndarray
             #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
             #temp=ids.tolist()
-            
             temp = np.array(ids)
             temp = temp.flatten()
             corners = np.array(corners)
@@ -127,15 +140,15 @@ def main():
             centers = getCenters(corners)
             tagPositions = makePositionDict(centers, temp)
             startTime = time.time()
-            
-            if (not(len(lastPositions) == 0)):
-                velocities.update(computeVelocities(lastPositions, tagPositions))
+            print(f"The rejected tag values: {rejected}, ids: {temp}")
+            # if (not(len(lastPositions) == 0)):
+            #     velocities.update(computeVelocities(lastPositions, tagPositions))
             
             lastPositions.update(tagPositions)
             endTime = time.time()
             
             # This function will draw the boxes around each detected ArUco tag
-            debugViewOfDetectedTags(img, corners, centers, tagPositions, temp)
+            img = debugViewOfDetectedTags(img, corners, centers, tagPositions, temp)
             
             cv2.imshow("Image", img)
             cv2.waitKey(1)
@@ -146,9 +159,12 @@ def main():
             cv2.destroyAllWindows() # Close all windows that were created from this program and openCV.
             break
         # Comment the below exception out if trying to find source of error
-        except:
-            print("No tags in camera detection view!\n")
-            continue
+        # except Exception as e:
+        #     print("No tags in camera detection view!\n")
+        #     print(f"Error: {e}\n")
+        #     cv2.imshow("Image", img)
+        #     cv2.waitKey(1)
+        #     continue
             
             
 if __name__ == "__main__": main()
