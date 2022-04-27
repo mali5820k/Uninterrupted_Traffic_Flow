@@ -17,7 +17,7 @@ app = Flask(__name__)
 socketio = SocketIO(app)
 
 greenArrowData = {} # Starting and ending points of the vector, Velocity, and GUID (unique reference number to that green Arrow)
-carData = {1: ([0, 0], [0, 0])} # position and velocity of cars with an associated GUID
+carData = {} # position and velocity of cars with an associated GUID
 connectedUsers = {} # Users that are connected given an ID
 
 # def getOpenCVInfo():
@@ -27,11 +27,11 @@ connectedUsers = {} # Users that are connected given an ID
 
 @app.route("/", methods = ["GET", "POST"])
 def index():
-    return "<p>Welcome to the Flask HTTP/Flask-SocketIO server. You are on the root-page that's being managed by the HTTP side of the Flask framework.</p>"
+    return "<!DOCTYPE html><html><head><title>Central Server</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><p>Welcome to the Flask HTTP/Flask-SocketIO server. You are on the root-page that's being managed by the HTTP side of the Flask framework.</p><br><a href=\"/debug\"><button>Debug View</button></a></body></html>"
 
 @app.route("/debug", methods = ["GET"])
 def debugView():
-    return f"<p>Green Arrow Data: \n\t{greenArrowData}\nCar data: \n\t{carData}\nUsers Connected: \n\t{connectedUsers}\n</p>"
+    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
 
 ### For three-way handshake on new connection
 ### Client must use socketIO in either javascript or python to connect and must implement socket.on('handshake', (msg) => {}) and socket.on('after connect', (msg) => {})
