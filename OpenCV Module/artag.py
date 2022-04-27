@@ -119,7 +119,7 @@ def main():
     cap = cv2.VideoCapture(0)
 
     # setup module to server connection
-    ms.setup()
+    #ms.setup()
 
     while True:
         try:
@@ -175,13 +175,13 @@ def main():
             #.....#
 
             # package data to send to the server:
-            packaged_data = {
-                    "greenArrowData": json.dumps(greenArrowData),
-                    "carData": json.dumps(carData)
-                    }
+            # packaged_data = {
+            #         "greenArrowData": json.dumps(greenArrowData),
+            #         "carData": json.dumps(carData)
+            #         }
 
             # Send the data to the server:
-            ms.sendCarLocalizationDataToServer(packaged_data)
+            #ms.sendCarLocalizationDataToServer(packaged_data)
 
             
         except KeyboardInterrupt:
