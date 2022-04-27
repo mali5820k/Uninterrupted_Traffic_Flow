@@ -7,6 +7,9 @@ import time
 import moduleToServer as ms
 import json
 
+# Camera ID
+CAMERA_ID = 14
+
 # DO NOT CHANGE THESE TWO PARAMETERS UNLESS THE WHOLE SYSTEM RELIES ON DIFFERENT ArUco TAG DIMENSIONS!!!!
 markerSize = 6 # Default 6
 totalMarkers = 250 # Default 250
@@ -116,7 +119,7 @@ def main():
     global lastPositions
     global startTime, endTime
     global greenArrowData, carData
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(CAMERA_ID)
 
     # setup module to server connection
     #ms.setup()
