@@ -33,7 +33,12 @@ def index():
 
 @app.route("/debug", methods = ["GET"])
 def debugView():
-    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
+    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br> <a href=\"javascript:fetch('/sync')\"><button>Send Traffic Light Synchronization Signal</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
+
+@app.route("/sync", methods = ["GET"])
+def syncPath():
+    return "ok"
+    emit("synchronization", broadcast=True)
 
 ### For three-way handshake on new connection
 ### Client must use socketIO in either javascript or python to connect and must implement socket.on('handshake', (msg) => {}) and socket.on('after connect', (msg) => {})
