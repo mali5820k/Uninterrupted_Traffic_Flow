@@ -3,3 +3,6 @@ apply from: file("../node_modules/@react-native-community/cli-platform-android/n
 include ':app'
 include ":UnityExport"
 project(":UnityExport").projectDir = file("./UnityExport")
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('./unity/builds/android/unityLibrary')

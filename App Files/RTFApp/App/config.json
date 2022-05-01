@@ -7,5 +7,5 @@
     "initPath": "",
     "wsPath": "wsPath"
   },
-  "debugMode": true
+  "debugMode": false
 }

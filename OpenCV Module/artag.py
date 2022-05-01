@@ -216,7 +216,7 @@ def main():
                     heading = 90 + theta
 
                 # Convert numpy int to string so that JSON doesn't complain
-                cur_id = str(temp[i])
+                cur_id = f"tag{str(temp[i])}"
                 carData[cur_id] = {
                         "position": position,
                         "heading": heading
@@ -231,7 +231,6 @@ def main():
 
             # package data to send to the server:
             packaged_data = {
-                    "greenArrowData": json.dumps(greenArrowData),
                     "carData": json.dumps(carData)
                     }
 
