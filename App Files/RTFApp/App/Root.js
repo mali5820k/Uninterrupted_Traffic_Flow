@@ -18,7 +18,7 @@
 /**
  * Begin Imports
  */
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import type {Node} from 'react';
 import {
   StyleSheet,
@@ -37,10 +37,17 @@ import {
 import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {io} from 'socket.io-client';
+import UnityView from '@azesmway/react-native-unity';
 
 const config = require('./config.json');
 const logo = require('./images/SD.png');
 let socketio = null;
+
+interface IMessage {
+  gameObject: string;
+  methodName: string;
+  message: string;
+}
 
 /**
  * GLOBAL VARIABLES
@@ -88,46 +95,6 @@ let globalState = {
     {
       id: 6,
       name: 'Vehicle 6',
-    },
-    {
-      id: 7,
-      name: 'Vehicle 7',
-    },
-    {
-      id: 8,
-      name: 'Vehicle 8',
-    },
-    {
-      id: 9,
-      name: 'Vehicle 9',
-    },
-    {
-      id: 10,
-      name: 'Vehicle 10',
-    },
-    {
-      id: 11,
-      name: 'Vehicle 11',
-    },
-    {
-      id: 12,
-      name: 'Vehicle 12',
-    },
-    {
-      id: 13,
-      name: 'Vehicle 13',
-    },
-    {
-      id: 14,
-      name: 'Vehicle 14',
-    },
-    {
-      id: 15,
-      name: 'Vehicle 15',
-    },
-    {
-      id: 16,
-      name: 'Vehicle 16',
     },
   ],
   centralServerData: {},
@@ -578,28 +545,13 @@ class VehicleFollowScreen extends React.Component {
       },
     };
     this.socket = socketio;
-    this.socket.on('data update', newData => {
-      console.log('new data', newData);
-      this.setState((state, props) => {
-        return {
-          data: newData,
-        };
-      });
-    });
   }
 
-  /**
-        this.setState(() => {
-          return {
-            hostSelected: true,
-            portSelected: false,
-          };
-        });
-        */
   componentWillUnmount() {
     // Disconnect when this screen is left
     console.log('left VehicleFollowScreen, disconnecting from socketio');
     this.socket.removeAllListeners('data update');
+    this.socket.removeAllListeners('synchronization');
   }
 
   render() {
@@ -608,6 +560,85 @@ class VehicleFollowScreen extends React.Component {
       backgroundColor: this.props.isDarkMode ? Colors.black : Colors.white,
     };
 
+    // Parse all of the stuff from the central server and package it for Unity to use
+    let thisCarString = `tag${globalState.selectedid}`;
+    let thisCarData = globalState.centralServerData.carData[thisCarString];
+    let topLeft = globalState.centralServerData.carData.tag100;
+    let topRight = globalState.centralServerData.carData.tag101;
+    let bottomLeft = globalState.centralServerData.carData.tag102;
+    let bottomRight = globalState.centralServerData.carData.tag103;
+    let grid_res_string = `${topLeft.position[0]} ${topLeft.position[1]} ${topRight.position[0]} ${topRight.position[1]} ${bottomLeft.position[0]} ${bottomLeft.position[1]} ${bottomRight.position[0]} ${bottomRight.position[1]}`;
+
+    let initialData = {
+      position: `${thisCarData.position[0]} ${thisCarData.position[1]}`,
+      heading: `${thisCarData.heading}`,
+      grid_resolution: grid_res_string,
+      green_arrow_status: 'start',
+      green_arrow_period: `${globalState.centralServerData.lightPeriod}`,
+    };
+
+    const Unity = () => {
+      const unityRef = useRef<UnityView>(null);
+
+      this.socket.on('synchronization', () => {
+        console.log('traffic light sync');
+        //send to unity
+        if (unityRef?.current) {
+          unityRef.current.postMessage(
+            'GameObject/Event_Listener_From_React',
+            'User_Green_Arrow_Status',
+            'reset',
+          );
+        }
+      });
+      this.socket.on('data update', newData => {
+        console.log('new data', newData);
+        globalState.centralServerData = newData;
+        let newCarData = newData.carData[thisCarString];
+        // Just need to send a message to unity with the new data for the car
+        if (unityRef?.current) {
+          unityRef.current.postMessage(
+            'GameObject/Event_Listener_From_React',
+            'User_Car_Position',
+            `${newCarData.position[0]} ${newCarData.position[1]}`,
+          );
+          unityRef.current.postMessage(
+            'GameObject/Event_Listener_From_React',
+            'User_Heading',
+            `${newCarData.heading}`,
+          );
+        }
+      });
+
+      useEffect(() => {
+        if (unityRef?.current) {
+          const message: IMessage = {
+            gameObject: 'GameObject/Event_Listener_From_React',
+            methodName: 'Setup',
+            message: JSON.stringify(initialData),
+          };
+          unityRef.current.postMessage(
+            message.gameObject,
+            message.methodName,
+            message.message,
+          );
+        }
+      }, []);
+
+      return (
+        <View style={{flex: 1}}>
+          <UnityView
+            ref={unityRef}
+            style={{flex: 1}}
+            onUnityMessage={result => {
+              console.log('onUnityMessage', result.nativeEvent.message);
+            }}
+          />
+        </View>
+      );
+    };
+
+    // This is a handler for when the user comes back to this app and the globalState is reset
     if (globalState.selectedid < 0) {
       this.props.navigation.goBack();
       Alert.alert(
@@ -624,12 +655,20 @@ class VehicleFollowScreen extends React.Component {
       );
     }
 
+    // New code that renders the unity component defined above
     return (
+      <View style={backgroundStyle}>
+        <Unity />
+      </View>
+    );
+
+    // Old code that simply showed the data from the server, not the unity view
+    /*return (
       <View style={backgroundStyle}>
         <Text>Current Selected Vehicle: {globalState.selectedid}</Text>
         <Text>Data: {JSON.stringify(this.state.data)}</Text>
       </View>
-    );
+    );*/
   }
 }
 

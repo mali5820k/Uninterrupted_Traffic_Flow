@@ -13,6 +13,8 @@ import json
 host_ = "0.0.0.0"
 port_ = 5000
 
+TRAFFIC_LIGHT_PERIOD = 10
+
 app = Flask(__name__)
 socketio = SocketIO(app)
 
@@ -31,7 +33,12 @@ def index():
 
 @app.route("/debug", methods = ["GET"])
 def debugView():
-    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
+    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br> <a href=\"javascript:fetch('/sync')\"><button>Send Traffic Light Synchronization Signal</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
+
+@app.route("/sync", methods = ["GET"])
+def syncPath():
+    return "ok"
+    emit("synchronization", broadcast=True)
 
 ### For three-way handshake on new connection
 ### Client must use socketIO in either javascript or python to connect and must implement socket.on('handshake', (msg) => {}) and socket.on('after connect', (msg) => {})
@@ -57,16 +64,14 @@ def updateSystemData(new_GreenArrow_And_CarData): # This param is a tuple or lis
     global greenArrowData, carData
     # The two dictionaries are split into two separate variables
     newData = new_GreenArrow_And_CarData
-    greenArrowData = newData['greenArrowData']
     carData = newData['carData']
     #dataToSend = json.loads(new_GreenArrow_And_CarData) ### Don't know if this is better than sending two separate jsons
     
     # The two dictionaries are loaded up into JSON's and sent to the server via an emitted event
     carDataJSON = json.loads(carData)
-    greenArrowDataJSON = json.loads(greenArrowData)
     packagedData = {
             "carData": carDataJSON,
-            "greenArrowData": greenArrowDataJSON
+            "lightPeriod": TRAFFIC_LIGHT_PERIOD
             }
     emit("data update", packagedData, broadcast=True) ### broadcast sends the message to all clients connected to the server
     
