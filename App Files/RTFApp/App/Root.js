@@ -545,23 +545,13 @@ class VehicleFollowScreen extends React.Component {
       },
     };
     this.socket = socketio;
-    this.socket.on('data update', newData => {
-      console.log('new data', newData);
-      globalState.centralServerData = newData;
-      // This was old code that updated the state such that the entire screen was re-rendered each time new data was pushed. Not necessary now that we're using unity
-      //this.setState((state, props) => {
-      //  return {
-      //    data: newData,
-      //  };
-      //});
-      // Just need to send a message to unity with the new data for the car
-    });
   }
 
   componentWillUnmount() {
     // Disconnect when this screen is left
     console.log('left VehicleFollowScreen, disconnecting from socketio');
     this.socket.removeAllListeners('data update');
+    this.socket.removeAllListeners('synchronization');
   }
 
   render() {
@@ -572,7 +562,7 @@ class VehicleFollowScreen extends React.Component {
 
     // Parse all of the stuff from the central server and package it for Unity to use
     let thisCarString = `tag${globalState.selectedid}`;
-    let thisCarData = globalState.centralServerData.carData.thisCarString;
+    let thisCarData = globalState.centralServerData.carData[thisCarString];
     let topLeft = globalState.centralServerData.carData.tag100;
     let topRight = globalState.centralServerData.carData.tag101;
     let bottomLeft = globalState.centralServerData.carData.tag102;
@@ -590,12 +580,42 @@ class VehicleFollowScreen extends React.Component {
     const Unity = () => {
       const unityRef = useRef<UnityView>(null);
 
+      this.socket.on('synchronization', () => {
+        console.log('traffic light sync');
+        //send to unity
+        if (unityRef?.current) {
+          unityRef.current.postMessage(
+            'GameObject/Event_Listener_From_React',
+            'User_Green_Arrow_Status',
+            'reset',
+          );
+        }
+      });
+      this.socket.on('data update', newData => {
+        console.log('new data', newData);
+        globalState.centralServerData = newData;
+        let newCarData = newData.carData[thisCarString];
+        // Just need to send a message to unity with the new data for the car
+        if (unityRef?.current) {
+          unityRef.current.postMessage(
+            'GameObject/Event_Listener_From_React',
+            'User_Car_Position',
+            `${newCarData.position[0]} ${newCarData.position[1]}`,
+          );
+          unityRef.current.postMessage(
+            'GameObject/Event_Listener_From_React',
+            'User_Heading',
+            `${newCarData.heading}`,
+          );
+        }
+      });
+
       useEffect(() => {
         if (unityRef?.current) {
           const message: IMessage = {
-            gameObject: 'gameObject',
-            methodName: 'methodName',
-            message: 'message',
+            gameObject: 'GameObject/Event_Listener_From_React',
+            methodName: 'Setup',
+            message: JSON.stringify(initialData),
           };
           unityRef.current.postMessage(
             message.gameObject,
@@ -606,10 +626,10 @@ class VehicleFollowScreen extends React.Component {
       }, []);
 
       return (
-        <View style={{ flex: 1 }}>
+        <View style={{flex: 1}}>
           <UnityView
             ref={unityRef}
-            style={{ flex: 1 }}
+            style={{flex: 1}}
             onUnityMessage={result => {
               console.log('onUnityMessage', result.nativeEvent.message);
             }}
