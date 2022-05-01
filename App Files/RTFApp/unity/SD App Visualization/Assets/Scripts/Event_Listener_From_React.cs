@@ -13,6 +13,12 @@ public class Event_Listener_From_React : MonoBehaviour
     public float user_grid_size_x, user_grid_size_y = 28f; // By default this is 28 feet.
     public bool green_arrow_status = false;
     public float green_arrow_period = 10f;
+    public bool alternate = false;
+    public float user_heading = 0f;
+
+    public float conversion_rate_x = 1f; // ft/pixel
+    public float conversion_rate_y = 1f; // ft/pixel
+    public float[8] tag_centers_for_grid_corners;
 
     public void Awake()
     {
@@ -21,6 +27,7 @@ public class Event_Listener_From_React : MonoBehaviour
         UnityMessageManager.Instance.OnMessage += User_Grid_Resolution;
         UnityMessageManager.Instance.OnMessage += User_Grid_Size;
         UnityMessageManager.Instance.OnMessage += User_Green_Arrow_Status;
+        UnityMessageManager.Instance.OnMessage += User_Heading;
     }
 
     private void OnDestroy()
@@ -32,14 +39,16 @@ public class Event_Listener_From_React : MonoBehaviour
     // Provided in format "x y, 1920 1080, length height, start"
     void Setup(string message) {
         JObject m = JObject.Parse(message);
-        User_Car_Position(m.GetValue("car_position").Value<string>());
+        User_Heading(m.GetValue("heading").Value<string>());
         User_Grid_Resolution(m.GetValue("grid_resolution").Value<string>());
-        User_Grid_Size(m.GetValue("grid_size").Value<string>());
+        //User_Grid_Size(m.GetValue("grid_size").Value<string>());
+        User_Car_Position(m.GetValue("position").Value<string>());
         User_Green_Arrow_Status(m.GetValue("green_arrow_status").Value<string>());
+        Traffic_Light_Period(m.GetValue("green_arrow_period").Value<string>());
     }
 
     // User Position X, and Y
-    // Provided in format "x y"
+    // Provided in format "x, y"
     void User_Car_Position(string message)
     {
         string[] values = message.Split(" ");
@@ -52,10 +61,14 @@ public class Event_Listener_From_React : MonoBehaviour
         }
 
         user_position = new Vector3(converted_values[0], 0f, converted_values[1]);
+
+        // Now to adjust the user_position coordinates:
+        user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.y - tag_centers_for_grid_corners[ );
     }
 
     // Camera Resolution x by y
-    // Provided in format "1920 1080"
+    // Provided in format "top_leftx top_lefty top_rightx top_righty bottom_leftx bottom_lefty bottom_rightx bottom_righty"
+    //                      0           1           2           3           4           5           6               7
     void User_Grid_Resolution(string message) {
         string[] values = message.Split(" ");
         int[] converted_values = new int[values.Length];
@@ -66,9 +79,14 @@ public class Event_Listener_From_React : MonoBehaviour
             int.TryParse(values[i], out int result);
             converted_values[i] = result;
         }
+        for (int i = 0; i < tag_centers_for_grid_corners.Length; i++) {
+            tag_centers_for_grid_corners[i] = converted_values[i];
+        }
+        user_grid_resolution_x = converted_values[2] - converted_values[0]; // top-right - top-left x's
+        user_grid_resolution_y = converted_values[7] - converted_values[3]; // bottom-right - top-right y's
 
-        user_grid_resolution_x = converted_values[0];
-        user_grid_resolution_x = converted_values[1];
+        conversion_rate_x = user_grid_size_x / user_grid_resolution_x; // Conversion rate of x ft/pixel
+        conversion_rate_y = user_grid_size_y / user_grid_resolution_y; // Conversion rate of y ft/pixl
     }
 
     // Sets the length and height of the grid from Real Life Measurements for mapping
@@ -93,6 +111,21 @@ public class Event_Listener_From_React : MonoBehaviour
     void User_Green_Arrow_Status(string message) {
         bool.TryParse(message, out bool result);
         green_arrow_status = result;
+    }
+
+
+    // Set the heading of the user's car:
+    // Provided in format "Angle_In_Degrees"
+    void User_Heading(string message) {
+        float.TryParse(message, out float result);
+        user_heading = result;
+    }
+
+    // Set the traffic light period for the green-arrows timing
+    // Provided in format "time_in_seconds"
+    void Traffic_Light_Period(string message) {
+        float.TryParse(message, out float result);
+        green_arrow_period = result;
     }
 
     private void Update()
