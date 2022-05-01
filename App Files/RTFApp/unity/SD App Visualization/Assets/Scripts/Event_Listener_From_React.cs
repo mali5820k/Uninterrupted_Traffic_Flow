@@ -18,7 +18,14 @@ public class Event_Listener_From_React : MonoBehaviour
 
     public float conversion_rate_x = 1f; // ft/pixel
     public float conversion_rate_y = 1f; // ft/pixel
-    public float[8] tag_centers_for_grid_corners;
+    public float[] tag_centers_for_grid_corners;
+    public float smooth_factor = 1f;
+    public Transform user_car;
+    public Transform[] Horizontal_Spawners;
+    public Transform[] Vertical_Spawners;
+    float start_timer, end_timer = 0;
+    public GameObject GreenArrow;
+    bool toggle = false;
 
     public void Awake()
     {
@@ -28,6 +35,9 @@ public class Event_Listener_From_React : MonoBehaviour
         UnityMessageManager.Instance.OnMessage += User_Grid_Size;
         UnityMessageManager.Instance.OnMessage += User_Green_Arrow_Status;
         UnityMessageManager.Instance.OnMessage += User_Heading;
+        if (tag_centers_for_grid_corners.Length < 8) {
+            tag_centers_for_grid_corners = new float[8];
+        }
     }
 
     private void OnDestroy()
@@ -63,7 +73,7 @@ public class Event_Listener_From_React : MonoBehaviour
         user_position = new Vector3(converted_values[0], 0f, converted_values[1]);
 
         // Now to adjust the user_position coordinates:
-        user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.y - tag_centers_for_grid_corners[ );
+        user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.y - tag_centers_for_grid_corners[1]);
     }
 
     // Camera Resolution x by y
@@ -130,6 +140,43 @@ public class Event_Listener_From_React : MonoBehaviour
 
     private void Update()
     {
-        
+        // Move the user's car in the adjusted position:
+        user_car.eulerAngles = new Vector3(user_car.eulerAngles.x, user_heading, user_car.eulerAngles.z);
+        user_car.position = (Vector3.Lerp(user_car.position, user_position, Time.deltaTime * smooth_factor));
+
+        if (green_arrow_status == true)
+        {
+            start_timer += Time.deltaTime;
+            if (start_timer > 2*green_arrow_period)
+            {
+                start_timer = start_timer -(2* green_arrow_period);
+
+                // toggle:
+                if (toggle)
+                {
+                    foreach (Transform spawner in Horizontal_Spawners)
+                    {
+                        spawner.GetComponent<Arrow_Spawner>().Spawn_Arrow();
+                    }
+                    toggle = false;
+                }
+                else
+                {
+                    foreach (Transform spawner in Vertical_Spawners)
+                    {
+                        spawner.GetComponent<Arrow_Spawner>().Spawn_Arrow();
+                    }
+                    toggle = true;
+                }
+            }
+        }
+
+
+    }
+
+    void Spawn_Arrow(float waitTime)
+    {
+        GameObject spawned_Arrow = GameObject.Instantiate(GreenArrow, transform);
+        spawned_Arrow.transform.eulerAngles = new Vector3(spawned_Arrow.transform.eulerAngles.x, spawned_Arrow.transform.eulerAngles.y + -90f, spawned_Arrow.transform.eulerAngles.z);
     }
 }
