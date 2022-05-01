@@ -40,7 +40,9 @@ public class Build : MonoBehaviour {
 
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle;
 
-        var options = BuildOptions.AcceptExternalModificationsToPlayer;
+        //var options = BuildOptions.AcceptExternalModificationsToPlayer; // Fix for invalidoperationexception
+        var options = BuildOptions.AllowDebugging;
+        EditorUserBuildSettings.exportAsGoogleAndroidProject = true; // fix link: https://github.com/juicycleff/flutter-unity-view-widget/issues/234
         var report = BuildPipeline.BuildPlayer(
             GetEnabledScenes(),
             apkPath,

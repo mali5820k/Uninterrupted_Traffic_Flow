@@ -12,6 +12,7 @@ public class Event_Listener_From_React : MonoBehaviour
     public int user_grid_resolution_x, user_grid_resolution_y = 1920; // This is really just the pixel-resolution of the grid;
     public float user_grid_size_x, user_grid_size_y = 28f; // By default this is 28 feet.
     public bool green_arrow_status = false;
+    public float green_arrow_period = 10f;
 
     public void Awake()
     {
@@ -35,8 +36,6 @@ public class Event_Listener_From_React : MonoBehaviour
         User_Grid_Resolution(m.GetValue("grid_resolution").Value<string>());
         User_Grid_Size(m.GetValue("grid_size").Value<string>());
         User_Green_Arrow_Status(m.GetValue("green_arrow_status").Value<string>());
-
-
     }
 
     // User Position X, and Y
