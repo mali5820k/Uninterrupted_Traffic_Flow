@@ -550,36 +550,65 @@ class VehicleFollowScreen extends React.Component {
   componentWillUnmount() {
     // Disconnect when this screen is left
     console.log('left VehicleFollowScreen, disconnecting from socketio');
-    this.socket.removeAllListeners('data update');
-    this.socket.removeAllListeners('synchronization');
+    if (this.socket) {
+      this.socket.removeAllListeners('data update');
+      this.socket.removeAllListeners('synchronization');
+    }
   }
 
   render() {
+    if (config.debugMode) {
+      console.log(
+        '[VEHICLE FOLLOW] Attempting to render VehicleFollowScreen...',
+      );
+    }
     const backgroundStyle = {
       flex: 1,
       backgroundColor: this.props.isDarkMode ? Colors.black : Colors.white,
     };
 
+    if (config.debugMode) {
+      console.log('[VEHICLE FOLLOW] Parse central server data');
+    }
     // Parse all of the stuff from the central server and package it for Unity to use
     let thisCarString = `tag${globalState.selectedid}`;
-    let thisCarData = globalState.centralServerData.carData[thisCarString];
-    let topLeft = globalState.centralServerData.carData.tag100;
-    let topRight = globalState.centralServerData.carData.tag101;
-    let bottomLeft = globalState.centralServerData.carData.tag102;
-    let bottomRight = globalState.centralServerData.carData.tag103;
-    let grid_res_string = `${topLeft.position[0]} ${topLeft.position[1]} ${topRight.position[0]} ${topRight.position[1]} ${bottomLeft.position[0]} ${bottomLeft.position[1]} ${bottomRight.position[0]} ${bottomRight.position[1]}`;
-
-    let initialData = {
-      position: `${thisCarData.position[0]} ${thisCarData.position[1]}`,
-      heading: `${thisCarData.heading}`,
-      grid_resolution: grid_res_string,
-      green_arrow_status: 'start',
-      green_arrow_period: `${globalState.centralServerData.lightPeriod}`,
-    };
+    let thisCarData,
+      topLeft,
+      topRight,
+      bottomLeft,
+      bottomRight,
+      grid_res_string,
+      initialData;
+    if (globalState.centralServerData.carData) {
+      thisCarData = globalState.centralServerData.carData[thisCarString];
+      topLeft = globalState.centralServerData.carData.tag100;
+      topRight = globalState.centralServerData.carData.tag101;
+      bottomLeft = globalState.centralServerData.carData.tag102;
+      bottomRight = globalState.centralServerData.carData.tag103;
+      grid_res_string = `${topLeft.position[0]} ${topLeft.position[1]} ${topRight.position[0]} ${topRight.position[1]} ${bottomLeft.position[0]} ${bottomLeft.position[1]} ${bottomRight.position[0]} ${bottomRight.position[1]}`;
+      initialData = {
+        position: `${thisCarData.position[0]} ${thisCarData.position[1]}`,
+        heading: `${thisCarData.heading}`,
+        grid_resolution: grid_res_string,
+        green_arrow_status: 'start',
+        green_arrow_period: `${globalState.centralServerData.lightPeriod}`,
+      };
+    } else {
+      return (
+        <View style={backgroundStyle}>
+          <Text>No data was retrieved from central server.</Text>
+        </View>
+      );
+    }
 
     const Unity = () => {
       const unityRef = useRef<UnityView>(null);
 
+      if (config.debugMode) {
+        console.log(
+          '[VEHICLE FOLLOW > UNITY] Subscribe to synchronization and data update',
+        );
+      }
       this.socket.on('synchronization', () => {
         console.log('traffic light sync');
         //send to unity
@@ -612,19 +641,35 @@ class VehicleFollowScreen extends React.Component {
 
       useEffect(() => {
         if (unityRef?.current) {
+          if (config.debugMode) {
+            console.log(
+              '[VEHICLE FOLLOW > UNITY] Post initial message to Unity',
+            );
+          }
+          /*
           const message: IMessage = {
             gameObject: 'GameObject/Event_Listener_From_React',
             methodName: 'Setup',
             message: JSON.stringify(initialData),
           };
+          */
           unityRef.current.postMessage(
-            message.gameObject,
-            message.methodName,
-            message.message,
+            'GameObject/Event_Listener_From_React',
+            'Setup',
+            JSON.stringify(initialData),
           );
+        } else {
+          if (config.debugMode) {
+            console.log(
+              '[VEHICLE FOLLOW > UNITY] Did not post initial message.',
+            );
+          }
         }
       }, []);
 
+      if (config.debugMode) {
+        console.log('[VEHICLE FOLLOW > UNITY] Draw Unity object');
+      }
       return (
         <View style={{flex: 1}}>
           <UnityView
@@ -691,7 +736,7 @@ const App: () => Node = () => {
         <Stack.Screen
           name="Initialization"
           options={{
-            title: 'Road-to-Traveller Feedback',
+            title: 'Road-to-Traveler Feedback',
           }}>
           {({navigation}) => {
             return (
