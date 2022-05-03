@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Driver_View.unity
+    guid: 8f119707c0f3b3e4386bd0c12d7f83c7
   m_configObjects: {}

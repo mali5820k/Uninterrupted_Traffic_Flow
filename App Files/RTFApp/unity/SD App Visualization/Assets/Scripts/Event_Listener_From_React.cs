@@ -8,24 +8,39 @@ public class Event_Listener_From_React : MonoBehaviour
 {
     // This class will receive calls from the React-Native side
     public Vector3 user_position;
-    public float traffic_light_period_in_seconds = 10f;
-    public int user_grid_resolution_x, user_grid_resolution_y = 1920; // This is really just the pixel-resolution of the grid;
-    public float user_grid_size_x, user_grid_size_y = 28f; // By default this is 28 feet.
-    public bool green_arrow_status = false;
-    public float green_arrow_period = 10f;
-    public bool alternate = false;
-    public float user_heading = 0f;
+    public Transform user_car;
+    public Transform[] Horizontal_Spawners;
+    public Transform[] Vertical_Spawners;
+    public GameObject twoway_green_arrow;
+    public GameObject oneway_green_arrow;
+    GameObject default_arrow;
 
+    public float green_arrow_period = 10f;
+    public float block_length = 6f;
+    public float user_grid_size_x, user_grid_size_y = 28f; // By default this is 28 feet.
     public float conversion_rate_x = 1f; // ft/pixel
     public float conversion_rate_y = 1f; // ft/pixel
     public float[] tag_centers_for_grid_corners;
     public float smooth_factor = 1f;
-    public Transform user_car;
-    public Transform[] Horizontal_Spawners;
-    public Transform[] Vertical_Spawners;
-    float start_timer, end_timer = 0;
-    public GameObject GreenArrow;
-    bool toggle = false;
+    public float user_heading = 0f;
+
+    public bool green_arrow_status = false;
+    public bool oneway, twoway = false;
+    public bool do_once = true; // For two-way
+
+    public bool do_once_h = true; // For one-way
+    public bool do_once_v = true; // For one-way
+    public Vector3[] Spawners_Transforms;
+
+    public int user_grid_resolution_x, user_grid_resolution_y = 1920; // This is really just the pixel-resolution of the grid;
+
+    enum State { 
+        EVEN,
+        ODD,
+    }
+
+    State vertical = State.EVEN;
+    State horizontal = State.ODD;
 
     public void Awake()
     {
@@ -40,9 +55,161 @@ public class Event_Listener_From_React : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    public void Spawn_One_Way_Vertical() {
+        /*        Spawner Index
+                    Left2       0
+                    Left6       2
+                    Right3      5
+                    Right7      7
+
+                    Top4        5
+                    Top8        7
+                    Bottom2     0
+                    Bottom6     2
+        */
+
+
+        switch (vertical)
+        {
+            case (State.EVEN):
+                // Top4 and Bottom6 spawnpoints
+                Vertical_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Vertical_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+
+                vertical = State.ODD;
+                break;
+            case (State.ODD):
+                // Top8 and Bottom2 spawnpoints
+                Vertical_Spawners[0].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Vertical_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+
+                vertical = State.EVEN;
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void Spawn_One_Way_Horizontal() {
+        /*        Spawner Index
+                   Left2       0
+                   Left6       2
+                   Right3      5
+                   Right7      7
+
+                   Top4        5
+                   Top8        7
+                   Bottom2     0
+                   Bottom6     2
+       */
+        switch (horizontal)
+        {
+            case (State.EVEN):
+                // Left2 and Right7
+                Horizontal_Spawners[0].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+
+
+                horizontal = State.ODD;
+                break;
+            case (State.ODD):
+                // Left6 and Right3
+                Horizontal_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                
+                horizontal = State.EVEN;
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void Spawn_Arrows_Two_Way() {
+        switch (vertical)
+        {
+            case (State.EVEN):
+                Vertical_Spawners[0].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Vertical_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Vertical_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Vertical_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                vertical = State.ODD;
+                break;
+            case (State.ODD):
+                Vertical_Spawners[1].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Vertical_Spawners[3].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Vertical_Spawners[4].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Vertical_Spawners[6].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                vertical = State.EVEN;
+                break;
+            default:
+                break;
+        }
+
+        switch (horizontal)
+        {
+            case (State.EVEN):
+                Horizontal_Spawners[1].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Horizontal_Spawners[3].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Horizontal_Spawners[4].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Horizontal_Spawners[6].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                horizontal = State.ODD;
+                break;
+            case (State.ODD):
+                Horizontal_Spawners[0].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Horizontal_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Horizontal_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                Horizontal_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(twoway_green_arrow, block_length);
+                horizontal = State.EVEN;
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void Update()
     {
-        
+        // Move the user's car in the adjusted position:
+        user_car.eulerAngles = new Vector3(user_car.eulerAngles.x, user_heading, user_car.eulerAngles.z);
+        user_car.position = (Vector3.Lerp(user_car.position, user_position, Time.deltaTime * smooth_factor));
+
+        if (green_arrow_status == true && do_once == true)
+        {
+            Debug.Log("Setting Up");
+            do_once = false;
+            Editor_Testing();
+            if (twoway)
+            {
+                vertical = State.EVEN;
+                horizontal = State.ODD;
+
+                // Thanks to this source: https://www.youtube.com/watch?v=1h2yStilBWU This periodic function call was possible in the most clean way imaginable
+                InvokeRepeating("Spawn_Arrows_Two_Way", 0f, green_arrow_period / 2);
+            }
+            if (oneway)
+            {
+                vertical = State.ODD;
+                horizontal = State.EVEN;
+                // Thanks to this source: https://www.youtube.com/watch?v=1h2yStilBWU This periodic function call was possible in the most clean way imaginable
+                /*InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period / 2 + green_arrow_period/4);
+                InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period / 4, green_arrow_period / 2);*/
+                /*InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period / 2 + green_arrow_period/4);
+                InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period / 4, green_arrow_period / 2);*/
+                InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period);
+                InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period/4, green_arrow_period/3);
+            }
+        }
+        else if (green_arrow_status == false) {
+            do_once = true;
+            if (oneway) {
+                CancelInvoke("Spawn_One_Way_Vertical");
+                CancelInvoke("Spawn_One_Way_Horizontal");
+            }
+                
+            if (twoway)
+                CancelInvoke("Spawn_Arrows_Two_Way");
+        }
+
+
     }
 
     // Pass in all information to sub-functions
@@ -70,10 +237,12 @@ public class Event_Listener_From_React : MonoBehaviour
             converted_values[i] = result;
         }
 
-        user_position = new Vector3(converted_values[0], 0f, converted_values[1]);
+        user_position = new Vector3(converted_values[0], 0f, -converted_values[1]); // Have to negate z to map to this grid
 
-        // Now to adjust the user_position coordinates:
-        user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.y - tag_centers_for_grid_corners[1]);
+        // No need to perform additional adjustments as the coordinates for the vehicles are handled on the opencv side for
+        // quadrilateral vector mapping to a square and uniform resolution.
+        /*// Now to adjust the user_position coordinates:
+        user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.z - tag_centers_for_grid_corners[1]);*/
     }
 
     // Camera Resolution x by y
@@ -96,7 +265,7 @@ public class Event_Listener_From_React : MonoBehaviour
         user_grid_resolution_y = converted_values[7] - converted_values[3]; // bottom-right - top-right y's
 
         conversion_rate_x = user_grid_size_x / user_grid_resolution_x; // Conversion rate of x ft/pixel
-        conversion_rate_y = user_grid_size_y / user_grid_resolution_y; // Conversion rate of y ft/pixl
+        conversion_rate_y = user_grid_size_y / user_grid_resolution_y; // Conversion rate of y ft/pixel
     }
 
     // Sets the length and height of the grid from Real Life Measurements for mapping
@@ -119,10 +288,42 @@ public class Event_Listener_From_React : MonoBehaviour
     // Set the status of green arrows to start, or reset
     // Provided in format "start" or "reset"
     void User_Green_Arrow_Status(string message) {
-        bool.TryParse(message, out bool result);
-        green_arrow_status = result;
+        if (message.Equals("start")) {
+            if (default_arrow == null) {
+                // Default to oneway arrow
+                default_arrow = oneway_green_arrow;
+            }
+            green_arrow_status = true;
+        }
+        else if (message.Equals("start oneway"))
+        {
+            green_arrow_status = true;
+            default_arrow = oneway_green_arrow;
+        }
+        else if (message.Equals("start twoway"))
+        {
+            green_arrow_status = true;
+            default_arrow = twoway_green_arrow;
+        }
+        else if (message.Equals("reset"))
+        {
+            green_arrow_status = false;
+            do_once = true;
+        }
     }
 
+    void Editor_Testing() {
+        Debug.Log("Setting Up arrows");
+        if (oneway)
+        {
+            default_arrow = oneway_green_arrow;
+            twoway = false;
+        }
+        else if (twoway) {
+            default_arrow = twoway_green_arrow;
+            oneway = false;
+        }
+    }
 
     // Set the heading of the user's car:
     // Provided in format "Angle_In_Degrees"
@@ -136,47 +337,5 @@ public class Event_Listener_From_React : MonoBehaviour
     void Traffic_Light_Period(string message) {
         float.TryParse(message, out float result);
         green_arrow_period = result;
-    }
-
-    private void Update()
-    {
-        // Move the user's car in the adjusted position:
-        user_car.eulerAngles = new Vector3(user_car.eulerAngles.x, user_heading, user_car.eulerAngles.z);
-        user_car.position = (Vector3.Lerp(user_car.position, user_position, Time.deltaTime * smooth_factor));
-
-        if (green_arrow_status == true)
-        {
-            start_timer += Time.deltaTime;
-            if (start_timer > 2*green_arrow_period)
-            {
-                start_timer = start_timer -(2* green_arrow_period);
-
-                // toggle:
-                if (toggle)
-                {
-                    foreach (Transform spawner in Horizontal_Spawners)
-                    {
-                        spawner.GetComponent<Arrow_Spawner>().Spawn_Arrow();
-                    }
-                    toggle = false;
-                }
-                else
-                {
-                    foreach (Transform spawner in Vertical_Spawners)
-                    {
-                        spawner.GetComponent<Arrow_Spawner>().Spawn_Arrow();
-                    }
-                    toggle = true;
-                }
-            }
-        }
-
-
-    }
-
-    void Spawn_Arrow(float waitTime)
-    {
-        GameObject spawned_Arrow = GameObject.Instantiate(GreenArrow, transform);
-        spawned_Arrow.transform.eulerAngles = new Vector3(spawned_Arrow.transform.eulerAngles.x, spawned_Arrow.transform.eulerAngles.y + -90f, spawned_Arrow.transform.eulerAngles.z);
     }
 }
