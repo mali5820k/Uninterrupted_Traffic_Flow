@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 22
         targetSdkVersion 30
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
@@ -69,14 +69,13 @@ def BuildIl2Cpp(String workingDir, String configuration, String architecture, St
     def executableExtension = ""
     if (org.gradle.internal.os.OperatingSystem.current().isWindows())
         executableExtension = ".exe"
-    //exec {
-    //    executable workingDir + "/src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp" + executableExtension
-    //    args commandLineArgs
-    //    environment "ANDROID_SDK_ROOT", getSdkDir()
-    //}
+    exec {
+        executable workingDir + "/src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp" + executableExtension
+        args commandLineArgs
+        environment "ANDROID_SDK_ROOT", getSdkDir()
+    }
     delete workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.sym.so"
-    // BELOW MAY NOT BE SOMETHING WE CAN IGNORE
-    //ant.move(file: workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.dbg.so", tofile: workingDir + "/symbols/" + abi + "/libil2cpp.so")
+    ant.move(file: workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.dbg.so", tofile: workingDir + "/symbols/" + abi + "/libil2cpp.so")
 }
 
 android {
