@@ -1,11 +1,11 @@
 {
   "useHTTPS": false,
-  "defaultHost": "192.168.1.3",
+  "defaultHost": "192.168.1.204",
   "defaultPort": 5000,
   "defaultWsPort": 8080,
   "api": {
     "initPath": "",
     "wsPath": "wsPath"
   },
-  "debugMode": false
+  "debugMode": true
 }

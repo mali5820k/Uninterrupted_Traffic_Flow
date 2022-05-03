@@ -6,8 +6,9 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 
 echo "[BUILD SCRIPT] Running gradle bundle command..."
 cd android
-./gradlew bundleRelease -x bundleReleaseJsAndAssets
+rm -rf app/src/main/res/drawable-*
+./gradlew assembleRelease -x bundleReleaseJsAndAssets
 
 echo "[BUILD SCRIPT] Copying apk to current directory"
 cd ../..
-cp RTFApp/android/app/build/outputs/bundle/release/app-release.apk .
+cp RTFApp/android/app/build/outputs/apk/release/app-release.apk .
