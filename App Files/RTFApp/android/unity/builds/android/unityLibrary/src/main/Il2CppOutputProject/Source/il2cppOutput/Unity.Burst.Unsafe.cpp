@@ -19,6 +19,16 @@ struct IsReadOnlyAttribute_t0F24CF54B4D1245C4463E7C989E457CB05E113F8;
 // System.Runtime.Versioning.NonVersionableAttribute
 struct NonVersionableAttribute_t1DB218A79D38828C49D22FA63D91E463687ABDF5;
 
+IL2CPP_EXTERN_C const RuntimeMethod* IsReadOnlyAttribute__ctor_m5CCFBC2EDEEA918A10A9C5A57A355234A495046D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NonVersionableAttribute__ctor_mBC3056ECFEE16B17F3779A50EBDCCD519078E862_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -118,6 +128,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 // System.Void Unity.Burst.Unsafe::CopyBlock(System.Void*,System.Void*,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28 (void* ___destination0, void* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		void* L_0 = ___destination0;
 		void* L_1 = ___source1;
@@ -129,6 +148,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_m275884E0E5269EE20C4FDB
 // System.Void Unity.Burst.Unsafe::CopyBlock(System.Byte&,System.Byte&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7 (uint8_t* ___destination0, uint8_t* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		uint8_t* L_0 = ___destination0;
 		uint8_t* L_1 = ___source1;
@@ -140,6 +168,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7D
 // System.Void Unity.Burst.Unsafe::CopyBlockUnaligned(System.Void*,System.Void*,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB (void* ___destination0, void* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		void* L_0 = ___destination0;
 		void* L_1 = ___source1;
@@ -151,6 +188,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_mDC74221DAD224
 // System.Void Unity.Burst.Unsafe::CopyBlockUnaligned(System.Byte&,System.Byte&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509 (uint8_t* ___destination0, uint8_t* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		uint8_t* L_0 = ___destination0;
 		uint8_t* L_1 = ___source1;
@@ -162,6 +208,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_mD13DB0668E061
 // System.Void Unity.Burst.Unsafe::InitBlock(System.Void*,System.Byte,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9 (void* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		void* L_0 = ___startAddress0;
 		uint8_t L_1 = ___value1;
@@ -173,6 +228,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_m965E8E4DCB55DB85E260C5
 // System.Void Unity.Burst.Unsafe::InitBlock(System.Byte&,System.Byte,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A (uint8_t* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		uint8_t* L_0 = ___startAddress0;
 		uint8_t L_1 = ___value1;
@@ -184,6 +248,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_m22D44609198E040EFDD4B5
 // System.Void Unity.Burst.Unsafe::InitBlockUnaligned(System.Void*,System.Byte,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E (void* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		void* L_0 = ___startAddress0;
 		uint8_t L_1 = ___value1;
@@ -195,6 +268,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m59F5F56D7AF13
 // System.Void Unity.Burst.Unsafe::InitBlockUnaligned(System.Byte&,System.Byte,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF (uint8_t* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		uint8_t* L_0 = ___startAddress0;
 		uint8_t L_1 = ___value1;
@@ -214,6 +296,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m8FA427864FE9E
 // System.Void System.Runtime.Versioning.NonVersionableAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NonVersionableAttribute__ctor_mBC3056ECFEE16B17F3779A50EBDCCD519078E862 (NonVersionableAttribute_t1DB218A79D38828C49D22FA63D91E463687ABDF5* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NonVersionableAttribute__ctor_mBC3056ECFEE16B17F3779A50EBDCCD519078E862_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(NonVersionableAttribute__ctor_mBC3056ECFEE16B17F3779A50EBDCCD519078E862_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NonVersionableAttribute__ctor_mBC3056ECFEE16B17F3779A50EBDCCD519078E862_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		return;
@@ -230,6 +321,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NonVersionableAttribute__ctor_mBC3056ECF
 // System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m5CCFBC2EDEEA918A10A9C5A57A355234A495046D (IsReadOnlyAttribute_t0F24CF54B4D1245C4463E7C989E457CB05E113F8* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IsReadOnlyAttribute__ctor_m5CCFBC2EDEEA918A10A9C5A57A355234A495046D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(IsReadOnlyAttribute__ctor_m5CCFBC2EDEEA918A10A9C5A57A355234A495046D_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IsReadOnlyAttribute__ctor_m5CCFBC2EDEEA918A10A9C5A57A355234A495046D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		return;

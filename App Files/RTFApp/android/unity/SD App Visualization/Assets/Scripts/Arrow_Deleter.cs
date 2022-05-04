@@ -8,7 +8,6 @@ public class Arrow_Deleter : MonoBehaviour
     public float speed = 1f;
     public float green_time = 5f; // was 10f;
     public Event_Listener_From_React ev;
-    public float delete_time = 10f;
 
     void Start() {
         speed = block_length / green_time;
@@ -34,7 +33,7 @@ public class Arrow_Deleter : MonoBehaviour
         Arrow_Spawner other = collider.GetComponent<Arrow_Spawner>();
         if (other) {
             if (other.is_receiver)
-                Destroy(this.gameObject, delete_time);
+                Destroy(this.gameObject, 4f);
         }
     }
 }

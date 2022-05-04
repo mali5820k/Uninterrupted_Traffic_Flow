@@ -167,6 +167,8 @@ struct UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_TextCoreTextEngineModule[];
 IL2CPP_EXTERN_C RuntimeClass* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var;
@@ -176,9 +178,18 @@ IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_
 IL2CPP_EXTERN_C String_t* _stringLiteral0A0DAF77271D6DA2C6A1C08A805866EB837D591E;
 IL2CPP_EXTERN_C String_t* _stringLiteral45F6DDE1A98CAC15AB9ED3B1B435261E3210927D;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFB91D1DF3A99213A5F62F37EB0B31E6121411C4;
+IL2CPP_EXTERN_C const RuntimeMethod* Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m25CB12C13D14620785B0E86F6543D20B5080AFF8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextInfo_Resize_TisPageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909_m0C68AC768E3311C6C7132EC317AF7ABB24A5343B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextInfo_Resize_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mEB8F1BB793EF724308050D5AF1348A8B94556D45_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextProcessingStack_1_Clear_m3684329CF566CB94C981B1EAB3F1F3C74D42D0CD_RuntimeMethod_var;
@@ -189,6 +200,41 @@ IL2CPP_EXTERN_C const RuntimeMethod* TextProcessingStack_1_SetDefault_mDAFD4911B
 IL2CPP_EXTERN_C const RuntimeMethod* TextProcessingStack_1_SetDefault_mDD0BF36ABFBF0DBA2D289C08F9862374CE18A0F9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextProcessingStack_1_SetDefault_mDF71503A7E4F1891305CDCC7AE245CA66A713E79_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Implicit_mCD214B04BC52AED3C89C3BEF664B6247E5F8954A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* FontAsset_t61A6446D934E582651044E33D250EA8D306AB958_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextAlignment_tD681BE7D2451C44115A90D2D8AA7D91C78A5A070_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextElementType_tEBCF09EEF888E8B1F62D3DD66AF21890D12545EB_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextGenerator_t6B84DC798596D3A9944DC346DD453C075EE62366_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextOverflowMode_tB7F9FB28B889C1F21B14D3DAC32980D71D9D7F50_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextureMapping_t14CF4FEE624B1D968B076DAE56E67AA4756B653A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
 struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B;
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7;
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2;
@@ -3151,15 +3197,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GenerateTextMesh_mAB70FC29
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FontAsset_t61A6446D934E582651044E33D250EA8D306AB958_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphPairAdjustmentRecord_t6E4295094D349DBF22BC59116FBC8F22EA55420E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m25CB12C13D14620785B0E86F6543D20B5080AFF8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextAlignment_tD681BE7D2451C44115A90D2D8AA7D91C78A5A070_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementType_tEBCF09EEF888E8B1F62D3DD66AF21890D12545EB_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t6B84DC798596D3A9944DC346DD453C075EE62366_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextInfo_Resize_TisPageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909_m0C68AC768E3311C6C7132EC317AF7ABB24A5343B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextInfo_Resize_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mEB8F1BB793EF724308050D5AF1348A8B94556D45_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextOverflowMode_tB7F9FB28B889C1F21B14D3DAC32980D71D9D7F50_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextProcessingStack_1_Clear_m3684329CF566CB94C981B1EAB3F1F3C74D42D0CD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextProcessingStack_1_Clear_m857C80F9AFD9507FE4784DB5DE79109E16C8EAA3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextProcessingStack_1_SetDefault_m2DBB41C08A4CB7F71156ED5965850C2A0570F230_RuntimeMethod_var);
@@ -3168,12 +3235,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GenerateTextMesh_mAB70FC29
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextProcessingStack_1_SetDefault_mDD0BF36ABFBF0DBA2D289C08F9862374CE18A0F9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextProcessingStack_1_SetDefault_mDF71503A7E4F1891305CDCC7AE245CA66A713E79_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureMapping_t14CF4FEE624B1D968B076DAE56E67AA4756B653A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0A0DAF77271D6DA2C6A1C08A805866EB837D591E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45F6DDE1A98CAC15AB9ED3B1B435261E3210927D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAFB91D1DF3A99213A5F62F37EB0B31E6121411C4);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -3562,6 +3636,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GenerateTextMesh_mAB70FC29
 	int32_t V_356 = 0;
 	bool V_357 = false;
 	bool V_358 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___generationSettings0), (&___textInfo1));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_10), (&V_11), (&V_12), (&V_13), (&V_14), (&V_15), (&V_16), (&V_17), (&V_18), (&V_19), (&V_20), (&V_21), (&V_22), (&V_23), (&V_24), (&V_25), (&V_26), (&V_27), (&V_28), (&V_29), (&V_30), (&V_31), (&V_32), (&V_33), (&V_34), (&V_35), (&V_36), (&V_37), (&V_38), (&V_39), (&V_40), (&V_41), (&V_42), (&V_43), (&V_44), (&V_45), (&V_46), (&V_47), (&V_48), (&V_49), (&V_50), (&V_51), (&V_52), (&V_53), (&V_54), (&V_59), (&V_60), (&V_61), (&V_62), (&V_63), (&V_64), (&V_65), (&V_66), (&V_67), (&V_68), (&V_69), (&V_70), (&V_71), (&V_72), (&V_73), (&V_74), (&V_75), (&V_76), (&V_77), (&V_90), (&V_91), (&V_99), (&V_100), (&V_102), (&V_103), (&V_107), (&V_108), (&V_115), (&V_118), (&V_121), (&V_122), (&V_123), (&V_125), (&V_127), (&V_128), (&V_132), (&V_133), (&V_136), (&V_137), (&V_146), (&V_152), (&V_167), (&V_176), (&V_199), (&V_200), (&V_204), (&V_209), (&V_210), (&V_212), (&V_240), (&V_241), (&V_242), (&V_243), (&V_244), (&V_245), (&V_246), (&V_247), (&V_248), (&V_249), (&V_250), (&V_251), (&V_252), (&V_253), (&V_254), (&V_255), (&V_265), (&V_266), (&V_267), (&V_268), (&V_276), (&V_277), (&V_278), (&V_281), (&V_287), (&V_302), (&V_303), (&V_307), (&V_308), (&V_311), (&V_312), (&V_321), (&V_326), (&V_332), (&V_334), (&V_340), (&V_341), (&V_346), (&V_347), (&V_356));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4069));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4070));
 	int32_t G_B6_0 = 0;
 	TextGenerator_t6B84DC798596D3A9944DC346DD453C075EE62366* G_B10_0 = NULL;
 	TextGenerator_t6B84DC798596D3A9944DC346DD453C075EE62366* G_B9_0 = NULL;
@@ -3764,8 +3844,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GenerateTextMesh_mAB70FC29
 	int32_t G_B1021_0 = 0;
 	TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* G_B1021_1 = NULL;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4071));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4072));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_0 = ___textInfo1;
 		V_55 = (bool)((((RuntimeObject*)(TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4073));
 		bool L_1 = V_55;
 		if (!L_1)
 		{
@@ -3773,14 +3856,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextGenerator_GenerateTextMesh_mAB70FC29
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4074));
 		goto IL_6c5c;
 	}
 
 IL_0010:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4075));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_2 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4076));
 		NullCheck(L_2);
 		TextInfo_Clear_m60412774208F9D920707448E71E89C99233D9128(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4076));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4077));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->___m_CharBuffer_4;
 		if (!L_3)
 		{
@@ -3812,6 +3900,7 @@ IL_0035:
 IL_0036:
 	{
 		V_56 = (bool)G_B6_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4078));
 		bool L_8 = V_56;
 		if (!L_8)
 		{
@@ -3819,78 +3908,112 @@ IL_0036:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4079));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4080));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_9 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4081));
 		TextGenerator_ClearMesh_mE8A81193AF7ACE3CFE55E0C18FCCD751503A997F((bool)1, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4081));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4082));
 		__this->___m_PreferredWidth_5 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4083));
 		__this->___m_PreferredHeight_6 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4084));
 		goto IL_6c5c;
 	}
 
 IL_0060:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4085));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_10 = ___generationSettings0;
 		NullCheck(L_10);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_11 = L_10->___fontAsset_4;
 		__this->___m_CurrentFontAsset_7 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentFontAsset_7), (void*)L_11);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4086));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_12 = ___generationSettings0;
 		NullCheck(L_12);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = L_12->___material_5;
 		__this->___m_CurrentMaterial_8 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentMaterial_8), (void*)L_13);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4087));
 		__this->___m_CurrentMaterialIndex_9 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4088));
 		TextProcessingStack_1_t0C74606C1B6C7817CA95F0DCA46B219CF6FB35CA* L_14 = (&__this->___m_MaterialReferenceStack_10);
 		int32_t L_15 = __this->___m_CurrentMaterialIndex_9;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_16 = __this->___m_CurrentFontAsset_7;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = __this->___m_CurrentMaterial_8;
 		float L_18 = __this->___m_Padding_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4089));
 		MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26 L_19;
 		memset((&L_19), 0, sizeof(L_19));
 		MaterialReference__ctor_m044AAA2C1079EB25A5534A6E0FA2314F033DB15A((&L_19), L_15, L_16, (SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313*)NULL, L_17, L_18, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4089));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4090));
 		TextProcessingStack_1_SetDefault_mDAFD4911B5A8BEE57351A37415ADF348F0A6B54C(L_14, L_19, TextProcessingStack_1_SetDefault_mDAFD4911B5A8BEE57351A37415ADF348F0A6B54C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4090));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4091));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_20 = ___generationSettings0;
 		NullCheck(L_20);
 		SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* L_21 = L_20->___spriteAsset_6;
 		__this->___m_CurrentSpriteAsset_12 = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentSpriteAsset_12), (void*)L_21);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4092));
 		int32_t L_22 = __this->___m_TotalCharacterCount_13;
 		V_0 = L_22;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4093));
 		float L_23 = __this->___m_FontSize_15;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_24 = ___generationSettings0;
 		NullCheck(L_24);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_25 = L_24->___fontAsset_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4094));
 		NullCheck(L_25);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_26;
 		L_26 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_25, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4094));
 		V_57 = L_26;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4095));
 		int32_t L_27;
 		L_27 = FaceInfo_get_pointSize_m7EF7429A4725AB715931A220F6BB498C3D6BF7CB((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4095));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_28 = ___generationSettings0;
 		NullCheck(L_28);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_29 = L_28->___fontAsset_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4096));
 		NullCheck(L_29);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_30;
 		L_30 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4096));
 		V_57 = L_30;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4097));
 		float L_31;
 		L_31 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4097));
 		float L_32 = ((float)il2cpp_codegen_multiply(((float)(L_23/((float)L_27))), L_31));
 		V_58 = L_32;
 		__this->___m_FontScale_14 = L_32;
 		float L_33 = V_58;
 		V_1 = L_33;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4098));
 		float L_34 = V_1;
 		V_2 = L_34;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4099));
 		__this->___m_FontScaleMultiplier_16 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4100));
 		float L_35 = __this->___m_FontSize_15;
 		__this->___m_CurrentFontSize_17 = L_35;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4101));
 		TextProcessingStack_1_t9FC06E35259ADD291ED640FE7554D8C03EA5F555* L_36 = (&__this->___m_SizeStack_18);
 		float L_37 = __this->___m_CurrentFontSize_17;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4102));
 		TextProcessingStack_1_SetDefault_mA28AEF460395ECD6CBF6A469575571F64F6836B9(L_36, L_37, TextProcessingStack_1_SetDefault_mA28AEF460395ECD6CBF6A469575571F64F6836B9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4102));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4103));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_38 = ___generationSettings0;
 		NullCheck(L_38);
 		int32_t L_39 = L_38->___fontStyle_8;
 		__this->___m_FontStyleInternal_19 = L_39;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4104));
 		int32_t L_40 = __this->___m_FontStyleInternal_19;
 		G_B9_0 = __this;
 		if ((((int32_t)((int32_t)((int32_t)L_40&1))) == ((int32_t)1)))
@@ -3918,113 +4041,207 @@ IL_0149:
 	{
 		NullCheck(G_B11_1);
 		G_B11_1->___m_FontWeightInternal_21 = G_B11_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4105));
 		TextProcessingStack_1_t698B87CDD968C2046F57134BB3AB807EBFFD7790* L_43 = (&__this->___m_FontWeightStack_22);
 		int32_t L_44 = __this->___m_FontWeightInternal_21;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4106));
 		TextProcessingStack_1_SetDefault_mDF71503A7E4F1891305CDCC7AE245CA66A713E79(L_43, L_44, TextProcessingStack_1_SetDefault_mDF71503A7E4F1891305CDCC7AE245CA66A713E79_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4106));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4107));
 		FontStyleStack_t63C77495F068E6DF762D6AF063A817E3709659A7* L_45 = (&__this->___m_FontStyleStack_20);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4108));
 		FontStyleStack_Clear_m989659363648B27540168E46F23E1EF9877C06E0(L_45, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4108));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4109));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_46 = ___generationSettings0;
 		NullCheck(L_46);
 		int32_t L_47 = L_46->___textAlignment_10;
 		__this->___m_LineJustification_23 = L_47;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4110));
 		TextProcessingStack_1_tE63296B08A4C34E38D7EF3FFFA3470076B9E3A0F* L_48 = (&__this->___m_LineJustificationStack_24);
 		int32_t L_49 = __this->___m_LineJustification_23;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4111));
 		TextProcessingStack_1_SetDefault_m2DBB41C08A4CB7F71156ED5965850C2A0570F230(L_48, L_49, TextProcessingStack_1_SetDefault_m2DBB41C08A4CB7F71156ED5965850C2A0570F230_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4111));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4112));
 		V_3 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4113));
 		V_4 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4114));
 		__this->___m_BaselineOffset_25 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4115));
 		TextProcessingStack_1_t9FC06E35259ADD291ED640FE7554D8C03EA5F555* L_50 = (&__this->___m_BaselineOffsetStack_26);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4116));
 		TextProcessingStack_1_Clear_m857C80F9AFD9507FE4784DB5DE79109E16C8EAA3(L_50, TextProcessingStack_1_Clear_m857C80F9AFD9507FE4784DB5DE79109E16C8EAA3_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4116));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4117));
 		V_5 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4118));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4119));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
 		L_51 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4119));
 		V_6 = L_51;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4120));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4121));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4122));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		L_52 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4122));
 		V_9 = L_52;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4123));
 		V_11 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4124));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4125));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
 		L_53 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4125));
 		V_12 = L_53;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4126));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4127));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
 		L_54 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4127));
 		V_13 = L_54;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4128));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_55 = ___generationSettings0;
 		NullCheck(L_55);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_56 = L_55->___color_14;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4129));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_57;
 		L_57 = Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline(L_56, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4129));
 		__this->___m_FontColor32_27 = L_57;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4130));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_58 = __this->___m_FontColor32_27;
 		__this->___m_HtmlColor_28 = L_58;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4131));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_59 = __this->___m_HtmlColor_28;
 		__this->___m_UnderlineColor_29 = L_59;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4132));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_60 = __this->___m_HtmlColor_28;
 		__this->___m_StrikethroughColor_30 = L_60;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4133));
 		TextProcessingStack_1_t7868E818AC1E1B5FED21B76D5C309C9A04380B63* L_61 = (&__this->___m_ColorStack_31);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_62 = __this->___m_HtmlColor_28;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4134));
 		TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54(L_61, L_62, TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4134));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4135));
 		TextProcessingStack_1_t7868E818AC1E1B5FED21B76D5C309C9A04380B63* L_63 = (&__this->___m_UnderlineColorStack_32);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_64 = __this->___m_HtmlColor_28;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4136));
 		TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54(L_63, L_64, TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4136));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4137));
 		TextProcessingStack_1_t7868E818AC1E1B5FED21B76D5C309C9A04380B63* L_65 = (&__this->___m_StrikethroughColorStack_33);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_66 = __this->___m_HtmlColor_28;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4138));
 		TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54(L_65, L_66, TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4138));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4139));
 		TextProcessingStack_1_t7868E818AC1E1B5FED21B76D5C309C9A04380B63* L_67 = (&__this->___m_HighlightColorStack_34);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_68 = __this->___m_HtmlColor_28;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4140));
 		TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54(L_67, L_68, TextProcessingStack_1_SetDefault_mE01C025EC63ACC956213DF8794365033E48A0C54_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4140));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4141));
 		__this->___m_ColorGradientPreset_35 = (TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ColorGradientPreset_35), (void*)(TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70*)NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4142));
 		TextProcessingStack_1_t0F39F088E8F8F6E18C3C463B2998ADC5B7A0513E* L_69 = (&__this->___m_ColorGradientStack_36);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4143));
 		TextProcessingStack_1_SetDefault_mDD0BF36ABFBF0DBA2D289C08F9862374CE18A0F9(L_69, (TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70*)NULL, TextProcessingStack_1_SetDefault_mDD0BF36ABFBF0DBA2D289C08F9862374CE18A0F9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4143));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4144));
 		TextProcessingStack_1_t27834AAB14D26DC6519558C4C2574BA9C190D8E8* L_70 = (&__this->___m_ActionStack_37);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4145));
 		TextProcessingStack_1_Clear_m3684329CF566CB94C981B1EAB3F1F3C74D42D0CD(L_70, TextProcessingStack_1_Clear_m3684329CF566CB94C981B1EAB3F1F3C74D42D0CD_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4146));
 		__this->___m_IsFxMatrixSet_38 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4147));
 		__this->___m_LineOffset_39 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4148));
 		__this->___m_LineHeight_40 = (-32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4149));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_71 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4150));
 		NullCheck(L_71);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_72;
 		L_72 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_71, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4150));
 		V_57 = L_72;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4151));
 		float L_73;
 		L_73 = FaceInfo_get_lineHeight_m528B4A822181FCECF3D4FF1045DF288E5872AB9D((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4151));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_74 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4152));
 		NullCheck(L_74);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_75;
 		L_75 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_74, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4152));
 		V_57 = L_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4153));
 		float L_76;
 		L_76 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4153));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_77 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4154));
 		NullCheck(L_77);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_78;
 		L_78 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_77, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4154));
 		V_57 = L_78;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4155));
 		float L_79;
 		L_79 = FaceInfo_get_descentLine_m811A243C9B328B0C546BF9927A010A05DF172BD3((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4155));
 		V_14 = ((float)il2cpp_codegen_subtract(L_73, ((float)il2cpp_codegen_subtract(L_76, L_79))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4156));
 		__this->___m_CSpacing_41 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4157));
 		__this->___m_MonoSpacing_42 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4158));
 		__this->___m_XAdvance_43 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4159));
 		__this->___m_TagLineIndent_44 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4160));
 		__this->___m_TagIndent_45 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4161));
 		TextProcessingStack_1_t9FC06E35259ADD291ED640FE7554D8C03EA5F555* L_80 = (&__this->___m_IndentStack_46);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4162));
 		TextProcessingStack_1_SetDefault_mA28AEF460395ECD6CBF6A469575571F64F6836B9(L_80, (0.0f), TextProcessingStack_1_SetDefault_mA28AEF460395ECD6CBF6A469575571F64F6836B9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4162));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4163));
 		__this->___m_TagNoParsing_47 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4164));
 		__this->___m_CharacterCount_48 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4165));
 		__this->___m_FirstCharacterOfLine_49 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4166));
 		__this->___m_LastCharacterOfLine_50 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4167));
 		__this->___m_FirstVisibleCharacterOfLine_51 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4168));
 		__this->___m_LastVisibleCharacterOfLine_52 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4169));
 		__this->___m_MaxLineAscender_53 = (-32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4170));
 		__this->___m_MaxLineDescender_54 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4171));
 		__this->___m_LineNumber_55 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4172));
 		__this->___m_LineVisibleCharacterCount_56 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4173));
 		V_15 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4174));
 		__this->___m_FirstOverflowCharacterIndex_57 = (-1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4175));
 		__this->___m_PageNumber_58 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4176));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_81 = ___generationSettings0;
 		NullCheck(L_81);
 		int32_t L_82 = L_81->___pageToDisplay_38;
@@ -4032,72 +4249,113 @@ IL_0149:
 		NullCheck(L_83);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_84 = L_83->___pageInfo_14;
 		NullCheck(L_84);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4177));
 		int32_t L_85;
 		L_85 = Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_inline(((int32_t)il2cpp_codegen_subtract(L_82, 1)), 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_84)->max_length)), 1)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4177));
 		V_16 = L_85;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4178));
 		V_17 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4179));
 		V_18 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4180));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_86 = ___generationSettings0;
 		NullCheck(L_86);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_87 = L_86->___margins_2;
 		V_19 = L_87;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4181));
 		float L_88 = __this->___m_MarginWidth_2;
 		V_20 = L_88;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4182));
 		float L_89 = __this->___m_MarginHeight_3;
 		V_21 = L_89;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4183));
 		__this->___m_MarginLeft_59 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4184));
 		__this->___m_MarginRight_60 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4185));
 		__this->___m_Width_61 = (-1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4186));
 		float L_90 = V_20;
 		float L_91 = __this->___m_MarginLeft_59;
 		float L_92 = __this->___m_MarginRight_60;
 		V_22 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_90, (9.99999975E-05f))), L_91)), L_92));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4187));
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_93 = (&__this->___m_MeshExtents_62);
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_94 = ((TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_StaticFields*)il2cpp_codegen_static_fields_for(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var))->___largePositiveVector2_0;
 		L_93->___min_0 = L_94;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4188));
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_95 = (&__this->___m_MeshExtents_62);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_96 = ((TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_StaticFields*)il2cpp_codegen_static_fields_for(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var))->___largeNegativeVector2_1;
 		L_95->___max_1 = L_96;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4189));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_97 = ___generationSettings0;
 		NullCheck(L_97);
 		TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* L_98 = L_97->___textSettings_9;
 		V_23 = L_98;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4190));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_99 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4191));
 		NullCheck(L_99);
 		TextInfo_ClearLineInfo_m986C886D34A324C8C4D30F9D8EF24AC242A10AD7(L_99, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4191));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4192));
 		__this->___m_MaxCapHeight_63 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4193));
 		__this->___m_MaxAscender_64 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4194));
 		__this->___m_MaxDescender_65 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4195));
 		V_24 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4196));
 		V_25 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4197));
 		V_26 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4198));
 		__this->___m_IsNewPage_66 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4199));
 		V_27 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4200));
 		__this->___m_IsNonBreakingSpace_67 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4201));
 		V_28 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4202));
 		V_29 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4203));
 		V_30 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4204));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_100 = (&__this->___m_SavedWordWrapState_68);
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_101 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4205));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_100, (-1), (-1), L_101, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4205));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4206));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_102 = (&__this->___m_SavedLineState_69);
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_103 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4207));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_102, (-1), (-1), L_103, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4207));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4208));
 		int32_t L_104 = __this->___m_LoopCountA_70;
 		__this->___m_LoopCountA_70 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4209));
 		V_59 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4210));
 		goto IL_32a7;
 	}
 
 IL_0496:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4211));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4212));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_105 = __this->___m_CharBuffer_4;
 		int32_t L_106 = V_59;
 		NullCheck(L_105);
 		int32_t L_107 = L_106;
 		int32_t L_108 = (L_105)->GetAt(static_cast<il2cpp_array_size_t>(L_107));
 		V_60 = L_108;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4213));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_109 = ___generationSettings0;
 		NullCheck(L_109);
 		bool L_110 = L_109->___richText_23;
@@ -4120,6 +4378,7 @@ IL_04b2:
 IL_04b3:
 	{
 		V_78 = (bool)G_B15_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4214));
 		bool L_112 = V_78;
 		if (!L_112)
 		{
@@ -4127,15 +4386,22 @@ IL_04b3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4215));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4216));
 		__this->___m_IsParsingText_72 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4217));
 		__this->___m_TextElementType_71 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4218));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_113 = __this->___m_CharBuffer_4;
 		int32_t L_114 = V_59;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_115 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_116 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4219));
 		bool L_117;
 		L_117 = TextGenerator_ValidateHtmlTag_m9C85462F15A6165B10E4C4EE93620AC1021BE5CD(__this, L_113, ((int32_t)il2cpp_codegen_add(L_114, 1)), (&V_31), L_115, L_116, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4219));
 		V_79 = L_117;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4220));
 		bool L_118 = V_79;
 		if (!L_118)
 		{
@@ -4143,10 +4409,14 @@ IL_04b3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4221));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4222));
 		int32_t L_119 = V_31;
 		V_59 = L_119;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4223));
 		uint8_t L_120 = __this->___m_TextElementType_71;
 		V_80 = (bool)((((int32_t)L_120) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4224));
 		bool L_121 = V_80;
 		if (!L_121)
 		{
@@ -4154,20 +4424,26 @@ IL_04b3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4225));
 		goto IL_329d;
 	}
 
 IL_04fb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4226));
 	}
 
 IL_04fc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4227));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4228));
 		goto IL_0555;
 	}
 
 IL_04ff:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4229));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4230));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_122 = ___textInfo1;
 		NullCheck(L_122);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_123 = L_122->___textElementInfo_10;
@@ -4175,6 +4451,7 @@ IL_04ff:
 		NullCheck(L_123);
 		uint8_t L_125 = ((L_123)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_124)))->___elementType_2;
 		__this->___m_TextElementType_71 = L_125;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4231));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_126 = ___textInfo1;
 		NullCheck(L_126);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_127 = L_126->___textElementInfo_10;
@@ -4182,6 +4459,7 @@ IL_04ff:
 		NullCheck(L_127);
 		int32_t L_129 = ((L_127)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_128)))->___materialReferenceIndex_8;
 		__this->___m_CurrentMaterialIndex_9 = L_129;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4232));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_130 = ___textInfo1;
 		NullCheck(L_130);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_131 = L_130->___textElementInfo_10;
@@ -4190,12 +4468,15 @@ IL_04ff:
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_133 = ((L_131)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_132)))->___fontAsset_4;
 		__this->___m_CurrentFontAsset_7 = L_133;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentFontAsset_7), (void*)L_133);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4233));
 	}
 
 IL_0555:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4234));
 		int32_t L_134 = __this->___m_CurrentMaterialIndex_9;
 		V_61 = L_134;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4235));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_135 = ___textInfo1;
 		NullCheck(L_135);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_136 = L_135->___textElementInfo_10;
@@ -4203,12 +4484,15 @@ IL_0555:
 		NullCheck(L_136);
 		bool L_138 = ((L_136)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_137)))->___isUsingAlternateTypeface_9;
 		V_62 = L_138;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4236));
 		__this->___m_IsParsingText_72 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4237));
 		int32_t L_139 = __this->___m_CharacterCount_48;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_140 = ___generationSettings0;
 		NullCheck(L_140);
 		int32_t L_141 = L_140->___firstVisibleCharacter_35;
 		V_81 = (bool)((((int32_t)L_139) < ((int32_t)L_141))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4238));
 		bool L_142 = V_81;
 		if (!L_142)
 		{
@@ -4216,28 +4500,36 @@ IL_0555:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4240));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_143 = ___textInfo1;
 		NullCheck(L_143);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_144 = L_143->___textElementInfo_10;
 		int32_t L_145 = __this->___m_CharacterCount_48;
 		NullCheck(L_144);
 		((L_144)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_145)))->___isVisible_34 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4241));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_146 = ___textInfo1;
 		NullCheck(L_146);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_147 = L_146->___textElementInfo_10;
 		int32_t L_148 = __this->___m_CharacterCount_48;
 		NullCheck(L_147);
 		((L_147)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_148)))->___character_0 = ((int32_t)8203);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4242));
 		int32_t L_149 = __this->___m_CharacterCount_48;
 		__this->___m_CharacterCount_48 = ((int32_t)il2cpp_codegen_add(L_149, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4243));
 		goto IL_329d;
 	}
 
 IL_05d6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4244));
 		V_63 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4245));
 		uint8_t L_150 = __this->___m_TextElementType_71;
 		V_82 = (bool)((((int32_t)L_150) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4246));
 		bool L_151 = V_82;
 		if (!L_151)
 		{
@@ -4245,8 +4537,11 @@ IL_05d6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4247));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4248));
 		int32_t L_152 = __this->___m_FontStyleInternal_19;
 		V_83 = (bool)((((int32_t)((int32_t)((int32_t)L_152&((int32_t)16)))) == ((int32_t)((int32_t)16)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4249));
 		bool L_153 = V_83;
 		if (!L_153)
 		{
@@ -4254,11 +4549,16 @@ IL_05d6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4250));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4251));
 		int32_t L_154 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4252));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_155;
 		L_155 = Char_IsLower_m30A84A53658D6250257BFD99051D4931916D5D91(((int32_t)(uint16_t)L_154), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4252));
 		V_84 = L_155;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4253));
 		bool L_156 = V_84;
 		if (!L_156)
 		{
@@ -4266,22 +4566,29 @@ IL_05d6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4254));
 		int32_t L_157 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4255));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		Il2CppChar L_158;
 		L_158 = Char_ToUpper_m3753B9BCD4A82C8B5D86D39D9B1B2D638B0AFE84(((int32_t)(uint16_t)L_157), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4255));
 		V_60 = L_158;
 	}
 
 IL_061c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4256));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4257));
 		goto IL_0682;
 	}
 
 IL_061f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4258));
 		int32_t L_159 = __this->___m_FontStyleInternal_19;
 		V_85 = (bool)((((int32_t)((int32_t)((int32_t)L_159&8))) == ((int32_t)8))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4259));
 		bool L_160 = V_85;
 		if (!L_160)
 		{
@@ -4289,11 +4596,16 @@ IL_061f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4260));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4261));
 		int32_t L_161 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4262));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_162;
 		L_162 = Char_IsUpper_m857948FB8687710EC3EAB889A4908E00E4F48BDA(((int32_t)(uint16_t)L_161), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4262));
 		V_86 = L_162;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4263));
 		bool L_163 = V_86;
 		if (!L_163)
 		{
@@ -4301,22 +4613,29 @@ IL_061f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4264));
 		int32_t L_164 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4265));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		Il2CppChar L_165;
 		L_165 = Char_ToLower_m643675C4A50AD39A7BE3F5C3F40A1BFD547FF957(((int32_t)(uint16_t)L_164), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4265));
 		V_60 = L_165;
 	}
 
 IL_0649:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4266));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4267));
 		goto IL_0682;
 	}
 
 IL_064c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4268));
 		int32_t L_166 = __this->___m_FontStyleInternal_19;
 		V_87 = (bool)((((int32_t)((int32_t)((int32_t)L_166&((int32_t)32)))) == ((int32_t)((int32_t)32)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4269));
 		bool L_167 = V_87;
 		if (!L_167)
 		{
@@ -4324,11 +4643,16 @@ IL_064c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4270));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4271));
 		int32_t L_168 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4272));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_169;
 		L_169 = Char_IsLower_m30A84A53658D6250257BFD99051D4931916D5D91(((int32_t)(uint16_t)L_168), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4272));
 		V_88 = L_169;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4273));
 		bool L_170 = V_88;
 		if (!L_170)
 		{
@@ -4336,26 +4660,36 @@ IL_064c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4274));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4275));
 		V_63 = (0.800000012f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4276));
 		int32_t L_171 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4277));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		Il2CppChar L_172;
 		L_172 = Char_ToUpper_m3753B9BCD4A82C8B5D86D39D9B1B2D638B0AFE84(((int32_t)(uint16_t)L_171), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4277));
 		V_60 = L_172;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4278));
 	}
 
 IL_0681:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4279));
 	}
 
 IL_0682:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4280));
 	}
 
 IL_0683:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4281));
 		uint8_t L_173 = __this->___m_TextElementType_71;
 		V_89 = (bool)((((int32_t)L_173) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4282));
 		bool L_174 = V_89;
 		if (!L_174)
 		{
@@ -4363,6 +4697,8 @@ IL_0683:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4283));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4284));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_175 = ___textInfo1;
 		NullCheck(L_175);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_176 = L_175->___textElementInfo_10;
@@ -4371,6 +4707,7 @@ IL_0683:
 		SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* L_178 = ((L_176)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_177)))->___spriteAsset_5;
 		__this->___m_CurrentSpriteAsset_12 = L_178;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentSpriteAsset_12), (void*)L_178);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4285));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_179 = ___textInfo1;
 		NullCheck(L_179);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_180 = L_179->___textElementInfo_10;
@@ -4378,17 +4715,24 @@ IL_0683:
 		NullCheck(L_180);
 		int32_t L_182 = ((L_180)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_181)))->___spriteIndex_6;
 		__this->___m_SpriteIndex_73 = L_182;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4286));
 		SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* L_183 = __this->___m_CurrentSpriteAsset_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4287));
 		NullCheck(L_183);
 		List_1_t7DA088250C54C07AF1211AE132355AD2D343EE51* L_184;
 		L_184 = SpriteAsset_get_spriteCharacterTable_m8D0D65C430AD8BC8C2BC8151DC4672CC0F690E0A(L_183, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4287));
 		int32_t L_185 = __this->___m_SpriteIndex_73;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4288));
 		NullCheck(L_184);
 		SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5* L_186;
 		L_186 = List_1_get_Item_m25CB12C13D14620785B0E86F6543D20B5080AFF8(L_184, L_185, List_1_get_Item_m25CB12C13D14620785B0E86F6543D20B5080AFF8_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4288));
 		V_90 = L_186;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4289));
 		SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5* L_187 = V_90;
 		V_92 = (bool)((((RuntimeObject*)(SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5*)L_187) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4290));
 		bool L_188 = V_92;
 		if (!L_188)
 		{
@@ -4396,13 +4740,16 @@ IL_0683:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4291));
 		goto IL_329d;
 	}
 
 IL_06f6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4292));
 		int32_t L_189 = V_60;
 		V_93 = (bool)((((int32_t)L_189) == ((int32_t)((int32_t)60)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4293));
 		bool L_190 = V_93;
 		if (!L_190)
 		{
@@ -4410,73 +4757,105 @@ IL_06f6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4294));
 		int32_t L_191 = __this->___m_SpriteIndex_73;
 		V_60 = ((int32_t)il2cpp_codegen_add(((int32_t)57344), L_191));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4295));
 		goto IL_0722;
 	}
 
 IL_0712:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4296));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4297));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_192;
 		L_192 = Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4297));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4298));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_193;
 		L_193 = Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline(L_192, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4298));
 		__this->___m_SpriteColor_74 = L_193;
 	}
 
 IL_0722:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4299));
 		float L_194 = __this->___m_CurrentFontSize_17;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_195 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4300));
 		NullCheck(L_195);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_196;
 		L_196 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_195, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4300));
 		V_57 = L_196;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4301));
 		int32_t L_197;
 		L_197 = FaceInfo_get_pointSize_m7EF7429A4725AB715931A220F6BB498C3D6BF7CB((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4301));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_198 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4302));
 		NullCheck(L_198);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_199;
 		L_199 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_198, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4302));
 		V_57 = L_199;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4303));
 		float L_200;
 		L_200 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4303));
 		V_91 = ((float)il2cpp_codegen_multiply(((float)(L_194/((float)L_197))), L_200));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4304));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_201 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4305));
 		NullCheck(L_201);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_202;
 		L_202 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_201, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4305));
 		V_57 = L_202;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4306));
 		float L_203;
 		L_203 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4306));
 		SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5* L_204 = V_90;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4307));
 		NullCheck(L_204);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_205;
 		L_205 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_204, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4307));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4308));
 		NullCheck(L_205);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_206;
 		L_206 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_205, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4308));
 		V_94 = L_206;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4309));
 		float L_207;
 		L_207 = GlyphMetrics_get_height_mE0872B23CE1A20BF78DEACDBD53BAF789D84AD5C((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4309));
 		SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5* L_208 = V_90;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4310));
 		NullCheck(L_208);
 		float L_209;
 		L_209 = TextElement_get_scale_mD16946900449FEE9E2F86B2C4C71E26F4491A0E6(L_208, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4310));
 		float L_210 = V_91;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_211 = ___generationSettings0;
 		NullCheck(L_211);
 		float L_212 = L_211->___scale_3;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(L_203/L_207)), L_209)), L_210)), L_212));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4311));
 		SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5* L_213 = V_90;
 		__this->___m_CachedTextElement_75 = L_213;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CachedTextElement_75), (void*)L_213);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4312));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_214 = ___textInfo1;
 		NullCheck(L_214);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_215 = L_214->___textElementInfo_10;
 		int32_t L_216 = __this->___m_CharacterCount_48;
 		NullCheck(L_215);
 		((L_215)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_216)))->___elementType_2 = 2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4313));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_217 = ___textInfo1;
 		NullCheck(L_217);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_218 = L_217->___textElementInfo_10;
@@ -4484,6 +4863,7 @@ IL_0722:
 		NullCheck(L_218);
 		float L_220 = V_91;
 		((L_218)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_219)))->___scale_28 = L_220;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4314));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_221 = ___textInfo1;
 		NullCheck(L_221);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_222 = L_221->___textElementInfo_10;
@@ -4492,6 +4872,7 @@ IL_0722:
 		SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* L_224 = __this->___m_CurrentSpriteAsset_12;
 		((L_222)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_223)))->___spriteAsset_5 = L_224;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_222)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_223)))->___spriteAsset_5), (void*)L_224);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4315));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_225 = ___textInfo1;
 		NullCheck(L_225);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_226 = L_225->___textElementInfo_10;
@@ -4500,6 +4881,7 @@ IL_0722:
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_228 = __this->___m_CurrentFontAsset_7;
 		((L_226)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_227)))->___fontAsset_4 = L_228;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_226)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_227)))->___fontAsset_4), (void*)L_228);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4316));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_229 = ___textInfo1;
 		NullCheck(L_229);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_230 = L_229->___textElementInfo_10;
@@ -4507,16 +4889,22 @@ IL_0722:
 		NullCheck(L_230);
 		int32_t L_232 = __this->___m_CurrentMaterialIndex_9;
 		((L_230)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_231)))->___materialReferenceIndex_8 = L_232;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4317));
 		int32_t L_233 = V_61;
 		__this->___m_CurrentMaterialIndex_9 = L_233;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4318));
 		V_3 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4319));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4320));
 		goto IL_0975;
 	}
 
 IL_0831:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4321));
 		uint8_t L_234 = __this->___m_TextElementType_71;
 		V_95 = (bool)((((int32_t)L_234) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4322));
 		bool L_235 = V_95;
 		if (!L_235)
 		{
@@ -4524,6 +4912,8 @@ IL_0831:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4323));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4324));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_236 = ___textInfo1;
 		NullCheck(L_236);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_237 = L_236->___textElementInfo_10;
@@ -4532,8 +4922,10 @@ IL_0831:
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_239 = ((L_237)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_238)))->___textElement_3;
 		__this->___m_CachedTextElement_75 = L_239;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CachedTextElement_75), (void*)L_239);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4325));
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_240 = __this->___m_CachedTextElement_75;
 		V_96 = (bool)((((RuntimeObject*)(TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA*)L_240) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4326));
 		bool L_241 = V_96;
 		if (!L_241)
 		{
@@ -4541,11 +4933,13 @@ IL_0831:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4327));
 		goto IL_329d;
 	}
 
 IL_0874:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4328));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_242 = ___textInfo1;
 		NullCheck(L_242);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_243 = L_242->___textElementInfo_10;
@@ -4554,6 +4948,7 @@ IL_0874:
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_245 = ((L_243)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_244)))->___fontAsset_4;
 		__this->___m_CurrentFontAsset_7 = L_245;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentFontAsset_7), (void*)L_245);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4329));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_246 = ___textInfo1;
 		NullCheck(L_246);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_247 = L_246->___textElementInfo_10;
@@ -4562,6 +4957,7 @@ IL_0874:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_249 = ((L_247)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_248)))->___material_7;
 		__this->___m_CurrentMaterial_8 = L_249;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentMaterial_8), (void*)L_249);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4330));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_250 = ___textInfo1;
 		NullCheck(L_250);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_251 = L_250->___textElementInfo_10;
@@ -4569,39 +4965,53 @@ IL_0874:
 		NullCheck(L_251);
 		int32_t L_253 = ((L_251)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_252)))->___materialReferenceIndex_8;
 		__this->___m_CurrentMaterialIndex_9 = L_253;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4331));
 		float L_254 = __this->___m_CurrentFontSize_17;
 		float L_255 = V_63;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_256 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4332));
 		NullCheck(L_256);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_257;
 		L_257 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_256, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4332));
 		V_57 = L_257;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4333));
 		int32_t L_258;
 		L_258 = FaceInfo_get_pointSize_m7EF7429A4725AB715931A220F6BB498C3D6BF7CB((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4333));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_259 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4334));
 		NullCheck(L_259);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_260;
 		L_260 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_259, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4334));
 		V_57 = L_260;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4335));
 		float L_261;
 		L_261 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4335));
 		__this->___m_FontScale_14 = ((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_multiply(L_254, L_255))/((float)L_258))), L_261));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4336));
 		float L_262 = __this->___m_FontScale_14;
 		float L_263 = __this->___m_FontScaleMultiplier_16;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_264 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4337));
 		NullCheck(L_264);
 		float L_265;
 		L_265 = TextElement_get_scale_mD16946900449FEE9E2F86B2C4C71E26F4491A0E6(L_264, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4337));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_266 = ___generationSettings0;
 		NullCheck(L_266);
 		float L_267 = L_266->___scale_3;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_262, L_263)), L_265)), L_267));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4338));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_268 = ___textInfo1;
 		NullCheck(L_268);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_269 = L_268->___textElementInfo_10;
 		int32_t L_270 = __this->___m_CharacterCount_48;
 		NullCheck(L_269);
 		((L_269)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_270)))->___elementType_2 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4339));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_271 = ___textInfo1;
 		NullCheck(L_271);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_272 = L_271->___textElementInfo_10;
@@ -4609,6 +5019,7 @@ IL_0874:
 		NullCheck(L_272);
 		float L_274 = V_2;
 		((L_272)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_273)))->___scale_28 = L_274;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4340));
 		int32_t L_275 = __this->___m_CurrentMaterialIndex_9;
 		if (!L_275)
 		{
@@ -4620,8 +5031,10 @@ IL_0874:
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_277 = ___generationSettings0;
 		NullCheck(L_277);
 		bool L_278 = L_277->___extraPadding_25;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4341));
 		float L_279;
 		L_279 = TextGenerator_GetPaddingForMaterial_mE5A4DEF3F64851861C092F7A4FC58C902F775C74(__this, L_276, L_278, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4341));
 		G_B51_0 = L_279;
 		goto IL_0973;
 	}
@@ -4635,14 +5048,18 @@ IL_096d:
 IL_0973:
 	{
 		V_3 = G_B51_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4342));
 	}
 
 IL_0975:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4343));
 		float L_281 = V_2;
 		V_64 = L_281;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4344));
 		int32_t L_282 = V_60;
 		V_97 = (bool)((((int32_t)L_282) == ((int32_t)((int32_t)173)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4345));
 		bool L_283 = V_97;
 		if (!L_283)
 		{
@@ -4650,11 +5067,15 @@ IL_0975:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4346));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4347));
 		V_2 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4348));
 	}
 
 IL_098f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4349));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_284 = ___textInfo1;
 		NullCheck(L_284);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_285 = L_284->___textElementInfo_10;
@@ -4662,6 +5083,7 @@ IL_098f:
 		NullCheck(L_285);
 		int32_t L_287 = V_60;
 		((L_285)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_286)))->___character_0 = ((int32_t)(uint16_t)L_287);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4350));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_288 = ___textInfo1;
 		NullCheck(L_288);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_289 = L_288->___textElementInfo_10;
@@ -4669,6 +5091,7 @@ IL_098f:
 		NullCheck(L_289);
 		float L_291 = __this->___m_CurrentFontSize_17;
 		((L_289)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_290)))->___pointSize_10 = L_291;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4351));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_292 = ___textInfo1;
 		NullCheck(L_292);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_293 = L_292->___textElementInfo_10;
@@ -4676,6 +5099,7 @@ IL_098f:
 		NullCheck(L_293);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_295 = __this->___m_HtmlColor_28;
 		((L_293)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_294)))->___color_29 = L_295;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4352));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_296 = ___textInfo1;
 		NullCheck(L_296);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_297 = L_296->___textElementInfo_10;
@@ -4683,6 +5107,7 @@ IL_098f:
 		NullCheck(L_297);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_299 = __this->___m_UnderlineColor_29;
 		((L_297)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_298)))->___underlineColor_30 = L_299;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4353));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_300 = ___textInfo1;
 		NullCheck(L_300);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_301 = L_300->___textElementInfo_10;
@@ -4690,6 +5115,7 @@ IL_098f:
 		NullCheck(L_301);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_303 = __this->___m_StrikethroughColor_30;
 		((L_301)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_302)))->___strikethroughColor_31 = L_303;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4354));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_304 = ___textInfo1;
 		NullCheck(L_304);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_305 = L_304->___textElementInfo_10;
@@ -4697,6 +5123,7 @@ IL_098f:
 		NullCheck(L_305);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_307 = __this->___m_HighlightColor_76;
 		((L_305)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_306)))->___highlightColor_32 = L_307;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4355));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_308 = ___textInfo1;
 		NullCheck(L_308);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_309 = L_308->___textElementInfo_10;
@@ -4704,6 +5131,7 @@ IL_098f:
 		NullCheck(L_309);
 		int32_t L_311 = __this->___m_FontStyleInternal_19;
 		((L_309)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_310)))->___style_33 = L_311;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4356));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_312 = ___textInfo1;
 		NullCheck(L_312);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_313 = L_312->___textElementInfo_10;
@@ -4711,15 +5139,19 @@ IL_098f:
 		NullCheck(L_313);
 		int32_t L_315 = V_59;
 		((L_313)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_314)))->___index_1 = L_315;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4357));
 		il2cpp_codegen_initobj((&V_65), sizeof(GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4358));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_316 = ___generationSettings0;
 		NullCheck(L_316);
 		float L_317 = L_316->___characterSpacing_27;
 		V_66 = L_317;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4359));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_318 = ___generationSettings0;
 		NullCheck(L_318);
 		bool L_319 = L_318->___enableKerning_22;
 		V_98 = L_319;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4360));
 		bool L_320 = V_98;
 		if (!L_320)
 		{
@@ -4727,14 +5159,20 @@ IL_098f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4361));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4362));
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_321 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4363));
 		NullCheck(L_321);
 		uint32_t L_322;
 		L_322 = TextElement_get_glyphIndex_m43F82F2F998D640DEDBE6860EBE7B171DDF4FE56(L_321, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4363));
 		V_100 = L_322;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4364));
 		int32_t L_323 = __this->___m_CharacterCount_48;
 		int32_t L_324 = V_0;
 		V_101 = (bool)((((int32_t)L_323) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_324, 1))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4365));
 		bool L_325 = V_101;
 		if (!L_325)
 		{
@@ -4742,29 +5180,38 @@ IL_098f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4366));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4367));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_326 = ___textInfo1;
 		NullCheck(L_326);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_327 = L_326->___textElementInfo_10;
 		int32_t L_328 = __this->___m_CharacterCount_48;
 		NullCheck(L_327);
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_329 = ((L_327)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_328, 1)))))->___textElement_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4368));
 		NullCheck(L_329);
 		uint32_t L_330;
 		L_330 = TextElement_get_glyphIndex_m43F82F2F998D640DEDBE6860EBE7B171DDF4FE56(L_329, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4368));
 		V_102 = L_330;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4369));
 		uint32_t L_331 = V_102;
 		uint32_t L_332 = V_100;
 		V_103 = ((int32_t)(((int32_t)((int32_t)L_331<<((int32_t)16)))|(int32_t)L_332));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4370));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_333 = __this->___m_CurrentFontAsset_7;
 		NullCheck(L_333);
 		FontFeatureTable_t992E0493CD7E9D7834DF204E0198237F0D25B3B7* L_334 = L_333->___m_FontFeatureTable_32;
 		NullCheck(L_334);
 		Dictionary_2_tDD72F78A572F94ECEDBDA75C3D17C3ED05C167E0* L_335 = L_334->___m_GlyphPairAdjustmentRecordLookup_1;
 		uint32_t L_336 = V_103;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4371));
 		NullCheck(L_335);
 		bool L_337;
 		L_337 = Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA(L_335, L_336, (&V_99), Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4371));
 		V_104 = L_337;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4372));
 		bool L_338 = V_104;
 		if (!L_338)
 		{
@@ -4772,22 +5219,32 @@ IL_098f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4373));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4374));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4375));
 		GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7 L_339;
 		L_339 = GlyphPairAdjustmentRecord_get_firstAdjustmentRecord_m867469548F17B298F893B78EE2F93D34E4A6C39C((&V_99), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4375));
 		V_105 = L_339;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4376));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_340;
 		L_340 = GlyphAdjustmentRecord_get_glyphValueRecord_m83866DCE07A22F903D4BA417476E64114625BDD7((&V_105), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4376));
 		V_65 = L_340;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4377));
 	}
 
 IL_0b03:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4378));
 	}
 
 IL_0b04:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4379));
 		int32_t L_341 = __this->___m_CharacterCount_48;
 		V_106 = (bool)((((int32_t)((((int32_t)L_341) < ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4380));
 		bool L_342 = V_106;
 		if (!L_342)
 		{
@@ -4795,29 +5252,38 @@ IL_0b04:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4381));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4382));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_343 = ___textInfo1;
 		NullCheck(L_343);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_344 = L_343->___textElementInfo_10;
 		int32_t L_345 = __this->___m_CharacterCount_48;
 		NullCheck(L_344);
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_346 = ((L_344)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_345, 1)))))->___textElement_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4383));
 		NullCheck(L_346);
 		uint32_t L_347;
 		L_347 = TextElement_get_glyphIndex_m43F82F2F998D640DEDBE6860EBE7B171DDF4FE56(L_346, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4383));
 		V_107 = L_347;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4384));
 		uint32_t L_348 = V_100;
 		uint32_t L_349 = V_107;
 		V_108 = ((int32_t)(((int32_t)((int32_t)L_348<<((int32_t)16)))|(int32_t)L_349));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4385));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_350 = __this->___m_CurrentFontAsset_7;
 		NullCheck(L_350);
 		FontFeatureTable_t992E0493CD7E9D7834DF204E0198237F0D25B3B7* L_351 = L_350->___m_FontFeatureTable_32;
 		NullCheck(L_351);
 		Dictionary_2_tDD72F78A572F94ECEDBDA75C3D17C3ED05C167E0* L_352 = L_351->___m_GlyphPairAdjustmentRecordLookup_1;
 		uint32_t L_353 = V_108;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4386));
 		NullCheck(L_352);
 		bool L_354;
 		L_354 = Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA(L_352, L_353, (&V_99), Dictionary_2_TryGetValue_m45061EA2C8BF9DD9DC9DA92DAB968171136507DA_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4386));
 		V_109 = L_354;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4387));
 		bool L_355 = V_109;
 		if (!L_355)
 		{
@@ -4825,31 +5291,44 @@ IL_0b04:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4388));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4389));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_356 = V_65;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4390));
 		GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7 L_357;
 		L_357 = GlyphPairAdjustmentRecord_get_secondAdjustmentRecord_mFDFECB1F7A38E22BD2388FFE9C71E732F6B44D91((&V_99), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4390));
 		V_105 = L_357;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4391));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_358;
 		L_358 = GlyphAdjustmentRecord_get_glyphValueRecord_m83866DCE07A22F903D4BA417476E64114625BDD7((&V_105), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4391));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4392));
 		GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E L_359;
 		L_359 = GlyphValueRecord_op_Addition_mA940285C14EBAD83BA6BDA0ECFCC5BF550ED8E8A(L_356, L_358, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4392));
 		V_65 = L_359;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4393));
 	}
 
 IL_0b7a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4394));
 	}
 
 IL_0b7b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4395));
 	}
 
 IL_0b7c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4396));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_360 = ___generationSettings0;
 		NullCheck(L_360);
 		bool L_361 = L_360->___isRightToLeft_24;
 		V_110 = L_361;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4397));
 		bool L_362 = V_110;
 		if (!L_362)
 		{
@@ -4857,17 +5336,25 @@ IL_0b7c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4398));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4399));
 		float L_363 = __this->___m_XAdvance_43;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_364 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4400));
 		NullCheck(L_364);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_365;
 		L_365 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_364, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4400));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4401));
 		NullCheck(L_365);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_366;
 		L_366 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_365, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4401));
 		V_94 = L_366;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4402));
 		float L_367;
 		L_367 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4402));
 		float L_368 = V_4;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_369 = ___generationSettings0;
 		NullCheck(L_369);
@@ -4876,17 +5363,22 @@ IL_0b7c:
 		NullCheck(L_371);
 		float L_372 = L_371->___wordSpacing_28;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_373 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4403));
 		NullCheck(L_373);
 		float L_374;
 		L_374 = FontAsset_get_regularStyleSpacing_mB7EEEA236312F5AC31FD3B787808279206F521B1(L_373, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4403));
 		float L_375 = V_2;
 		float L_376 = __this->___m_CSpacing_41;
 		float L_377 = __this->___m_CharWidthAdjDelta_77;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_subtract(L_363, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_367, L_368)), L_370)), L_372)), L_374)), L_375)), L_376)), ((float)il2cpp_codegen_subtract((1.0f), L_377))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4404));
 		int32_t L_378 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4405));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_379;
 		L_379 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(((int32_t)(uint16_t)L_378), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4405));
 		if (L_379)
 		{
 			goto IL_0bfa;
@@ -4906,6 +5398,7 @@ IL_0bfa:
 IL_0bfb:
 	{
 		V_111 = (bool)G_B68_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4406));
 		bool L_381 = V_111;
 		if (!L_381)
 		{
@@ -4913,6 +5406,7 @@ IL_0bfb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4407));
 		float L_382 = __this->___m_XAdvance_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_383 = ___generationSettings0;
 		NullCheck(L_383);
@@ -4923,13 +5417,17 @@ IL_0bfb:
 
 IL_0c16:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4408));
 	}
 
 IL_0c17:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4409));
 		V_67 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4410));
 		float L_386 = __this->___m_MonoSpacing_42;
 		V_112 = (bool)((((int32_t)((((float)L_386) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4411));
 		bool L_387 = V_112;
 		if (!L_387)
 		{
@@ -4937,37 +5435,54 @@ IL_0c17:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4412));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4413));
 		float L_388 = __this->___m_MonoSpacing_42;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_389 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4414));
 		NullCheck(L_389);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_390;
 		L_390 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_389, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4414));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4415));
 		NullCheck(L_390);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_391;
 		L_391 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_390, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4415));
 		V_94 = L_391;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4416));
 		float L_392;
 		L_392 = GlyphMetrics_get_width_m0F9F391E3A98984167E8001D4101BE1CE9354D13((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4416));
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_393 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4417));
 		NullCheck(L_393);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_394;
 		L_394 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_393, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4417));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4418));
 		NullCheck(L_394);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_395;
 		L_395 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_394, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4418));
 		V_94 = L_395;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4419));
 		float L_396;
 		L_396 = GlyphMetrics_get_horizontalBearingX_m9C39B5E6D27FF34B706649AE47EE9390B5D76D6F((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4419));
 		float L_397 = V_2;
 		float L_398 = __this->___m_CharWidthAdjDelta_77;
 		V_67 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)(L_388/(2.0f))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)(L_392/(2.0f))), L_396)), L_397)))), ((float)il2cpp_codegen_subtract((1.0f), L_398))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4420));
 		float L_399 = __this->___m_XAdvance_43;
 		float L_400 = V_67;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add(L_399, L_400));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4421));
 	}
 
 IL_0c9c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4422));
 		uint8_t L_401 = __this->___m_TextElementType_71;
 		if ((!(((uint32_t)L_401) == ((uint32_t)1))))
 		{
@@ -4995,6 +5510,7 @@ IL_0cb6:
 IL_0cb7:
 	{
 		V_113 = (bool)G_B77_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4423));
 		bool L_404 = V_113;
 		if (!L_404)
 		{
@@ -5002,13 +5518,18 @@ IL_0cb7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4424));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4425));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_405 = __this->___m_CurrentMaterial_8;
 		il2cpp_codegen_runtime_class_init_inline(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var);
 		int32_t L_406 = ((TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_StaticFields*)il2cpp_codegen_static_fields_for(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var))->___ID_GradientScale_19;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4426));
 		NullCheck(L_405);
 		bool L_407;
 		L_407 = Material_HasProperty_m52E2D3BC3049B8B228149E023CD73C34B05A5222(L_405, L_406, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4426));
 		V_114 = L_407;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4427));
 		bool L_408 = V_114;
 		if (!L_408)
 		{
@@ -5016,28 +5537,39 @@ IL_0cb7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4428));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4429));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_409 = __this->___m_CurrentMaterial_8;
 		il2cpp_codegen_runtime_class_init_inline(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var);
 		int32_t L_410 = ((TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_StaticFields*)il2cpp_codegen_static_fields_for(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var))->___ID_GradientScale_19;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4430));
 		NullCheck(L_409);
 		float L_411;
 		L_411 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_409, L_410, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4430));
 		V_115 = L_411;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4431));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_412 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4432));
 		NullCheck(L_412);
 		float L_413;
 		L_413 = FontAsset_get_boldStyleWeight_m804ACC85DD80DC72DB4BCC83C3FB866411F8EFCA(L_412, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4432));
 		float L_414 = V_115;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_415 = __this->___m_CurrentMaterial_8;
 		int32_t L_416 = ((TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_StaticFields*)il2cpp_codegen_static_fields_for(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var))->___ID_ScaleRatio_A_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4433));
 		NullCheck(L_415);
 		float L_417;
 		L_417 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_415, L_416, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4433));
 		V_68 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(L_413/(4.0f))), L_414)), L_417));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4434));
 		float L_418 = V_68;
 		float L_419 = V_3;
 		float L_420 = V_115;
 		V_116 = (bool)((((float)((float)il2cpp_codegen_add(L_418, L_419))) > ((float)L_420))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4435));
 		bool L_421 = V_116;
 		if (!L_421)
 		{
@@ -5045,6 +5577,7 @@ IL_0cb7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4436));
 		float L_422 = V_115;
 		float L_423 = V_68;
 		V_3 = ((float)il2cpp_codegen_subtract(L_422, L_423));
@@ -5052,33 +5585,46 @@ IL_0cb7:
 
 IL_0d25:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4437));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4438));
 		goto IL_0d2f;
 	}
 
 IL_0d28:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4439));
 		V_68 = (0.0f);
 	}
 
 IL_0d2f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4440));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_424 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4441));
 		NullCheck(L_424);
 		float L_425;
 		L_425 = FontAsset_get_boldStyleSpacing_mB8CF4F4880B110E41D566648FF1D995010CF1FF0(L_424, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4441));
 		V_4 = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply(L_425, (0.00999999978f)))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4442));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4443));
 		goto IL_0dc2;
 	}
 
 IL_0d4b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4444));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4445));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_426 = __this->___m_CurrentMaterial_8;
 		il2cpp_codegen_runtime_class_init_inline(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var);
 		int32_t L_427 = ((TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_StaticFields*)il2cpp_codegen_static_fields_for(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var))->___ID_GradientScale_19;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4446));
 		NullCheck(L_426);
 		bool L_428;
 		L_428 = Material_HasProperty_m52E2D3BC3049B8B228149E023CD73C34B05A5222(L_426, L_427, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4446));
 		V_117 = L_428;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4447));
 		bool L_429 = V_117;
 		if (!L_429)
 		{
@@ -5086,28 +5632,39 @@ IL_0d4b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4448));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4449));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_430 = __this->___m_CurrentMaterial_8;
 		il2cpp_codegen_runtime_class_init_inline(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var);
 		int32_t L_431 = ((TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_StaticFields*)il2cpp_codegen_static_fields_for(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var))->___ID_GradientScale_19;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4450));
 		NullCheck(L_430);
 		float L_432;
 		L_432 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_430, L_431, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4450));
 		V_118 = L_432;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4451));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_433 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4452));
 		NullCheck(L_433);
 		float L_434;
 		L_434 = FontAsset_get_regularStyleWeight_m6C4B4D4CAD36800E6E686A05A5DB8D4475F2707F(L_433, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4452));
 		float L_435 = V_118;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_436 = __this->___m_CurrentMaterial_8;
 		int32_t L_437 = ((TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_StaticFields*)il2cpp_codegen_static_fields_for(TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692_il2cpp_TypeInfo_var))->___ID_ScaleRatio_A_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4453));
 		NullCheck(L_436);
 		float L_438;
 		L_438 = Material_GetFloat_m52462F4AEDE20758BFB592B11DE83A79D2774932(L_436, L_437, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4453));
 		V_68 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(L_434/(4.0f))), L_435)), L_438));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4454));
 		float L_439 = V_68;
 		float L_440 = V_3;
 		float L_441 = V_118;
 		V_119 = (bool)((((float)((float)il2cpp_codegen_add(L_439, L_440))) > ((float)L_441))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4455));
 		bool L_442 = V_119;
 		if (!L_442)
 		{
@@ -5115,6 +5672,7 @@ IL_0d4b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4456));
 		float L_443 = V_118;
 		float L_444 = V_68;
 		V_3 = ((float)il2cpp_codegen_subtract(L_443, L_444));
@@ -5122,122 +5680,177 @@ IL_0d4b:
 
 IL_0db0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4457));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4458));
 		goto IL_0dba;
 	}
 
 IL_0db3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4459));
 		V_68 = (0.0f);
 	}
 
 IL_0dba:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4460));
 		V_4 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4461));
 	}
 
 IL_0dc2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4462));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_445 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4463));
 		NullCheck(L_445);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_446;
 		L_446 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_445, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4463));
 		V_57 = L_446;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4464));
 		float L_447;
 		L_447 = FaceInfo_get_baseline_m934B597D3E0080FEF98CBDD091C457B497179C3A((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4464));
 		float L_448 = __this->___m_FontScale_14;
 		float L_449 = __this->___m_FontScaleMultiplier_16;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_450 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4465));
 		NullCheck(L_450);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_451;
 		L_451 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_450, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4465));
 		V_57 = L_451;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4466));
 		float L_452;
 		L_452 = FaceInfo_get_scale_mC475A572AD4956B47D8B9F8D90DC69BBBB102FCD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4466));
 		V_69 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_447, L_448)), L_449)), L_452));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4467));
 		float L_453 = __this->___m_XAdvance_43;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_454 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4468));
 		NullCheck(L_454);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_455;
 		L_455 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_454, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4468));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4469));
 		NullCheck(L_455);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_456;
 		L_456 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_455, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4469));
 		V_94 = L_456;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4470));
 		float L_457;
 		L_457 = GlyphMetrics_get_horizontalBearingX_m9C39B5E6D27FF34B706649AE47EE9390B5D76D6F((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4470));
 		float L_458 = V_3;
 		float L_459 = V_68;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4471));
 		float L_460;
 		L_460 = GlyphValueRecord_get_xPlacement_m5E2B8B05A5DF57B2DC4B3795E71330CDDE1761C8((&V_65), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4471));
 		float L_461 = V_2;
 		float L_462 = __this->___m_CharWidthAdjDelta_77;
 		(&V_70)->___x_2 = ((float)il2cpp_codegen_add(L_453, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_457, L_458)), L_459)), L_460)), L_461)), ((float)il2cpp_codegen_subtract((1.0f), L_462))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4472));
 		float L_463 = V_69;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_464 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4473));
 		NullCheck(L_464);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_465;
 		L_465 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_464, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4473));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4474));
 		NullCheck(L_465);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_466;
 		L_466 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_465, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4474));
 		V_94 = L_466;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4475));
 		float L_467;
 		L_467 = GlyphMetrics_get_horizontalBearingY_mD316BDD38A32258256994D6A2BCF0FC051D9B223((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4475));
 		float L_468 = V_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4476));
 		float L_469;
 		L_469 = GlyphValueRecord_get_yPlacement_mB6303F8800305F6F96ECCD0CD9AA70A1A30A15DA((&V_65), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4476));
 		float L_470 = V_2;
 		float L_471 = __this->___m_LineOffset_39;
 		float L_472 = __this->___m_BaselineOffset_25;
 		(&V_70)->___y_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_463, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_467, L_468)), L_469)), L_470)))), L_471)), L_472));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4477));
 		(&V_70)->___z_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4478));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_473 = V_70;
 		float L_474 = L_473.___x_2;
 		(&V_71)->___x_2 = L_474;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4479));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_475 = V_70;
 		float L_476 = L_475.___y_3;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_477 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4480));
 		NullCheck(L_477);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_478;
 		L_478 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_477, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4480));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4481));
 		NullCheck(L_478);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_479;
 		L_479 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_478, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4481));
 		V_94 = L_479;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4482));
 		float L_480;
 		L_480 = GlyphMetrics_get_height_mE0872B23CE1A20BF78DEACDBD53BAF789D84AD5C((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4482));
 		float L_481 = V_3;
 		float L_482 = V_2;
 		(&V_71)->___y_3 = ((float)il2cpp_codegen_subtract(L_476, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_480, ((float)il2cpp_codegen_multiply(L_481, (2.0f))))), L_482))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4483));
 		(&V_71)->___z_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4484));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_483 = V_71;
 		float L_484 = L_483.___x_2;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_485 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4485));
 		NullCheck(L_485);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_486;
 		L_486 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_485, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4485));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4486));
 		NullCheck(L_486);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_487;
 		L_487 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_486, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4486));
 		V_94 = L_487;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4487));
 		float L_488;
 		L_488 = GlyphMetrics_get_width_m0F9F391E3A98984167E8001D4101BE1CE9354D13((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4487));
 		float L_489 = V_3;
 		float L_490 = V_68;
 		float L_491 = V_2;
 		float L_492 = __this->___m_CharWidthAdjDelta_77;
 		(&V_72)->___x_2 = ((float)il2cpp_codegen_add(L_484, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_488, ((float)il2cpp_codegen_multiply(L_489, (2.0f))))), ((float)il2cpp_codegen_multiply(L_490, (2.0f))))), L_491)), ((float)il2cpp_codegen_subtract((1.0f), L_492))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4488));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_493 = V_70;
 		float L_494 = L_493.___y_3;
 		(&V_72)->___y_3 = L_494;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4489));
 		(&V_72)->___z_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4490));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_495 = V_72;
 		float L_496 = L_495.___x_2;
 		(&V_73)->___x_2 = L_496;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4491));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_497 = V_71;
 		float L_498 = L_497.___y_3;
 		(&V_73)->___y_3 = L_498;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4492));
 		(&V_73)->___z_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4493));
 		uint8_t L_499 = __this->___m_TextElementType_71;
 		if ((!(((uint32_t)L_499) == ((uint32_t)1))))
 		{
@@ -5265,6 +5878,7 @@ IL_0f77:
 IL_0f78:
 	{
 		V_120 = (bool)G_B94_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4494));
 		bool L_502 = V_120;
 		if (!L_502)
 		{
@@ -5272,77 +5886,120 @@ IL_0f78:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4495));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4496));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_503 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4497));
 		NullCheck(L_503);
 		uint8_t L_504;
 		L_504 = FontAsset_get_italicStyleSlant_m69E70060C6E7940B4ACE61F2B7CB8965F86DA96B(L_503, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4497));
 		V_121 = ((float)il2cpp_codegen_multiply(((float)L_504), (0.00999999978f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4498));
 		float L_505 = V_121;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_506 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4499));
 		NullCheck(L_506);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_507;
 		L_507 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_506, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4499));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4500));
 		NullCheck(L_507);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_508;
 		L_508 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_507, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4500));
 		V_94 = L_508;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4501));
 		float L_509;
 		L_509 = GlyphMetrics_get_horizontalBearingY_mD316BDD38A32258256994D6A2BCF0FC051D9B223((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4501));
 		float L_510 = V_3;
 		float L_511 = V_68;
 		float L_512 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4502));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_122), ((float)il2cpp_codegen_multiply(L_505, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_509, L_510)), L_511)), L_512)))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4502));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4503));
 		float L_513 = V_121;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_514 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4504));
 		NullCheck(L_514);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_515;
 		L_515 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_514, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4504));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4505));
 		NullCheck(L_515);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_516;
 		L_516 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_515, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4505));
 		V_94 = L_516;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4506));
 		float L_517;
 		L_517 = GlyphMetrics_get_horizontalBearingY_mD316BDD38A32258256994D6A2BCF0FC051D9B223((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4506));
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_518 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4507));
 		NullCheck(L_518);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_519;
 		L_519 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_518, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4507));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4508));
 		NullCheck(L_519);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_520;
 		L_520 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_519, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4508));
 		V_94 = L_520;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4509));
 		float L_521;
 		L_521 = GlyphMetrics_get_height_mE0872B23CE1A20BF78DEACDBD53BAF789D84AD5C((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4509));
 		float L_522 = V_3;
 		float L_523 = V_68;
 		float L_524 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4510));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_123), ((float)il2cpp_codegen_multiply(L_513, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_517, L_521)), L_522)), L_523)), L_524)))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4510));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4511));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_525 = V_70;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_526 = V_122;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4512));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_527;
 		L_527 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_525, L_526, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4512));
 		V_70 = L_527;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4513));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_528 = V_71;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_529 = V_123;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4514));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_530;
 		L_530 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_528, L_529, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4514));
 		V_71 = L_530;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4515));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_531 = V_72;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_532 = V_122;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4516));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_533;
 		L_533 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_531, L_532, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4516));
 		V_72 = L_533;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4517));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_534 = V_73;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_535 = V_123;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4518));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_536;
 		L_536 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_534, L_535, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4518));
 		V_73 = L_536;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4519));
 	}
 
 IL_1045:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4520));
 		bool L_537 = __this->___m_IsFxMatrixSet_38;
 		V_124 = L_537;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4521));
 		bool L_538 = V_124;
 		if (!L_538)
 		{
@@ -5350,61 +6007,97 @@ IL_1045:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4522));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4523));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_539 = V_72;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_540 = V_71;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4524));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_541;
 		L_541 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_539, L_540, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4524));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4525));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_542;
 		L_542 = Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline(L_541, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4525));
 		V_125 = L_542;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4526));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_543 = (&__this->___m_FxMatrix_78);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_544 = V_70;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_545 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4527));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_546;
 		L_546 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_544, L_545, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4527));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4528));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_547;
 		L_547 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_543, L_546, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4528));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_548 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4529));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_549;
 		L_549 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_547, L_548, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4529));
 		V_70 = L_549;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4530));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_550 = (&__this->___m_FxMatrix_78);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_551 = V_71;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_552 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4531));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_553;
 		L_553 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_551, L_552, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4531));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4532));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_554;
 		L_554 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_550, L_553, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4532));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_555 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4533));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_556;
 		L_556 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_554, L_555, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4533));
 		V_71 = L_556;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4534));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_557 = (&__this->___m_FxMatrix_78);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_558 = V_72;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_559 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4535));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_560;
 		L_560 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_558, L_559, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4535));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4536));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_561;
 		L_561 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_557, L_560, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4536));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_562 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4537));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_563;
 		L_563 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_561, L_562, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4537));
 		V_72 = L_563;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4538));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_564 = (&__this->___m_FxMatrix_78);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_565 = V_73;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_566 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4539));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_567;
 		L_567 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_565, L_566, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4539));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4540));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_568;
 		L_568 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814(L_564, L_567, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4540));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_569 = V_125;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4541));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_570;
 		L_570 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_568, L_569, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4541));
 		V_73 = L_570;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4542));
 	}
 
 IL_10df:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4543));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_571 = ___textInfo1;
 		NullCheck(L_571);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_572 = L_571->___textElementInfo_10;
@@ -5412,6 +6105,7 @@ IL_10df:
 		NullCheck(L_572);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_574 = V_71;
 		((L_572)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_573)))->___bottomLeft_19 = L_574;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4544));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_575 = ___textInfo1;
 		NullCheck(L_575);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_576 = L_575->___textElementInfo_10;
@@ -5419,6 +6113,7 @@ IL_10df:
 		NullCheck(L_576);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_578 = V_70;
 		((L_576)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_577)))->___topLeft_18 = L_578;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4545));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_579 = ___textInfo1;
 		NullCheck(L_579);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_580 = L_579->___textElementInfo_10;
@@ -5426,6 +6121,7 @@ IL_10df:
 		NullCheck(L_580);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_582 = V_72;
 		((L_580)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_581)))->___topRight_20 = L_582;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4546));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_583 = ___textInfo1;
 		NullCheck(L_583);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_584 = L_583->___textElementInfo_10;
@@ -5433,6 +6129,7 @@ IL_10df:
 		NullCheck(L_584);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_586 = V_73;
 		((L_584)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_585)))->___bottomRight_21 = L_586;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4547));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_587 = ___textInfo1;
 		NullCheck(L_587);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_588 = L_587->___textElementInfo_10;
@@ -5440,6 +6137,7 @@ IL_10df:
 		NullCheck(L_588);
 		float L_590 = __this->___m_XAdvance_43;
 		((L_588)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_589)))->___origin_22 = L_590;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4548));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_591 = ___textInfo1;
 		NullCheck(L_591);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_592 = L_591->___textElementInfo_10;
@@ -5449,6 +6147,7 @@ IL_10df:
 		float L_595 = __this->___m_LineOffset_39;
 		float L_596 = __this->___m_BaselineOffset_25;
 		((L_592)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_593)))->___baseLine_24 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_594, L_595)), L_596));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4549));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_597 = ___textInfo1;
 		NullCheck(L_597);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_598 = L_597->___textElementInfo_10;
@@ -5463,13 +6162,18 @@ IL_10df:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_606 = V_71;
 		float L_607 = L_606.___y_3;
 		((L_598)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_599)))->___aspectRatio_27 = ((float)(((float)il2cpp_codegen_subtract(L_601, L_603))/((float)il2cpp_codegen_subtract(L_605, L_607))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4550));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_608 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4551));
 		NullCheck(L_608);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_609;
 		L_609 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_608, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4551));
 		V_57 = L_609;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4552));
 		float L_610;
 		L_610 = FaceInfo_get_ascentLine_m193755D649428EC24A7E433A1728F11DA7547ABD((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4552));
 		uint8_t L_611 = __this->___m_TextElementType_71;
 		G_B99_0 = L_610;
 		if ((((int32_t)L_611) == ((int32_t)1)))
@@ -5502,6 +6206,7 @@ IL_11ef:
 	{
 		float L_618 = __this->___m_BaselineOffset_25;
 		V_74 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(G_B101_1, G_B101_0)), L_618));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4553));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_619 = ___textInfo1;
 		NullCheck(L_619);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_620 = L_619->___textElementInfo_10;
@@ -5510,6 +6215,7 @@ IL_11ef:
 		float L_622 = V_74;
 		float L_623 = __this->___m_LineOffset_39;
 		((L_620)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_621)))->___ascender_23 = ((float)il2cpp_codegen_subtract(L_622, L_623));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4554));
 		float L_624 = V_74;
 		float L_625 = __this->___m_MaxLineAscender_53;
 		G_B102_0 = __this;
@@ -5537,13 +6243,18 @@ IL_122d:
 	{
 		NullCheck(G_B104_1);
 		G_B104_1->___m_MaxLineAscender_53 = G_B104_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4555));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_628 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4556));
 		NullCheck(L_628);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_629;
 		L_629 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_628, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4556));
 		V_57 = L_629;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4557));
 		float L_630;
 		L_630 = FaceInfo_get_descentLine_m811A243C9B328B0C546BF9927A010A05DF172BD3((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4557));
 		uint8_t L_631 = __this->___m_TextElementType_71;
 		G_B105_0 = L_630;
 		if ((((int32_t)L_631) == ((int32_t)1)))
@@ -5576,6 +6287,7 @@ IL_126b:
 	{
 		float L_638 = __this->___m_BaselineOffset_25;
 		V_75 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(G_B107_1, G_B107_0)), L_638));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4558));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_639 = ___textInfo1;
 		NullCheck(L_639);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_640 = L_639->___textElementInfo_10;
@@ -5588,6 +6300,7 @@ IL_126b:
 		((L_640)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_641)))->___descender_25 = L_644;
 		float L_645 = V_58;
 		V_76 = L_645;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4559));
 		float L_646 = V_75;
 		float L_647 = __this->___m_MaxLineDescender_54;
 		G_B108_0 = __this;
@@ -5615,6 +6328,7 @@ IL_12b0:
 	{
 		NullCheck(G_B110_1);
 		G_B110_1->___m_MaxLineDescender_54 = G_B110_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4560));
 		int32_t L_650 = __this->___m_FontStyleInternal_19;
 		if ((((int32_t)((int32_t)((int32_t)L_650&((int32_t)256)))) == ((int32_t)((int32_t)256))))
 		{
@@ -5635,6 +6349,7 @@ IL_12dd:
 IL_12de:
 	{
 		V_126 = (bool)G_B113_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4561));
 		bool L_652 = V_126;
 		if (!L_652)
 		{
@@ -5642,18 +6357,26 @@ IL_12de:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4562));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4563));
 		float L_653 = V_74;
 		float L_654 = __this->___m_BaselineOffset_25;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_655 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4564));
 		NullCheck(L_655);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_656;
 		L_656 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_655, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4564));
 		V_57 = L_656;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4565));
 		float L_657;
 		L_657 = FaceInfo_get_subscriptSize_mF6264BFB215FDE6C94A45D2F8FC946ADFCDD2E31((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4565));
 		V_127 = ((float)(((float)il2cpp_codegen_subtract(L_653, L_654))/L_657));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4566));
 		float L_658 = __this->___m_MaxLineAscender_53;
 		V_74 = L_658;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4567));
 		float L_659 = V_127;
 		float L_660 = __this->___m_MaxLineAscender_53;
 		G_B115_0 = __this;
@@ -5681,18 +6404,25 @@ IL_1325:
 	{
 		NullCheck(G_B117_1);
 		G_B117_1->___m_MaxLineAscender_53 = G_B117_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4568));
 		float L_663 = V_75;
 		float L_664 = __this->___m_BaselineOffset_25;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_665 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4569));
 		NullCheck(L_665);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_666;
 		L_666 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_665, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4569));
 		V_57 = L_666;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4570));
 		float L_667;
 		L_667 = FaceInfo_get_subscriptSize_mF6264BFB215FDE6C94A45D2F8FC946ADFCDD2E31((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4570));
 		V_128 = ((float)(((float)il2cpp_codegen_subtract(L_663, L_664))/L_667));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4571));
 		float L_668 = __this->___m_MaxLineDescender_54;
 		V_75 = L_668;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4572));
 		float L_669 = V_128;
 		float L_670 = __this->___m_MaxLineDescender_54;
 		G_B118_0 = __this;
@@ -5720,10 +6450,12 @@ IL_1367:
 	{
 		NullCheck(G_B120_1);
 		G_B120_1->___m_MaxLineDescender_54 = G_B120_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4573));
 	}
 
 IL_136d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4574));
 		int32_t L_673 = __this->___m_LineNumber_55;
 		if (!L_673)
 		{
@@ -5744,6 +6476,7 @@ IL_137d:
 IL_137e:
 	{
 		V_129 = (bool)G_B124_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4575));
 		bool L_675 = V_129;
 		if (!L_675)
 		{
@@ -5751,6 +6484,8 @@ IL_137e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4576));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4577));
 		float L_676 = __this->___m_MaxAscender_64;
 		float L_677 = V_74;
 		G_B126_0 = __this;
@@ -5778,25 +6513,35 @@ IL_139a:
 	{
 		NullCheck(G_B128_1);
 		G_B128_1->___m_MaxAscender_64 = G_B128_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4578));
 		float L_680 = __this->___m_MaxCapHeight_63;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_681 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4579));
 		NullCheck(L_681);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_682;
 		L_682 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_681, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4579));
 		V_57 = L_682;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4580));
 		float L_683;
 		L_683 = FaceInfo_get_capLine_m0D95B5D5CEC5CFB12091F5EB5965DE6E38588C88((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4580));
 		float L_684 = V_2;
 		float L_685 = V_63;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4581));
 		float L_686;
 		L_686 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_680, ((float)(((float)il2cpp_codegen_multiply(L_683, L_684))/L_685)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4581));
 		__this->___m_MaxCapHeight_63 = L_686;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4582));
 	}
 
 IL_13ca:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4583));
 		float L_687 = __this->___m_LineOffset_39;
 		V_130 = (bool)((((float)L_687) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4584));
 		bool L_688 = V_130;
 		if (!L_688)
 		{
@@ -5804,6 +6549,7 @@ IL_13ca:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4585));
 		float L_689 = V_24;
 		float L_690 = V_74;
 		if ((((float)L_689) > ((float)L_690)))
@@ -5830,12 +6576,14 @@ IL_13e9:
 
 IL_13eb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4586));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_693 = ___textInfo1;
 		NullCheck(L_693);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_694 = L_693->___textElementInfo_10;
 		int32_t L_695 = __this->___m_CharacterCount_48;
 		NullCheck(L_694);
 		((L_694)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_695)))->___isVisible_34 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4587));
 		int32_t L_696 = V_60;
 		if ((((int32_t)L_696) == ((int32_t)((int32_t)9))))
 		{
@@ -5858,9 +6606,11 @@ IL_13eb:
 	}
 	{
 		int32_t L_699 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4588));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_700;
 		L_700 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(((int32_t)(uint16_t)L_699), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4588));
 		if (L_700)
 		{
 			goto IL_142d;
@@ -5889,6 +6639,7 @@ IL_1438:
 IL_1439:
 	{
 		V_131 = (bool)G_B141_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4589));
 		bool L_703 = V_131;
 		if (!L_703)
 		{
@@ -5896,12 +6647,15 @@ IL_1439:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4590));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4591));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_704 = ___textInfo1;
 		NullCheck(L_704);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_705 = L_704->___textElementInfo_10;
 		int32_t L_706 = __this->___m_CharacterCount_48;
 		NullCheck(L_705);
 		((L_705)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_706)))->___isVisible_34 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4592));
 		float L_707 = __this->___m_Width_61;
 		if ((!(((float)L_707) == ((float)(-1.0f)))))
 		{
@@ -5922,14 +6676,17 @@ IL_147f:
 		float L_712 = __this->___m_MarginLeft_59;
 		float L_713 = __this->___m_MarginRight_60;
 		float L_714 = __this->___m_Width_61;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4593));
 		float L_715;
 		L_715 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_711, (9.99999975E-05f))), L_712)), L_713)), L_714, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4593));
 		G_B145_0 = L_715;
 	}
 
 IL_14a0:
 	{
 		V_22 = G_B145_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4594));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_716 = ___textInfo1;
 		NullCheck(L_716);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_717 = L_716->___lineInfo_13;
@@ -5937,6 +6694,7 @@ IL_14a0:
 		NullCheck(L_717);
 		float L_719 = __this->___m_MarginLeft_59;
 		((L_717)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_718)))->___marginLeft_17 = L_719;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4595));
 		int32_t L_720 = __this->___m_LineJustification_23;
 		if ((((int32_t)((int32_t)((int32_t)L_720&((int32_t)16)))) == ((int32_t)((int32_t)16))))
 		{
@@ -5957,9 +6715,12 @@ IL_14d8:
 IL_14d9:
 	{
 		V_132 = (bool)G_B148_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4596));
 		float L_722 = __this->___m_XAdvance_43;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4597));
 		float L_723;
 		L_723 = fabsf(L_722);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4597));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_724 = ___generationSettings0;
 		NullCheck(L_724);
 		bool L_725 = L_724->___isRightToLeft_24;
@@ -5979,15 +6740,21 @@ IL_14d9:
 IL_14f5:
 	{
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_726 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4598));
 		NullCheck(L_726);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_727;
 		L_727 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_726, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4598));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4599));
 		NullCheck(L_727);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_728;
 		L_728 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_727, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4599));
 		V_94 = L_728;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4600));
 		float L_729;
 		L_729 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4600));
 		G_B151_0 = L_729;
 		G_B151_1 = G_B150_0;
 	}
@@ -6024,6 +6791,7 @@ IL_1528:
 IL_1529:
 	{
 		V_133 = ((float)il2cpp_codegen_add(G_B154_2, ((float)il2cpp_codegen_multiply(G_B154_1, G_B154_0))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4601));
 		float L_734 = V_133;
 		float L_735 = V_22;
 		bool L_736 = V_132;
@@ -6053,6 +6821,7 @@ IL_153c:
 IL_1541:
 	{
 		V_134 = (bool)((((float)G_B157_2) > ((float)((float)il2cpp_codegen_multiply(G_B157_1, G_B157_0))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4602));
 		bool L_737 = V_134;
 		if (!L_737)
 		{
@@ -6060,8 +6829,11 @@ IL_1541:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4603));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4604));
 		int32_t L_738 = __this->___m_CharacterCount_48;
 		V_18 = ((int32_t)il2cpp_codegen_subtract(L_738, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4605));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_739 = ___generationSettings0;
 		NullCheck(L_739);
 		bool L_740 = L_739->___wordWrap_12;
@@ -6085,6 +6857,7 @@ IL_1573:
 IL_1574:
 	{
 		V_135 = (bool)G_B161_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4606));
 		bool L_743 = V_135;
 		if (!L_743)
 		{
@@ -6092,11 +6865,14 @@ IL_1574:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4607));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4608));
 		int32_t L_744 = V_30;
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_745 = (&__this->___m_SavedWordWrapState_68);
 		int32_t L_746 = L_745->___previousWordBreak_0;
 		bool L_747 = V_27;
 		V_138 = (bool)((int32_t)(((((int32_t)L_744) == ((int32_t)L_746))? 1 : 0)|(int32_t)L_747));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4609));
 		bool L_748 = V_138;
 		if (!L_748)
 		{
@@ -6104,6 +6880,8 @@ IL_1574:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4610));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4611));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_749 = ___generationSettings0;
 		NullCheck(L_749);
 		bool L_750 = L_749->___autoSize_19;
@@ -6129,6 +6907,7 @@ IL_15b2:
 IL_15b3:
 	{
 		V_139 = (bool)G_B166_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4612));
 		bool L_754 = V_139;
 		if (!L_754)
 		{
@@ -6136,11 +6915,14 @@ IL_15b3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4613));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4614));
 		float L_755 = __this->___m_CharWidthAdjDelta_77;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_756 = ___generationSettings0;
 		NullCheck(L_756);
 		float L_757 = L_756->___charWidthMaxAdj_44;
 		V_140 = (bool)((((float)L_755) < ((float)((float)(L_757/(100.0f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4615));
 		bool L_758 = V_140;
 		if (!L_758)
 		{
@@ -6148,34 +6930,50 @@ IL_15b3:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4616));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4617));
 		__this->___m_LoopCountA_70 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4618));
 		float L_759 = __this->___m_CharWidthAdjDelta_77;
 		__this->___m_CharWidthAdjDelta_77 = ((float)il2cpp_codegen_add(L_759, (0.00999999978f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4619));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_760 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_761 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4620));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_760, L_761, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4620));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4621));
 		goto IL_6c5c;
 	}
 
 IL_15ff:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4622));
 		float L_762 = __this->___m_FontSize_15;
 		__this->___m_MaxFontSize_79 = L_762;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4623));
 		float L_763 = __this->___m_FontSize_15;
 		float L_764 = __this->___m_FontSize_15;
 		float L_765 = __this->___m_MinFontSize_80;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4624));
 		float L_766;
 		L_766 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(((float)(((float)il2cpp_codegen_subtract(L_764, L_765))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4624));
 		__this->___m_FontSize_15 = ((float)il2cpp_codegen_subtract(L_763, L_766));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4625));
 		float L_767 = __this->___m_FontSize_15;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_768 = ___generationSettings0;
 		NullCheck(L_768);
 		float L_769 = L_768->___fontSizeMin_20;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4626));
 		float L_770;
 		L_770 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_767, L_769, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4626));
 		__this->___m_FontSize_15 = ((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_770, (20.0f))), (0.5f)))))/(20.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4627));
 		int32_t L_771 = __this->___m_LoopCountA_70;
 		V_141 = (bool)((((int32_t)L_771) > ((int32_t)((int32_t)20)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4628));
 		bool L_772 = V_141;
 		if (!L_772)
 		{
@@ -6183,21 +6981,29 @@ IL_15ff:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4629));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4630));
 		goto IL_6c5c;
 	}
 
 IL_1676:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4631));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_773 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_774 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4632));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_773, L_774, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4632));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4633));
 		goto IL_6c5c;
 	}
 
 IL_1684:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4634));
 		bool L_775 = __this->___m_IsCharacterWrappingEnabled_81;
 		V_142 = (bool)((((int32_t)L_775) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4635));
 		bool L_776 = V_142;
 		if (!L_776)
 		{
@@ -6205,8 +7011,11 @@ IL_1684:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4636));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4637));
 		bool L_777 = V_28;
 		V_143 = (bool)((((int32_t)L_777) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4638));
 		bool L_778 = V_143;
 		if (!L_778)
 		{
@@ -6214,44 +7023,57 @@ IL_1684:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4639));
 		V_28 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4640));
 		goto IL_16ab;
 	}
 
 IL_16a4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4641));
 		__this->___m_IsCharacterWrappingEnabled_81 = (bool)1;
 	}
 
 IL_16ab:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4642));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4643));
 		goto IL_16b1;
 	}
 
 IL_16ae:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4644));
 		V_29 = (bool)1;
 	}
 
 IL_16b1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4645));
 	}
 
 IL_16b2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4646));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_779 = (&__this->___m_SavedWordWrapState_68);
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_780 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4647));
 		int32_t L_781;
 		L_781 = TextGenerator_RestoreWordWrappingState_mA63B3DD2C02E61CD8670A32A53163AF6BF765F61(__this, L_779, L_780, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4647));
 		V_59 = L_781;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4648));
 		int32_t L_782 = V_59;
 		V_30 = L_782;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4649));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_783 = __this->___m_CharBuffer_4;
 		int32_t L_784 = V_59;
 		NullCheck(L_783);
 		int32_t L_785 = L_784;
 		int32_t L_786 = (L_783)->GetAt(static_cast<il2cpp_array_size_t>(L_785));
 		V_144 = (bool)((((int32_t)L_786) == ((int32_t)((int32_t)173)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4650));
 		bool L_787 = V_144;
 		if (!L_787)
 		{
@@ -6259,18 +7081,25 @@ IL_16b2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4651));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4652));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_788 = __this->___m_CharBuffer_4;
 		int32_t L_789 = V_59;
 		NullCheck(L_788);
 		(L_788)->SetAt(static_cast<il2cpp_array_size_t>(L_789), (int32_t)((int32_t)45));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4653));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_790 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_791 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4654));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_790, L_791, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4654));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4655));
 		goto IL_6c5c;
 	}
 
 IL_16f5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4656));
 		int32_t L_792 = __this->___m_LineNumber_55;
 		if ((((int32_t)L_792) <= ((int32_t)0)))
 		{
@@ -6280,9 +7109,11 @@ IL_16f5:
 	{
 		float L_793 = __this->___m_MaxLineAscender_53;
 		float L_794 = __this->___m_StartOfLineAscender_82;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4657));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		bool L_795;
 		L_795 = TextGeneratorUtilities_Approximately_m2333A8491C1BBC4F26738A240A7AA9E699508E6D(L_793, L_794, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4657));
 		if (L_795)
 		{
 			goto IL_1729;
@@ -6309,6 +7140,7 @@ IL_1729:
 IL_172a:
 	{
 		V_145 = (bool)G_B186_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4658));
 		bool L_798 = V_145;
 		if (!L_798)
 		{
@@ -6316,35 +7148,48 @@ IL_172a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4659));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4660));
 		float L_799 = __this->___m_MaxLineAscender_53;
 		float L_800 = __this->___m_StartOfLineAscender_82;
 		V_146 = ((float)il2cpp_codegen_subtract(L_799, L_800));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4661));
 		int32_t L_801 = __this->___m_FirstCharacterOfLine_49;
 		int32_t L_802 = __this->___m_CharacterCount_48;
 		float L_803 = V_146;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_804 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4662));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_AdjustLineOffset_m9B686B22546C23700D8611CBA140B5EEB0527229(L_801, L_802, L_803, L_804, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4662));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4663));
 		float L_805 = __this->___m_LineOffset_39;
 		float L_806 = V_146;
 		__this->___m_LineOffset_39 = ((float)il2cpp_codegen_add(L_805, L_806));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4664));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_807 = (&__this->___m_SavedWordWrapState_68);
 		float L_808 = __this->___m_LineOffset_39;
 		L_807->___lineOffset_26 = L_808;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4665));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_809 = (&__this->___m_SavedWordWrapState_68);
 		float L_810 = __this->___m_MaxLineAscender_53;
 		L_809->___previousLineAscender_15 = L_810;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4666));
 	}
 
 IL_1787:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4667));
 		__this->___m_IsNewPage_66 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4668));
 		float L_811 = __this->___m_MaxLineAscender_53;
 		float L_812 = __this->___m_LineOffset_39;
 		V_136 = ((float)il2cpp_codegen_subtract(L_811, L_812));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4669));
 		float L_813 = __this->___m_MaxLineDescender_54;
 		float L_814 = __this->___m_LineOffset_39;
 		V_137 = ((float)il2cpp_codegen_subtract(L_813, L_814));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4670));
 		float L_815 = __this->___m_MaxDescender_65;
 		float L_816 = V_137;
 		G_B189_0 = __this;
@@ -6372,8 +7217,10 @@ IL_17c1:
 	{
 		NullCheck(G_B191_1);
 		G_B191_1->___m_MaxDescender_65 = G_B191_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4671));
 		bool L_819 = V_26;
 		V_147 = (bool)((((int32_t)L_819) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4672));
 		bool L_820 = V_147;
 		if (!L_820)
 		{
@@ -6381,12 +7228,14 @@ IL_17c1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4673));
 		float L_821 = __this->___m_MaxDescender_65;
 		V_25 = L_821;
 	}
 
 IL_17d9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4674));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_822 = ___generationSettings0;
 		NullCheck(L_822);
 		bool L_823 = L_822->___useMaxVisibleDescender_36;
@@ -6433,6 +7282,7 @@ IL_1805:
 IL_1806:
 	{
 		V_148 = (bool)G_B199_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4675));
 		bool L_830 = V_148;
 		if (!L_830)
 		{
@@ -6440,11 +7290,13 @@ IL_1806:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4676));
 		V_26 = (bool)1;
 	}
 
 IL_180f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4677));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_831 = ___textInfo1;
 		NullCheck(L_831);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_832 = L_831->___lineInfo_13;
@@ -6452,6 +7304,7 @@ IL_180f:
 		NullCheck(L_832);
 		int32_t L_834 = __this->___m_FirstCharacterOfLine_49;
 		((L_832)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_833)))->___firstCharacterIndex_6 = L_834;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4678));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_835 = ___textInfo1;
 		NullCheck(L_835);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_836 = L_835->___lineInfo_13;
@@ -6492,6 +7345,7 @@ IL_1859:
 		G_B204_1->___m_FirstVisibleCharacterOfLine_51 = L_842;
 		int32_t L_843 = V_149;
 		G_B204_2->___firstVisibleCharacterIndex_7 = L_843;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4679));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_844 = ___textInfo1;
 		NullCheck(L_844);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_845 = L_844->___lineInfo_13;
@@ -6530,6 +7384,7 @@ IL_1890:
 		G_B207_1->___m_LastCharacterOfLine_50 = L_849;
 		int32_t L_850 = V_149;
 		G_B207_2->___lastCharacterIndex_8 = L_850;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4680));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_851 = ___textInfo1;
 		NullCheck(L_851);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_852 = L_851->___lineInfo_13;
@@ -6570,6 +7425,7 @@ IL_18cd:
 		G_B210_1->___m_LastVisibleCharacterOfLine_52 = L_858;
 		int32_t L_859 = V_149;
 		G_B210_2->___lastVisibleCharacterIndex_9 = L_859;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4681));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_860 = ___textInfo1;
 		NullCheck(L_860);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_861 = L_860->___lineInfo_13;
@@ -6588,6 +7444,7 @@ IL_18cd:
 		NullCheck(L_868);
 		int32_t L_870 = ((L_868)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_869)))->___firstCharacterIndex_6;
 		((L_861)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_862)))->___characterCount_1 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_866, L_870)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4682));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_871 = ___textInfo1;
 		NullCheck(L_871);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_872 = L_871->___lineInfo_13;
@@ -6595,6 +7452,7 @@ IL_18cd:
 		NullCheck(L_872);
 		int32_t L_874 = __this->___m_LineVisibleCharacterCount_56;
 		((L_872)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_873)))->___visibleCharacterCount_2 = L_874;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4683));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_875 = ___textInfo1;
 		NullCheck(L_875);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_876 = L_875->___lineInfo_13;
@@ -6609,10 +7467,13 @@ IL_18cd:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_882 = (&((L_880)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_881)))->___bottomLeft_19);
 		float L_883 = L_882->___x_2;
 		float L_884 = V_137;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4684));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_885;
 		memset((&L_885), 0, sizeof(L_885));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_885), L_883, L_884, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4684));
 		L_878->___min_0 = L_885;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4685));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_886 = ___textInfo1;
 		NullCheck(L_886);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_887 = L_886->___lineInfo_13;
@@ -6627,10 +7488,13 @@ IL_18cd:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_893 = (&((L_891)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_892)))->___topRight_20);
 		float L_894 = L_893->___x_2;
 		float L_895 = V_136;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4686));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_896;
 		memset((&L_896), 0, sizeof(L_896));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_896), L_894, L_895, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4686));
 		L_889->___max_1 = L_896;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4687));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_897 = ___textInfo1;
 		NullCheck(L_897);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_898 = L_897->___lineInfo_13;
@@ -6645,6 +7509,7 @@ IL_18cd:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_904 = (&L_903->___max_1);
 		float L_905 = L_904->___x_0;
 		((L_898)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_899)))->___length_10 = L_905;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4688));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_906 = ___textInfo1;
 		NullCheck(L_906);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_907 = L_906->___lineInfo_13;
@@ -6652,6 +7517,7 @@ IL_18cd:
 		NullCheck(L_907);
 		float L_909 = V_22;
 		((L_907)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_908)))->___width_16 = L_909;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4689));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_910 = ___textInfo1;
 		NullCheck(L_910);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_911 = L_910->___lineInfo_13;
@@ -6667,12 +7533,15 @@ IL_18cd:
 		NullCheck(L_917);
 		float L_918 = L_917->___characterSpacing_27;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_919 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4690));
 		NullCheck(L_919);
 		float L_920;
 		L_920 = FontAsset_get_regularStyleSpacing_mB7EEEA236312F5AC31FD3B787808279206F521B1(L_919, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4690));
 		float L_921 = V_2;
 		float L_922 = __this->___m_CSpacing_41;
 		((L_911)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_912)))->___maxAdvance_15 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_916, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_918, L_920)), L_921)))), L_922));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4691));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_923 = ___textInfo1;
 		NullCheck(L_923);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_924 = L_923->___lineInfo_13;
@@ -6680,6 +7549,7 @@ IL_18cd:
 		NullCheck(L_924);
 		float L_926 = __this->___m_LineOffset_39;
 		((L_924)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_925)))->___baseline_13 = ((float)il2cpp_codegen_subtract((0.0f), L_926));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4692));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_927 = ___textInfo1;
 		NullCheck(L_927);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_928 = L_927->___lineInfo_13;
@@ -6687,6 +7557,7 @@ IL_18cd:
 		NullCheck(L_928);
 		float L_930 = V_136;
 		((L_928)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_929)))->___ascender_12 = L_930;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4693));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_931 = ___textInfo1;
 		NullCheck(L_931);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_932 = L_931->___lineInfo_13;
@@ -6694,6 +7565,7 @@ IL_18cd:
 		NullCheck(L_932);
 		float L_934 = V_137;
 		((L_932)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_933)))->___descender_14 = L_934;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4694));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_935 = ___textInfo1;
 		NullCheck(L_935);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_936 = L_935->___lineInfo_13;
@@ -6704,24 +7576,34 @@ IL_18cd:
 		float L_940 = V_14;
 		float L_941 = V_1;
 		((L_936)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_937)))->___lineHeight_11 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_938, L_939)), ((float)il2cpp_codegen_multiply(L_940, L_941))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4695));
 		int32_t L_942 = __this->___m_CharacterCount_48;
 		__this->___m_FirstCharacterOfLine_49 = L_942;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4696));
 		__this->___m_LineVisibleCharacterCount_56 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4697));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_943 = (&__this->___m_SavedLineState_69);
 		int32_t L_944 = V_59;
 		int32_t L_945 = __this->___m_CharacterCount_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_946 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4698));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_943, L_944, ((int32_t)il2cpp_codegen_subtract(L_945, 1)), L_946, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4698));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4699));
 		int32_t L_947 = __this->___m_LineNumber_55;
 		__this->___m_LineNumber_55 = ((int32_t)il2cpp_codegen_add(L_947, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4700));
 		V_15 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4701));
 		V_27 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4702));
 		int32_t L_948 = __this->___m_LineNumber_55;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_949 = ___textInfo1;
 		NullCheck(L_949);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_950 = L_949->___lineInfo_13;
 		NullCheck(L_950);
 		V_150 = (bool)((((int32_t)((((int32_t)L_948) < ((int32_t)((int32_t)(((RuntimeArray*)L_950)->max_length))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4703));
 		bool L_951 = V_150;
 		if (!L_951)
 		{
@@ -6729,16 +7611,21 @@ IL_18cd:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4704));
 		int32_t L_952 = __this->___m_LineNumber_55;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_953 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4705));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_ResizeLineExtents_m31C939F88EAEDD9CA7475304E55550A3FE98CD19(L_952, L_953, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4705));
 	}
 
 IL_1b24:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4706));
 		float L_954 = __this->___m_LineHeight_40;
 		V_151 = (bool)((((float)L_954) == ((float)(-32767.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4707));
 		bool L_955 = V_151;
 		if (!L_955)
 		{
@@ -6746,6 +7633,8 @@ IL_1b24:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4708));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4709));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_956 = ___textInfo1;
 		NullCheck(L_956);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_957 = L_956->___textElementInfo_10;
@@ -6759,6 +7648,7 @@ IL_1b24:
 		NullCheck(L_961);
 		float L_963 = ((L_961)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_962)))->___baseLine_24;
 		V_152 = ((float)il2cpp_codegen_subtract(L_959, L_963));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4710));
 		float L_964 = __this->___m_MaxLineDescender_54;
 		float L_965 = V_152;
 		float L_966 = V_14;
@@ -6768,16 +7658,21 @@ IL_1b24:
 		float L_969 = __this->___m_LineSpacingDelta_83;
 		float L_970 = V_1;
 		V_77 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), L_964)), L_965)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_966, L_968)), L_969)), L_970))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4711));
 		float L_971 = __this->___m_LineOffset_39;
 		float L_972 = V_77;
 		__this->___m_LineOffset_39 = ((float)il2cpp_codegen_add(L_971, L_972));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4712));
 		float L_973 = V_152;
 		__this->___m_StartOfLineAscender_82 = L_973;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4713));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4714));
 		goto IL_1bc1;
 	}
 
 IL_1ba5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4715));
 		float L_974 = __this->___m_LineOffset_39;
 		float L_975 = __this->___m_LineHeight_40;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_976 = ___generationSettings0;
@@ -6789,15 +7684,20 @@ IL_1ba5:
 
 IL_1bc1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4716));
 		__this->___m_MaxLineAscender_53 = (-32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4717));
 		__this->___m_MaxLineDescender_54 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4718));
 		float L_979 = __this->___m_TagIndent_45;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add((0.0f), L_979));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4719));
 		goto IL_329d;
 	}
 
 IL_1bee:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4720));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_980 = ___generationSettings0;
 		NullCheck(L_980);
 		bool L_981 = L_980->___autoSize_19;
@@ -6823,6 +7723,7 @@ IL_1c06:
 IL_1c07:
 	{
 		V_153 = (bool)G_B219_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4721));
 		bool L_985 = V_153;
 		if (!L_985)
 		{
@@ -6830,11 +7731,14 @@ IL_1c07:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4722));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4723));
 		float L_986 = __this->___m_CharWidthAdjDelta_77;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_987 = ___generationSettings0;
 		NullCheck(L_987);
 		float L_988 = L_987->___charWidthMaxAdj_44;
 		V_154 = (bool)((((float)L_986) < ((float)((float)(L_988/(100.0f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4724));
 		bool L_989 = V_154;
 		if (!L_989)
 		{
@@ -6842,34 +7746,50 @@ IL_1c07:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4725));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4726));
 		__this->___m_LoopCountA_70 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4727));
 		float L_990 = __this->___m_CharWidthAdjDelta_77;
 		__this->___m_CharWidthAdjDelta_77 = ((float)il2cpp_codegen_add(L_990, (0.00999999978f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4728));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_991 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_992 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4729));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_991, L_992, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4729));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4730));
 		goto IL_6c5c;
 	}
 
 IL_1c53:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4731));
 		float L_993 = __this->___m_FontSize_15;
 		__this->___m_MaxFontSize_79 = L_993;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4732));
 		float L_994 = __this->___m_FontSize_15;
 		float L_995 = __this->___m_FontSize_15;
 		float L_996 = __this->___m_MinFontSize_80;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4733));
 		float L_997;
 		L_997 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(((float)(((float)il2cpp_codegen_subtract(L_995, L_996))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4733));
 		__this->___m_FontSize_15 = ((float)il2cpp_codegen_subtract(L_994, L_997));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4734));
 		float L_998 = __this->___m_FontSize_15;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_999 = ___generationSettings0;
 		NullCheck(L_999);
 		float L_1000 = L_999->___fontSizeMin_20;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4735));
 		float L_1001;
 		L_1001 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_998, L_1000, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4735));
 		__this->___m_FontSize_15 = ((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1001, (20.0f))), (0.5f)))))/(20.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4736));
 		int32_t L_1002 = __this->___m_LoopCountA_70;
 		V_155 = (bool)((((int32_t)L_1002) > ((int32_t)((int32_t)20)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4737));
 		bool L_1003 = V_155;
 		if (!L_1003)
 		{
@@ -6877,25 +7797,34 @@ IL_1c53:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4738));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4739));
 		goto IL_6c5c;
 	}
 
 IL_1cca:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4740));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1004 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1005 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4741));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1004, L_1005, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4741));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4742));
 		goto IL_6c5c;
 	}
 
 IL_1cd8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4743));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1006 = ___generationSettings0;
 		NullCheck(L_1006);
 		int32_t L_1007 = L_1006->___overflowMode_11;
 		V_157 = L_1007;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4744));
 		int32_t L_1008 = V_157;
 		V_156 = L_1008;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4745));
 		int32_t L_1009 = V_156;
 		switch (L_1009)
 		{
@@ -6935,8 +7864,10 @@ IL_1cd8:
 
 IL_1d0c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4746));
 		bool L_1010 = __this->___m_IsMaskingEnabled_84;
 		V_158 = L_1010;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4747));
 		bool L_1011 = V_158;
 		if (!L_1011)
 		{
@@ -6944,18 +7875,24 @@ IL_1d0c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4748));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4749));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4749));
 	}
 
 IL_1d1f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4750));
 		goto IL_1ebd;
 	}
 
 IL_1d24:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4751));
 		bool L_1012 = __this->___m_IsMaskingEnabled_84;
 		V_159 = L_1012;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4752));
 		bool L_1013 = V_159;
 		if (!L_1013)
 		{
@@ -6963,13 +7900,18 @@ IL_1d24:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4753));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4754));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4754));
 	}
 
 IL_1d37:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4755));
 		int32_t L_1014 = __this->___m_CharacterCount_48;
 		V_160 = (bool)((((int32_t)L_1014) < ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4756));
 		bool L_1015 = V_160;
 		if (!L_1015)
 		{
@@ -6977,28 +7919,35 @@ IL_1d37:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4757));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4758));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1016 = ___textInfo1;
 		NullCheck(L_1016);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1017 = L_1016->___textElementInfo_10;
 		int32_t L_1018 = __this->___m_CharacterCount_48;
 		NullCheck(L_1017);
 		((L_1017)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1018)))->___isVisible_34 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4759));
 		goto IL_1ebd;
 	}
 
 IL_1d63:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4760));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1019 = __this->___m_CharBuffer_4;
 		int32_t L_1020 = V_59;
 		NullCheck(L_1019);
 		(L_1019)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_1020, 1))), (int32_t)((int32_t)8230));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4761));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1021 = __this->___m_CharBuffer_4;
 		int32_t L_1022 = V_59;
 		NullCheck(L_1021);
 		(L_1021)->SetAt(static_cast<il2cpp_array_size_t>(L_1022), (int32_t)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4762));
 		SpecialCharacter_t869F8BE65A7FE32AFD4196118258F49A63D8E2BD* L_1023 = (&__this->___m_Ellipsis_97);
 		Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC* L_1024 = L_1023->___character_0;
 		V_161 = (bool)((!(((RuntimeObject*)(Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC*)L_1024) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4763));
 		bool L_1025 = V_161;
 		if (!L_1025)
 		{
@@ -7006,12 +7955,15 @@ IL_1d63:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4764));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4765));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1026 = ___textInfo1;
 		NullCheck(L_1026);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1027 = L_1026->___textElementInfo_10;
 		int32_t L_1028 = V_18;
 		NullCheck(L_1027);
 		((L_1027)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1028)))->___character_0 = ((int32_t)8230);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4766));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1029 = ___textInfo1;
 		NullCheck(L_1029);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1030 = L_1029->___textElementInfo_10;
@@ -7021,6 +7973,7 @@ IL_1d63:
 		Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC* L_1033 = L_1032->___character_0;
 		((L_1030)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1031)))->___textElement_3 = L_1033;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_1030)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1031)))->___textElement_3), (void*)L_1033);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4767));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1034 = ___textInfo1;
 		NullCheck(L_1034);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1035 = L_1034->___textElementInfo_10;
@@ -7031,6 +7984,7 @@ IL_1d63:
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1038 = ((L_1037)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___fontAsset_1;
 		((L_1035)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1036)))->___fontAsset_4 = L_1038;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_1035)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1036)))->___fontAsset_4), (void*)L_1038);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4768));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1039 = ___textInfo1;
 		NullCheck(L_1039);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1040 = L_1039->___textElementInfo_10;
@@ -7041,43 +7995,62 @@ IL_1d63:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1043 = ((L_1042)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___material_3;
 		((L_1040)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1041)))->___material_7 = L_1043;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_1040)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1041)))->___material_7), (void*)L_1043);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4769));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1044 = ___textInfo1;
 		NullCheck(L_1044);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1045 = L_1044->___textElementInfo_10;
 		int32_t L_1046 = V_18;
 		NullCheck(L_1045);
 		((L_1045)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1046)))->___materialReferenceIndex_8 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4770));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4771));
 		goto IL_1e47;
 	}
 
 IL_1e25:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4772));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4773));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1047 = ___generationSettings0;
 		NullCheck(L_1047);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1048 = L_1047->___fontAsset_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4774));
 		NullCheck(L_1048);
 		String_t* L_1049;
 		L_1049 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_1048, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4774));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4775));
 		String_t* L_1050;
 		L_1050 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral45F6DDE1A98CAC15AB9ED3B1B435261E3210927D, L_1049, _stringLiteral0A0DAF77271D6DA2C6A1C08A805866EB837D591E, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4775));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4776));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(L_1050, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4776));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4777));
 	}
 
 IL_1e47:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4778));
 		int32_t L_1051 = V_18;
 		__this->___m_TotalCharacterCount_13 = ((int32_t)il2cpp_codegen_add(L_1051, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4779));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1052 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1053 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4780));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1052, L_1053, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4780));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4781));
 		goto IL_6c5c;
 	}
 
 IL_1e5f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4782));
 		bool L_1054 = __this->___m_IsMaskingEnabled_84;
 		V_162 = (bool)((((int32_t)L_1054) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4783));
 		bool L_1055 = V_162;
 		if (!L_1055)
 		{
@@ -7085,18 +8058,24 @@ IL_1e5f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4784));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4785));
 		TextGenerator_EnableMasking_mB38D92D32518523DE33A2FCD85A67DE481BB0991(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4785));
 	}
 
 IL_1e75:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4786));
 		goto IL_1ebd;
 	}
 
 IL_1e77:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4787));
 		bool L_1056 = __this->___m_IsMaskingEnabled_84;
 		V_163 = (bool)((((int32_t)L_1056) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4788));
 		bool L_1057 = V_163;
 		if (!L_1057)
 		{
@@ -7104,18 +8083,24 @@ IL_1e77:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4789));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4790));
 		TextGenerator_EnableMasking_mB38D92D32518523DE33A2FCD85A67DE481BB0991(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4790));
 	}
 
 IL_1e8d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4791));
 		goto IL_1ebd;
 	}
 
 IL_1e8f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4792));
 		bool L_1058 = __this->___m_IsMaskingEnabled_84;
 		V_164 = L_1058;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4793));
 		bool L_1059 = V_164;
 		if (!L_1059)
 		{
@@ -7123,31 +8108,39 @@ IL_1e8f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4794));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4795));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4795));
 	}
 
 IL_1ea2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4796));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1060 = ___textInfo1;
 		NullCheck(L_1060);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1061 = L_1060->___textElementInfo_10;
 		int32_t L_1062 = __this->___m_CharacterCount_48;
 		NullCheck(L_1061);
 		((L_1061)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1062)))->___isVisible_34 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4797));
 		goto IL_1ebd;
 	}
 
 IL_1ebb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4798));
 		goto IL_1ebd;
 	}
 
 IL_1ebd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4799));
 	}
 
 IL_1ebe:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4800));
 		int32_t L_1063 = V_60;
 		if ((((int32_t)L_1063) == ((int32_t)((int32_t)9))))
 		{
@@ -7175,6 +8168,7 @@ IL_1ed8:
 IL_1ed9:
 	{
 		V_165 = (bool)G_B253_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4801));
 		bool L_1066 = V_165;
 		if (!L_1066)
 		{
@@ -7182,14 +8176,18 @@ IL_1ed9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4802));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4803));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1067 = ___textInfo1;
 		NullCheck(L_1067);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1068 = L_1067->___textElementInfo_10;
 		int32_t L_1069 = __this->___m_CharacterCount_48;
 		NullCheck(L_1068);
 		((L_1068)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1069)))->___isVisible_34 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4804));
 		int32_t L_1070 = __this->___m_CharacterCount_48;
 		__this->___m_LastVisibleCharacterOfLine_52 = L_1070;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4805));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1071 = ___textInfo1;
 		NullCheck(L_1071);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1072 = L_1071->___lineInfo_13;
@@ -7199,6 +8197,7 @@ IL_1ed9:
 		int32_t* L_1075 = L_1074;
 		int32_t L_1076 = *((int32_t*)L_1075);
 		*((int32_t*)L_1075) = (int32_t)((int32_t)il2cpp_codegen_add(L_1076, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4806));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1077 = ___textInfo1;
 		V_166 = L_1077;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1078 = V_166;
@@ -7207,15 +8206,20 @@ IL_1ed9:
 		int32_t L_1080 = L_1079->___spaceCount_4;
 		NullCheck(L_1078);
 		L_1078->___spaceCount_4 = ((int32_t)il2cpp_codegen_add(L_1080, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4807));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4808));
 		goto IL_1f91;
 	}
 
 IL_1f34:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4809));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4810));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1081 = ___generationSettings0;
 		NullCheck(L_1081);
 		bool L_1082 = L_1081->___overrideRichTextColors_17;
 		V_168 = L_1082;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4811));
 		bool L_1083 = V_168;
 		if (!L_1083)
 		{
@@ -7223,21 +8227,26 @@ IL_1f34:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4812));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1084 = __this->___m_FontColor32_27;
 		V_167 = L_1084;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4813));
 		goto IL_1f53;
 	}
 
 IL_1f4b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4814));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1085 = __this->___m_HtmlColor_28;
 		V_167 = L_1085;
 	}
 
 IL_1f53:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4815));
 		uint8_t L_1086 = __this->___m_TextElementType_71;
 		V_169 = (bool)((((int32_t)L_1086) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4816));
 		bool L_1087 = V_169;
 		if (!L_1087)
 		{
@@ -7245,19 +8254,27 @@ IL_1f53:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4817));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4818));
 		float L_1088 = V_3;
 		float L_1089 = V_68;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1090 = V_167;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1091 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1092 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4819));
 		TextGenerator_SaveGlyphVertexInfo_m0CD6E1D45488FFC6675294AC64F40AC23C986A09(__this, L_1088, L_1089, L_1090, L_1091, L_1092, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4819));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4820));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4821));
 		goto IL_1f90;
 	}
 
 IL_1f74:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4822));
 		uint8_t L_1093 = __this->___m_TextElementType_71;
 		V_170 = (bool)((((int32_t)L_1093) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4823));
 		bool L_1094 = V_170;
 		if (!L_1094)
 		{
@@ -7265,18 +8282,25 @@ IL_1f74:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4824));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4825));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1095 = V_167;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1096 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1097 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4826));
 		TextGenerator_SaveSpriteVertexInfo_m4B47901F01927E7CC4E486A1C4354AFBF4D138A5(__this, L_1095, L_1096, L_1097, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4826));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4827));
 	}
 
 IL_1f90:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4828));
 	}
 
 IL_1f91:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4829));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1098 = ___textInfo1;
 		NullCheck(L_1098);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1099 = L_1098->___textElementInfo_10;
@@ -7302,6 +8326,7 @@ IL_1fb7:
 IL_1fb8:
 	{
 		V_171 = (bool)G_B266_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4830));
 		bool L_1103 = V_171;
 		if (!L_1103)
 		{
@@ -7309,8 +8334,11 @@ IL_1fb8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4831));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4832));
 		bool L_1104 = V_15;
 		V_172 = L_1104;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4833));
 		bool L_1105 = V_172;
 		if (!L_1105)
 		{
@@ -7318,26 +8346,37 @@ IL_1fb8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4834));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4835));
 		V_15 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4836));
 		int32_t L_1106 = __this->___m_CharacterCount_48;
 		__this->___m_FirstVisibleCharacterOfLine_51 = L_1106;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4837));
 	}
 
 IL_1fd8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4838));
 		int32_t L_1107 = __this->___m_LineVisibleCharacterCount_56;
 		__this->___m_LineVisibleCharacterCount_56 = ((int32_t)il2cpp_codegen_add(L_1107, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4839));
 		int32_t L_1108 = __this->___m_CharacterCount_48;
 		__this->___m_LastVisibleCharacterOfLine_52 = L_1108;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4840));
 	}
 
 IL_1ff3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4841));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4842));
 		goto IL_2088;
 	}
 
 IL_1ff9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4843));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4844));
 		int32_t L_1109 = V_60;
 		if ((((int32_t)L_1109) == ((int32_t)((int32_t)10))))
 		{
@@ -7346,9 +8385,11 @@ IL_1ff9:
 	}
 	{
 		int32_t L_1110 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4845));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_1111;
 		L_1111 = Char_IsSeparator_mDCBCD6C8304D946C3E1998A847DEA04928C72394(((int32_t)(uint16_t)L_1110), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4845));
 		if (!L_1111)
 		{
 			goto IL_202a;
@@ -7384,6 +8425,7 @@ IL_202a:
 IL_202b:
 	{
 		V_173 = (bool)G_B277_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4846));
 		bool L_1115 = V_173;
 		if (!L_1115)
 		{
@@ -7391,6 +8433,8 @@ IL_202b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4847));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4848));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1116 = ___textInfo1;
 		NullCheck(L_1116);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1117 = L_1116->___lineInfo_13;
@@ -7400,6 +8444,7 @@ IL_202b:
 		int32_t* L_1120 = L_1119;
 		int32_t L_1121 = *((int32_t*)L_1120);
 		*((int32_t*)L_1120) = (int32_t)((int32_t)il2cpp_codegen_add(L_1121, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4849));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1122 = ___textInfo1;
 		V_166 = L_1122;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1123 = V_166;
@@ -7408,8 +8453,10 @@ IL_202b:
 		int32_t L_1125 = L_1124->___spaceCount_4;
 		NullCheck(L_1123);
 		L_1123->___spaceCount_4 = ((int32_t)il2cpp_codegen_add(L_1125, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4850));
 		int32_t L_1126 = V_60;
 		V_174 = (bool)((((int32_t)L_1126) == ((int32_t)((int32_t)160)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4851));
 		bool L_1127 = V_174;
 		if (!L_1127)
 		{
@@ -7417,6 +8464,7 @@ IL_202b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4852));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1128 = ___textInfo1;
 		NullCheck(L_1128);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1129 = L_1128->___lineInfo_13;
@@ -7427,14 +8475,17 @@ IL_202b:
 
 IL_2086:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4853));
 	}
 
 IL_2087:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4854));
 	}
 
 IL_2088:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4855));
 		int32_t L_1131 = __this->___m_LineNumber_55;
 		if ((((int32_t)L_1131) <= ((int32_t)0)))
 		{
@@ -7444,9 +8495,11 @@ IL_2088:
 	{
 		float L_1132 = __this->___m_MaxLineAscender_53;
 		float L_1133 = __this->___m_StartOfLineAscender_82;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4856));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		bool L_1134;
 		L_1134 = TextGeneratorUtilities_Approximately_m2333A8491C1BBC4F26738A240A7AA9E699508E6D(L_1132, L_1133, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4856));
 		if (L_1134)
 		{
 			goto IL_20bc;
@@ -7473,6 +8526,7 @@ IL_20bc:
 IL_20bd:
 	{
 		V_175 = (bool)G_B287_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4857));
 		bool L_1137 = V_175;
 		if (!L_1137)
 		{
@@ -7480,34 +8534,46 @@ IL_20bd:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4858));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4859));
 		float L_1138 = __this->___m_MaxLineAscender_53;
 		float L_1139 = __this->___m_StartOfLineAscender_82;
 		V_176 = ((float)il2cpp_codegen_subtract(L_1138, L_1139));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4860));
 		int32_t L_1140 = __this->___m_FirstCharacterOfLine_49;
 		int32_t L_1141 = __this->___m_CharacterCount_48;
 		float L_1142 = V_176;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1143 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4861));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_AdjustLineOffset_m9B686B22546C23700D8611CBA140B5EEB0527229(L_1140, L_1141, L_1142, L_1143, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4861));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4862));
 		float L_1144 = V_76;
 		float L_1145 = V_176;
 		V_76 = ((float)il2cpp_codegen_subtract(L_1144, L_1145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4863));
 		float L_1146 = __this->___m_LineOffset_39;
 		float L_1147 = V_176;
 		__this->___m_LineOffset_39 = ((float)il2cpp_codegen_add(L_1146, L_1147));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4864));
 		float L_1148 = __this->___m_StartOfLineAscender_82;
 		float L_1149 = V_176;
 		__this->___m_StartOfLineAscender_82 = ((float)il2cpp_codegen_add(L_1148, L_1149));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4865));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1150 = (&__this->___m_SavedWordWrapState_68);
 		float L_1151 = __this->___m_LineOffset_39;
 		L_1150->___lineOffset_26 = L_1151;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4866));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1152 = (&__this->___m_SavedWordWrapState_68);
 		float L_1153 = __this->___m_StartOfLineAscender_82;
 		L_1152->___previousLineAscender_15 = L_1153;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4867));
 	}
 
 IL_2130:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4868));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1154 = ___textInfo1;
 		NullCheck(L_1154);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1155 = L_1154->___textElementInfo_10;
@@ -7515,6 +8581,7 @@ IL_2130:
 		NullCheck(L_1155);
 		int32_t L_1157 = __this->___m_LineNumber_55;
 		((L_1155)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1156)))->___lineNumber_11 = L_1157;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4869));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1158 = ___textInfo1;
 		NullCheck(L_1158);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1159 = L_1158->___textElementInfo_10;
@@ -7522,6 +8589,7 @@ IL_2130:
 		NullCheck(L_1159);
 		int32_t L_1161 = __this->___m_PageNumber_58;
 		((L_1159)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1160)))->___pageNumber_12 = L_1161;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4870));
 		int32_t L_1162 = V_60;
 		if ((((int32_t)L_1162) == ((int32_t)((int32_t)10))))
 		{
@@ -7563,6 +8631,7 @@ IL_2198:
 IL_2199:
 	{
 		V_177 = (bool)G_B294_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4871));
 		bool L_1169 = V_177;
 		if (!L_1169)
 		{
@@ -7570,6 +8639,7 @@ IL_2199:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4872));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1170 = ___textInfo1;
 		NullCheck(L_1170);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1171 = L_1170->___lineInfo_13;
@@ -7581,10 +8651,12 @@ IL_2199:
 
 IL_21bb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4873));
 		float L_1174 = __this->___m_MaxAscender_64;
 		float L_1175 = V_76;
 		float L_1176 = V_21;
 		V_178 = (bool)((((float)((float)il2cpp_codegen_subtract(L_1174, L_1175))) > ((float)((float)il2cpp_codegen_add(L_1176, (9.99999975E-05f)))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4874));
 		bool L_1177 = V_178;
 		if (!L_1177)
 		{
@@ -7592,6 +8664,8 @@ IL_21bb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4875));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4876));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1178 = ___generationSettings0;
 		NullCheck(L_1178);
 		bool L_1179 = L_1178->___autoSize_19;
@@ -7624,6 +8698,7 @@ IL_21f9:
 IL_21fa:
 	{
 		V_179 = (bool)G_B301_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4877));
 		bool L_1184 = V_179;
 		if (!L_1184)
 		{
@@ -7631,17 +8706,25 @@ IL_21fa:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4878));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4879));
 		__this->___m_LoopCountA_70 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4880));
 		float L_1185 = __this->___m_LineSpacingDelta_83;
 		__this->___m_LineSpacingDelta_83 = ((float)il2cpp_codegen_subtract(L_1185, (1.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4881));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1186 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1187 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4882));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1186, L_1187, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4882));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4883));
 		goto IL_6c5c;
 	}
 
 IL_2228:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4884));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1188 = ___generationSettings0;
 		NullCheck(L_1188);
 		bool L_1189 = L_1188->___autoSize_19;
@@ -7667,6 +8750,7 @@ IL_2240:
 IL_2241:
 	{
 		V_180 = (bool)G_B306_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4885));
 		bool L_1193 = V_180;
 		if (!L_1193)
 		{
@@ -7674,23 +8758,33 @@ IL_2241:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4886));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4887));
 		float L_1194 = __this->___m_FontSize_15;
 		__this->___m_MaxFontSize_79 = L_1194;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4888));
 		float L_1195 = __this->___m_FontSize_15;
 		float L_1196 = __this->___m_FontSize_15;
 		float L_1197 = __this->___m_MinFontSize_80;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4889));
 		float L_1198;
 		L_1198 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(((float)(((float)il2cpp_codegen_subtract(L_1196, L_1197))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4889));
 		__this->___m_FontSize_15 = ((float)il2cpp_codegen_subtract(L_1195, L_1198));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4890));
 		float L_1199 = __this->___m_FontSize_15;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1200 = ___generationSettings0;
 		NullCheck(L_1200);
 		float L_1201 = L_1200->___fontSizeMin_20;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4891));
 		float L_1202;
 		L_1202 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_1199, L_1201, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4891));
 		__this->___m_FontSize_15 = ((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1202, (20.0f))), (0.5f)))))/(20.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4892));
 		int32_t L_1203 = __this->___m_LoopCountA_70;
 		V_181 = (bool)((((int32_t)L_1203) > ((int32_t)((int32_t)20)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4893));
 		bool L_1204 = V_181;
 		if (!L_1204)
 		{
@@ -7698,21 +8792,29 @@ IL_2241:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4894));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4895));
 		goto IL_6c5c;
 	}
 
 IL_22c2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4896));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1205 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1206 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4897));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1205, L_1206, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4897));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4898));
 		goto IL_6c5c;
 	}
 
 IL_22d0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4899));
 		int32_t L_1207 = __this->___m_FirstOverflowCharacterIndex_57;
 		V_182 = (bool)((((int32_t)L_1207) == ((int32_t)(-1)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4900));
 		bool L_1208 = V_182;
 		if (!L_1208)
 		{
@@ -7720,18 +8822,22 @@ IL_22d0:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4901));
 		int32_t L_1209 = __this->___m_CharacterCount_48;
 		__this->___m_FirstOverflowCharacterIndex_57 = L_1209;
 	}
 
 IL_22eb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4902));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1210 = ___generationSettings0;
 		NullCheck(L_1210);
 		int32_t L_1211 = L_1210->___overflowMode_11;
 		V_184 = L_1211;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4903));
 		int32_t L_1212 = V_184;
 		V_183 = L_1212;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4904));
 		int32_t L_1213 = V_183;
 		switch (L_1213)
 		{
@@ -7771,8 +8877,10 @@ IL_22eb:
 
 IL_231f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4905));
 		bool L_1214 = __this->___m_IsMaskingEnabled_84;
 		V_185 = L_1214;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4906));
 		bool L_1215 = V_185;
 		if (!L_1215)
 		{
@@ -7780,18 +8888,24 @@ IL_231f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4907));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4908));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4908));
 	}
 
 IL_2332:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4909));
 		goto IL_261c;
 	}
 
 IL_2337:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4910));
 		bool L_1216 = __this->___m_IsMaskingEnabled_84;
 		V_186 = L_1216;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4911));
 		bool L_1217 = V_186;
 		if (!L_1217)
 		{
@@ -7799,13 +8913,18 @@ IL_2337:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4912));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4913));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4913));
 	}
 
 IL_234a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4914));
 		int32_t L_1218 = __this->___m_LineNumber_55;
 		V_187 = (bool)((((int32_t)L_1218) > ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4915));
 		bool L_1219 = V_187;
 		if (!L_1219)
 		{
@@ -7813,6 +8932,8 @@ IL_234a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4916));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4917));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1220 = __this->___m_CharBuffer_4;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1221 = ___textInfo1;
 		NullCheck(L_1221);
@@ -7822,6 +8943,7 @@ IL_234a:
 		int32_t L_1224 = ((L_1222)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1223)))->___index_1;
 		NullCheck(L_1220);
 		(L_1220)->SetAt(static_cast<il2cpp_array_size_t>(L_1224), (int32_t)((int32_t)8230));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4918));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1225 = __this->___m_CharBuffer_4;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1226 = ___textInfo1;
 		NullCheck(L_1226);
@@ -7831,9 +8953,11 @@ IL_234a:
 		int32_t L_1229 = ((L_1227)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1228)))->___index_1;
 		NullCheck(L_1225);
 		(L_1225)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_1229, 1))), (int32_t)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4919));
 		SpecialCharacter_t869F8BE65A7FE32AFD4196118258F49A63D8E2BD* L_1230 = (&__this->___m_Ellipsis_97);
 		Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC* L_1231 = L_1230->___character_0;
 		V_188 = (bool)((!(((RuntimeObject*)(Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC*)L_1231) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4920));
 		bool L_1232 = V_188;
 		if (!L_1232)
 		{
@@ -7841,12 +8965,15 @@ IL_234a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4921));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4922));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1233 = ___textInfo1;
 		NullCheck(L_1233);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1234 = L_1233->___textElementInfo_10;
 		int32_t L_1235 = V_18;
 		NullCheck(L_1234);
 		((L_1234)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1235)))->___character_0 = ((int32_t)8230);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4923));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1236 = ___textInfo1;
 		NullCheck(L_1236);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1237 = L_1236->___textElementInfo_10;
@@ -7856,6 +8983,7 @@ IL_234a:
 		Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC* L_1240 = L_1239->___character_0;
 		((L_1237)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1238)))->___textElement_3 = L_1240;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_1237)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1238)))->___textElement_3), (void*)L_1240);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4924));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1241 = ___textInfo1;
 		NullCheck(L_1241);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1242 = L_1241->___textElementInfo_10;
@@ -7866,6 +8994,7 @@ IL_234a:
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1245 = ((L_1244)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___fontAsset_1;
 		((L_1242)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1243)))->___fontAsset_4 = L_1245;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_1242)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1243)))->___fontAsset_4), (void*)L_1245);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4925));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1246 = ___textInfo1;
 		NullCheck(L_1246);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1247 = L_1246->___textElementInfo_10;
@@ -7876,48 +9005,69 @@ IL_234a:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1250 = ((L_1249)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___material_3;
 		((L_1247)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1248)))->___material_7 = L_1250;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_1247)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1248)))->___material_7), (void*)L_1250);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4926));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1251 = ___textInfo1;
 		NullCheck(L_1251);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1252 = L_1251->___textElementInfo_10;
 		int32_t L_1253 = V_18;
 		NullCheck(L_1252);
 		((L_1252)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1253)))->___materialReferenceIndex_8 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4927));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4928));
 		goto IL_2461;
 	}
 
 IL_243f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4929));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4930));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1254 = ___generationSettings0;
 		NullCheck(L_1254);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1255 = L_1254->___fontAsset_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4931));
 		NullCheck(L_1255);
 		String_t* L_1256;
 		L_1256 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_1255, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4931));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4932));
 		String_t* L_1257;
 		L_1257 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral45F6DDE1A98CAC15AB9ED3B1B435261E3210927D, L_1256, _stringLiteral0A0DAF77271D6DA2C6A1C08A805866EB837D591E, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4932));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4933));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(L_1257, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4933));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4934));
 	}
 
 IL_2461:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4935));
 		int32_t L_1258 = V_18;
 		__this->___m_TotalCharacterCount_13 = ((int32_t)il2cpp_codegen_add(L_1258, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4936));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1259 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1260 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4937));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1259, L_1260, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4937));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4938));
 		goto IL_6c5c;
 	}
 
 IL_2479:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4939));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4940));
 		goto IL_261c;
 	}
 
 IL_247f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4941));
 		bool L_1261 = __this->___m_IsMaskingEnabled_84;
 		V_189 = (bool)((((int32_t)L_1261) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4942));
 		bool L_1262 = V_189;
 		if (!L_1262)
 		{
@@ -7925,18 +9075,24 @@ IL_247f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4943));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4944));
 		TextGenerator_EnableMasking_mB38D92D32518523DE33A2FCD85A67DE481BB0991(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4944));
 	}
 
 IL_2495:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4945));
 		goto IL_261c;
 	}
 
 IL_249a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4946));
 		bool L_1263 = __this->___m_IsMaskingEnabled_84;
 		V_190 = (bool)((((int32_t)L_1263) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4947));
 		bool L_1264 = V_190;
 		if (!L_1264)
 		{
@@ -7944,18 +9100,24 @@ IL_249a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4948));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4949));
 		TextGenerator_EnableMasking_mB38D92D32518523DE33A2FCD85A67DE481BB0991(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4949));
 	}
 
 IL_24b0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4950));
 		goto IL_261c;
 	}
 
 IL_24b5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4951));
 		bool L_1265 = __this->___m_IsMaskingEnabled_84;
 		V_191 = L_1265;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4952));
 		bool L_1266 = V_191;
 		if (!L_1266)
 		{
@@ -7963,13 +9125,18 @@ IL_24b5:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4953));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4954));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4954));
 	}
 
 IL_24c8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4955));
 		int32_t L_1267 = __this->___m_LineNumber_55;
 		V_192 = (bool)((((int32_t)L_1267) > ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4956));
 		bool L_1268 = V_192;
 		if (!L_1268)
 		{
@@ -7977,6 +9144,8 @@ IL_24c8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4957));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4958));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1269 = __this->___m_CharBuffer_4;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1270 = ___textInfo1;
 		NullCheck(L_1270);
@@ -7986,25 +9155,37 @@ IL_24c8:
 		int32_t L_1273 = ((L_1271)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1272)))->___index_1;
 		NullCheck(L_1269);
 		(L_1269)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_1273, 1))), (int32_t)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4959));
 		int32_t L_1274 = V_18;
 		__this->___m_TotalCharacterCount_13 = ((int32_t)il2cpp_codegen_add(L_1274, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4960));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1275 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1276 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4961));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1275, L_1276, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4961));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4962));
 		goto IL_6c5c;
 	}
 
 IL_250c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4963));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4964));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1277 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4965));
 		TextGenerator_ClearMesh_mE8A81193AF7ACE3CFE55E0C18FCCD751503A997F((bool)0, L_1277, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4965));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4966));
 		goto IL_6c5c;
 	}
 
 IL_251a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4967));
 		bool L_1278 = __this->___m_IsMaskingEnabled_84;
 		V_193 = L_1278;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4968));
 		bool L_1279 = V_193;
 		if (!L_1279)
 		{
@@ -8012,11 +9193,15 @@ IL_251a:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4969));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4970));
 		TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4970));
 	}
 
 IL_252d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4971));
 		int32_t L_1280 = V_60;
 		if ((((int32_t)L_1280) == ((int32_t)((int32_t)13))))
 		{
@@ -8037,6 +9222,7 @@ IL_253b:
 IL_253c:
 	{
 		V_194 = (bool)G_B341_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4972));
 		bool L_1282 = V_194;
 		if (!L_1282)
 		{
@@ -8044,13 +9230,16 @@ IL_253c:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4973));
 		goto IL_261c;
 	}
 
 IL_2547:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4974));
 		int32_t L_1283 = V_59;
 		V_195 = (bool)((((int32_t)L_1283) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4975));
 		bool L_1284 = V_195;
 		if (!L_1284)
 		{
@@ -8058,14 +9247,18 @@ IL_2547:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4976));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4977));
 		goto IL_6c5c;
 	}
 
 IL_2558:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4978));
 		int32_t L_1285 = V_17;
 		int32_t L_1286 = V_59;
 		V_196 = (bool)((((int32_t)L_1285) == ((int32_t)L_1286))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4979));
 		bool L_1287 = V_196;
 		if (!L_1287)
 		{
@@ -8073,38 +9266,55 @@ IL_2558:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4980));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4981));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1288 = __this->___m_CharBuffer_4;
 		int32_t L_1289 = V_59;
 		NullCheck(L_1288);
 		(L_1288)->SetAt(static_cast<il2cpp_array_size_t>(L_1289), (int32_t)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4982));
 	}
 
 IL_2570:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4983));
 		int32_t L_1290 = V_59;
 		V_17 = L_1290;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4984));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1291 = (&__this->___m_SavedLineState_69);
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1292 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4985));
 		int32_t L_1293;
 		L_1293 = TextGenerator_RestoreWordWrappingState_mA63B3DD2C02E61CD8670A32A53163AF6BF765F61(__this, L_1291, L_1292, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4985));
 		V_59 = L_1293;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4986));
 		__this->___m_IsNewPage_66 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4987));
 		float L_1294 = __this->___m_TagIndent_45;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add((0.0f), L_1294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4988));
 		__this->___m_LineOffset_39 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4989));
 		__this->___m_MaxAscender_64 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4990));
 		V_24 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4991));
 		int32_t L_1295 = __this->___m_LineNumber_55;
 		__this->___m_LineNumber_55 = ((int32_t)il2cpp_codegen_add(L_1295, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4992));
 		int32_t L_1296 = __this->___m_PageNumber_58;
 		__this->___m_PageNumber_58 = ((int32_t)il2cpp_codegen_add(L_1296, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4993));
 		goto IL_329d;
 	}
 
 IL_25da:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4994));
 		int32_t L_1297 = __this->___m_LineNumber_55;
 		V_197 = (bool)((((int32_t)L_1297) > ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4995));
 		bool L_1298 = V_197;
 		if (!L_1298)
 		{
@@ -8112,33 +9322,48 @@ IL_25da:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4996));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4997));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1299 = __this->___m_CharBuffer_4;
 		int32_t L_1300 = V_59;
 		NullCheck(L_1299);
 		(L_1299)->SetAt(static_cast<il2cpp_array_size_t>(L_1300), (int32_t)0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4998));
 		int32_t L_1301 = __this->___m_CharacterCount_48;
 		__this->___m_TotalCharacterCount_13 = L_1301;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 4999));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1302 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1303 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5000));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1302, L_1303, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5000));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5001));
 		goto IL_6c5c;
 	}
 
 IL_260e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5002));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5003));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1304 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5004));
 		TextGenerator_ClearMesh_mE8A81193AF7ACE3CFE55E0C18FCCD751503A997F((bool)1, L_1304, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5004));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5005));
 		goto IL_6c5c;
 	}
 
 IL_261c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5006));
 	}
 
 IL_261d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5007));
 		int32_t L_1305 = V_60;
 		V_198 = (bool)((((int32_t)L_1305) == ((int32_t)((int32_t)9)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5008));
 		bool L_1306 = V_198;
 		if (!L_1306)
 		{
@@ -8146,25 +9371,37 @@ IL_261d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5009));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5010));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1307 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5011));
 		NullCheck(L_1307);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_1308;
 		L_1308 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_1307, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5011));
 		V_57 = L_1308;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5012));
 		float L_1309;
 		L_1309 = FaceInfo_get_tabWidth_mC6D9F42C40EDD767DE22050E4FBE3878AC96B161((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5012));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1310 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5013));
 		NullCheck(L_1310);
 		uint8_t L_1311;
 		L_1311 = FontAsset_get_tabMultiple_m9C0422A00BFCF82091F14F4E303E2717247350AE(L_1310, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5013));
 		float L_1312 = V_2;
 		V_199 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_1309, ((float)L_1311))), L_1312));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5014));
 		float L_1313 = __this->___m_XAdvance_43;
 		float L_1314 = V_199;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5015));
 		float L_1315;
 		L_1315 = ceilf(((float)(L_1313/L_1314)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5015));
 		float L_1316 = V_199;
 		V_200 = ((float)il2cpp_codegen_multiply(L_1315, L_1316));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5016));
 		float L_1317 = V_200;
 		float L_1318 = __this->___m_XAdvance_43;
 		G_B354_0 = __this;
@@ -8193,13 +9430,17 @@ IL_267a:
 	{
 		NullCheck(G_B356_1);
 		G_B356_1->___m_XAdvance_43 = G_B356_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5017));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5018));
 		goto IL_27ee;
 	}
 
 IL_2685:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5019));
 		float L_1322 = __this->___m_MonoSpacing_42;
 		V_201 = (bool)((((int32_t)((((float)L_1322) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5020));
 		bool L_1323 = V_201;
 		if (!L_1323)
 		{
@@ -8207,6 +9448,8 @@ IL_2685:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5021));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5022));
 		float L_1324 = __this->___m_XAdvance_43;
 		float L_1325 = __this->___m_MonoSpacing_42;
 		float L_1326 = V_67;
@@ -8214,17 +9457,22 @@ IL_2685:
 		NullCheck(L_1327);
 		float L_1328 = L_1327->___characterSpacing_27;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1329 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5023));
 		NullCheck(L_1329);
 		float L_1330;
 		L_1330 = FontAsset_get_regularStyleSpacing_mB7EEEA236312F5AC31FD3B787808279206F521B1(L_1329, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5023));
 		float L_1331 = V_2;
 		float L_1332 = __this->___m_CSpacing_41;
 		float L_1333 = __this->___m_CharWidthAdjDelta_77;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add(L_1324, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_1325, L_1326)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_1328, L_1330)), L_1331)))), L_1332)), ((float)il2cpp_codegen_subtract((1.0f), L_1333))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5024));
 		int32_t L_1334 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5025));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_1335;
 		L_1335 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(((int32_t)(uint16_t)L_1334), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5025));
 		if (L_1335)
 		{
 			goto IL_26f0;
@@ -8244,6 +9492,7 @@ IL_26f0:
 IL_26f1:
 	{
 		V_202 = (bool)G_B361_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5026));
 		bool L_1337 = V_202;
 		if (!L_1337)
 		{
@@ -8251,6 +9500,7 @@ IL_26f1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5027));
 		float L_1338 = __this->___m_XAdvance_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1339 = ___generationSettings0;
 		NullCheck(L_1339);
@@ -8261,15 +9511,19 @@ IL_26f1:
 
 IL_270c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5028));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5029));
 		goto IL_27ee;
 	}
 
 IL_2712:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5030));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1342 = ___generationSettings0;
 		NullCheck(L_1342);
 		bool L_1343 = L_1342->___isRightToLeft_24;
 		V_203 = (bool)((((int32_t)L_1343) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5031));
 		bool L_1344 = V_203;
 		if (!L_1344)
 		{
@@ -8277,9 +9531,13 @@ IL_2712:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5032));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5033));
 		V_204 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5034));
 		bool L_1345 = __this->___m_IsFxMatrixSet_38;
 		V_205 = L_1345;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5035));
 		bool L_1346 = V_205;
 		if (!L_1346)
 		{
@@ -8287,6 +9545,7 @@ IL_2712:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5036));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_1347 = (&__this->___m_FxMatrix_78);
 		float L_1348 = L_1347->___m00_0;
 		V_204 = L_1348;
@@ -8294,36 +9553,50 @@ IL_2712:
 
 IL_2745:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5037));
 		float L_1349 = __this->___m_XAdvance_43;
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_1350 = __this->___m_CachedTextElement_75;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5038));
 		NullCheck(L_1350);
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_1351;
 		L_1351 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_1350, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5038));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5039));
 		NullCheck(L_1351);
 		GlyphMetrics_t6C1C65A891A6279A0EE807C436436B1E44F7AF1A L_1352;
 		L_1352 = Glyph_get_metrics_mB6E9D3D1899E35BA257638F6F58B7D260170B6FA(L_1351, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5039));
 		V_94 = L_1352;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5040));
 		float L_1353;
 		L_1353 = GlyphMetrics_get_horizontalAdvance_m110E66C340A19E672FB1C26DFB875AB6900AFFF1((&V_94), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5040));
 		float L_1354 = V_204;
 		float L_1355 = V_4;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1356 = ___generationSettings0;
 		NullCheck(L_1356);
 		float L_1357 = L_1356->___characterSpacing_27;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1358 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5041));
 		NullCheck(L_1358);
 		float L_1359;
 		L_1359 = FontAsset_get_regularStyleSpacing_mB7EEEA236312F5AC31FD3B787808279206F521B1(L_1358, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5041));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5042));
 		float L_1360;
 		L_1360 = GlyphValueRecord_get_xAdvance_m6C392027FA91E0705C1585C5EF40D984AAA0013E((&V_65), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5042));
 		float L_1361 = V_2;
 		float L_1362 = __this->___m_CSpacing_41;
 		float L_1363 = __this->___m_CharWidthAdjDelta_77;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add(L_1349, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_1353, L_1354)), L_1355)), L_1357)), L_1359)), L_1360)), L_1361)), L_1362)), ((float)il2cpp_codegen_subtract((1.0f), L_1363))))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5043));
 		int32_t L_1364 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5044));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_1365;
 		L_1365 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(((int32_t)(uint16_t)L_1364), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5044));
 		if (L_1365)
 		{
 			goto IL_27b7;
@@ -8343,6 +9616,7 @@ IL_27b7:
 IL_27b8:
 	{
 		V_206 = (bool)G_B370_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5045));
 		bool L_1367 = V_206;
 		if (!L_1367)
 		{
@@ -8350,6 +9624,7 @@ IL_27b8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5046));
 		float L_1368 = __this->___m_XAdvance_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1369 = ___generationSettings0;
 		NullCheck(L_1369);
@@ -8360,20 +9635,28 @@ IL_27b8:
 
 IL_27d3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5047));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5048));
 		goto IL_27ee;
 	}
 
 IL_27d6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5049));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5050));
 		float L_1372 = __this->___m_XAdvance_43;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5051));
 		float L_1373;
 		L_1373 = GlyphValueRecord_get_xAdvance_m6C392027FA91E0705C1585C5EF40D984AAA0013E((&V_65), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5051));
 		float L_1374 = V_2;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_subtract(L_1372, ((float)il2cpp_codegen_multiply(L_1373, L_1374))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5052));
 	}
 
 IL_27ee:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5053));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1375 = ___textInfo1;
 		NullCheck(L_1375);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1376 = L_1375->___textElementInfo_10;
@@ -8381,8 +9664,10 @@ IL_27ee:
 		NullCheck(L_1376);
 		float L_1378 = __this->___m_XAdvance_43;
 		((L_1376)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1377)))->___xAdvance_26 = L_1378;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5054));
 		int32_t L_1379 = V_60;
 		V_207 = (bool)((((int32_t)L_1379) == ((int32_t)((int32_t)13)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5055));
 		bool L_1380 = V_207;
 		if (!L_1380)
 		{
@@ -8390,12 +9675,16 @@ IL_27ee:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5056));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5057));
 		float L_1381 = __this->___m_TagIndent_45;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add((0.0f), L_1381));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5058));
 	}
 
 IL_282a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5059));
 		int32_t L_1382 = V_60;
 		if ((((int32_t)L_1382) == ((int32_t)((int32_t)10))))
 		{
@@ -8417,6 +9706,7 @@ IL_283d:
 IL_283e:
 	{
 		V_208 = (bool)G_B379_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5060));
 		bool L_1385 = V_208;
 		if (!L_1385)
 		{
@@ -8424,6 +9714,8 @@ IL_283e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5061));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5062));
 		int32_t L_1386 = __this->___m_LineNumber_55;
 		if ((((int32_t)L_1386) <= ((int32_t)0)))
 		{
@@ -8433,9 +9725,11 @@ IL_283e:
 	{
 		float L_1387 = __this->___m_MaxLineAscender_53;
 		float L_1388 = __this->___m_StartOfLineAscender_82;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5063));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		bool L_1389;
 		L_1389 = TextGeneratorUtilities_Approximately_m2333A8491C1BBC4F26738A240A7AA9E699508E6D(L_1387, L_1388, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5063));
 		if (L_1389)
 		{
 			goto IL_287c;
@@ -8462,6 +9756,7 @@ IL_287c:
 IL_287d:
 	{
 		V_211 = (bool)G_B385_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5064));
 		bool L_1392 = V_211;
 		if (!L_1392)
 		{
@@ -8469,29 +9764,40 @@ IL_287d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5065));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5066));
 		float L_1393 = __this->___m_MaxLineAscender_53;
 		float L_1394 = __this->___m_StartOfLineAscender_82;
 		V_212 = ((float)il2cpp_codegen_subtract(L_1393, L_1394));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5067));
 		int32_t L_1395 = __this->___m_FirstCharacterOfLine_49;
 		int32_t L_1396 = __this->___m_CharacterCount_48;
 		float L_1397 = V_212;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1398 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5068));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_AdjustLineOffset_m9B686B22546C23700D8611CBA140B5EEB0527229(L_1395, L_1396, L_1397, L_1398, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5068));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5069));
 		float L_1399 = __this->___m_LineOffset_39;
 		float L_1400 = V_212;
 		__this->___m_LineOffset_39 = ((float)il2cpp_codegen_add(L_1399, L_1400));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5070));
 	}
 
 IL_28b8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5071));
 		__this->___m_IsNewPage_66 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5072));
 		float L_1401 = __this->___m_MaxLineAscender_53;
 		float L_1402 = __this->___m_LineOffset_39;
 		V_209 = ((float)il2cpp_codegen_subtract(L_1401, L_1402));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5073));
 		float L_1403 = __this->___m_MaxLineDescender_54;
 		float L_1404 = __this->___m_LineOffset_39;
 		V_210 = ((float)il2cpp_codegen_subtract(L_1403, L_1404));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5074));
 		float L_1405 = __this->___m_MaxDescender_65;
 		float L_1406 = V_210;
 		G_B388_0 = __this;
@@ -8519,8 +9825,10 @@ IL_28f2:
 	{
 		NullCheck(G_B390_1);
 		G_B390_1->___m_MaxDescender_65 = G_B390_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5075));
 		bool L_1409 = V_26;
 		V_213 = (bool)((((int32_t)L_1409) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5076));
 		bool L_1410 = V_213;
 		if (!L_1410)
 		{
@@ -8528,12 +9836,14 @@ IL_28f2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5077));
 		float L_1411 = __this->___m_MaxDescender_65;
 		V_25 = L_1411;
 	}
 
 IL_290a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5078));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1412 = ___generationSettings0;
 		NullCheck(L_1412);
 		bool L_1413 = L_1412->___useMaxVisibleDescender_36;
@@ -8580,6 +9890,7 @@ IL_2936:
 IL_2937:
 	{
 		V_214 = (bool)G_B398_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5079));
 		bool L_1420 = V_214;
 		if (!L_1420)
 		{
@@ -8587,11 +9898,13 @@ IL_2937:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5080));
 		V_26 = (bool)1;
 	}
 
 IL_2940:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5081));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1421 = ___textInfo1;
 		NullCheck(L_1421);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1422 = L_1421->___lineInfo_13;
@@ -8599,6 +9912,7 @@ IL_2940:
 		NullCheck(L_1422);
 		int32_t L_1424 = __this->___m_FirstCharacterOfLine_49;
 		((L_1422)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1423)))->___firstCharacterIndex_6 = L_1424;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5082));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1425 = ___textInfo1;
 		NullCheck(L_1425);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1426 = L_1425->___lineInfo_13;
@@ -8639,6 +9953,7 @@ IL_298a:
 		G_B403_1->___m_FirstVisibleCharacterOfLine_51 = L_1432;
 		int32_t L_1433 = V_149;
 		G_B403_2->___firstVisibleCharacterIndex_7 = L_1433;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5083));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1434 = ___textInfo1;
 		NullCheck(L_1434);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1435 = L_1434->___lineInfo_13;
@@ -8650,6 +9965,7 @@ IL_298a:
 		__this->___m_LastCharacterOfLine_50 = L_1438;
 		int32_t L_1439 = V_149;
 		((L_1435)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1436)))->___lastCharacterIndex_8 = L_1439;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5084));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1440 = ___textInfo1;
 		NullCheck(L_1440);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1441 = L_1440->___lineInfo_13;
@@ -8690,6 +10006,7 @@ IL_29ee:
 		G_B406_1->___m_LastVisibleCharacterOfLine_52 = L_1447;
 		int32_t L_1448 = V_149;
 		G_B406_2->___lastVisibleCharacterIndex_9 = L_1448;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5085));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1449 = ___textInfo1;
 		NullCheck(L_1449);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1450 = L_1449->___lineInfo_13;
@@ -8708,6 +10025,7 @@ IL_29ee:
 		NullCheck(L_1457);
 		int32_t L_1459 = ((L_1457)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1458)))->___firstCharacterIndex_6;
 		((L_1450)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1451)))->___characterCount_1 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_1455, L_1459)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5086));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1460 = ___textInfo1;
 		NullCheck(L_1460);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1461 = L_1460->___lineInfo_13;
@@ -8715,6 +10033,7 @@ IL_29ee:
 		NullCheck(L_1461);
 		int32_t L_1463 = __this->___m_LineVisibleCharacterCount_56;
 		((L_1461)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1462)))->___visibleCharacterCount_2 = L_1463;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5087));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1464 = ___textInfo1;
 		NullCheck(L_1464);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1465 = L_1464->___lineInfo_13;
@@ -8729,10 +10048,13 @@ IL_29ee:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1471 = (&((L_1469)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1470)))->___bottomLeft_19);
 		float L_1472 = L_1471->___x_2;
 		float L_1473 = V_210;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5088));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1474;
 		memset((&L_1474), 0, sizeof(L_1474));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1474), L_1472, L_1473, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5088));
 		L_1467->___min_0 = L_1474;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5089));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1475 = ___textInfo1;
 		NullCheck(L_1475);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1476 = L_1475->___lineInfo_13;
@@ -8747,10 +10069,13 @@ IL_29ee:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1482 = (&((L_1480)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1481)))->___topRight_20);
 		float L_1483 = L_1482->___x_2;
 		float L_1484 = V_209;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5090));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1485;
 		memset((&L_1485), 0, sizeof(L_1485));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1485), L_1483, L_1484, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5090));
 		L_1478->___max_1 = L_1485;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5091));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1486 = ___textInfo1;
 		NullCheck(L_1486);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1487 = L_1486->___lineInfo_13;
@@ -8767,6 +10092,7 @@ IL_29ee:
 		float L_1495 = V_3;
 		float L_1496 = V_2;
 		((L_1487)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1488)))->___length_10 = ((float)il2cpp_codegen_subtract(L_1494, ((float)il2cpp_codegen_multiply(L_1495, L_1496))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5092));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1497 = ___textInfo1;
 		NullCheck(L_1497);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1498 = L_1497->___lineInfo_13;
@@ -8774,6 +10100,7 @@ IL_29ee:
 		NullCheck(L_1498);
 		float L_1500 = V_22;
 		((L_1498)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1499)))->___width_16 = L_1500;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5093));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1501 = ___textInfo1;
 		NullCheck(L_1501);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1502 = L_1501->___lineInfo_13;
@@ -8781,6 +10108,7 @@ IL_29ee:
 		NullCheck(L_1502);
 		int32_t L_1504 = ((L_1502)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1503)))->___characterCount_1;
 		V_215 = (bool)((((int32_t)L_1504) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5094));
 		bool L_1505 = V_215;
 		if (!L_1505)
 		{
@@ -8788,6 +10116,7 @@ IL_29ee:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5095));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1506 = ___textInfo1;
 		NullCheck(L_1506);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1507 = L_1506->___lineInfo_13;
@@ -8799,6 +10128,7 @@ IL_29ee:
 
 IL_2b65:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5096));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1510 = ___textInfo1;
 		NullCheck(L_1510);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1511 = L_1510->___textElementInfo_10;
@@ -8806,6 +10136,7 @@ IL_2b65:
 		NullCheck(L_1511);
 		bool L_1513 = ((L_1511)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1512)))->___isVisible_34;
 		V_216 = L_1513;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5097));
 		bool L_1514 = V_216;
 		if (!L_1514)
 		{
@@ -8813,6 +10144,7 @@ IL_2b65:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5098));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1515 = ___textInfo1;
 		NullCheck(L_1515);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1516 = L_1515->___lineInfo_13;
@@ -8828,17 +10160,21 @@ IL_2b65:
 		NullCheck(L_1522);
 		float L_1523 = L_1522->___characterSpacing_27;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1524 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5099));
 		NullCheck(L_1524);
 		float L_1525;
 		L_1525 = FontAsset_get_regularStyleSpacing_mB7EEEA236312F5AC31FD3B787808279206F521B1(L_1524, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5099));
 		float L_1526 = V_2;
 		float L_1527 = __this->___m_CSpacing_41;
 		((L_1516)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1517)))->___maxAdvance_15 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_1521, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_1523, L_1525)), L_1526)))), L_1527));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5100));
 		goto IL_2c13;
 	}
 
 IL_2bcb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5101));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1528 = ___textInfo1;
 		NullCheck(L_1528);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1529 = L_1528->___lineInfo_13;
@@ -8854,9 +10190,11 @@ IL_2bcb:
 		NullCheck(L_1535);
 		float L_1536 = L_1535->___characterSpacing_27;
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_1537 = __this->___m_CurrentFontAsset_7;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5102));
 		NullCheck(L_1537);
 		float L_1538;
 		L_1538 = FontAsset_get_regularStyleSpacing_mB7EEEA236312F5AC31FD3B787808279206F521B1(L_1537, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5102));
 		float L_1539 = V_2;
 		float L_1540 = __this->___m_CSpacing_41;
 		((L_1529)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1530)))->___maxAdvance_15 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_1534, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_1536, L_1538)), L_1539)))), L_1540));
@@ -8864,6 +10202,7 @@ IL_2bcb:
 
 IL_2c13:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5103));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1541 = ___textInfo1;
 		NullCheck(L_1541);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1542 = L_1541->___lineInfo_13;
@@ -8871,6 +10210,7 @@ IL_2c13:
 		NullCheck(L_1542);
 		float L_1544 = __this->___m_LineOffset_39;
 		((L_1542)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1543)))->___baseline_13 = ((float)il2cpp_codegen_subtract((0.0f), L_1544));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5104));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1545 = ___textInfo1;
 		NullCheck(L_1545);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1546 = L_1545->___lineInfo_13;
@@ -8878,6 +10218,7 @@ IL_2c13:
 		NullCheck(L_1546);
 		float L_1548 = V_209;
 		((L_1546)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1547)))->___ascender_12 = L_1548;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5105));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1549 = ___textInfo1;
 		NullCheck(L_1549);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1550 = L_1549->___lineInfo_13;
@@ -8885,6 +10226,7 @@ IL_2c13:
 		NullCheck(L_1550);
 		float L_1552 = V_210;
 		((L_1550)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1551)))->___descender_14 = L_1552;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5106));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1553 = ___textInfo1;
 		NullCheck(L_1553);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1554 = L_1553->___lineInfo_13;
@@ -8895,11 +10237,15 @@ IL_2c13:
 		float L_1558 = V_14;
 		float L_1559 = V_1;
 		((L_1554)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1555)))->___lineHeight_11 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_1556, L_1557)), ((float)il2cpp_codegen_multiply(L_1558, L_1559))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5107));
 		int32_t L_1560 = __this->___m_CharacterCount_48;
 		__this->___m_FirstCharacterOfLine_49 = ((int32_t)il2cpp_codegen_add(L_1560, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5108));
 		__this->___m_LineVisibleCharacterCount_56 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5109));
 		int32_t L_1561 = V_60;
 		V_217 = (bool)((((int32_t)L_1561) == ((int32_t)((int32_t)10)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5110));
 		bool L_1562 = V_217;
 		if (!L_1562)
 		{
@@ -8907,27 +10253,40 @@ IL_2c13:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5111));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5112));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1563 = (&__this->___m_SavedLineState_69);
 		int32_t L_1564 = V_59;
 		int32_t L_1565 = __this->___m_CharacterCount_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1566 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5113));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_1563, L_1564, L_1565, L_1566, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5113));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5114));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1567 = (&__this->___m_SavedWordWrapState_68);
 		int32_t L_1568 = V_59;
 		int32_t L_1569 = __this->___m_CharacterCount_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1570 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5115));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_1567, L_1568, L_1569, L_1570, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5115));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5116));
 		int32_t L_1571 = __this->___m_LineNumber_55;
 		__this->___m_LineNumber_55 = ((int32_t)il2cpp_codegen_add(L_1571, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5117));
 		V_15 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5118));
 		V_28 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5119));
 		V_27 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5120));
 		int32_t L_1572 = __this->___m_LineNumber_55;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1573 = ___textInfo1;
 		NullCheck(L_1573);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_1574 = L_1573->___lineInfo_13;
 		NullCheck(L_1574);
 		V_218 = (bool)((((int32_t)((((int32_t)L_1572) < ((int32_t)((int32_t)(((RuntimeArray*)L_1574)->max_length))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5121));
 		bool L_1575 = V_218;
 		if (!L_1575)
 		{
@@ -8935,16 +10294,21 @@ IL_2c13:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5122));
 		int32_t L_1576 = __this->___m_LineNumber_55;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1577 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5123));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_ResizeLineExtents_m31C939F88EAEDD9CA7475304E55550A3FE98CD19(L_1576, L_1577, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5123));
 	}
 
 IL_2d13:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5124));
 		float L_1578 = __this->___m_LineHeight_40;
 		V_219 = (bool)((((float)L_1578) == ((float)(-32767.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5125));
 		bool L_1579 = V_219;
 		if (!L_1579)
 		{
@@ -8952,6 +10316,8 @@ IL_2d13:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5126));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5127));
 		float L_1580 = __this->___m_MaxLineDescender_54;
 		float L_1581 = V_74;
 		float L_1582 = V_14;
@@ -8964,14 +10330,18 @@ IL_2d13:
 		float L_1587 = __this->___m_LineSpacingDelta_83;
 		float L_1588 = V_1;
 		V_77 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), L_1580)), L_1581)), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1582, L_1584)), L_1586)), L_1587)), L_1588))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5128));
 		float L_1589 = __this->___m_LineOffset_39;
 		float L_1590 = V_77;
 		__this->___m_LineOffset_39 = ((float)il2cpp_codegen_add(L_1589, L_1590));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5129));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5130));
 		goto IL_2d87;
 	}
 
 IL_2d64:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5131));
 		float L_1591 = __this->___m_LineOffset_39;
 		float L_1592 = __this->___m_LineHeight_40;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1593 = ___generationSettings0;
@@ -8986,26 +10356,35 @@ IL_2d64:
 
 IL_2d87:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5132));
 		__this->___m_MaxLineAscender_53 = (-32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5133));
 		__this->___m_MaxLineDescender_54 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5134));
 		float L_1598 = V_74;
 		__this->___m_StartOfLineAscender_82 = L_1598;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5135));
 		float L_1599 = __this->___m_TagLineIndent_44;
 		float L_1600 = __this->___m_TagIndent_45;
 		__this->___m_XAdvance_43 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add((0.0f), L_1599)), L_1600));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5136));
 		int32_t L_1601 = __this->___m_CharacterCount_48;
 		V_18 = ((int32_t)il2cpp_codegen_subtract(L_1601, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5137));
 		int32_t L_1602 = __this->___m_CharacterCount_48;
 		__this->___m_CharacterCount_48 = ((int32_t)il2cpp_codegen_add(L_1602, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5138));
 		goto IL_329d;
 	}
 
 IL_2ddb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5139));
 	}
 
 IL_2ddc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5140));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1603 = ___textInfo1;
 		NullCheck(L_1603);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1604 = L_1603->___textElementInfo_10;
@@ -9013,6 +10392,7 @@ IL_2ddc:
 		NullCheck(L_1604);
 		bool L_1606 = ((L_1604)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1605)))->___isVisible_34;
 		V_220 = L_1606;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5141));
 		bool L_1607 = V_220;
 		if (!L_1607)
 		{
@@ -9020,6 +10400,8 @@ IL_2ddc:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5142));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5143));
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1608 = (&__this->___m_MeshExtents_62);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1609 = (&L_1608->___min_0);
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1610 = (&__this->___m_MeshExtents_62);
@@ -9032,9 +10414,12 @@ IL_2ddc:
 		NullCheck(L_1614);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1616 = (&((L_1614)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1615)))->___bottomLeft_19);
 		float L_1617 = L_1616->___x_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5144));
 		float L_1618;
 		L_1618 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_1612, L_1617, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5144));
 		L_1609->___x_0 = L_1618;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5145));
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1619 = (&__this->___m_MeshExtents_62);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1620 = (&L_1619->___min_0);
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1621 = (&__this->___m_MeshExtents_62);
@@ -9047,9 +10432,12 @@ IL_2ddc:
 		NullCheck(L_1625);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1627 = (&((L_1625)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1626)))->___bottomLeft_19);
 		float L_1628 = L_1627->___y_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5146));
 		float L_1629;
 		L_1629 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_1623, L_1628, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5146));
 		L_1620->___y_1 = L_1629;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5147));
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1630 = (&__this->___m_MeshExtents_62);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1631 = (&L_1630->___max_1);
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1632 = (&__this->___m_MeshExtents_62);
@@ -9062,9 +10450,12 @@ IL_2ddc:
 		NullCheck(L_1636);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1638 = (&((L_1636)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1637)))->___topRight_20);
 		float L_1639 = L_1638->___x_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5148));
 		float L_1640;
 		L_1640 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_1634, L_1639, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5148));
 		L_1631->___x_0 = L_1640;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5149));
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1641 = (&__this->___m_MeshExtents_62);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1642 = (&L_1641->___max_1);
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1643 = (&__this->___m_MeshExtents_62);
@@ -9077,13 +10468,17 @@ IL_2ddc:
 		NullCheck(L_1647);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1649 = (&((L_1647)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1648)))->___topRight_20);
 		float L_1650 = L_1649->___y_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5150));
 		float L_1651;
 		L_1651 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_1645, L_1650, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5150));
 		L_1642->___y_1 = L_1651;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5151));
 	}
 
 IL_2efd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5152));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1652 = ___generationSettings0;
 		NullCheck(L_1652);
 		int32_t L_1653 = L_1652->___overflowMode_11;
@@ -9113,6 +10508,7 @@ IL_2f17:
 IL_2f18:
 	{
 		V_221 = (bool)G_B425_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5153));
 		bool L_1656 = V_221;
 		if (!L_1656)
 		{
@@ -9120,12 +10516,15 @@ IL_2f18:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5154));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5155));
 		int32_t L_1657 = __this->___m_PageNumber_58;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1658 = ___textInfo1;
 		NullCheck(L_1658);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1659 = L_1658->___pageInfo_14;
 		NullCheck(L_1659);
 		V_222 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_1657, 1))) > ((int32_t)((int32_t)(((RuntimeArray*)L_1659)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5156));
 		bool L_1660 = V_222;
 		if (!L_1660)
 		{
@@ -9133,16 +10532,20 @@ IL_2f18:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5157));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1661 = ___textInfo1;
 		NullCheck(L_1661);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4** L_1662 = (&L_1661->___pageInfo_14);
 		int32_t L_1663 = __this->___m_PageNumber_58;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5158));
 		il2cpp_codegen_runtime_class_init_inline(TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_il2cpp_TypeInfo_var);
 		TextInfo_Resize_TisPageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909_m0C68AC768E3311C6C7132EC317AF7ABB24A5343B(L_1662, ((int32_t)il2cpp_codegen_add(L_1663, 1)), (bool)1, TextInfo_Resize_TisPageInfo_tFFF6B289E9A37E4D69353B32F941421180DA5909_m0C68AC768E3311C6C7132EC317AF7ABB24A5343B_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5158));
 	}
 
 IL_2f4f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5159));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1664 = ___textInfo1;
 		NullCheck(L_1664);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1665 = L_1664->___pageInfo_14;
@@ -9150,6 +10553,7 @@ IL_2f4f:
 		NullCheck(L_1665);
 		float L_1667 = V_24;
 		((L_1665)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1666)))->___ascender_2 = L_1667;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5160));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1668 = ___textInfo1;
 		NullCheck(L_1668);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1669 = L_1668->___pageInfo_14;
@@ -9191,6 +10595,7 @@ IL_2faa:
 IL_2fac:
 	{
 		G_B431_1->___descender_4 = G_B431_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5161));
 		int32_t L_1681 = __this->___m_PageNumber_58;
 		if (L_1681)
 		{
@@ -9211,6 +10616,7 @@ IL_2fc4:
 IL_2fc5:
 	{
 		V_223 = (bool)G_B434_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5162));
 		bool L_1683 = V_223;
 		if (!L_1683)
 		{
@@ -9218,6 +10624,7 @@ IL_2fc5:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5163));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1684 = ___textInfo1;
 		NullCheck(L_1684);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1685 = L_1684->___pageInfo_14;
@@ -9225,11 +10632,13 @@ IL_2fc5:
 		NullCheck(L_1685);
 		int32_t L_1687 = __this->___m_CharacterCount_48;
 		((L_1685)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1686)))->___firstCharacterIndex_0 = L_1687;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5164));
 		goto IL_308e;
 	}
 
 IL_2fec:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5165));
 		int32_t L_1688 = __this->___m_CharacterCount_48;
 		if ((((int32_t)L_1688) <= ((int32_t)0)))
 		{
@@ -9256,6 +10665,7 @@ IL_301a:
 IL_301b:
 	{
 		V_224 = (bool)G_B439_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5166));
 		bool L_1694 = V_224;
 		if (!L_1694)
 		{
@@ -9263,6 +10673,8 @@ IL_301b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5167));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5168));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1695 = ___textInfo1;
 		NullCheck(L_1695);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1696 = L_1695->___pageInfo_14;
@@ -9270,6 +10682,7 @@ IL_301b:
 		NullCheck(L_1696);
 		int32_t L_1698 = __this->___m_CharacterCount_48;
 		((L_1696)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_1697, 1)))))->___lastCharacterIndex_1 = ((int32_t)il2cpp_codegen_subtract(L_1698, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5169));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1699 = ___textInfo1;
 		NullCheck(L_1699);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1700 = L_1699->___pageInfo_14;
@@ -9277,14 +10690,18 @@ IL_301b:
 		NullCheck(L_1700);
 		int32_t L_1702 = __this->___m_CharacterCount_48;
 		((L_1700)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1701)))->___firstCharacterIndex_0 = L_1702;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5170));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5171));
 		goto IL_308e;
 	}
 
 IL_3061:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5172));
 		int32_t L_1703 = __this->___m_CharacterCount_48;
 		int32_t L_1704 = V_0;
 		V_225 = (bool)((((int32_t)L_1703) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_1704, 1))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5173));
 		bool L_1705 = V_225;
 		if (!L_1705)
 		{
@@ -9292,6 +10709,7 @@ IL_3061:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5174));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1706 = ___textInfo1;
 		NullCheck(L_1706);
 		PageInfoU5BU5D_tFEA2CF88695491CFC2F2A2EF6BDCC56E52B0A6D4* L_1707 = L_1706->___pageInfo_14;
@@ -9303,10 +10721,12 @@ IL_3061:
 
 IL_308e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5175));
 	}
 
 IL_308f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5176));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1710 = ___generationSettings0;
 		NullCheck(L_1710);
 		bool L_1711 = L_1710->___wordWrap_12;
@@ -9340,6 +10760,7 @@ IL_30ab:
 IL_30ac:
 	{
 		V_226 = (bool)G_B448_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5177));
 		bool L_1716 = V_226;
 		if (!L_1716)
 		{
@@ -9347,10 +10768,14 @@ IL_30ac:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5178));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5179));
 		int32_t L_1717 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5180));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_1718;
 		L_1718 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(((int32_t)(uint16_t)L_1717), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5180));
 		if (L_1718)
 		{
 			goto IL_30d8;
@@ -9429,6 +10854,7 @@ IL_3118:
 IL_3119:
 	{
 		V_227 = (bool)G_B460_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5181));
 		bool L_1729 = V_227;
 		if (!L_1729)
 		{
@@ -9436,18 +10862,27 @@ IL_3119:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5182));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5183));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1730 = (&__this->___m_SavedWordWrapState_68);
 		int32_t L_1731 = V_59;
 		int32_t L_1732 = __this->___m_CharacterCount_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1733 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5184));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_1730, L_1731, L_1732, L_1733, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5184));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5185));
 		__this->___m_IsCharacterWrappingEnabled_81 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5186));
 		V_27 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5187));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5188));
 		goto IL_328d;
 	}
 
 IL_3146:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5189));
 		int32_t L_1734 = V_60;
 		if ((((int32_t)L_1734) <= ((int32_t)((int32_t)4352))))
 		{
@@ -9573,6 +11008,7 @@ IL_31cf:
 IL_31d0:
 	{
 		V_228 = (bool)G_B478_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5190));
 		bool L_1749 = V_228;
 		if (!L_1749)
 		{
@@ -9580,6 +11016,8 @@ IL_31d0:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5191));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5192));
 		bool L_1750 = V_27;
 		bool L_1751 = V_29;
 		if (((int32_t)((int32_t)L_1750|(int32_t)L_1751)))
@@ -9589,16 +11027,22 @@ IL_31d0:
 	}
 	{
 		TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* L_1752 = V_23;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5193));
 		NullCheck(L_1752);
 		UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* L_1753;
 		L_1753 = TextSettings_get_lineBreakingRules_m96E2C32D4F08309D904B0BCD83CEBE8CD6716A04(L_1752, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5193));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5194));
 		NullCheck(L_1753);
 		HashSet_1_t5DD20B42149A11AEBF12A75505306E6EFC34943A* L_1754;
 		L_1754 = UnicodeLineBreakingRules_get_leadingCharactersLookup_m1DAC015D7E37112EAE0437E6472AEA0719DFF3DC(L_1753, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5194));
 		int32_t L_1755 = V_60;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5195));
 		NullCheck(L_1754);
 		bool L_1756;
 		L_1756 = HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9(L_1754, L_1755, HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5195));
 		if (L_1756)
 		{
 			goto IL_3232;
@@ -9614,21 +11058,27 @@ IL_31d0:
 	}
 	{
 		TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* L_1759 = V_23;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5196));
 		NullCheck(L_1759);
 		UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* L_1760;
 		L_1760 = TextSettings_get_lineBreakingRules_m96E2C32D4F08309D904B0BCD83CEBE8CD6716A04(L_1759, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5196));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5197));
 		NullCheck(L_1760);
 		HashSet_1_t5DD20B42149A11AEBF12A75505306E6EFC34943A* L_1761;
 		L_1761 = UnicodeLineBreakingRules_get_followingCharactersLookup_m5510A21873DC5DA66F4A2DFA4C26A5EFAD494D8B(L_1760, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5197));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1762 = ___textInfo1;
 		NullCheck(L_1762);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_1763 = L_1762->___textElementInfo_10;
 		int32_t L_1764 = __this->___m_CharacterCount_48;
 		NullCheck(L_1763);
 		Il2CppChar L_1765 = ((L_1763)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_1764, 1)))))->___character_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5198));
 		NullCheck(L_1761);
 		bool L_1766;
 		L_1766 = HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9(L_1761, L_1765, HashSet_1_Contains_m02385B663B65E53485251FFFD116D0F26BA172B9_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5198));
 		G_B484_0 = ((((int32_t)L_1766) == ((int32_t)0))? 1 : 0);
 		goto IL_3230;
 	}
@@ -9663,6 +11113,7 @@ IL_3235:
 IL_3236:
 	{
 		V_229 = (bool)G_B488_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5199));
 		bool L_1767 = V_229;
 		if (!L_1767)
 		{
@@ -9670,22 +11121,32 @@ IL_3236:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5200));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5201));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1768 = (&__this->___m_SavedWordWrapState_68);
 		int32_t L_1769 = V_59;
 		int32_t L_1770 = __this->___m_CharacterCount_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1771 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5202));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_1768, L_1769, L_1770, L_1771, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5202));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5203));
 		__this->___m_IsCharacterWrappingEnabled_81 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5204));
 		V_27 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5205));
 	}
 
 IL_325e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5206));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5207));
 		goto IL_328d;
 	}
 
 IL_3261:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5208));
 		bool L_1772 = V_27;
 		if (L_1772)
 		{
@@ -9707,6 +11168,7 @@ IL_326e:
 	{
 		bool L_1774 = V_29;
 		V_230 = (bool)((int32_t)(G_B494_0|(int32_t)L_1774));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5209));
 		bool L_1775 = V_230;
 		if (!L_1775)
 		{
@@ -9714,25 +11176,32 @@ IL_326e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5210));
 		WordWrapState_tD71131CF008362DB9562FB9794AE9D9225D8F123* L_1776 = (&__this->___m_SavedWordWrapState_68);
 		int32_t L_1777 = V_59;
 		int32_t L_1778 = __this->___m_CharacterCount_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1779 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5211));
 		TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936(__this, L_1776, L_1777, L_1778, L_1779, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5211));
 	}
 
 IL_328d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5212));
 	}
 
 IL_328e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5213));
 		int32_t L_1780 = __this->___m_CharacterCount_48;
 		__this->___m_CharacterCount_48 = ((int32_t)il2cpp_codegen_add(L_1780, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5214));
 	}
 
 IL_329d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5215));
 		int32_t L_1781 = V_59;
 		V_149 = L_1781;
 		int32_t L_1782 = V_149;
@@ -9741,6 +11210,7 @@ IL_329d:
 
 IL_32a7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5216));
 		int32_t L_1783 = V_59;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1784 = __this->___m_CharBuffer_4;
 		NullCheck(L_1784);
@@ -9767,6 +11237,7 @@ IL_32c1:
 IL_32c2:
 	{
 		V_231 = (bool)G_B502_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5217));
 		bool L_1789 = V_231;
 		if (L_1789)
 		{
@@ -9774,9 +11245,11 @@ IL_32c2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5218));
 		float L_1790 = __this->___m_MaxFontSize_79;
 		float L_1791 = __this->___m_MinFontSize_80;
 		V_32 = ((float)il2cpp_codegen_subtract(L_1790, L_1791));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5219));
 		bool L_1792 = __this->___m_IsCharacterWrappingEnabled_81;
 		if (L_1792)
 		{
@@ -9816,6 +11289,7 @@ IL_3303:
 IL_3304:
 	{
 		V_232 = (bool)G_B508_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5220));
 		bool L_1799 = V_232;
 		if (!L_1799)
 		{
@@ -9823,23 +11297,33 @@ IL_3304:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5221));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5222));
 		float L_1800 = __this->___m_FontSize_15;
 		__this->___m_MinFontSize_80 = L_1800;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5223));
 		float L_1801 = __this->___m_FontSize_15;
 		float L_1802 = __this->___m_MaxFontSize_79;
 		float L_1803 = __this->___m_FontSize_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5224));
 		float L_1804;
 		L_1804 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(((float)(((float)il2cpp_codegen_subtract(L_1802, L_1803))/(2.0f))), (0.0500000007f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5224));
 		__this->___m_FontSize_15 = ((float)il2cpp_codegen_add(L_1801, L_1804));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5225));
 		float L_1805 = __this->___m_FontSize_15;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1806 = ___generationSettings0;
 		NullCheck(L_1806);
 		float L_1807 = L_1806->___fontSizeMax_21;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5226));
 		float L_1808;
 		L_1808 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_1805, L_1807, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5226));
 		__this->___m_FontSize_15 = ((float)(((float)il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1808, (20.0f))), (0.5f)))))/(20.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5227));
 		int32_t L_1809 = __this->___m_LoopCountA_70;
 		V_233 = (bool)((((int32_t)L_1809) > ((int32_t)((int32_t)20)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5228));
 		bool L_1810 = V_233;
 		if (!L_1810)
 		{
@@ -9847,22 +11331,31 @@ IL_3304:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5229));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5230));
 		goto IL_6c5c;
 	}
 
 IL_3385:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5231));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1811 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1812 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5232));
 		TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831(__this, L_1811, L_1812, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5232));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5233));
 		goto IL_6c5c;
 	}
 
 IL_3393:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5234));
 		__this->___m_IsCharacterWrappingEnabled_81 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5235));
 		int32_t L_1813 = __this->___m_CharacterCount_48;
 		V_234 = (bool)((((int32_t)L_1813) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5236));
 		bool L_1814 = V_234;
 		if (!L_1814)
 		{
@@ -9870,33 +11363,49 @@ IL_3393:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5237));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5238));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1815 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5239));
 		TextGenerator_ClearMesh_mE8A81193AF7ACE3CFE55E0C18FCCD751503A997F((bool)1, L_1815, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5240));
 		goto IL_6c5c;
 	}
 
 IL_33b7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5241));
 		MaterialReferenceU5BU5D_t4A9B88114E223BD96CE5121053664023CE2DE07E* L_1816 = __this->___m_MaterialReferences_85;
 		NullCheck(L_1816);
 		int32_t L_1817 = ((L_1816)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___referenceCount_8;
 		V_33 = ((int32_t)il2cpp_codegen_multiply(L_1817, 4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5242));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1818 = ___textInfo1;
 		NullCheck(L_1818);
 		MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* L_1819 = L_1818->___meshInfo_15;
 		NullCheck(L_1819);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5243));
 		MeshInfo_Clear_m06992FEB7AC9B2AE1728BEDFC8D8A39DE1AAD475(((L_1819)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5243));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5244));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5245));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1820;
 		L_1820 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5245));
 		V_34 = L_1820;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5246));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1821 = __this->___m_RectTransformCorners_1;
 		V_35 = L_1821;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5247));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1822 = ___generationSettings0;
 		NullCheck(L_1822);
 		int32_t L_1823 = L_1822->___textAlignment_10;
 		V_236 = L_1823;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5248));
 		int32_t L_1824 = V_236;
 		V_235 = L_1824;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5249));
 		int32_t L_1825 = V_235;
 		if ((((int32_t)L_1825) > ((int32_t)((int32_t)1056))))
 		{
@@ -10348,10 +11857,12 @@ IL_3641:
 
 IL_3652:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5250));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1868 = ___generationSettings0;
 		NullCheck(L_1868);
 		int32_t L_1869 = L_1868->___overflowMode_11;
 		V_237 = (bool)((((int32_t)((((int32_t)L_1869) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5251));
 		bool L_1870 = V_237;
 		if (!L_1870)
 		{
@@ -10359,6 +11870,7 @@ IL_3652:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5252));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1871 = V_35;
 		NullCheck(L_1871);
 		int32_t L_1872 = 1;
@@ -10368,17 +11880,23 @@ IL_3652:
 		float L_1876 = __this->___m_MaxAscender_64;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1877 = V_19;
 		float L_1878 = L_1877.___y_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5253));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1879;
 		memset((&L_1879), 0, sizeof(L_1879));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1879), ((float)il2cpp_codegen_add((0.0f), L_1875)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract((0.0f), L_1876)), L_1878)), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5253));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5254));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1880;
 		L_1880 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1873, L_1879, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5254));
 		V_34 = L_1880;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5255));
 		goto IL_36e6;
 	}
 
 IL_36a0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5256));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1881 = V_35;
 		NullCheck(L_1881);
 		int32_t L_1882 = 1;
@@ -10393,25 +11911,32 @@ IL_36a0:
 		float L_1889 = ((L_1887)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1888)))->___ascender_2;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1890 = V_19;
 		float L_1891 = L_1890.___y_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5257));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1892;
 		memset((&L_1892), 0, sizeof(L_1892));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1892), ((float)il2cpp_codegen_add((0.0f), L_1885)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract((0.0f), L_1889)), L_1891)), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5257));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5258));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1893;
 		L_1893 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1883, L_1892, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5258));
 		V_34 = L_1893;
 	}
 
 IL_36e6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5259));
 		goto IL_399d;
 	}
 
 IL_36eb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5260));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1894 = ___generationSettings0;
 		NullCheck(L_1894);
 		int32_t L_1895 = L_1894->___overflowMode_11;
 		V_238 = (bool)((((int32_t)((((int32_t)L_1895) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5261));
 		bool L_1896 = V_238;
 		if (!L_1896)
 		{
@@ -10419,6 +11944,7 @@ IL_36eb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5262));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1897 = V_35;
 		NullCheck(L_1897);
 		int32_t L_1898 = 0;
@@ -10427,10 +11953,14 @@ IL_36eb:
 		NullCheck(L_1900);
 		int32_t L_1901 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1902 = (L_1900)->GetAt(static_cast<il2cpp_array_size_t>(L_1901));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5263));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1903;
 		L_1903 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1899, L_1902, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5263));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5264));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1904;
 		L_1904 = Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline(L_1903, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5264));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1905 = V_19;
 		float L_1906 = L_1905.___x_1;
 		float L_1907 = __this->___m_MaxAscender_64;
@@ -10439,17 +11969,23 @@ IL_36eb:
 		float L_1910 = V_25;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1911 = V_19;
 		float L_1912 = L_1911.___w_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5265));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1913;
 		memset((&L_1913), 0, sizeof(L_1913));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1913), ((float)il2cpp_codegen_add((0.0f), L_1906)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1907, L_1909)), L_1910)), L_1912))/(2.0f))))), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5265));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5266));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1914;
 		L_1914 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1904, L_1913, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5266));
 		V_34 = L_1914;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5267));
 		goto IL_37df;
 	}
 
 IL_3761:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5268));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1915 = V_35;
 		NullCheck(L_1915);
 		int32_t L_1916 = 0;
@@ -10458,10 +11994,14 @@ IL_3761:
 		NullCheck(L_1918);
 		int32_t L_1919 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1920 = (L_1918)->GetAt(static_cast<il2cpp_array_size_t>(L_1919));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5269));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1921;
 		L_1921 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1917, L_1920, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5269));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5270));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1922;
 		L_1922 = Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline(L_1921, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5270));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1923 = V_19;
 		float L_1924 = L_1923.___x_1;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_1925 = ___textInfo1;
@@ -10480,25 +12020,32 @@ IL_3761:
 		float L_1934 = ((L_1932)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1933)))->___descender_4;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1935 = V_19;
 		float L_1936 = L_1935.___w_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5271));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1937;
 		memset((&L_1937), 0, sizeof(L_1937));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1937), ((float)il2cpp_codegen_add((0.0f), L_1924)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1928, L_1930)), L_1934)), L_1936))/(2.0f))))), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5271));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5272));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1938;
 		L_1938 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1922, L_1937, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5272));
 		V_34 = L_1938;
 	}
 
 IL_37df:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5273));
 		goto IL_399d;
 	}
 
 IL_37e4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5274));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_1939 = ___generationSettings0;
 		NullCheck(L_1939);
 		int32_t L_1940 = L_1939->___overflowMode_11;
 		V_239 = (bool)((((int32_t)((((int32_t)L_1940) == ((int32_t)5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5275));
 		bool L_1941 = V_239;
 		if (!L_1941)
 		{
@@ -10506,6 +12053,7 @@ IL_37e4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5276));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1942 = V_35;
 		NullCheck(L_1942);
 		int32_t L_1943 = 0;
@@ -10515,17 +12063,23 @@ IL_37e4:
 		float L_1947 = V_25;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1948 = V_19;
 		float L_1949 = L_1948.___w_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5277));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1950;
 		memset((&L_1950), 0, sizeof(L_1950));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1950), ((float)il2cpp_codegen_add((0.0f), L_1946)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), L_1947)), L_1949)), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5277));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5278));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1951;
 		L_1951 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1944, L_1950, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5278));
 		V_34 = L_1951;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5279));
 		goto IL_3874;
 	}
 
 IL_382e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5280));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1952 = V_35;
 		NullCheck(L_1952);
 		int32_t L_1953 = 0;
@@ -10540,21 +12094,27 @@ IL_382e:
 		float L_1960 = ((L_1958)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1959)))->___descender_4;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1961 = V_19;
 		float L_1962 = L_1961.___w_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5281));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1963;
 		memset((&L_1963), 0, sizeof(L_1963));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1963), ((float)il2cpp_codegen_add((0.0f), L_1956)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), L_1960)), L_1962)), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5281));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5282));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1964;
 		L_1964 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1954, L_1963, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5282));
 		V_34 = L_1964;
 	}
 
 IL_3874:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5283));
 		goto IL_399d;
 	}
 
 IL_3879:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5284));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1965 = V_35;
 		NullCheck(L_1965);
 		int32_t L_1966 = 0;
@@ -10563,23 +12123,33 @@ IL_3879:
 		NullCheck(L_1968);
 		int32_t L_1969 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1970 = (L_1968)->GetAt(static_cast<il2cpp_array_size_t>(L_1969));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5285));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1971;
 		L_1971 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1967, L_1970, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5285));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5286));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1972;
 		L_1972 = Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline(L_1971, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5286));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1973 = V_19;
 		float L_1974 = L_1973.___x_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5287));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1975;
 		memset((&L_1975), 0, sizeof(L_1975));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1975), ((float)il2cpp_codegen_add((0.0f), L_1974)), (0.0f), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5287));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5288));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1976;
 		L_1976 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1972, L_1975, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5288));
 		V_34 = L_1976;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5289));
 		goto IL_399d;
 	}
 
 IL_38c0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5290));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1977 = V_35;
 		NullCheck(L_1977);
 		int32_t L_1978 = 0;
@@ -10588,10 +12158,14 @@ IL_38c0:
 		NullCheck(L_1980);
 		int32_t L_1981 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1982 = (L_1980)->GetAt(static_cast<il2cpp_array_size_t>(L_1981));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5291));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1983;
 		L_1983 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1979, L_1982, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5291));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5292));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1984;
 		L_1984 = Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline(L_1983, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5292));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1985 = V_19;
 		float L_1986 = L_1985.___x_1;
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6* L_1987 = (&__this->___m_MeshExtents_62);
@@ -10604,17 +12178,23 @@ IL_38c0:
 		float L_1994 = L_1993->___y_1;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1995 = V_19;
 		float L_1996 = L_1995.___w_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5293));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1997;
 		memset((&L_1997), 0, sizeof(L_1997));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1997), ((float)il2cpp_codegen_add((0.0f), L_1986)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1989, L_1991)), L_1994)), L_1996))/(2.0f))))), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5293));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5294));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1998;
 		L_1998 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_1984, L_1997, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5294));
 		V_34 = L_1998;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5295));
 		goto IL_399d;
 	}
 
 IL_393c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5296));
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1999 = V_35;
 		NullCheck(L_1999);
 		int32_t L_2000 = 0;
@@ -10623,10 +12203,14 @@ IL_393c:
 		NullCheck(L_2002);
 		int32_t L_2003 = 1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2004 = (L_2002)->GetAt(static_cast<il2cpp_array_size_t>(L_2003));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5297));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2005;
 		L_2005 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2001, L_2004, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5297));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5298));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2006;
 		L_2006 = Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline(L_2005, (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5298));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2007 = V_19;
 		float L_2008 = L_2007.___x_1;
 		float L_2009 = __this->___m_MaxCapHeight_63;
@@ -10634,70 +12218,113 @@ IL_393c:
 		float L_2011 = L_2010.___y_2;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2012 = V_19;
 		float L_2013 = L_2012.___w_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5299));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2014;
 		memset((&L_2014), 0, sizeof(L_2014));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2014), ((float)il2cpp_codegen_add((0.0f), L_2008)), ((float)il2cpp_codegen_subtract((0.0f), ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_2009, L_2011)), L_2013))/(2.0f))))), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5299));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5300));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2015;
 		L_2015 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2006, L_2014, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5300));
 		V_34 = L_2015;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5301));
 		goto IL_399d;
 	}
 
 IL_399d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5302));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5303));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2016;
 		L_2016 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5303));
 		V_36 = L_2016;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5304));
 		V_37 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5305));
 		V_38 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5306));
 		V_39 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5307));
 		V_40 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5308));
 		V_41 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5309));
 		V_42 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5310));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5311));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2017;
 		L_2017 = Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5311));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5312));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2018;
 		L_2018 = Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline(L_2017, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5312));
 		V_43 = L_2018;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5313));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5314));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2019;
 		L_2019 = Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5314));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5315));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2020;
 		L_2020 = Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline(L_2019, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5315));
 		V_44 = L_2020;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5316));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5317));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&V_45), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)0, (uint8_t)((int32_t)64), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5317));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5318));
 		V_46 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5319));
 		V_47 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5320));
 		V_48 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5321));
 		V_49 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5322));
 		V_50 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5323));
 		V_51 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5324));
 		V_52 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5325));
 		V_53 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5326));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_2021 = ___textInfo1;
 		NullCheck(L_2021);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2022 = L_2021->___textElementInfo_10;
 		V_54 = L_2022;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5327));
 		V_240 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5328));
 		goto IL_6b35;
 	}
 
 IL_3a26:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5329));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5330));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2023 = V_54;
 		int32_t L_2024 = V_240;
 		NullCheck(L_2023);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_2025 = ((L_2023)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2024)))->___fontAsset_4;
 		V_241 = L_2025;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5331));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2026 = V_54;
 		int32_t L_2027 = V_240;
 		NullCheck(L_2026);
 		Il2CppChar L_2028 = ((L_2026)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2027)))->___character_0;
 		V_242 = L_2028;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5332));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2029 = V_54;
 		int32_t L_2030 = V_240;
 		NullCheck(L_2029);
 		int32_t L_2031 = ((L_2029)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2030)))->___lineNumber_11;
 		V_243 = L_2031;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5333));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_2032 = ___textInfo1;
 		NullCheck(L_2032);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_2033 = L_2032->___lineInfo_13;
@@ -10706,15 +12333,20 @@ IL_3a26:
 		int32_t L_2035 = L_2034;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2036 = (L_2033)->GetAt(static_cast<il2cpp_array_size_t>(L_2035));
 		V_244 = L_2036;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5334));
 		int32_t L_2037 = V_243;
 		V_38 = ((int32_t)il2cpp_codegen_add(L_2037, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5335));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2038 = V_244;
 		int32_t L_2039 = L_2038.___alignment_19;
 		V_245 = L_2039;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5336));
 		int32_t L_2040 = V_245;
 		V_257 = L_2040;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5337));
 		int32_t L_2041 = V_257;
 		V_256 = L_2041;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5338));
 		int32_t L_2042 = V_256;
 		if ((((int32_t)L_2042) > ((int32_t)((int32_t)1056))))
 		{
@@ -11142,10 +12774,12 @@ IL_3d06:
 
 IL_3d1b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5339));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2073 = ___generationSettings0;
 		NullCheck(L_2073);
 		bool L_2074 = L_2073->___isRightToLeft_24;
 		V_258 = (bool)((((int32_t)L_2074) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5340));
 		bool L_2075 = V_258;
 		if (!L_2075)
 		{
@@ -11153,38 +12787,51 @@ IL_3d1b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5341));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2076 = V_244;
 		float L_2077 = L_2076.___marginLeft_17;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5342));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_add((0.0f), L_2077)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5342));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5343));
 		goto IL_3d70;
 	}
 
 IL_3d52:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5344));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2078 = V_244;
 		float L_2079 = L_2078.___maxAdvance_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5345));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_subtract((0.0f), L_2079)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5345));
 	}
 
 IL_3d70:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5346));
 		goto IL_41fd;
 	}
 
 IL_3d75:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5347));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2080 = V_244;
 		float L_2081 = L_2080.___marginLeft_17;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2082 = V_244;
 		float L_2083 = L_2082.___width_16;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2084 = V_244;
 		float L_2085 = L_2084.___maxAdvance_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5348));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2081, ((float)(L_2083/(2.0f))))), ((float)(L_2085/(2.0f))))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5348));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5349));
 		goto IL_41fd;
 	}
 
 IL_3dae:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5350));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2086 = V_244;
 		float L_2087 = L_2086.___marginLeft_17;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2088 = V_244;
@@ -11197,16 +12844,21 @@ IL_3dae:
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6 L_2095 = L_2094.___lineExtents_20;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2096 = L_2095.___max_1;
 		float L_2097 = L_2096.___x_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5351));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2087, ((float)(L_2089/(2.0f))))), ((float)(((float)il2cpp_codegen_add(L_2093, L_2097))/(2.0f))))), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5351));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5352));
 		goto IL_41fd;
 	}
 
 IL_3e03:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5353));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2098 = ___generationSettings0;
 		NullCheck(L_2098);
 		bool L_2099 = L_2098->___isRightToLeft_24;
 		V_259 = (bool)((((int32_t)L_2099) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5354));
 		bool L_2100 = V_259;
 		if (!L_2100)
 		{
@@ -11214,32 +12866,41 @@ IL_3e03:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5355));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2101 = V_244;
 		float L_2102 = L_2101.___marginLeft_17;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2103 = V_244;
 		float L_2104 = L_2103.___width_16;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2105 = V_244;
 		float L_2106 = L_2105.___maxAdvance_15;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5356));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2102, L_2104)), L_2106)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5356));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5357));
 		goto IL_3e64;
 	}
 
 IL_3e44:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5358));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2107 = V_244;
 		float L_2108 = L_2107.___marginLeft_17;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2109 = V_244;
 		float L_2110 = L_2109.___width_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5359));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_add(L_2108, L_2110)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5359));
 	}
 
 IL_3e64:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5360));
 		goto IL_41fd;
 	}
 
 IL_3e69:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5361));
 		Il2CppChar L_2111 = V_242;
 		if ((((int32_t)L_2111) == ((int32_t)((int32_t)173))))
 		{
@@ -11267,6 +12928,7 @@ IL_3e86:
 IL_3e87:
 	{
 		V_260 = (bool)G_B672_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5362));
 		bool L_2114 = V_260;
 		if (!L_2114)
 		{
@@ -11274,23 +12936,29 @@ IL_3e87:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5363));
 		goto IL_41fd;
 	}
 
 IL_3e9a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5364));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2115 = V_54;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2116 = V_244;
 		int32_t L_2117 = L_2116.___lastCharacterIndex_8;
 		NullCheck(L_2115);
 		Il2CppChar L_2118 = ((L_2115)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2117)))->___character_0;
 		V_254 = L_2118;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5365));
 		int32_t L_2119 = V_245;
 		V_255 = (bool)((((int32_t)((int32_t)((int32_t)L_2119&((int32_t)16)))) == ((int32_t)((int32_t)16)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5366));
 		Il2CppChar L_2120 = V_254;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5367));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_2121;
 		L_2121 = Char_IsControl_m7B006691A34165B76DF65393181827D62104F6EC(L_2120, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5367));
 		if (L_2121)
 		{
 			goto IL_3ed3;
@@ -11333,6 +13001,7 @@ IL_3eef:
 IL_3ef0:
 	{
 		V_261 = (bool)G_B680_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5368));
 		bool L_2129 = V_261;
 		if (!L_2129)
 		{
@@ -11340,6 +13009,8 @@ IL_3ef0:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5369));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5370));
 		int32_t L_2130 = V_243;
 		int32_t L_2131 = V_39;
 		if ((!(((uint32_t)L_2130) == ((uint32_t)L_2131))))
@@ -11371,6 +13042,7 @@ IL_3f18:
 IL_3f19:
 	{
 		V_262 = (bool)G_B685_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5371));
 		bool L_2136 = V_262;
 		if (!L_2136)
 		{
@@ -11378,10 +13050,13 @@ IL_3f19:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5372));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5373));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2137 = ___generationSettings0;
 		NullCheck(L_2137);
 		bool L_2138 = L_2137->___isRightToLeft_24;
 		V_263 = (bool)((((int32_t)L_2138) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5374));
 		bool L_2139 = V_263;
 		if (!L_2139)
 		{
@@ -11389,28 +13064,39 @@ IL_3f19:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5375));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2140 = V_244;
 		float L_2141 = L_2140.___marginLeft_17;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5376));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), L_2141, (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5376));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5377));
 		goto IL_3f79;
 	}
 
 IL_3f59:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5378));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2142 = V_244;
 		float L_2143 = L_2142.___marginLeft_17;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2144 = V_244;
 		float L_2145 = L_2144.___width_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5379));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_add(L_2143, L_2145)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5379));
 	}
 
 IL_3f79:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5380));
 		Il2CppChar L_2146 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5381));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_2147;
 		L_2147 = Char_IsSeparator_mDCBCD6C8304D946C3E1998A847DEA04928C72394(L_2146, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5381));
 		V_264 = L_2147;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5382));
 		bool L_2148 = V_264;
 		if (!L_2148)
 		{
@@ -11418,22 +13104,29 @@ IL_3f79:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5383));
 		V_40 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5384));
 		goto IL_3f96;
 	}
 
 IL_3f93:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5385));
 		V_40 = (bool)0;
 	}
 
 IL_3f96:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5387));
 		goto IL_41a5;
 	}
 
 IL_3f9c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5388));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5389));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2149 = ___generationSettings0;
 		NullCheck(L_2149);
 		bool L_2150 = L_2149->___isRightToLeft_24;
@@ -11463,11 +13156,13 @@ IL_3fb6:
 IL_3fc5:
 	{
 		V_265 = G_B696_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5390));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2159 = V_244;
 		int32_t L_2160 = L_2159.___visibleCharacterCount_2;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2161 = V_244;
 		int32_t L_2162 = L_2161.___controlCharacterCount_0;
 		V_266 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_2160, 1)), L_2162));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5391));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2163 = V_54;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2164 = V_244;
 		int32_t L_2165 = L_2164.___lastCharacterIndex_8;
@@ -11497,8 +13192,10 @@ IL_4009:
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2171 = V_244;
 		int32_t L_2172 = L_2171.___controlCharacterCount_0;
 		V_267 = ((int32_t)il2cpp_codegen_subtract(G_B699_0, L_2172));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5392));
 		bool L_2173 = V_40;
 		V_269 = L_2173;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5393));
 		bool L_2174 = V_269;
 		if (!L_2174)
 		{
@@ -11506,14 +13203,19 @@ IL_4009:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5394));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5395));
 		int32_t L_2175 = V_267;
 		V_267 = ((int32_t)il2cpp_codegen_subtract(L_2175, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5396));
 		int32_t L_2176 = V_266;
 		V_266 = ((int32_t)il2cpp_codegen_add(L_2176, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5397));
 	}
 
 IL_4045:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5398));
 		int32_t L_2177 = V_267;
 		if ((((int32_t)L_2177) > ((int32_t)0)))
 		{
@@ -11536,8 +13238,10 @@ IL_4055:
 IL_405b:
 	{
 		V_268 = G_B704_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5399));
 		int32_t L_2180 = V_267;
 		V_270 = (bool)((((int32_t)L_2180) < ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5400));
 		bool L_2181 = V_270;
 		if (!L_2181)
 		{
@@ -11545,11 +13249,13 @@ IL_405b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5401));
 		V_267 = 1;
 	}
 
 IL_407f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5402));
 		Il2CppChar L_2182 = V_242;
 		if ((((int32_t)L_2182) == ((int32_t)((int32_t)160))))
 		{
@@ -11565,9 +13271,11 @@ IL_407f:
 	}
 	{
 		Il2CppChar L_2184 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5403));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_2185;
 		L_2185 = Char_IsSeparator_mDCBCD6C8304D946C3E1998A847DEA04928C72394(L_2184, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5403));
 		G_B710_0 = ((int32_t)(L_2185));
 		goto IL_4098;
 	}
@@ -11591,6 +13299,7 @@ IL_409a:
 IL_409b:
 	{
 		V_271 = (bool)G_B712_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5404));
 		bool L_2186 = V_271;
 		if (!L_2186)
 		{
@@ -11598,10 +13307,13 @@ IL_409b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5405));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5406));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2187 = ___generationSettings0;
 		NullCheck(L_2187);
 		bool L_2188 = L_2187->___isRightToLeft_24;
 		V_272 = (bool)((((int32_t)L_2188) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5407));
 		bool L_2189 = V_272;
 		if (!L_2189)
 		{
@@ -11609,44 +13321,60 @@ IL_409b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5408));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2190 = V_36;
 		float L_2191 = V_265;
 		float L_2192 = V_268;
 		int32_t L_2193 = V_267;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5409));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2194;
 		memset((&L_2194), 0, sizeof(L_2194));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2194), ((float)(((float)il2cpp_codegen_multiply(L_2191, ((float)il2cpp_codegen_subtract((1.0f), L_2192))))/((float)L_2193))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5409));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5410));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2195;
 		L_2195 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2190, L_2194, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5410));
 		V_36 = L_2195;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5411));
 		goto IL_412c;
 	}
 
 IL_40f9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5412));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2196 = V_36;
 		float L_2197 = V_265;
 		float L_2198 = V_268;
 		int32_t L_2199 = V_267;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5413));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2200;
 		memset((&L_2200), 0, sizeof(L_2200));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2200), ((float)(((float)il2cpp_codegen_multiply(L_2197, ((float)il2cpp_codegen_subtract((1.0f), L_2198))))/((float)L_2199))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5413));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5414));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2201;
 		L_2201 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_2196, L_2200, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5414));
 		V_36 = L_2201;
 	}
 
 IL_412c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5415));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5416));
 		goto IL_41a4;
 	}
 
 IL_412f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5417));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5418));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2202 = ___generationSettings0;
 		NullCheck(L_2202);
 		bool L_2203 = L_2202->___isRightToLeft_24;
 		V_273 = (bool)((((int32_t)L_2203) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5419));
 		bool L_2204 = V_273;
 		if (!L_2204)
 		{
@@ -11654,52 +13382,70 @@ IL_412f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5420));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2205 = V_36;
 		float L_2206 = V_265;
 		float L_2207 = V_268;
 		int32_t L_2208 = V_266;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5421));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2209;
 		memset((&L_2209), 0, sizeof(L_2209));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2209), ((float)(((float)il2cpp_codegen_multiply(L_2206, L_2207))/((float)L_2208))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5421));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5422));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2210;
 		L_2210 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2205, L_2209, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5422));
 		V_36 = L_2210;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5423));
 		goto IL_41a3;
 	}
 
 IL_4176:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5424));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2211 = V_36;
 		float L_2212 = V_265;
 		float L_2213 = V_268;
 		int32_t L_2214 = V_266;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5425));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2215;
 		memset((&L_2215), 0, sizeof(L_2215));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2215), ((float)(((float)il2cpp_codegen_multiply(L_2212, L_2213))/((float)L_2214))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5425));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5426));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2216;
 		L_2216 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_2211, L_2215, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5426));
 		V_36 = L_2216;
 	}
 
 IL_41a3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5427));
 	}
 
 IL_41a4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5428));
 	}
 
 IL_41a5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5429));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5430));
 		goto IL_41fb;
 	}
 
 IL_41a8:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5431));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5432));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2217 = ___generationSettings0;
 		NullCheck(L_2217);
 		bool L_2218 = L_2217->___isRightToLeft_24;
 		V_274 = (bool)((((int32_t)L_2218) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5433));
 		bool L_2219 = V_274;
 		if (!L_2219)
 		{
@@ -11707,44 +13453,59 @@ IL_41a8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5434));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2220 = V_244;
 		float L_2221 = L_2220.___marginLeft_17;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5435));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), L_2221, (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5435));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5436));
 		goto IL_41fa;
 	}
 
 IL_41da:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5437));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2222 = V_244;
 		float L_2223 = L_2222.___marginLeft_17;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2224 = V_244;
 		float L_2225 = L_2224.___width_16;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5438));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_36), ((float)il2cpp_codegen_add(L_2223, L_2225)), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5438));
 	}
 
 IL_41fa:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5439));
 	}
 
 IL_41fb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5440));
 		goto IL_41fd;
 	}
 
 IL_41fd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5441));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2226 = V_34;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2227 = V_36;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5442));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2228;
 		L_2228 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2226, L_2227, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5442));
 		V_246 = L_2228;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5443));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2229 = V_54;
 		int32_t L_2230 = V_240;
 		NullCheck(L_2229);
 		bool L_2231 = ((L_2229)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2230)))->___isVisible_34;
 		V_247 = L_2231;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5444));
 		bool L_2232 = V_247;
 		V_275 = L_2232;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5445));
 		bool L_2233 = V_275;
 		if (!L_2233)
 		{
@@ -11752,15 +13513,20 @@ IL_41fd:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5446));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5447));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2234 = V_54;
 		int32_t L_2235 = V_240;
 		NullCheck(L_2234);
 		uint8_t L_2236 = ((L_2234)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2235)))->___elementType_2;
 		V_276 = L_2236;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5448));
 		uint8_t L_2237 = V_276;
 		V_280 = L_2237;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5449));
 		uint8_t L_2238 = V_280;
 		V_279 = L_2238;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5450));
 		uint8_t L_2239 = V_279;
 		if ((((int32_t)L_2239) == ((int32_t)1)))
 		{
@@ -11785,20 +13551,25 @@ IL_4263:
 
 IL_4274:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5451));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2241 = V_244;
 		Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6 L_2242 = L_2241.___lineExtents_20;
 		V_277 = L_2242;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5452));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2243 = ___generationSettings0;
 		NullCheck(L_2243);
 		float L_2244 = L_2243->___uvLineOffset_41;
 		int32_t L_2245 = V_243;
 		V_278 = (fmodf(((float)il2cpp_codegen_multiply(L_2244, ((float)L_2245))), (1.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5453));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2246 = ___generationSettings0;
 		NullCheck(L_2246);
 		int32_t L_2247 = L_2246->___horizontalMapping_39;
 		V_283 = L_2247;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5454));
 		int32_t L_2248 = V_283;
 		V_282 = L_2248;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5455));
 		int32_t L_2249 = V_282;
 		switch (L_2249)
 		{
@@ -11826,39 +13597,46 @@ IL_4274:
 
 IL_42cf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5456));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2250 = V_54;
 		int32_t L_2251 = V_240;
 		NullCheck(L_2250);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2252 = (&((L_2250)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2251)))->___vertexBottomLeft_15);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2253 = (&L_2252->___uv2_2);
 		L_2253->___x_0 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5457));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2254 = V_54;
 		int32_t L_2255 = V_240;
 		NullCheck(L_2254);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2256 = (&((L_2254)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2255)))->___vertexTopLeft_14);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2257 = (&L_2256->___uv2_2);
 		L_2257->___x_0 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5458));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2258 = V_54;
 		int32_t L_2259 = V_240;
 		NullCheck(L_2258);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2260 = (&((L_2258)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2259)))->___vertexTopRight_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2261 = (&L_2260->___uv2_2);
 		L_2261->___x_0 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5459));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2262 = V_54;
 		int32_t L_2263 = V_240;
 		NullCheck(L_2262);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2264 = (&((L_2262)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2263)))->___vertexBottomRight_17);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2265 = (&L_2264->___uv2_2);
 		L_2265->___x_0 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5460));
 		goto IL_4d2d;
 	}
 
 IL_4348:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5461));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2266 = ___generationSettings0;
 		NullCheck(L_2266);
 		int32_t L_2267 = L_2266->___textAlignment_10;
 		V_284 = (bool)((((int32_t)((((int32_t)L_2267) == ((int32_t)((int32_t)520)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5462));
 		bool L_2268 = V_284;
 		if (!L_2268)
 		{
@@ -11866,6 +13644,8 @@ IL_4348:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5463));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5464));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2269 = V_54;
 		int32_t L_2270 = V_240;
 		NullCheck(L_2269);
@@ -11888,6 +13668,7 @@ IL_4348:
 		float L_2286 = L_2285.___x_0;
 		float L_2287 = V_278;
 		L_2272->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2277, L_2280))/((float)il2cpp_codegen_subtract(L_2283, L_2286)))), L_2287));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5465));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2288 = V_54;
 		int32_t L_2289 = V_240;
 		NullCheck(L_2288);
@@ -11910,6 +13691,7 @@ IL_4348:
 		float L_2305 = L_2304.___x_0;
 		float L_2306 = V_278;
 		L_2291->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2296, L_2299))/((float)il2cpp_codegen_subtract(L_2302, L_2305)))), L_2306));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5466));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2307 = V_54;
 		int32_t L_2308 = V_240;
 		NullCheck(L_2307);
@@ -11932,6 +13714,7 @@ IL_4348:
 		float L_2324 = L_2323.___x_0;
 		float L_2325 = V_278;
 		L_2310->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2315, L_2318))/((float)il2cpp_codegen_subtract(L_2321, L_2324)))), L_2325));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5467));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2326 = V_54;
 		int32_t L_2327 = V_240;
 		NullCheck(L_2326);
@@ -11954,11 +13737,14 @@ IL_4348:
 		float L_2343 = L_2342.___x_0;
 		float L_2344 = V_278;
 		L_2329->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2334, L_2337))/((float)il2cpp_codegen_subtract(L_2340, L_2343)))), L_2344));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5468));
 		goto IL_4d2d;
 	}
 
 IL_4517:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5469));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5470));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2345 = V_54;
 		int32_t L_2346 = V_240;
 		NullCheck(L_2345);
@@ -11983,6 +13769,7 @@ IL_4517:
 		float L_2364 = L_2363->___x_0;
 		float L_2365 = V_278;
 		L_2348->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2353, L_2355)), L_2358))/((float)il2cpp_codegen_subtract(L_2361, L_2364)))), L_2365));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5471));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2366 = V_54;
 		int32_t L_2367 = V_240;
 		NullCheck(L_2366);
@@ -12007,6 +13794,7 @@ IL_4517:
 		float L_2385 = L_2384->___x_0;
 		float L_2386 = V_278;
 		L_2369->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2374, L_2376)), L_2379))/((float)il2cpp_codegen_subtract(L_2382, L_2385)))), L_2386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5472));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2387 = V_54;
 		int32_t L_2388 = V_240;
 		NullCheck(L_2387);
@@ -12031,6 +13819,7 @@ IL_4517:
 		float L_2406 = L_2405->___x_0;
 		float L_2407 = V_278;
 		L_2390->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2395, L_2397)), L_2400))/((float)il2cpp_codegen_subtract(L_2403, L_2406)))), L_2407));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5473));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2408 = V_54;
 		int32_t L_2409 = V_240;
 		NullCheck(L_2408);
@@ -12055,11 +13844,13 @@ IL_4517:
 		float L_2427 = L_2426->___x_0;
 		float L_2428 = V_278;
 		L_2411->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2416, L_2418)), L_2421))/((float)il2cpp_codegen_subtract(L_2424, L_2427)))), L_2428));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5474));
 		goto IL_4d2d;
 	}
 
 IL_46e5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5475));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2429 = V_54;
 		int32_t L_2430 = V_240;
 		NullCheck(L_2429);
@@ -12084,6 +13875,7 @@ IL_46e5:
 		float L_2448 = L_2447->___x_0;
 		float L_2449 = V_278;
 		L_2432->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2437, L_2439)), L_2442))/((float)il2cpp_codegen_subtract(L_2445, L_2448)))), L_2449));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5476));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2450 = V_54;
 		int32_t L_2451 = V_240;
 		NullCheck(L_2450);
@@ -12108,6 +13900,7 @@ IL_46e5:
 		float L_2469 = L_2468->___x_0;
 		float L_2470 = V_278;
 		L_2453->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2458, L_2460)), L_2463))/((float)il2cpp_codegen_subtract(L_2466, L_2469)))), L_2470));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5477));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2471 = V_54;
 		int32_t L_2472 = V_240;
 		NullCheck(L_2471);
@@ -12132,6 +13925,7 @@ IL_46e5:
 		float L_2490 = L_2489->___x_0;
 		float L_2491 = V_278;
 		L_2474->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2479, L_2481)), L_2484))/((float)il2cpp_codegen_subtract(L_2487, L_2490)))), L_2491));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5478));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2492 = V_54;
 		int32_t L_2493 = V_240;
 		NullCheck(L_2492);
@@ -12156,17 +13950,21 @@ IL_46e5:
 		float L_2511 = L_2510->___x_0;
 		float L_2512 = V_278;
 		L_2495->___x_0 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_2500, L_2502)), L_2505))/((float)il2cpp_codegen_subtract(L_2508, L_2511)))), L_2512));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5479));
 		goto IL_4d2d;
 	}
 
 IL_48b2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5480));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2513 = ___generationSettings0;
 		NullCheck(L_2513);
 		int32_t L_2514 = L_2513->___verticalMapping_40;
 		V_286 = L_2514;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5481));
 		int32_t L_2515 = V_286;
 		V_285 = L_2515;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5482));
 		int32_t L_2516 = V_285;
 		switch (L_2516)
 		{
@@ -12194,35 +13992,41 @@ IL_48b2:
 
 IL_48ea:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5483));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2517 = V_54;
 		int32_t L_2518 = V_240;
 		NullCheck(L_2517);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2519 = (&((L_2517)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2518)))->___vertexBottomLeft_15);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2520 = (&L_2519->___uv2_2);
 		L_2520->___y_1 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5484));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2521 = V_54;
 		int32_t L_2522 = V_240;
 		NullCheck(L_2521);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2523 = (&((L_2521)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2522)))->___vertexTopLeft_14);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2524 = (&L_2523->___uv2_2);
 		L_2524->___y_1 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5485));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2525 = V_54;
 		int32_t L_2526 = V_240;
 		NullCheck(L_2525);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2527 = (&((L_2525)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2526)))->___vertexTopRight_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2528 = (&L_2527->___uv2_2);
 		L_2528->___y_1 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5486));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2529 = V_54;
 		int32_t L_2530 = V_240;
 		NullCheck(L_2529);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2531 = (&((L_2529)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2530)))->___vertexBottomRight_17);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2532 = (&L_2531->___uv2_2);
 		L_2532->___y_1 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5487));
 		goto IL_4bdf;
 	}
 
 IL_4963:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5488));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2533 = V_54;
 		int32_t L_2534 = V_240;
 		NullCheck(L_2533);
@@ -12245,6 +14049,7 @@ IL_4963:
 		float L_2550 = L_2549.___y_1;
 		float L_2551 = V_278;
 		L_2536->___y_1 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2541, L_2544))/((float)il2cpp_codegen_subtract(L_2547, L_2550)))), L_2551));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5489));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2552 = V_54;
 		int32_t L_2553 = V_240;
 		NullCheck(L_2552);
@@ -12267,6 +14072,7 @@ IL_4963:
 		float L_2569 = L_2568.___y_1;
 		float L_2570 = V_278;
 		L_2555->___y_1 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2560, L_2563))/((float)il2cpp_codegen_subtract(L_2566, L_2569)))), L_2570));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5490));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2571 = V_54;
 		int32_t L_2572 = V_240;
 		NullCheck(L_2571);
@@ -12279,6 +14085,7 @@ IL_4963:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2578 = (&L_2577->___uv2_2);
 		float L_2579 = L_2578->___y_1;
 		L_2574->___y_1 = L_2579;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5491));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2580 = V_54;
 		int32_t L_2581 = V_240;
 		NullCheck(L_2580);
@@ -12291,11 +14098,13 @@ IL_4963:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2587 = (&L_2586->___uv2_2);
 		float L_2588 = L_2587->___y_1;
 		L_2583->___y_1 = L_2588;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5492));
 		goto IL_4bdf;
 	}
 
 IL_4a9c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5493));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2589 = V_54;
 		int32_t L_2590 = V_240;
 		NullCheck(L_2589);
@@ -12318,6 +14127,7 @@ IL_4a9c:
 		float L_2606 = L_2605->___y_1;
 		float L_2607 = V_278;
 		L_2592->___y_1 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2597, L_2600))/((float)il2cpp_codegen_subtract(L_2603, L_2606)))), L_2607));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5494));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2608 = V_54;
 		int32_t L_2609 = V_240;
 		NullCheck(L_2608);
@@ -12340,6 +14150,7 @@ IL_4a9c:
 		float L_2625 = L_2624->___y_1;
 		float L_2626 = V_278;
 		L_2611->___y_1 = ((float)il2cpp_codegen_add(((float)(((float)il2cpp_codegen_subtract(L_2616, L_2619))/((float)il2cpp_codegen_subtract(L_2622, L_2625)))), L_2626));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5495));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2627 = V_54;
 		int32_t L_2628 = V_240;
 		NullCheck(L_2627);
@@ -12352,6 +14163,7 @@ IL_4a9c:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2634 = (&L_2633->___uv2_2);
 		float L_2635 = L_2634->___y_1;
 		L_2630->___y_1 = L_2635;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5496));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2636 = V_54;
 		int32_t L_2637 = V_240;
 		NullCheck(L_2636);
@@ -12364,18 +14176,24 @@ IL_4a9c:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2643 = (&L_2642->___uv2_2);
 		float L_2644 = L_2643->___y_1;
 		L_2639->___y_1 = L_2644;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5497));
 		goto IL_4bdf;
 	}
 
 IL_4bd2:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5498));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5499));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralAFB91D1DF3A99213A5F62F37EB0B31E6121411C4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5499));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5500));
 		goto IL_4bdf;
 	}
 
 IL_4bdf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5501));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2645 = V_54;
 		int32_t L_2646 = V_240;
 		NullCheck(L_2645);
@@ -12393,6 +14211,7 @@ IL_4bdf:
 		NullCheck(L_2655);
 		float L_2657 = ((L_2655)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2656)))->___aspectRatio_27;
 		V_281 = ((float)(((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_2649, L_2654)), L_2657))))/(2.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5502));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2658 = V_54;
 		int32_t L_2659 = V_240;
 		NullCheck(L_2658);
@@ -12411,6 +14230,7 @@ IL_4bdf:
 		float L_2670 = V_281;
 		float L_2671 = V_278;
 		L_2661->___x_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2666, L_2669)), L_2670)), L_2671));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5503));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2672 = V_54;
 		int32_t L_2673 = V_240;
 		NullCheck(L_2672);
@@ -12423,6 +14243,7 @@ IL_4bdf:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2679 = (&L_2678->___uv2_2);
 		float L_2680 = L_2679->___x_0;
 		L_2675->___x_0 = L_2680;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5504));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2681 = V_54;
 		int32_t L_2682 = V_240;
 		NullCheck(L_2681);
@@ -12441,6 +14262,7 @@ IL_4bdf:
 		float L_2693 = V_281;
 		float L_2694 = V_278;
 		L_2684->___x_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2689, L_2692)), L_2693)), L_2694));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5505));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2695 = V_54;
 		int32_t L_2696 = V_240;
 		NullCheck(L_2695);
@@ -12453,17 +14275,21 @@ IL_4bdf:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2702 = (&L_2701->___uv2_2);
 		float L_2703 = L_2702->___x_0;
 		L_2698->___x_0 = L_2703;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5506));
 		goto IL_4d2d;
 	}
 
 IL_4d2d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5507));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2704 = ___generationSettings0;
 		NullCheck(L_2704);
 		int32_t L_2705 = L_2704->___verticalMapping_40;
 		V_289 = L_2705;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5508));
 		int32_t L_2706 = V_289;
 		V_288 = L_2706;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5509));
 		int32_t L_2707 = V_288;
 		switch (L_2707)
 		{
@@ -12491,35 +14317,41 @@ IL_4d2d:
 
 IL_4d65:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5510));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2708 = V_54;
 		int32_t L_2709 = V_240;
 		NullCheck(L_2708);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2710 = (&((L_2708)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2709)))->___vertexBottomLeft_15);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2711 = (&L_2710->___uv2_2);
 		L_2711->___y_1 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5511));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2712 = V_54;
 		int32_t L_2713 = V_240;
 		NullCheck(L_2712);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2714 = (&((L_2712)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2713)))->___vertexTopLeft_14);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2715 = (&L_2714->___uv2_2);
 		L_2715->___y_1 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5512));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2716 = V_54;
 		int32_t L_2717 = V_240;
 		NullCheck(L_2716);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2718 = (&((L_2716)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2717)))->___vertexTopRight_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2719 = (&L_2718->___uv2_2);
 		L_2719->___y_1 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5513));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2720 = V_54;
 		int32_t L_2721 = V_240;
 		NullCheck(L_2720);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2722 = (&((L_2720)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2721)))->___vertexBottomRight_17);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2723 = (&L_2722->___uv2_2);
 		L_2723->___y_1 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5514));
 		goto IL_513e;
 	}
 
 IL_4dde:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5515));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2724 = V_54;
 		int32_t L_2725 = V_240;
 		NullCheck(L_2724);
@@ -12538,6 +14370,7 @@ IL_4dde:
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2737 = V_244;
 		float L_2738 = L_2737.___descender_14;
 		L_2727->___y_1 = ((float)(((float)il2cpp_codegen_subtract(L_2732, L_2734))/((float)il2cpp_codegen_subtract(L_2736, L_2738))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5516));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2739 = V_54;
 		int32_t L_2740 = V_240;
 		NullCheck(L_2739);
@@ -12556,6 +14389,7 @@ IL_4dde:
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_2752 = V_244;
 		float L_2753 = L_2752.___descender_14;
 		L_2742->___y_1 = ((float)(((float)il2cpp_codegen_subtract(L_2747, L_2749))/((float)il2cpp_codegen_subtract(L_2751, L_2753))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5517));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2754 = V_54;
 		int32_t L_2755 = V_240;
 		NullCheck(L_2754);
@@ -12568,6 +14402,7 @@ IL_4dde:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2761 = (&L_2760->___uv2_2);
 		float L_2762 = L_2761->___y_1;
 		L_2757->___y_1 = L_2762;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5518));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2763 = V_54;
 		int32_t L_2764 = V_240;
 		NullCheck(L_2763);
@@ -12580,11 +14415,13 @@ IL_4dde:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2770 = (&L_2769->___uv2_2);
 		float L_2771 = L_2770->___y_1;
 		L_2766->___y_1 = L_2771;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5519));
 		goto IL_513e;
 	}
 
 IL_4ed3:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5520));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2772 = V_54;
 		int32_t L_2773 = V_240;
 		NullCheck(L_2772);
@@ -12606,6 +14443,7 @@ IL_4ed3:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2788 = (&L_2787->___min_0);
 		float L_2789 = L_2788->___y_1;
 		L_2775->___y_1 = ((float)(((float)il2cpp_codegen_subtract(L_2780, L_2783))/((float)il2cpp_codegen_subtract(L_2786, L_2789))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5521));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2790 = V_54;
 		int32_t L_2791 = V_240;
 		NullCheck(L_2790);
@@ -12627,6 +14465,7 @@ IL_4ed3:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2806 = (&L_2805->___min_0);
 		float L_2807 = L_2806->___y_1;
 		L_2793->___y_1 = ((float)(((float)il2cpp_codegen_subtract(L_2798, L_2801))/((float)il2cpp_codegen_subtract(L_2804, L_2807))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5522));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2808 = V_54;
 		int32_t L_2809 = V_240;
 		NullCheck(L_2808);
@@ -12639,6 +14478,7 @@ IL_4ed3:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2815 = (&L_2814->___uv2_2);
 		float L_2816 = L_2815->___y_1;
 		L_2811->___y_1 = L_2816;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5523));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2817 = V_54;
 		int32_t L_2818 = V_240;
 		NullCheck(L_2817);
@@ -12651,11 +14491,13 @@ IL_4ed3:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2824 = (&L_2823->___uv2_2);
 		float L_2825 = L_2824->___y_1;
 		L_2820->___y_1 = L_2825;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5524));
 		goto IL_513e;
 	}
 
 IL_4ffe:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5525));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2826 = V_54;
 		int32_t L_2827 = V_240;
 		NullCheck(L_2826);
@@ -12673,6 +14515,7 @@ IL_4ffe:
 		NullCheck(L_2836);
 		float L_2838 = ((L_2836)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2837)))->___aspectRatio_27;
 		V_287 = ((float)(((float)il2cpp_codegen_subtract((1.0f), ((float)(((float)il2cpp_codegen_add(L_2830, L_2835))/L_2838))))/(2.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5526));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2839 = V_54;
 		int32_t L_2840 = V_240;
 		NullCheck(L_2839);
@@ -12690,6 +14533,7 @@ IL_4ffe:
 		NullCheck(L_2849);
 		float L_2851 = ((L_2849)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2850)))->___aspectRatio_27;
 		L_2842->___y_1 = ((float)il2cpp_codegen_add(L_2843, ((float)(L_2848/L_2851))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5527));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2852 = V_54;
 		int32_t L_2853 = V_240;
 		NullCheck(L_2852);
@@ -12707,6 +14551,7 @@ IL_4ffe:
 		NullCheck(L_2862);
 		float L_2864 = ((L_2862)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2863)))->___aspectRatio_27;
 		L_2855->___y_1 = ((float)il2cpp_codegen_add(L_2856, ((float)(L_2861/L_2864))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5528));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2865 = V_54;
 		int32_t L_2866 = V_240;
 		NullCheck(L_2865);
@@ -12719,6 +14564,7 @@ IL_4ffe:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2872 = (&L_2871->___uv2_2);
 		float L_2873 = L_2872->___y_1;
 		L_2868->___y_1 = L_2873;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5529));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2874 = V_54;
 		int32_t L_2875 = V_240;
 		NullCheck(L_2874);
@@ -12731,17 +14577,20 @@ IL_4ffe:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2881 = (&L_2880->___uv2_2);
 		float L_2882 = L_2881->___y_1;
 		L_2877->___y_1 = L_2882;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5530));
 		goto IL_513e;
 	}
 
 IL_513e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5531));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2883 = V_54;
 		int32_t L_2884 = V_240;
 		NullCheck(L_2883);
 		float L_2885 = ((L_2883)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2884)))->___scale_28;
 		float L_2886 = __this->___m_CharWidthAdjDelta_77;
 		V_46 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_2885, ((float)il2cpp_codegen_subtract((1.0f), L_2886)))), (1.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5532));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2887 = V_54;
 		int32_t L_2888 = V_240;
 		NullCheck(L_2887);
@@ -12768,6 +14617,7 @@ IL_5186:
 IL_5187:
 	{
 		V_290 = (bool)G_B756_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5533));
 		bool L_2893 = V_290;
 		if (!L_2893)
 		{
@@ -12775,18 +14625,21 @@ IL_5187:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5534));
 		float L_2894 = V_46;
 		V_46 = ((float)il2cpp_codegen_multiply(L_2894, (-1.0f)));
 	}
 
 IL_519f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5535));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2895 = V_54;
 		int32_t L_2896 = V_240;
 		NullCheck(L_2895);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2897 = (&((L_2895)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2896)))->___vertexBottomLeft_15);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2898 = (&L_2897->___uv2_2);
 		L_2898->___x_0 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5536));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2899 = V_54;
 		int32_t L_2900 = V_240;
 		NullCheck(L_2899);
@@ -12794,12 +14647,14 @@ IL_519f:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2902 = (&L_2901->___uv2_2);
 		float L_2903 = V_46;
 		L_2902->___y_1 = L_2903;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5537));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2904 = V_54;
 		int32_t L_2905 = V_240;
 		NullCheck(L_2904);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2906 = (&((L_2904)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2905)))->___vertexTopLeft_14);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2907 = (&L_2906->___uv2_2);
 		L_2907->___x_0 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5538));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2908 = V_54;
 		int32_t L_2909 = V_240;
 		NullCheck(L_2908);
@@ -12807,12 +14662,14 @@ IL_519f:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2911 = (&L_2910->___uv2_2);
 		float L_2912 = V_46;
 		L_2911->___y_1 = L_2912;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5539));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2913 = V_54;
 		int32_t L_2914 = V_240;
 		NullCheck(L_2913);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2915 = (&((L_2913)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2914)))->___vertexTopRight_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2916 = (&L_2915->___uv2_2);
 		L_2916->___x_0 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5540));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2917 = V_54;
 		int32_t L_2918 = V_240;
 		NullCheck(L_2917);
@@ -12820,12 +14677,14 @@ IL_519f:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2920 = (&L_2919->___uv2_2);
 		float L_2921 = V_46;
 		L_2920->___y_1 = L_2921;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5541));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2922 = V_54;
 		int32_t L_2923 = V_240;
 		NullCheck(L_2922);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_2924 = (&((L_2922)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2923)))->___vertexBottomRight_17);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2925 = (&L_2924->___uv2_2);
 		L_2925->___x_0 = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5542));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2926 = V_54;
 		int32_t L_2927 = V_240;
 		NullCheck(L_2926);
@@ -12833,16 +14692,19 @@ IL_519f:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2929 = (&L_2928->___uv2_2);
 		float L_2930 = V_46;
 		L_2929->___y_1 = L_2930;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5543));
 		goto IL_527f;
 	}
 
 IL_527d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5544));
 		goto IL_527f;
 	}
 
 IL_527f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5545));
 		int32_t L_2931 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2932 = ___generationSettings0;
 		NullCheck(L_2932);
@@ -12888,6 +14750,7 @@ IL_52ab:
 IL_52ac:
 	{
 		V_291 = (bool)G_B765_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5546));
 		bool L_2942 = V_291;
 		if (!L_2942)
 		{
@@ -12895,6 +14758,8 @@ IL_52ac:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5547));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5548));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2943 = V_54;
 		int32_t L_2944 = V_240;
 		NullCheck(L_2943);
@@ -12905,9 +14770,12 @@ IL_52ac:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2948 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2949 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2948);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2950 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5549));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2951;
 		L_2951 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2949, L_2950, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5549));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2947 = L_2951;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5550));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2952 = V_54;
 		int32_t L_2953 = V_240;
 		NullCheck(L_2952);
@@ -12918,9 +14786,12 @@ IL_52ac:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2957 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2958 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2957);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2959 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5551));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2960;
 		L_2960 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2958, L_2959, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5551));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2956 = L_2960;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5552));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2961 = V_54;
 		int32_t L_2962 = V_240;
 		NullCheck(L_2961);
@@ -12931,9 +14802,12 @@ IL_52ac:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2966 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2967 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2966);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2968 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5553));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2969;
 		L_2969 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2967, L_2968, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5553));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2965 = L_2969;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5554));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2970 = V_54;
 		int32_t L_2971 = V_240;
 		NullCheck(L_2970);
@@ -12944,14 +14818,19 @@ IL_52ac:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2975 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2976 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2975);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2977 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5555));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2978;
 		L_2978 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_2976, L_2977, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5555));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2974 = L_2978;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5556));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5557));
 		goto IL_5536;
 	}
 
 IL_539c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5558));
 		int32_t L_2979 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_2980 = ___generationSettings0;
 		NullCheck(L_2980);
@@ -13008,6 +14887,7 @@ IL_53d7:
 IL_53d8:
 	{
 		V_293 = (bool)G_B773_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5559));
 		bool L_2994 = V_293;
 		if (!L_2994)
 		{
@@ -13015,6 +14895,8 @@ IL_53d8:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5560));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5561));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_2995 = V_54;
 		int32_t L_2996 = V_240;
 		NullCheck(L_2995);
@@ -13025,9 +14907,12 @@ IL_53d8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3000 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3001 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3000);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3002 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5562));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3003;
 		L_3003 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3001, L_3002, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5562));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2999 = L_3003;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5563));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3004 = V_54;
 		int32_t L_3005 = V_240;
 		NullCheck(L_3004);
@@ -13038,9 +14923,12 @@ IL_53d8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3009 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3010 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3009);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3011 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5564));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3012;
 		L_3012 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3010, L_3011, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5564));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3008 = L_3012;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5565));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3013 = V_54;
 		int32_t L_3014 = V_240;
 		NullCheck(L_3013);
@@ -13051,9 +14939,12 @@ IL_53d8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3018 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3019 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3018);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3020 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5566));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3021;
 		L_3021 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3019, L_3020, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5566));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3017 = L_3021;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5567));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3022 = V_54;
 		int32_t L_3023 = V_240;
 		NullCheck(L_3022);
@@ -13064,52 +14955,73 @@ IL_53d8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3027 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3028 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3027);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3029 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5568));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3030;
 		L_3030 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3028, L_3029, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5568));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3026 = L_3030;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5569));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5570));
 		goto IL_5536;
 	}
 
 IL_54c5:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5571));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5572));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3031 = V_54;
 		int32_t L_3032 = V_240;
 		NullCheck(L_3031);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_3033 = (&((L_3031)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3032)))->___vertexBottomLeft_15);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5573));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3034;
 		L_3034 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5573));
 		L_3033->___position_0 = L_3034;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5574));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3035 = V_54;
 		int32_t L_3036 = V_240;
 		NullCheck(L_3035);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_3037 = (&((L_3035)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3036)))->___vertexTopLeft_14);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5575));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3038;
 		L_3038 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5575));
 		L_3037->___position_0 = L_3038;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5576));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3039 = V_54;
 		int32_t L_3040 = V_240;
 		NullCheck(L_3039);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_3041 = (&((L_3039)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3040)))->___vertexTopRight_16);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5577));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3042;
 		L_3042 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5577));
 		L_3041->___position_0 = L_3042;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5578));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3043 = V_54;
 		int32_t L_3044 = V_240;
 		NullCheck(L_3043);
 		TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9* L_3045 = (&((L_3043)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3044)))->___vertexBottomRight_17);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5579));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3046;
 		L_3046 = Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5579));
 		L_3045->___position_0 = L_3046;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5580));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3047 = V_54;
 		int32_t L_3048 = V_240;
 		NullCheck(L_3047);
 		((L_3047)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3048)))->___isVisible_34 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5581));
 	}
 
 IL_5536:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5582));
 		uint8_t L_3049 = V_276;
 		V_294 = (bool)((((int32_t)L_3049) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5583));
 		bool L_3050 = V_294;
 		if (!L_3050)
 		{
@@ -13117,18 +15029,26 @@ IL_5536:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5584));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5585));
 		int32_t L_3051 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3052 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3053 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5586));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_FillCharacterVertexBuffers_m4DB26BF6316D0ED0518093F81E7703326B7BF4A7(L_3051, L_3052, L_3053, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5586));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5587));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5588));
 		goto IL_557e;
 	}
 
 IL_555b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5589));
 		uint8_t L_3054 = V_276;
 		V_295 = (bool)((((int32_t)L_3054) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5590));
 		bool L_3055 = V_295;
 		if (!L_3055)
 		{
@@ -13136,19 +15056,26 @@ IL_555b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5591));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5592));
 		int32_t L_3056 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3057 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3058 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5593));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		TextGeneratorUtilities_FillSpriteVertexBuffers_m0AA6B96B32824157B84B59AD6E6B77B5F0689FCF(L_3056, L_3057, L_3058, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5593));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5594));
 	}
 
 IL_557e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5595));
 	}
 
 IL_557f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5596));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3059 = ___textInfo1;
 		NullCheck(L_3059);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3060 = L_3059->___textElementInfo_10;
@@ -13160,9 +15087,12 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3064 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3065 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3064);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3066 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5597));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3067;
 		L_3067 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3065, L_3066, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5597));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3063 = L_3067;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5598));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3068 = ___textInfo1;
 		NullCheck(L_3068);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3069 = L_3068->___textElementInfo_10;
@@ -13174,9 +15104,12 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3073 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3074 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3073);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3075 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5599));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3076;
 		L_3076 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3074, L_3075, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5599));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3072 = L_3076;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5600));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3077 = ___textInfo1;
 		NullCheck(L_3077);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3078 = L_3077->___textElementInfo_10;
@@ -13188,9 +15121,12 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3082 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3083 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3082);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3084 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5601));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3085;
 		L_3085 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3083, L_3084, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5601));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3081 = L_3085;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5602));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3086 = ___textInfo1;
 		NullCheck(L_3086);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3087 = L_3086->___textElementInfo_10;
@@ -13202,9 +15138,12 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3091 = V_292;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3092 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3091);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3093 = V_246;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5603));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3094;
 		L_3094 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3092, L_3093, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5603));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3090 = L_3094;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5604));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3095 = ___textInfo1;
 		NullCheck(L_3095);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3096 = L_3095->___textElementInfo_10;
@@ -13216,6 +15155,7 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3101 = V_246;
 		float L_3102 = L_3101.___x_2;
 		*((float*)L_3099) = (float)((float)il2cpp_codegen_add(L_3100, L_3102));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5605));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3103 = ___textInfo1;
 		NullCheck(L_3103);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3104 = L_3103->___textElementInfo_10;
@@ -13227,6 +15167,7 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3109 = V_246;
 		float L_3110 = L_3109.___x_2;
 		*((float*)L_3107) = (float)((float)il2cpp_codegen_add(L_3108, L_3110));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5606));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3111 = ___textInfo1;
 		NullCheck(L_3111);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3112 = L_3111->___textElementInfo_10;
@@ -13238,6 +15179,7 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3117 = V_246;
 		float L_3118 = L_3117.___y_3;
 		*((float*)L_3115) = (float)((float)il2cpp_codegen_add(L_3116, L_3118));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5607));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3119 = ___textInfo1;
 		NullCheck(L_3119);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3120 = L_3119->___textElementInfo_10;
@@ -13249,6 +15191,7 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3125 = V_246;
 		float L_3126 = L_3125.___y_3;
 		*((float*)L_3123) = (float)((float)il2cpp_codegen_add(L_3124, L_3126));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5608));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3127 = ___textInfo1;
 		NullCheck(L_3127);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3128 = L_3127->___textElementInfo_10;
@@ -13260,6 +15203,7 @@ IL_557f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3133 = V_246;
 		float L_3134 = L_3133.___y_3;
 		*((float*)L_3131) = (float)((float)il2cpp_codegen_add(L_3132, L_3134));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5609));
 		int32_t L_3135 = V_243;
 		int32_t L_3136 = V_39;
 		if ((!(((uint32_t)L_3135) == ((uint32_t)L_3136))))
@@ -13282,6 +15226,7 @@ IL_56f8:
 IL_56f9:
 	{
 		V_296 = (bool)G_B784_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5610));
 		bool L_3139 = V_296;
 		if (!L_3139)
 		{
@@ -13289,9 +15234,12 @@ IL_56f9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5611));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5612));
 		int32_t L_3140 = V_243;
 		int32_t L_3141 = V_39;
 		V_297 = (bool)((((int32_t)((((int32_t)L_3140) == ((int32_t)L_3141))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5613));
 		bool L_3142 = V_297;
 		if (!L_3142)
 		{
@@ -13299,6 +15247,8 @@ IL_56f9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5614));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5615));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3143 = ___textInfo1;
 		NullCheck(L_3143);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3144 = L_3143->___lineInfo_13;
@@ -13310,6 +15260,7 @@ IL_56f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3149 = V_246;
 		float L_3150 = L_3149.___y_3;
 		*((float*)L_3147) = (float)((float)il2cpp_codegen_add(L_3148, L_3150));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5616));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3151 = ___textInfo1;
 		NullCheck(L_3151);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3152 = L_3151->___lineInfo_13;
@@ -13321,6 +15272,7 @@ IL_56f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3157 = V_246;
 		float L_3158 = L_3157.___y_3;
 		*((float*)L_3155) = (float)((float)il2cpp_codegen_add(L_3156, L_3158));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5617));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3159 = ___textInfo1;
 		NullCheck(L_3159);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3160 = L_3159->___lineInfo_13;
@@ -13332,6 +15284,7 @@ IL_56f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3165 = V_246;
 		float L_3166 = L_3165.___y_3;
 		*((float*)L_3163) = (float)((float)il2cpp_codegen_add(L_3164, L_3166));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5618));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3167 = ___textInfo1;
 		NullCheck(L_3167);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3168 = L_3167->___lineInfo_13;
@@ -13356,10 +15309,13 @@ IL_56f9:
 		int32_t L_3181 = V_39;
 		NullCheck(L_3180);
 		float L_3182 = ((L_3180)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3181)))->___descender_14;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5619));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3183;
 		memset((&L_3183), 0, sizeof(L_3183));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3183), L_3178, L_3182, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5619));
 		L_3170->___min_0 = L_3183;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5620));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3184 = ___textInfo1;
 		NullCheck(L_3184);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3185 = L_3184->___lineInfo_13;
@@ -13384,17 +15340,22 @@ IL_56f9:
 		int32_t L_3198 = V_39;
 		NullCheck(L_3197);
 		float L_3199 = ((L_3197)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3198)))->___ascender_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5621));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3200;
 		memset((&L_3200), 0, sizeof(L_3200));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3200), L_3195, L_3199, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5621));
 		L_3187->___max_1 = L_3200;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5622));
 	}
 
 IL_5828:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5623));
 		int32_t L_3201 = V_240;
 		int32_t L_3202 = __this->___m_CharacterCount_48;
 		V_298 = (bool)((((int32_t)L_3201) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_3202, 1))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5624));
 		bool L_3203 = V_298;
 		if (!L_3203)
 		{
@@ -13402,6 +15363,8 @@ IL_5828:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5625));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5626));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3204 = ___textInfo1;
 		NullCheck(L_3204);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3205 = L_3204->___lineInfo_13;
@@ -13413,6 +15376,7 @@ IL_5828:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3210 = V_246;
 		float L_3211 = L_3210.___y_3;
 		*((float*)L_3208) = (float)((float)il2cpp_codegen_add(L_3209, L_3211));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5627));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3212 = ___textInfo1;
 		NullCheck(L_3212);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3213 = L_3212->___lineInfo_13;
@@ -13424,6 +15388,7 @@ IL_5828:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3218 = V_246;
 		float L_3219 = L_3218.___y_3;
 		*((float*)L_3216) = (float)((float)il2cpp_codegen_add(L_3217, L_3219));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5628));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3220 = ___textInfo1;
 		NullCheck(L_3220);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3221 = L_3220->___lineInfo_13;
@@ -13435,6 +15400,7 @@ IL_5828:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3226 = V_246;
 		float L_3227 = L_3226.___y_3;
 		*((float*)L_3224) = (float)((float)il2cpp_codegen_add(L_3225, L_3227));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5629));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3228 = ___textInfo1;
 		NullCheck(L_3228);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3229 = L_3228->___lineInfo_13;
@@ -13459,10 +15425,13 @@ IL_5828:
 		int32_t L_3242 = V_243;
 		NullCheck(L_3241);
 		float L_3243 = ((L_3241)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3242)))->___descender_14;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5630));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3244;
 		memset((&L_3244), 0, sizeof(L_3244));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3244), L_3239, L_3243, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5630));
 		L_3231->___min_0 = L_3244;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5631));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3245 = ___textInfo1;
 		NullCheck(L_3245);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3246 = L_3245->___lineInfo_13;
@@ -13487,22 +15456,29 @@ IL_5828:
 		int32_t L_3259 = V_243;
 		NullCheck(L_3258);
 		float L_3260 = ((L_3258)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3259)))->___ascender_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5632));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3261;
 		memset((&L_3261), 0, sizeof(L_3261));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3261), L_3256, L_3260, /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5632));
 		L_3248->___max_1 = L_3261;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5633));
 	}
 
 IL_5948:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5634));
 	}
 
 IL_5949:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5635));
 		Il2CppChar L_3262 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5636));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3263;
 		L_3263 = Char_IsLetterOrDigit_m3187D9080624F8059033B204FB5F52FF3632E11C(L_3262, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5636));
 		if (L_3263)
 		{
 			goto IL_5975;
@@ -13543,6 +15519,7 @@ IL_5975:
 IL_5976:
 	{
 		V_299 = (bool)G_B796_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5637));
 		bool L_3268 = V_299;
 		if (!L_3268)
 		{
@@ -13550,8 +15527,11 @@ IL_5976:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5638));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5639));
 		bool L_3269 = V_41;
 		V_300 = (bool)((((int32_t)L_3269) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5640));
 		bool L_3270 = V_300;
 		if (!L_3270)
 		{
@@ -13559,13 +15539,18 @@ IL_5976:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5641));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5642));
 		V_41 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5643));
 		int32_t L_3271 = V_240;
 		V_42 = L_3271;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5644));
 	}
 
 IL_59a4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5645));
 		bool L_3272 = V_41;
 		if (!L_3272)
 		{
@@ -13587,6 +15572,7 @@ IL_59b6:
 IL_59b7:
 	{
 		V_301 = (bool)G_B802_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5646));
 		bool L_3275 = V_301;
 		if (!L_3275)
 		{
@@ -13594,20 +15580,25 @@ IL_59b7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5647));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5648));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3276 = ___textInfo1;
 		NullCheck(L_3276);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3277 = L_3276->___wordInfo_11;
 		NullCheck(L_3277);
 		V_302 = ((int32_t)(((RuntimeArray*)L_3277)->max_length));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5649));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3278 = ___textInfo1;
 		NullCheck(L_3278);
 		int32_t L_3279 = L_3278->___wordCount_5;
 		V_303 = L_3279;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5650));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3280 = ___textInfo1;
 		NullCheck(L_3280);
 		int32_t L_3281 = L_3280->___wordCount_5;
 		int32_t L_3282 = V_302;
 		V_304 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_3281, 1))) > ((int32_t)L_3282))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5651));
 		bool L_3283 = V_304;
 		if (!L_3283)
 		{
@@ -13615,18 +15606,23 @@ IL_59b7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5652));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3284 = ___textInfo1;
 		NullCheck(L_3284);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B** L_3285 = (&L_3284->___wordInfo_11);
 		int32_t L_3286 = V_302;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5653));
 		il2cpp_codegen_runtime_class_init_inline(TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_il2cpp_TypeInfo_var);
 		TextInfo_Resize_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mEB8F1BB793EF724308050D5AF1348A8B94556D45(L_3285, ((int32_t)il2cpp_codegen_add(L_3286, 1)), TextInfo_Resize_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mEB8F1BB793EF724308050D5AF1348A8B94556D45_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5653));
 	}
 
 IL_5a15:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5654));
 		int32_t L_3287 = V_240;
 		V_248 = L_3287;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5655));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3288 = ___textInfo1;
 		NullCheck(L_3288);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3289 = L_3288->___wordInfo_11;
@@ -13634,6 +15630,7 @@ IL_5a15:
 		NullCheck(L_3289);
 		int32_t L_3291 = V_42;
 		((L_3289)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3290)))->___firstCharacterIndex_0 = L_3291;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5656));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3292 = ___textInfo1;
 		NullCheck(L_3292);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3293 = L_3292->___wordInfo_11;
@@ -13641,6 +15638,7 @@ IL_5a15:
 		NullCheck(L_3293);
 		int32_t L_3295 = V_248;
 		((L_3293)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3294)))->___lastCharacterIndex_1 = L_3295;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5657));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3296 = ___textInfo1;
 		NullCheck(L_3296);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3297 = L_3296->___wordInfo_11;
@@ -13649,8 +15647,10 @@ IL_5a15:
 		int32_t L_3299 = V_248;
 		int32_t L_3300 = V_42;
 		((L_3297)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3298)))->___characterCount_2 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_3299, L_3300)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5658));
 		int32_t L_3301 = V_37;
 		V_37 = ((int32_t)il2cpp_codegen_add(L_3301, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5659));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3302 = ___textInfo1;
 		V_166 = L_3302;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3303 = V_166;
@@ -13659,6 +15659,7 @@ IL_5a15:
 		int32_t L_3305 = L_3304->___wordCount_5;
 		NullCheck(L_3303);
 		L_3303->___wordCount_5 = ((int32_t)il2cpp_codegen_add(L_3305, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5660));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3306 = ___textInfo1;
 		NullCheck(L_3306);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3307 = L_3306->___lineInfo_13;
@@ -13668,15 +15669,19 @@ IL_5a15:
 		int32_t* L_3310 = L_3309;
 		int32_t L_3311 = *((int32_t*)L_3310);
 		*((int32_t*)L_3310) = (int32_t)((int32_t)il2cpp_codegen_add(L_3311, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5661));
 	}
 
 IL_5a97:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5662));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5663));
 		goto IL_5c40;
 	}
 
 IL_5a9d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5664));
 		bool L_3312 = V_41;
 		if (L_3312)
 		{
@@ -13692,9 +15697,11 @@ IL_5a9d:
 	}
 	{
 		Il2CppChar L_3314 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5665));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3315;
 		L_3315 = Char_IsPunctuation_m53451A2285C879564FA33E6D34BABEFF5F28B8CA(L_3314, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5665));
 		if (!L_3315)
 		{
 			goto IL_5ace;
@@ -13702,9 +15709,11 @@ IL_5a9d:
 	}
 	{
 		Il2CppChar L_3316 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5666));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3317;
 		L_3317 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(L_3316, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5666));
 		if (L_3317)
 		{
 			goto IL_5ace;
@@ -13754,6 +15763,7 @@ IL_5ad4:
 IL_5ad5:
 	{
 		V_305 = (bool)G_B818_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5667));
 		bool L_3321 = V_305;
 		if (!L_3321)
 		{
@@ -13761,6 +15771,8 @@ IL_5ad5:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5668));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5669));
 		int32_t L_3322 = V_240;
 		if ((((int32_t)L_3322) <= ((int32_t)0)))
 		{
@@ -13805,9 +15817,11 @@ IL_5b0f:
 		int32_t L_3330 = V_240;
 		NullCheck(L_3329);
 		Il2CppChar L_3331 = ((L_3329)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3330, 1)))))->___character_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5670));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3332;
 		L_3332 = Char_IsLetterOrDigit_m3187D9080624F8059033B204FB5F52FF3632E11C(L_3331, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5670));
 		if (!L_3332)
 		{
 			goto IL_5b40;
@@ -13818,9 +15832,11 @@ IL_5b0f:
 		int32_t L_3334 = V_240;
 		NullCheck(L_3333);
 		Il2CppChar L_3335 = ((L_3333)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_3334, 1)))))->___character_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5671));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3336;
 		L_3336 = Char_IsLetterOrDigit_m3187D9080624F8059033B204FB5F52FF3632E11C(L_3335, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5671));
 		G_B827_0 = ((((int32_t)L_3336) == ((int32_t)0))? 1 : 0);
 		goto IL_5b41;
 	}
@@ -13833,6 +15849,7 @@ IL_5b40:
 IL_5b41:
 	{
 		V_306 = (bool)G_B827_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5672));
 		bool L_3337 = V_306;
 		if (!L_3337)
 		{
@@ -13840,6 +15857,8 @@ IL_5b41:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5673));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5674));
 		int32_t L_3338 = V_240;
 		int32_t L_3339 = __this->___m_CharacterCount_48;
 		if ((!(((uint32_t)L_3338) == ((uint32_t)((int32_t)il2cpp_codegen_subtract(L_3339, 1))))))
@@ -13849,9 +15868,11 @@ IL_5b41:
 	}
 	{
 		Il2CppChar L_3340 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5675));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3341;
 		L_3341 = Char_IsLetterOrDigit_m3187D9080624F8059033B204FB5F52FF3632E11C(L_3340, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5675));
 		if (L_3341)
 		{
 			goto IL_5b6e;
@@ -13874,21 +15895,26 @@ IL_5b6e:
 IL_5b70:
 	{
 		V_248 = G_B832_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5676));
 		V_41 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5677));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3344 = ___textInfo1;
 		NullCheck(L_3344);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3345 = L_3344->___wordInfo_11;
 		NullCheck(L_3345);
 		V_307 = ((int32_t)(((RuntimeArray*)L_3345)->max_length));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5678));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3346 = ___textInfo1;
 		NullCheck(L_3346);
 		int32_t L_3347 = L_3346->___wordCount_5;
 		V_308 = L_3347;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5679));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3348 = ___textInfo1;
 		NullCheck(L_3348);
 		int32_t L_3349 = L_3348->___wordCount_5;
 		int32_t L_3350 = V_307;
 		V_309 = (bool)((((int32_t)((int32_t)il2cpp_codegen_add(L_3349, 1))) > ((int32_t)L_3350))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5680));
 		bool L_3351 = V_309;
 		if (!L_3351)
 		{
@@ -13896,16 +15922,20 @@ IL_5b70:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5681));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3352 = ___textInfo1;
 		NullCheck(L_3352);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B** L_3353 = (&L_3352->___wordInfo_11);
 		int32_t L_3354 = V_307;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5682));
 		il2cpp_codegen_runtime_class_init_inline(TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_il2cpp_TypeInfo_var);
 		TextInfo_Resize_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mEB8F1BB793EF724308050D5AF1348A8B94556D45(L_3353, ((int32_t)il2cpp_codegen_add(L_3354, 1)), TextInfo_Resize_TisWordInfo_tA466206097891A5A2590896EE164AFC406EB060D_mEB8F1BB793EF724308050D5AF1348A8B94556D45_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5682));
 	}
 
 IL_5bc1:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5683));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3355 = ___textInfo1;
 		NullCheck(L_3355);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3356 = L_3355->___wordInfo_11;
@@ -13913,6 +15943,7 @@ IL_5bc1:
 		NullCheck(L_3356);
 		int32_t L_3358 = V_42;
 		((L_3356)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3357)))->___firstCharacterIndex_0 = L_3358;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5684));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3359 = ___textInfo1;
 		NullCheck(L_3359);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3360 = L_3359->___wordInfo_11;
@@ -13920,6 +15951,7 @@ IL_5bc1:
 		NullCheck(L_3360);
 		int32_t L_3362 = V_248;
 		((L_3360)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3361)))->___lastCharacterIndex_1 = L_3362;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5685));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3363 = ___textInfo1;
 		NullCheck(L_3363);
 		WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B* L_3364 = L_3363->___wordInfo_11;
@@ -13928,8 +15960,10 @@ IL_5bc1:
 		int32_t L_3366 = V_248;
 		int32_t L_3367 = V_42;
 		((L_3364)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3365)))->___characterCount_2 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_3366, L_3367)), 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5686));
 		int32_t L_3368 = V_37;
 		V_37 = ((int32_t)il2cpp_codegen_add(L_3368, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5687));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3369 = ___textInfo1;
 		V_166 = L_3369;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3370 = V_166;
@@ -13938,6 +15972,7 @@ IL_5bc1:
 		int32_t L_3372 = L_3371->___wordCount_5;
 		NullCheck(L_3370);
 		L_3370->___wordCount_5 = ((int32_t)il2cpp_codegen_add(L_3372, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5688));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3373 = ___textInfo1;
 		NullCheck(L_3373);
 		LineInfoU5BU5D_t37598F2175B291797270D1161DC29B6296FB169D* L_3374 = L_3373->___lineInfo_13;
@@ -13947,14 +15982,17 @@ IL_5bc1:
 		int32_t* L_3377 = L_3376;
 		int32_t L_3378 = *((int32_t*)L_3377);
 		*((int32_t*)L_3377) = (int32_t)((int32_t)il2cpp_codegen_add(L_3378, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5689));
 	}
 
 IL_5c3f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5690));
 	}
 
 IL_5c40:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5691));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3379 = ___textInfo1;
 		NullCheck(L_3379);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3380 = L_3379->___textElementInfo_10;
@@ -13962,8 +16000,10 @@ IL_5c40:
 		NullCheck(L_3380);
 		int32_t L_3382 = ((L_3380)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3381)))->___style_33;
 		V_249 = (bool)((((int32_t)((int32_t)((int32_t)L_3382&4))) == ((int32_t)4))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5692));
 		bool L_3383 = V_249;
 		V_310 = L_3383;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5693));
 		bool L_3384 = V_310;
 		if (!L_3384)
 		{
@@ -13971,7 +16011,10 @@ IL_5c40:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5694));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5695));
 		V_311 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5696));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3385 = ___textInfo1;
 		NullCheck(L_3385);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3386 = L_3385->___textElementInfo_10;
@@ -13979,6 +16022,7 @@ IL_5c40:
 		NullCheck(L_3386);
 		int32_t L_3388 = ((L_3386)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3387)))->___pageNumber_12;
 		V_312 = L_3388;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5697));
 		int32_t L_3389 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3390 = ___generationSettings0;
 		NullCheck(L_3390);
@@ -14035,6 +16079,7 @@ IL_5cc1:
 IL_5cc2:
 	{
 		V_313 = (bool)G_B844_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5698));
 		bool L_3400 = V_313;
 		if (!L_3400)
 		{
@@ -14042,15 +16087,19 @@ IL_5cc2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5699));
 		V_311 = (bool)0;
 	}
 
 IL_5cd7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5700));
 		Il2CppChar L_3401 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5701));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3402;
 		L_3402 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(L_3401, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5701));
 		if (L_3402)
 		{
 			goto IL_5cee;
@@ -14070,6 +16119,7 @@ IL_5cee:
 IL_5cef:
 	{
 		V_314 = (bool)G_B849_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5702));
 		bool L_3404 = V_314;
 		if (!L_3404)
 		{
@@ -14077,6 +16127,8 @@ IL_5cef:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5703));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5704));
 		float L_3405 = V_48;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3406 = ___textInfo1;
 		NullCheck(L_3406);
@@ -14084,9 +16136,12 @@ IL_5cef:
 		int32_t L_3408 = V_240;
 		NullCheck(L_3407);
 		float L_3409 = ((L_3407)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3408)))->___scale_28;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5705));
 		float L_3410;
 		L_3410 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_3405, L_3409, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5705));
 		V_48 = L_3410;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5706));
 		int32_t L_3411 = V_312;
 		int32_t L_3412 = V_50;
 		if ((((int32_t)L_3411) == ((int32_t)L_3412)))
@@ -14116,22 +16171,31 @@ IL_5d2c:
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3418 = ___generationSettings0;
 		NullCheck(L_3418);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_3419 = L_3418->___fontAsset_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5707));
 		NullCheck(L_3419);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_3420;
 		L_3420 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_3419, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5707));
 		V_57 = L_3420;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5708));
 		float L_3421;
 		L_3421 = FaceInfo_get_underlineOffset_mB1CBB29ECFFE69047F35E654E7F90755F95DD251((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5708));
 		float L_3422 = V_48;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5709));
 		float L_3423;
 		L_3423 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(G_B853_0, ((float)il2cpp_codegen_add(L_3417, ((float)il2cpp_codegen_multiply(L_3421, L_3422)))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5709));
 		V_49 = L_3423;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5710));
 		int32_t L_3424 = V_312;
 		V_50 = L_3424;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5711));
 	}
 
 IL_5d66:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5712));
 		bool L_3425 = V_5;
 		bool L_3426 = V_311;
 		if (!((int32_t)(((((int32_t)L_3425) == ((int32_t)0))? 1 : 0)&(int32_t)L_3426)))
@@ -14169,6 +16233,7 @@ IL_5d90:
 IL_5d91:
 	{
 		V_315 = (bool)G_B859_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5713));
 		bool L_3432 = V_315;
 		if (!L_3432)
 		{
@@ -14176,6 +16241,8 @@ IL_5d91:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5714));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5715));
 		int32_t L_3433 = V_240;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_3434 = V_244;
 		int32_t L_3435 = L_3434.___lastVisibleCharacterIndex_9;
@@ -14186,9 +16253,11 @@ IL_5d91:
 	}
 	{
 		Il2CppChar L_3436 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5716));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3437;
 		L_3437 = Char_IsSeparator_mDCBCD6C8304D946C3E1998A847DEA04928C72394(L_3436, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5716));
 		G_B863_0 = ((((int32_t)L_3437) == ((int32_t)0))? 1 : 0);
 		goto IL_5dbb;
 	}
@@ -14201,6 +16270,7 @@ IL_5dba:
 IL_5dbb:
 	{
 		V_316 = (bool)G_B863_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5717));
 		bool L_3438 = V_316;
 		if (!L_3438)
 		{
@@ -14208,7 +16278,10 @@ IL_5dbb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5718));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5719));
 		V_5 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5720));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3439 = ___textInfo1;
 		NullCheck(L_3439);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3440 = L_3439->___textElementInfo_10;
@@ -14216,8 +16289,10 @@ IL_5dbb:
 		NullCheck(L_3440);
 		float L_3442 = ((L_3440)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3441)))->___scale_28;
 		V_47 = L_3442;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5721));
 		float L_3443 = V_48;
 		V_317 = (bool)((((float)L_3443) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5722));
 		bool L_3444 = V_317;
 		if (!L_3444)
 		{
@@ -14225,12 +16300,14 @@ IL_5dbb:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5723));
 		float L_3445 = V_47;
 		V_48 = L_3445;
 	}
 
 IL_5dfc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5724));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3446 = ___textInfo1;
 		NullCheck(L_3446);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3447 = L_3446->___textElementInfo_10;
@@ -14239,7 +16316,10 @@ IL_5dfc:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3449 = (&((L_3447)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3448)))->___bottomLeft_19);
 		float L_3450 = L_3449->___x_2;
 		float L_3451 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5725));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_6), L_3450, L_3451, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5725));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5726));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3452 = ___textInfo1;
 		NullCheck(L_3452);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3453 = L_3452->___textElementInfo_10;
@@ -14247,14 +16327,17 @@ IL_5dfc:
 		NullCheck(L_3453);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3455 = ((L_3453)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3454)))->___underlineColor_30;
 		V_43 = L_3455;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5727));
 	}
 
 IL_5e36:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5728));
 	}
 
 IL_5e37:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5729));
 		bool L_3456 = V_5;
 		if (!L_3456)
 		{
@@ -14275,6 +16358,7 @@ IL_5e46:
 IL_5e47:
 	{
 		V_318 = (bool)G_B871_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5730));
 		bool L_3458 = V_318;
 		if (!L_3458)
 		{
@@ -14282,7 +16366,10 @@ IL_5e47:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5731));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5732));
 		V_5 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5733));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3459 = ___textInfo1;
 		NullCheck(L_3459);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3460 = L_3459->___textElementInfo_10;
@@ -14291,7 +16378,10 @@ IL_5e47:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3462 = (&((L_3460)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3461)))->___topRight_20);
 		float L_3463 = L_3462->___x_2;
 		float L_3464 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5734));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_3463, L_3464, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5734));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5735));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3465 = ___textInfo1;
 		NullCheck(L_3465);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3466 = L_3465->___textElementInfo_10;
@@ -14299,6 +16389,7 @@ IL_5e47:
 		NullCheck(L_3466);
 		float L_3468 = ((L_3466)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3467)))->___scale_28;
 		V_250 = L_3468;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5736));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3469 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3470 = V_7;
 		float L_3471 = V_47;
@@ -14308,14 +16399,21 @@ IL_5e47:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3475 = V_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3476 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3477 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5737));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3469, L_3470, (&V_33), L_3471, L_3472, L_3473, L_3474, L_3475, L_3476, L_3477, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5737));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5738));
 		V_48 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5739));
 		V_49 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5740));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5741));
 		goto IL_6104;
 	}
 
 IL_5ebf:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5742));
 		bool L_3478 = V_5;
 		if (!L_3478)
 		{
@@ -14358,6 +16456,7 @@ IL_5ee1:
 IL_5ee2:
 	{
 		V_319 = (bool)G_B879_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5743));
 		bool L_3485 = V_319;
 		if (!L_3485)
 		{
@@ -14365,10 +16464,14 @@ IL_5ee2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5744));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5745));
 		Il2CppChar L_3486 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5746));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3487;
 		L_3487 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(L_3486, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5746));
 		if (L_3487)
 		{
 			goto IL_5f08;
@@ -14388,6 +16491,7 @@ IL_5f08:
 IL_5f09:
 	{
 		V_320 = (bool)G_B883_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5747));
 		bool L_3489 = V_320;
 		if (!L_3489)
 		{
@@ -14395,9 +16499,12 @@ IL_5f09:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5748));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5749));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_3490 = V_244;
 		int32_t L_3491 = L_3490.___lastVisibleCharacterIndex_9;
 		V_321 = L_3491;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5750));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3492 = ___textInfo1;
 		NullCheck(L_3492);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3493 = L_3492->___textElementInfo_10;
@@ -14406,7 +16513,10 @@ IL_5f09:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3495 = (&((L_3493)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3494)))->___topRight_20);
 		float L_3496 = L_3495->___x_2;
 		float L_3497 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5751));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_3496, L_3497, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5751));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5752));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3498 = ___textInfo1;
 		NullCheck(L_3498);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3499 = L_3498->___textElementInfo_10;
@@ -14414,11 +16524,15 @@ IL_5f09:
 		NullCheck(L_3499);
 		float L_3501 = ((L_3499)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3500)))->___scale_28;
 		V_250 = L_3501;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5753));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5754));
 		goto IL_5fa4;
 	}
 
 IL_5f69:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5755));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5756));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3502 = ___textInfo1;
 		NullCheck(L_3502);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3503 = L_3502->___textElementInfo_10;
@@ -14427,7 +16541,10 @@ IL_5f69:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3505 = (&((L_3503)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3504)))->___topRight_20);
 		float L_3506 = L_3505->___x_2;
 		float L_3507 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5757));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_3506, L_3507, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5757));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5758));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3508 = ___textInfo1;
 		NullCheck(L_3508);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3509 = L_3508->___textElementInfo_10;
@@ -14435,11 +16552,14 @@ IL_5f69:
 		NullCheck(L_3509);
 		float L_3511 = ((L_3509)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3510)))->___scale_28;
 		V_250 = L_3511;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5759));
 	}
 
 IL_5fa4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5760));
 		V_5 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5761));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3512 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3513 = V_7;
 		float L_3514 = V_47;
@@ -14449,14 +16569,21 @@ IL_5fa4:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3518 = V_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3519 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3520 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5762));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3512, L_3513, (&V_33), L_3514, L_3515, L_3516, L_3517, L_3518, L_3519, L_3520, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5762));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5763));
 		V_48 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5764));
 		V_49 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5765));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5766));
 		goto IL_6104;
 	}
 
 IL_5fd4:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5767));
 		bool L_3521 = V_5;
 		if (!L_3521)
 		{
@@ -14477,6 +16604,7 @@ IL_5fe3:
 IL_5fe4:
 	{
 		V_322 = (bool)G_B890_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5768));
 		bool L_3523 = V_322;
 		if (!L_3523)
 		{
@@ -14484,7 +16612,10 @@ IL_5fe4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5769));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5770));
 		V_5 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5771));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3524 = ___textInfo1;
 		NullCheck(L_3524);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3525 = L_3524->___textElementInfo_10;
@@ -14493,7 +16624,10 @@ IL_5fe4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3527 = (&((L_3525)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3526, 1)))))->___topRight_20);
 		float L_3528 = L_3527->___x_2;
 		float L_3529 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5772));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_3528, L_3529, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5772));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5773));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3530 = ___textInfo1;
 		NullCheck(L_3530);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3531 = L_3530->___textElementInfo_10;
@@ -14501,6 +16635,7 @@ IL_5fe4:
 		NullCheck(L_3531);
 		float L_3533 = ((L_3531)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3532, 1)))))->___scale_28;
 		V_250 = L_3533;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5774));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3534 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3535 = V_7;
 		float L_3536 = V_47;
@@ -14510,14 +16645,21 @@ IL_5fe4:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3540 = V_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3541 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3542 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5775));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3534, L_3535, (&V_33), L_3536, L_3537, L_3538, L_3539, L_3540, L_3541, L_3542, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5775));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5776));
 		V_48 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5777));
 		V_49 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5778));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5779));
 		goto IL_6104;
 	}
 
 IL_6060:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5780));
 		bool L_3543 = V_5;
 		if (!L_3543)
 		{
@@ -14540,8 +16682,10 @@ IL_6060:
 		int32_t L_3549 = V_240;
 		NullCheck(L_3548);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3550 = ((L_3548)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_3549, 1)))))->___underlineColor_30;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5781));
 		bool L_3551;
 		L_3551 = ColorUtilities_CompareColors_m66829BD52BE7906CCEAC57DE94C4024AF372BD8D(L_3546, L_3550, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5781));
 		G_B896_0 = ((((int32_t)L_3551) == ((int32_t)0))? 1 : 0);
 		goto IL_6091;
 	}
@@ -14554,6 +16698,7 @@ IL_6090:
 IL_6091:
 	{
 		V_323 = (bool)G_B896_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5782));
 		bool L_3552 = V_323;
 		if (!L_3552)
 		{
@@ -14561,7 +16706,10 @@ IL_6091:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5783));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5784));
 		V_5 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5785));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3553 = ___textInfo1;
 		NullCheck(L_3553);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3554 = L_3553->___textElementInfo_10;
@@ -14570,7 +16718,10 @@ IL_6091:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3556 = (&((L_3554)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3555)))->___topRight_20);
 		float L_3557 = L_3556->___x_2;
 		float L_3558 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5786));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_3557, L_3558, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5786));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5787));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3559 = ___textInfo1;
 		NullCheck(L_3559);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3560 = L_3559->___textElementInfo_10;
@@ -14578,6 +16729,7 @@ IL_6091:
 		NullCheck(L_3560);
 		float L_3562 = ((L_3560)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3561)))->___scale_28;
 		V_250 = L_3562;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5788));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3563 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3564 = V_7;
 		float L_3565 = V_47;
@@ -14587,20 +16739,30 @@ IL_6091:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3569 = V_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3570 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3571 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5789));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3563, L_3564, (&V_33), L_3565, L_3566, L_3567, L_3568, L_3569, L_3570, L_3571, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5789));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5790));
 		V_48 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5791));
 		V_49 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5792));
 	}
 
 IL_6104:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5793));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5794));
 		goto IL_6182;
 	}
 
 IL_6107:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5795));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5796));
 		bool L_3572 = V_5;
 		V_324 = L_3572;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5797));
 		bool L_3573 = V_324;
 		if (!L_3573)
 		{
@@ -14608,7 +16770,10 @@ IL_6107:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5798));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5799));
 		V_5 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5800));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3574 = ___textInfo1;
 		NullCheck(L_3574);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3575 = L_3574->___textElementInfo_10;
@@ -14617,7 +16782,10 @@ IL_6107:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3577 = (&((L_3575)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3576, 1)))))->___topRight_20);
 		float L_3578 = L_3577->___x_2;
 		float L_3579 = V_49;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5801));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_3578, L_3579, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5801));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5802));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3580 = ___textInfo1;
 		NullCheck(L_3580);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3581 = L_3580->___textElementInfo_10;
@@ -14625,6 +16793,7 @@ IL_6107:
 		NullCheck(L_3581);
 		float L_3583 = ((L_3581)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3582, 1)))))->___scale_28;
 		V_250 = L_3583;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5803));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3584 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3585 = V_7;
 		float L_3586 = V_47;
@@ -14634,17 +16803,24 @@ IL_6107:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3590 = V_43;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3591 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3592 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5804));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3584, L_3585, (&V_33), L_3586, L_3587, L_3588, L_3589, L_3590, L_3591, L_3592, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5804));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5805));
 		V_48 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5806));
 		V_49 = (32767.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5807));
 	}
 
 IL_6181:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5808));
 	}
 
 IL_6182:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5809));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3593 = ___textInfo1;
 		NullCheck(L_3593);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3594 = L_3593->___textElementInfo_10;
@@ -14652,16 +16828,23 @@ IL_6182:
 		NullCheck(L_3594);
 		int32_t L_3596 = ((L_3594)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3595)))->___style_33;
 		V_251 = (bool)((((int32_t)((int32_t)((int32_t)L_3596&((int32_t)64)))) == ((int32_t)((int32_t)64)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5810));
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_3597 = V_241;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5811));
 		NullCheck(L_3597);
 		FaceInfo_t12F0319E555A62CBA1D9E51A16C7963393932756 L_3598;
 		L_3598 = FontAsset_get_faceInfo_mF020EC579E3C18A6279D55D86AF1C585031B49A9(L_3597, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5811));
 		V_57 = L_3598;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5812));
 		float L_3599;
 		L_3599 = FaceInfo_get_strikethroughOffset_m7997E4A1512FE358331B3A6543C62C92A0AA5CA5((&V_57), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5812));
 		V_252 = L_3599;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5813));
 		bool L_3600 = V_251;
 		V_325 = L_3600;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5814));
 		bool L_3601 = V_325;
 		if (!L_3601)
 		{
@@ -14669,6 +16852,8 @@ IL_6182:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5815));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5816));
 		int32_t L_3602 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3603 = ___generationSettings0;
 		NullCheck(L_3603);
@@ -14730,6 +16915,7 @@ IL_6201:
 IL_6202:
 	{
 		V_326 = (bool)G_B910_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5817));
 		bool L_3616 = V_8;
 		bool L_3617 = V_326;
 		if (!((int32_t)(((((int32_t)L_3616) == ((int32_t)0))? 1 : 0)&(int32_t)L_3617)))
@@ -14767,6 +16953,7 @@ IL_6232:
 IL_6233:
 	{
 		V_327 = (bool)G_B915_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5818));
 		bool L_3623 = V_327;
 		if (!L_3623)
 		{
@@ -14774,6 +16961,8 @@ IL_6233:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5819));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5820));
 		int32_t L_3624 = V_240;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_3625 = V_244;
 		int32_t L_3626 = L_3625.___lastVisibleCharacterIndex_9;
@@ -14784,9 +16973,11 @@ IL_6233:
 	}
 	{
 		Il2CppChar L_3627 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5821));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3628;
 		L_3628 = Char_IsSeparator_mDCBCD6C8304D946C3E1998A847DEA04928C72394(L_3627, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5821));
 		G_B919_0 = ((((int32_t)L_3628) == ((int32_t)0))? 1 : 0);
 		goto IL_625d;
 	}
@@ -14799,6 +16990,7 @@ IL_625c:
 IL_625d:
 	{
 		V_328 = (bool)G_B919_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5822));
 		bool L_3629 = V_328;
 		if (!L_3629)
 		{
@@ -14806,7 +16998,10 @@ IL_625d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5823));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5824));
 		V_8 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5825));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3630 = ___textInfo1;
 		NullCheck(L_3630);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3631 = L_3630->___textElementInfo_10;
@@ -14814,6 +17009,7 @@ IL_625d:
 		NullCheck(L_3631);
 		float L_3633 = ((L_3631)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3632)))->___pointSize_10;
 		V_51 = L_3633;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5826));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3634 = ___textInfo1;
 		NullCheck(L_3634);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3635 = L_3634->___textElementInfo_10;
@@ -14821,6 +17017,7 @@ IL_625d:
 		NullCheck(L_3635);
 		float L_3637 = ((L_3635)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3636)))->___scale_28;
 		V_52 = L_3637;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5827));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3638 = ___textInfo1;
 		NullCheck(L_3638);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3639 = L_3638->___textElementInfo_10;
@@ -14836,7 +17033,10 @@ IL_625d:
 		float L_3646 = ((L_3644)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3645)))->___baseLine_24;
 		float L_3647 = V_252;
 		float L_3648 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5828));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_3642, ((float)il2cpp_codegen_add(L_3646, ((float)il2cpp_codegen_multiply(L_3647, L_3648)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5828));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5829));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3649 = ___textInfo1;
 		NullCheck(L_3649);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3650 = L_3649->___textElementInfo_10;
@@ -14844,6 +17044,7 @@ IL_625d:
 		NullCheck(L_3650);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3652 = ((L_3650)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3651)))->___strikethroughColor_31;
 		V_44 = L_3652;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5830));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3653 = ___textInfo1;
 		NullCheck(L_3653);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3654 = L_3653->___textElementInfo_10;
@@ -14851,14 +17052,17 @@ IL_625d:
 		NullCheck(L_3654);
 		float L_3656 = ((L_3654)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3655)))->___baseLine_24;
 		V_53 = L_3656;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5831));
 	}
 
 IL_62fe:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5832));
 	}
 
 IL_62ff:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5833));
 		bool L_3657 = V_8;
 		if (!L_3657)
 		{
@@ -14879,6 +17083,7 @@ IL_630e:
 IL_630f:
 	{
 		V_329 = (bool)G_B925_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5834));
 		bool L_3659 = V_329;
 		if (!L_3659)
 		{
@@ -14886,7 +17091,10 @@ IL_630f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5835));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5836));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5837));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3660 = ___textInfo1;
 		NullCheck(L_3660);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3661 = L_3660->___textElementInfo_10;
@@ -14902,7 +17110,10 @@ IL_630f:
 		float L_3668 = ((L_3666)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3667)))->___baseLine_24;
 		float L_3669 = V_252;
 		float L_3670 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5838));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3664, ((float)il2cpp_codegen_add(L_3668, ((float)il2cpp_codegen_multiply(L_3669, L_3670)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5838));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5839));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3671 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3672 = V_10;
 		float L_3673 = V_52;
@@ -14912,12 +17123,17 @@ IL_630f:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3677 = V_44;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3678 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3679 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5840));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3671, L_3672, (&V_33), L_3673, L_3674, L_3675, L_3676, L_3677, L_3678, L_3679, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5840));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5841));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5842));
 		goto IL_66b6;
 	}
 
 IL_637b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5843));
 		bool L_3680 = V_8;
 		if (!L_3680)
 		{
@@ -14940,6 +17156,7 @@ IL_638c:
 IL_638d:
 	{
 		V_330 = (bool)G_B930_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5844));
 		bool L_3684 = V_330;
 		if (!L_3684)
 		{
@@ -14947,10 +17164,14 @@ IL_638d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5845));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5846));
 		Il2CppChar L_3685 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5847));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3686;
 		L_3686 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(L_3685, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5847));
 		if (L_3686)
 		{
 			goto IL_63b3;
@@ -14970,6 +17191,7 @@ IL_63b3:
 IL_63b4:
 	{
 		V_331 = (bool)G_B934_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5848));
 		bool L_3688 = V_331;
 		if (!L_3688)
 		{
@@ -14977,9 +17199,12 @@ IL_63b4:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5849));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5850));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_3689 = V_244;
 		int32_t L_3690 = L_3689.___lastVisibleCharacterIndex_9;
 		V_332 = L_3690;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5851));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3691 = ___textInfo1;
 		NullCheck(L_3691);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3692 = L_3691->___textElementInfo_10;
@@ -14995,12 +17220,18 @@ IL_63b4:
 		float L_3699 = ((L_3697)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3698)))->___baseLine_24;
 		float L_3700 = V_252;
 		float L_3701 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5852));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3695, ((float)il2cpp_codegen_add(L_3699, ((float)il2cpp_codegen_multiply(L_3700, L_3701)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5852));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5853));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5854));
 		goto IL_6453;
 	}
 
 IL_6416:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5855));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5856));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3702 = ___textInfo1;
 		NullCheck(L_3702);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3703 = L_3702->___textElementInfo_10;
@@ -15016,12 +17247,17 @@ IL_6416:
 		float L_3710 = ((L_3708)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3709)))->___baseLine_24;
 		float L_3711 = V_252;
 		float L_3712 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5857));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3706, ((float)il2cpp_codegen_add(L_3710, ((float)il2cpp_codegen_multiply(L_3711, L_3712)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5857));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5858));
 	}
 
 IL_6453:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5859));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5860));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3713 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3714 = V_10;
 		float L_3715 = V_52;
@@ -15031,12 +17267,17 @@ IL_6453:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3719 = V_44;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3720 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3721 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5861));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3713, L_3714, (&V_33), L_3715, L_3716, L_3717, L_3718, L_3719, L_3720, L_3721, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5861));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5862));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5863));
 		goto IL_66b6;
 	}
 
 IL_6475:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5864));
 		bool L_3722 = V_8;
 		if (!L_3722)
 		{
@@ -15074,9 +17315,11 @@ IL_6475:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3734 = V_246;
 		float L_3735 = L_3734.___y_3;
 		float L_3736 = V_53;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5865));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		bool L_3737;
 		L_3737 = TextGeneratorUtilities_Approximately_m2333A8491C1BBC4F26738A240A7AA9E699508E6D(((float)il2cpp_codegen_add(L_3733, L_3735)), L_3736, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5865));
 		G_B943_0 = ((((int32_t)L_3737) == ((int32_t)0))? 1 : 0);
 		goto IL_64c4;
 	}
@@ -15100,6 +17343,7 @@ IL_64c6:
 IL_64c7:
 	{
 		V_333 = (bool)G_B945_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5866));
 		bool L_3738 = V_333;
 		if (!L_3738)
 		{
@@ -15107,13 +17351,18 @@ IL_64c7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5867));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5868));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5869));
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_3739 = V_244;
 		int32_t L_3740 = L_3739.___lastVisibleCharacterIndex_9;
 		V_334 = L_3740;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5870));
 		int32_t L_3741 = V_240;
 		int32_t L_3742 = V_334;
 		V_335 = (bool)((((int32_t)L_3741) > ((int32_t)L_3742))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5871));
 		bool L_3743 = V_335;
 		if (!L_3743)
 		{
@@ -15121,6 +17370,7 @@ IL_64c7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5872));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3744 = ___textInfo1;
 		NullCheck(L_3744);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3745 = L_3744->___textElementInfo_10;
@@ -15136,12 +17386,16 @@ IL_64c7:
 		float L_3752 = ((L_3750)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3751)))->___baseLine_24;
 		float L_3753 = V_252;
 		float L_3754 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5873));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3748, ((float)il2cpp_codegen_add(L_3752, ((float)il2cpp_codegen_multiply(L_3753, L_3754)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5873));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5874));
 		goto IL_6581;
 	}
 
 IL_6546:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5875));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3755 = ___textInfo1;
 		NullCheck(L_3755);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3756 = L_3755->___textElementInfo_10;
@@ -15157,11 +17411,14 @@ IL_6546:
 		float L_3763 = ((L_3761)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3762)))->___baseLine_24;
 		float L_3764 = V_252;
 		float L_3765 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5876));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3759, ((float)il2cpp_codegen_add(L_3763, ((float)il2cpp_codegen_multiply(L_3764, L_3765)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5876));
 	}
 
 IL_6581:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5877));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3766 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3767 = V_10;
 		float L_3768 = V_52;
@@ -15171,12 +17428,17 @@ IL_6581:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3772 = V_44;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3773 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3774 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5878));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3766, L_3767, (&V_33), L_3768, L_3769, L_3770, L_3771, L_3772, L_3773, L_3774, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5878));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5879));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5880));
 		goto IL_66b6;
 	}
 
 IL_65a0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5881));
 		bool L_3775 = V_8;
 		if (!L_3775)
 		{
@@ -15193,16 +17455,20 @@ IL_65a0:
 	}
 	{
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_3778 = V_241;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5882));
 		NullCheck(L_3778);
 		int32_t L_3779;
 		L_3779 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_3778, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5882));
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3780 = V_54;
 		int32_t L_3781 = V_240;
 		NullCheck(L_3780);
 		FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* L_3782 = ((L_3780)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_3781, 1)))))->___fontAsset_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5883));
 		NullCheck(L_3782);
 		int32_t L_3783;
 		L_3783 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(L_3782, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5883));
 		G_B954_0 = ((((int32_t)((((int32_t)L_3779) == ((int32_t)L_3783))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_65d2;
 	}
@@ -15215,6 +17481,7 @@ IL_65d1:
 IL_65d2:
 	{
 		V_336 = (bool)G_B954_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5884));
 		bool L_3784 = V_336;
 		if (!L_3784)
 		{
@@ -15222,7 +17489,10 @@ IL_65d2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5885));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5886));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5887));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3785 = ___textInfo1;
 		NullCheck(L_3785);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3786 = L_3785->___textElementInfo_10;
@@ -15238,7 +17508,10 @@ IL_65d2:
 		float L_3793 = ((L_3791)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3792)))->___baseLine_24;
 		float L_3794 = V_252;
 		float L_3795 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5888));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3789, ((float)il2cpp_codegen_add(L_3793, ((float)il2cpp_codegen_multiply(L_3794, L_3795)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5888));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5889));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3796 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3797 = V_10;
 		float L_3798 = V_52;
@@ -15248,12 +17521,17 @@ IL_65d2:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3802 = V_44;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3803 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3804 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5890));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3796, L_3797, (&V_33), L_3798, L_3799, L_3800, L_3801, L_3802, L_3803, L_3804, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5890));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5891));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5892));
 		goto IL_66b6;
 	}
 
 IL_663b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5893));
 		bool L_3805 = V_8;
 		if (!L_3805)
 		{
@@ -15274,6 +17552,7 @@ IL_664a:
 IL_664b:
 	{
 		V_337 = (bool)G_B959_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5894));
 		bool L_3807 = V_337;
 		if (!L_3807)
 		{
@@ -15281,7 +17560,10 @@ IL_664b:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5895));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5896));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5897));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3808 = ___textInfo1;
 		NullCheck(L_3808);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3809 = L_3808->___textElementInfo_10;
@@ -15297,7 +17579,10 @@ IL_664b:
 		float L_3816 = ((L_3814)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3815, 1)))))->___baseLine_24;
 		float L_3817 = V_252;
 		float L_3818 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5898));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3812, ((float)il2cpp_codegen_add(L_3816, ((float)il2cpp_codegen_multiply(L_3817, L_3818)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5898));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5899));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3819 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3820 = V_10;
 		float L_3821 = V_52;
@@ -15307,18 +17592,26 @@ IL_664b:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3825 = V_44;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3826 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3827 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5900));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3819, L_3820, (&V_33), L_3821, L_3822, L_3823, L_3824, L_3825, L_3826, L_3827, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5900));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5901));
 	}
 
 IL_66b6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5902));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5903));
 		goto IL_6728;
 	}
 
 IL_66b9:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5904));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5905));
 		bool L_3828 = V_8;
 		V_338 = L_3828;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5906));
 		bool L_3829 = V_338;
 		if (!L_3829)
 		{
@@ -15326,7 +17619,10 @@ IL_66b9:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5907));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5908));
 		V_8 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5909));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3830 = ___textInfo1;
 		NullCheck(L_3830);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3831 = L_3830->___textElementInfo_10;
@@ -15342,7 +17638,10 @@ IL_66b9:
 		float L_3838 = ((L_3836)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_3837, 1)))))->___baseLine_24;
 		float L_3839 = V_252;
 		float L_3840 = V_52;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5910));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), L_3834, ((float)il2cpp_codegen_add(L_3838, ((float)il2cpp_codegen_multiply(L_3839, L_3840)))), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5910));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5911));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3841 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3842 = V_10;
 		float L_3843 = V_52;
@@ -15352,15 +17651,20 @@ IL_66b9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3847 = V_44;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3848 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3849 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5912));
 		TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E(__this, L_3841, L_3842, (&V_33), L_3843, L_3844, L_3845, L_3846, L_3847, L_3848, L_3849, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5912));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5913));
 	}
 
 IL_6727:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5914));
 	}
 
 IL_6728:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5915));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3850 = ___textInfo1;
 		NullCheck(L_3850);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3851 = L_3850->___textElementInfo_10;
@@ -15368,8 +17672,10 @@ IL_6728:
 		NullCheck(L_3851);
 		int32_t L_3853 = ((L_3851)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3852)))->___style_33;
 		V_253 = (bool)((((int32_t)((int32_t)((int32_t)L_3853&((int32_t)512)))) == ((int32_t)((int32_t)512)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5916));
 		bool L_3854 = V_253;
 		V_339 = L_3854;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5917));
 		bool L_3855 = V_339;
 		if (!L_3855)
 		{
@@ -15377,7 +17683,10 @@ IL_6728:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5918));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5919));
 		V_340 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5920));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3856 = ___textInfo1;
 		NullCheck(L_3856);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3857 = L_3856->___textElementInfo_10;
@@ -15385,6 +17694,7 @@ IL_6728:
 		NullCheck(L_3857);
 		int32_t L_3859 = ((L_3857)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3858)))->___pageNumber_12;
 		V_341 = L_3859;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5921));
 		int32_t L_3860 = V_240;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3861 = ___generationSettings0;
 		NullCheck(L_3861);
@@ -15441,6 +17751,7 @@ IL_67b1:
 IL_67b2:
 	{
 		V_342 = (bool)G_B973_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5922));
 		bool L_3871 = V_342;
 		if (!L_3871)
 		{
@@ -15448,11 +17759,13 @@ IL_67b2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5923));
 		V_340 = (bool)0;
 	}
 
 IL_67c7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5924));
 		bool L_3872 = V_11;
 		bool L_3873 = V_340;
 		if (!((int32_t)(((((int32_t)L_3872) == ((int32_t)0))? 1 : 0)&(int32_t)L_3873)))
@@ -15490,6 +17803,7 @@ IL_67f1:
 IL_67f2:
 	{
 		V_343 = (bool)G_B980_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5925));
 		bool L_3879 = V_343;
 		if (!L_3879)
 		{
@@ -15497,6 +17811,8 @@ IL_67f2:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5926));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5927));
 		int32_t L_3880 = V_240;
 		LineInfo_t2BBD461B330C46ACA45596A8E72FEA4172F88CF5 L_3881 = V_244;
 		int32_t L_3882 = L_3881.___lastVisibleCharacterIndex_9;
@@ -15507,9 +17823,11 @@ IL_67f2:
 	}
 	{
 		Il2CppChar L_3883 = V_242;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5928));
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_3884;
 		L_3884 = Char_IsSeparator_mDCBCD6C8304D946C3E1998A847DEA04928C72394(L_3883, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5928));
 		G_B984_0 = ((((int32_t)L_3884) == ((int32_t)0))? 1 : 0);
 		goto IL_6819;
 	}
@@ -15522,6 +17840,7 @@ IL_6818:
 IL_6819:
 	{
 		V_344 = (bool)G_B984_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5929));
 		bool L_3885 = V_344;
 		if (!L_3885)
 		{
@@ -15529,16 +17848,25 @@ IL_6819:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5930));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5931));
 		V_11 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5932));
 		il2cpp_codegen_runtime_class_init_inline(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3886 = ((TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_StaticFields*)il2cpp_codegen_static_fields_for(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var))->___largePositiveVector2_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5933));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3887;
 		L_3887 = Vector2_op_Implicit_mCD214B04BC52AED3C89C3BEF664B6247E5F8954A_inline(L_3886, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5933));
 		V_12 = L_3887;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5934));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3888 = ((TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_StaticFields*)il2cpp_codegen_static_fields_for(TextGeneratorUtilities_tAD0F329B1A5C7CC27CF63086C11FE092B43FED53_il2cpp_TypeInfo_var))->___largeNegativeVector2_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5935));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3889;
 		L_3889 = Vector2_op_Implicit_mCD214B04BC52AED3C89C3BEF664B6247E5F8954A_inline(L_3888, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5935));
 		V_13 = L_3889;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5936));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3890 = ___textInfo1;
 		NullCheck(L_3890);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3891 = L_3890->___textElementInfo_10;
@@ -15546,16 +17874,20 @@ IL_6819:
 		NullCheck(L_3891);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3893 = ((L_3891)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3892)))->___highlightColor_32;
 		V_45 = L_3893;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5937));
 	}
 
 IL_6858:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5938));
 	}
 
 IL_6859:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5939));
 		bool L_3894 = V_11;
 		V_345 = L_3894;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5940));
 		bool L_3895 = V_345;
 		if (!L_3895)
 		{
@@ -15563,6 +17895,8 @@ IL_6859:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5941));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5942));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3896 = ___textInfo1;
 		NullCheck(L_3896);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3897 = L_3896->___textElementInfo_10;
@@ -15570,12 +17904,17 @@ IL_6859:
 		NullCheck(L_3897);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3899 = ((L_3897)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3898)))->___highlightColor_32;
 		V_346 = L_3899;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5943));
 		V_347 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5944));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3900 = V_45;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3901 = V_346;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5945));
 		bool L_3902;
 		L_3902 = ColorUtilities_CompareColors_m66829BD52BE7906CCEAC57DE94C4024AF372BD8D(L_3900, L_3901, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5945));
 		V_348 = (bool)((((int32_t)L_3902) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5946));
 		bool L_3903 = V_348;
 		if (!L_3903)
 		{
@@ -15583,6 +17922,8 @@ IL_6859:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5947));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5948));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3904 = V_13;
 		float L_3905 = L_3904.___x_2;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3906 = ___textInfo1;
@@ -15593,6 +17934,7 @@ IL_6859:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3909 = (&((L_3907)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3908)))->___bottomLeft_19);
 		float L_3910 = L_3909->___x_2;
 		(&V_13)->___x_2 = ((float)(((float)il2cpp_codegen_add(L_3905, L_3910))/(2.0f)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5949));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3911 = V_12;
 		float L_3912 = L_3911.___y_3;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3913 = ___textInfo1;
@@ -15601,9 +17943,12 @@ IL_6859:
 		int32_t L_3915 = V_240;
 		NullCheck(L_3914);
 		float L_3916 = ((L_3914)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3915)))->___descender_25;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5950));
 		float L_3917;
 		L_3917 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_3912, L_3916, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5950));
 		(&V_12)->___y_3 = L_3917;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5951));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3918 = V_13;
 		float L_3919 = L_3918.___y_3;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3920 = ___textInfo1;
@@ -15612,18 +17957,26 @@ IL_6859:
 		int32_t L_3922 = V_240;
 		NullCheck(L_3921);
 		float L_3923 = ((L_3921)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3922)))->___ascender_23;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5952));
 		float L_3924;
 		L_3924 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_3919, L_3923, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5952));
 		(&V_13)->___y_3 = L_3924;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5953));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3925 = V_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3926 = V_13;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3927 = V_45;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3928 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3929 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5954));
 		TextGenerator_DrawTextHighlight_m3A8E9A72C0984B5DEEF9858060675F3B517F701B(__this, L_3925, L_3926, (&V_33), L_3927, L_3928, L_3929, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5954));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5955));
 		V_11 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5956));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3930 = V_13;
 		V_12 = L_3930;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5957));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3931 = ___textInfo1;
 		NullCheck(L_3931);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3932 = L_3931->___textElementInfo_10;
@@ -15637,7 +17990,10 @@ IL_6859:
 		int32_t L_3938 = V_240;
 		NullCheck(L_3937);
 		float L_3939 = ((L_3937)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3938)))->___descender_25;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5958));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_13), L_3935, L_3939, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5958));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5959));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3940 = ___textInfo1;
 		NullCheck(L_3940);
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_3941 = L_3940->___textElementInfo_10;
@@ -15645,13 +18001,17 @@ IL_6859:
 		NullCheck(L_3941);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3943 = ((L_3941)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3942)))->___highlightColor_32;
 		V_45 = L_3943;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5960));
 		V_347 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5961));
 	}
 
 IL_698d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5962));
 		bool L_3944 = V_347;
 		V_349 = (bool)((((int32_t)L_3944) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5963));
 		bool L_3945 = V_349;
 		if (!L_3945)
 		{
@@ -15659,6 +18019,8 @@ IL_698d:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5964));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5965));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3946 = V_12;
 		float L_3947 = L_3946.___x_2;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3948 = ___textInfo1;
@@ -15668,9 +18030,12 @@ IL_698d:
 		NullCheck(L_3949);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3951 = (&((L_3949)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3950)))->___bottomLeft_19);
 		float L_3952 = L_3951->___x_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5966));
 		float L_3953;
 		L_3953 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_3947, L_3952, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5966));
 		(&V_12)->___x_2 = L_3953;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5967));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3954 = V_12;
 		float L_3955 = L_3954.___y_3;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3956 = ___textInfo1;
@@ -15679,9 +18044,12 @@ IL_698d:
 		int32_t L_3958 = V_240;
 		NullCheck(L_3957);
 		float L_3959 = ((L_3957)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3958)))->___descender_25;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5968));
 		float L_3960;
 		L_3960 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_3955, L_3959, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5968));
 		(&V_12)->___y_3 = L_3960;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5969));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3961 = V_13;
 		float L_3962 = L_3961.___x_2;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3963 = ___textInfo1;
@@ -15691,9 +18059,12 @@ IL_698d:
 		NullCheck(L_3964);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3966 = (&((L_3964)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3965)))->___topRight_20);
 		float L_3967 = L_3966->___x_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5970));
 		float L_3968;
 		L_3968 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_3962, L_3967, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5970));
 		(&V_13)->___x_2 = L_3968;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5971));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3969 = V_13;
 		float L_3970 = L_3969.___y_3;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3971 = ___textInfo1;
@@ -15702,17 +18073,22 @@ IL_698d:
 		int32_t L_3973 = V_240;
 		NullCheck(L_3972);
 		float L_3974 = ((L_3972)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3973)))->___ascender_23;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5972));
 		float L_3975;
 		L_3975 = Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline(L_3970, L_3974, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5972));
 		(&V_13)->___y_3 = L_3975;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5973));
 	}
 
 IL_6a47:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5974));
 	}
 
 IL_6a48:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5975));
 		bool L_3976 = V_11;
 		if (!L_3976)
 		{
@@ -15733,6 +18109,7 @@ IL_6a57:
 IL_6a58:
 	{
 		V_350 = (bool)G_B996_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5976));
 		bool L_3978 = V_350;
 		if (!L_3978)
 		{
@@ -15740,18 +18117,26 @@ IL_6a58:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5977));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5978));
 		V_11 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5979));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3979 = V_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3980 = V_13;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3981 = V_45;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3982 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3983 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5980));
 		TextGenerator_DrawTextHighlight_m3A8E9A72C0984B5DEEF9858060675F3B517F701B(__this, L_3979, L_3980, (&V_33), L_3981, L_3982, L_3983, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5980));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5981));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5982));
 		goto IL_6afb;
 	}
 
 IL_6a7e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5983));
 		bool L_3984 = V_11;
 		if (!L_3984)
 		{
@@ -15794,6 +18179,7 @@ IL_6aa0:
 IL_6aa1:
 	{
 		V_351 = (bool)G_B1004_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5984));
 		bool L_3991 = V_351;
 		if (!L_3991)
 		{
@@ -15801,18 +18187,26 @@ IL_6aa1:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5985));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5986));
 		V_11 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5987));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3992 = V_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3993 = V_13;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_3994 = V_45;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_3995 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_3996 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5988));
 		TextGenerator_DrawTextHighlight_m3A8E9A72C0984B5DEEF9858060675F3B517F701B(__this, L_3992, L_3993, (&V_33), L_3994, L_3995, L_3996, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5988));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5989));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5990));
 		goto IL_6afb;
 	}
 
 IL_6ac7:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5991));
 		bool L_3997 = V_11;
 		if (!L_3997)
 		{
@@ -15833,6 +18227,7 @@ IL_6ad6:
 IL_6ad7:
 	{
 		V_352 = (bool)G_B1009_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5992));
 		bool L_3999 = V_352;
 		if (!L_3999)
 		{
@@ -15840,24 +18235,35 @@ IL_6ad7:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5993));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5994));
 		V_11 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5995));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4000 = V_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4001 = V_13;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4002 = V_45;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_4003 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4004 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5996));
 		TextGenerator_DrawTextHighlight_m3A8E9A72C0984B5DEEF9858060675F3B517F701B(__this, L_4000, L_4001, (&V_33), L_4002, L_4003, L_4004, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5996));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5997));
 	}
 
 IL_6afb:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5998));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 5999));
 		goto IL_6b26;
 	}
 
 IL_6afe:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6000));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6001));
 		bool L_4005 = V_11;
 		V_353 = L_4005;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6002));
 		bool L_4006 = V_353;
 		if (!L_4006)
 		{
@@ -15865,23 +18271,33 @@ IL_6afe:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6003));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6004));
 		V_11 = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6005));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4007 = V_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4008 = V_13;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_4009 = V_45;
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_4010 = ___generationSettings0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4011 = ___textInfo1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6006));
 		TextGenerator_DrawTextHighlight_m3A8E9A72C0984B5DEEF9858060675F3B517F701B(__this, L_4007, L_4008, (&V_33), L_4009, L_4010, L_4011, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6006));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6007));
 	}
 
 IL_6b25:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6008));
 	}
 
 IL_6b26:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6009));
 		int32_t L_4012 = V_243;
 		V_39 = L_4012;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6010));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6011));
 		int32_t L_4013 = V_240;
 		V_149 = L_4013;
 		int32_t L_4014 = V_149;
@@ -15890,9 +18306,11 @@ IL_6b26:
 
 IL_6b35:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6012));
 		int32_t L_4015 = V_240;
 		int32_t L_4016 = __this->___m_CharacterCount_48;
 		V_354 = (bool)((((int32_t)L_4015) < ((int32_t)L_4016))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6013));
 		bool L_4017 = V_354;
 		if (L_4017)
 		{
@@ -15900,18 +18318,22 @@ IL_6b35:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6014));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4018 = ___textInfo1;
 		int32_t L_4019 = __this->___m_CharacterCount_48;
 		NullCheck(L_4018);
 		L_4018->___characterCount_2 = L_4019;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6015));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4020 = ___textInfo1;
 		int32_t L_4021 = __this->___m_SpriteCount_86;
 		NullCheck(L_4020);
 		L_4020->___spriteCount_3 = L_4021;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6016));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4022 = ___textInfo1;
 		int32_t L_4023 = V_38;
 		NullCheck(L_4022);
 		L_4022->___lineCount_7 = L_4023;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6017));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4024 = ___textInfo1;
 		int32_t L_4025 = V_37;
 		G_B1018_0 = L_4024;
@@ -15949,10 +18371,12 @@ IL_6b83:
 	{
 		NullCheck(G_B1021_1);
 		G_B1021_1->___wordCount_5 = G_B1021_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6018));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4028 = ___textInfo1;
 		int32_t L_4029 = __this->___m_PageNumber_58;
 		NullCheck(L_4028);
 		L_4028->___pageCount_8 = ((int32_t)il2cpp_codegen_add(L_4029, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6019));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4030 = ___textInfo1;
 		NullCheck(L_4030);
 		MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* L_4031 = L_4030->___meshInfo_15;
@@ -15961,10 +18385,12 @@ IL_6b83:
 		NullCheck(L_4031);
 		int32_t L_4034 = V_33;
 		((L_4031)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4033)))->___vertexCount_1 = L_4034;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6020));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_4035 = ___generationSettings0;
 		NullCheck(L_4035);
 		int32_t L_4036 = L_4035->___geometrySortingOrder_42;
 		V_355 = (bool)((!(((uint32_t)L_4036) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6021));
 		bool L_4037 = V_355;
 		if (!L_4037)
 		{
@@ -15972,31 +18398,42 @@ IL_6b83:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6022));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4038 = ___textInfo1;
 		NullCheck(L_4038);
 		MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* L_4039 = L_4038->___meshInfo_15;
 		NullCheck(L_4039);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6023));
 		MeshInfo_SortGeometry_m92046C53AA6AE75EE3627CE73846296AB3E99DD1(((L_4039)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6023));
 	}
 
 IL_6bdd:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6024));
 		V_356 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6025));
 		goto IL_6c40;
 	}
 
 IL_6be6:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6026));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6027));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4040 = ___textInfo1;
 		NullCheck(L_4040);
 		MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* L_4041 = L_4040->___meshInfo_15;
 		int32_t L_4042 = V_356;
 		NullCheck(L_4041);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6028));
 		MeshInfo_ClearUnusedVertices_m7B6003EF4CA72C0ABBA4D25DEA8B0BF3934B2830(((L_4041)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4042))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6028));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6029));
 		TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2* L_4043 = ___generationSettings0;
 		NullCheck(L_4043);
 		int32_t L_4044 = L_4043->___geometrySortingOrder_42;
 		V_357 = (bool)((!(((uint32_t)L_4044) <= ((uint32_t)0)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6030));
 		bool L_4045 = V_357;
 		if (!L_4045)
 		{
@@ -16004,16 +18441,21 @@ IL_6be6:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6031));
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4046 = ___textInfo1;
 		NullCheck(L_4046);
 		MeshInfoU5BU5D_t3DF8B75BF4A213334EED197AD25E432212894AC6* L_4047 = L_4046->___meshInfo_15;
 		int32_t L_4048 = V_356;
 		NullCheck(L_4047);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6032));
 		MeshInfo_SortGeometry_m92046C53AA6AE75EE3627CE73846296AB3E99DD1(((L_4047)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4048))), 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6032));
 	}
 
 IL_6c2d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6033));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6034));
 		int32_t L_4049 = V_356;
 		V_149 = L_4049;
 		int32_t L_4050 = V_149;
@@ -16022,11 +18464,13 @@ IL_6c2d:
 
 IL_6c40:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6035));
 		int32_t L_4051 = V_356;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_4052 = ___textInfo1;
 		NullCheck(L_4052);
 		int32_t L_4053 = L_4052->___materialCount_9;
 		V_358 = (bool)((((int32_t)L_4051) < ((int32_t)L_4053))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6036));
 		bool L_4054 = V_358;
 		if (L_4054)
 		{
@@ -16036,6 +18480,7 @@ IL_6c40:
 
 IL_6c5c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_TextCoreTextEngineModule + 6037));
 		return;
 	}
 }
@@ -16047,12 +18492,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_zero_m9D7F7B580B5A276411267E96AA3425736D9BDC83_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7344));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7345));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7346));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7347));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector_5;
 		V_0 = L_0;
 		goto IL_0009;
@@ -16060,61 +18512,109 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7348));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___c0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___c0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color32_op_Implicit_m7EFA0B83AD1AE15567E9BC2FA2B8E66D3BFE1395_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6612));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6613));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6614));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6615));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___c0;
 		float L_1 = L_0.___r_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6616));
 		float L_2;
 		L_2 = Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6616));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6617));
 		float L_3;
 		L_3 = bankers_roundf(((float)il2cpp_codegen_multiply(L_2, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6617));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___c0;
 		float L_5 = L_4.___g_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6618));
 		float L_6;
 		L_6 = Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6618));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6619));
 		float L_7;
 		L_7 = bankers_roundf(((float)il2cpp_codegen_multiply(L_6, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6619));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ___c0;
 		float L_9 = L_8.___b_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6620));
 		float L_10;
 		L_10 = Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6620));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6621));
 		float L_11;
 		L_11 = bankers_roundf(((float)il2cpp_codegen_multiply(L_10, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6621));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ___c0;
 		float L_13 = L_12.___a_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6622));
 		float L_14;
 		L_14 = Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline(L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6622));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6623));
 		float L_15;
 		L_15 = bankers_roundf(((float)il2cpp_codegen_multiply(L_14, (255.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6623));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6624));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_16;
 		memset((&L_16), 0, sizeof(L_16));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_16), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_3), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_7), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_11), (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_15), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6624));
 		V_0 = L_16;
 		goto IL_0065;
 	}
 
 IL_0065:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6625));
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_17 = V_0;
 		return L_17;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t V_2 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0), (&___min1), (&___max2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp_mA48718D9A20D8972EDD41714CEF6BBF864F442EA_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7814));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7815));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7816));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7817));
 		int32_t L_0 = ___value0;
 		int32_t L_1 = ___min1;
 		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7818));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -16122,16 +18622,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_mA48718D9A20D
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7819));
 		int32_t L_3 = ___min1;
 		___value0 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7820));
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7821));
 		int32_t L_4 = ___value0;
 		int32_t L_5 = ___max2;
 		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7822));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -16139,12 +18643,14 @@ IL_000e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7823));
 		int32_t L_7 = ___max2;
 		___value0 = L_7;
 	}
 
 IL_0019:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7824));
 		int32_t L_8 = ___value0;
 		V_2 = L_8;
 		goto IL_001d;
@@ -16152,45 +18658,91 @@ IL_0019:
 
 IL_001d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7825));
 		int32_t L_9 = V_2;
 		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6530));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6531));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6532));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6533));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6534));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6534));
 		V_0 = L_0;
 		goto IL_001d;
 	}
 
 IL_001d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6535));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___x0), (&___y1), (&___z2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7168));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7169));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7170));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7171));
 		float L_0 = ___x0;
 		__this->___x_2 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7172));
 		float L_1 = ___y1;
 		__this->___y_3 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7173));
 		float L_2 = ___z2;
 		__this->___z_4 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7174));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7384));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7385));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7387));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
 		float L_1 = L_0.___x_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___b1;
@@ -16203,24 +18755,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___b1;
 		float L_11 = L_10.___z_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7388));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7388));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7389));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___d1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Division_mD7200D6D432BAFC4135C5B17A0B0A812203B0270_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7414));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7415));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7416));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7417));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
 		float L_1 = L_0.___x_2;
 		float L_2 = ___d1;
@@ -16230,24 +18798,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
 		float L_7 = L_6.___z_4;
 		float L_8 = ___d1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7418));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7418));
 		V_0 = L_9;
 		goto IL_0021;
 	}
 
 IL_0021:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7419));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		return L_10;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7390));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7391));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7392));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7393));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
 		float L_1 = L_0.___x_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___b1;
@@ -16260,24 +18844,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___b1;
 		float L_11 = L_10.___z_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7394));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7394));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7395));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_inline (float ___a0, float ___b1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Max_mA9DCA91E87D6D27034F56ABA52606A9090406016_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7721));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7722));
 	float G_B3_0 = 0.0f;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7723));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7724));
 		float L_0 = ___a0;
 		float L_1 = ___b1;
 		if ((((float)L_0) > ((float)L_1)))
@@ -16305,15 +18905,29 @@ IL_0009:
 
 IL_000c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7725));
 		float L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline (float ___a0, float ___b1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7711));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7712));
 	float G_B3_0 = 0.0f;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7713));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7714));
 		float L_0 = ___a0;
 		float L_1 = ___b1;
 		if ((((float)L_0) < ((float)L_1)))
@@ -16341,65 +18955,132 @@ IL_0009:
 
 IL_000c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7715));
 		float L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___x0), (&___y1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7926));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7927));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7928));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7929));
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7930));
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7931));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___r0, uint8_t ___g1, uint8_t ___b2, uint8_t ___a3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___r0), (&___g1), (&___b2), (&___a3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6603));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6604));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6605));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6606));
 		__this->___rgba_0 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6607));
 		uint8_t L_0 = ___r0;
 		__this->___r_1 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6608));
 		uint8_t L_1 = ___g1;
 		__this->___g_2 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6609));
 		uint8_t L_2 = ___b2;
 		__this->___b_3 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6610));
 		uint8_t L_3 = ___a3;
 		__this->___a_4 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6611));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_mCD214B04BC52AED3C89C3BEF664B6247E5F8954A_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___v0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Implicit_mCD214B04BC52AED3C89C3BEF664B6247E5F8954A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___v0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Implicit_mCD214B04BC52AED3C89C3BEF664B6247E5F8954A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8125));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8126));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8127));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8128));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___v0;
 		float L_1 = L_0.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___v0;
 		float L_3 = L_2.___y_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8129));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), L_1, L_3, (0.0f), /*hidden argument*/NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8129));
 		V_0 = L_4;
 		goto IL_001a;
 	}
 
 IL_001a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8130));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	float V_1 = 0.0f;
 	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7826));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7827));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7828));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7829));
 		float L_0 = ___value0;
 		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7830));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -16407,14 +19088,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7831));
 		V_1 = (0.0f);
 		goto IL_002d;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7832));
 		float L_2 = ___value0;
 		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7833));
 		bool L_3 = V_2;
 		if (!L_3)
 		{
@@ -16422,12 +19106,14 @@ IL_0015:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7834));
 		V_1 = (1.0f);
 		goto IL_002d;
 	}
 
 IL_0029:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7835));
 		float L_4 = ___value0;
 		V_1 = L_4;
 		goto IL_002d;
@@ -16435,21 +19121,40 @@ IL_0029:
 
 IL_002d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7836));
 		float L_5 = V_1;
 		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, float ___a3, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___r0), (&___g1), (&___b2), (&___a3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6388));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6389));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6390));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6391));
 		float L_0 = ___r0;
 		__this->___r_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6392));
 		float L_1 = ___g1;
 		__this->___g_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6393));
 		float L_2 = ___b2;
 		__this->___b_2 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6394));
 		float L_3 = ___a3;
 		__this->___a_3 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6395));
 		return;
 	}
 }

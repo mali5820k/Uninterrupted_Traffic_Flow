@@ -56,33 +56,20 @@ public class Event_Listener_From_React : MonoBehaviour
     }
 
     public void Spawn_One_Way_Vertical() {
-        /*        Spawner Index
-                    Left2       0
-                    Left6       2
-                    Right3      5
-                    Right7      7
-
-                    Top4        5
-                    Top8        7
-                    Bottom2     0
-                    Bottom6     2
-        */
-
-
         switch (vertical)
         {
             case (State.EVEN):
-                // Top4 and Bottom6 spawnpoints
-                Vertical_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-                Vertical_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-
+                Vertical_Spawners[1].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Vertical_Spawners[3].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                //Vertical_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Vertical_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
                 vertical = State.ODD;
                 break;
             case (State.ODD):
-                // Top8 and Bottom2 spawnpoints
-                Vertical_Spawners[0].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-                Vertical_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-
+                Vertical_Spawners[1].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Vertical_Spawners[3].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                //Vertical_Spawners[4].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Vertical_Spawners[6].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
                 vertical = State.EVEN;
                 break;
             default:
@@ -91,32 +78,20 @@ public class Event_Listener_From_React : MonoBehaviour
     }
 
     public void Spawn_One_Way_Horizontal() {
-        /*        Spawner Index
-                   Left2       0
-                   Left6       2
-                   Right3      5
-                   Right7      7
-
-                   Top4        5
-                   Top8        7
-                   Bottom2     0
-                   Bottom6     2
-       */
         switch (horizontal)
         {
             case (State.EVEN):
-                // Left2 and Right7
                 Horizontal_Spawners[0].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
                 Horizontal_Spawners[7].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-
-
                 horizontal = State.ODD;
                 break;
             case (State.ODD):
-                // Left6 and Right3
-                Horizontal_Spawners[2].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-                Horizontal_Spawners[5].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
-                
+                Horizontal_Spawners[1].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[3].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[4].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
+                Horizontal_Spawners[6].GetComponent<Arrow_Spawner>().Spawn_Arrow(oneway_green_arrow, block_length * 2);
                 horizontal = State.EVEN;
                 break;
             default:
@@ -187,15 +162,13 @@ public class Event_Listener_From_React : MonoBehaviour
             }
             if (oneway)
             {
-                vertical = State.ODD;
+                vertical = State.EVEN;
                 horizontal = State.EVEN;
                 // Thanks to this source: https://www.youtube.com/watch?v=1h2yStilBWU This periodic function call was possible in the most clean way imaginable
                 /*InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period / 2 + green_arrow_period/4);
                 InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period / 4, green_arrow_period / 2);*/
-                /*InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period / 2 + green_arrow_period/4);
-                InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period / 4, green_arrow_period / 2);*/
-                InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period);
-                InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period/4, green_arrow_period/3);
+                InvokeRepeating("Spawn_One_Way_Vertical", 0f, green_arrow_period / 2 + green_arrow_period/4);
+                InvokeRepeating("Spawn_One_Way_Horizontal", green_arrow_period / 4, green_arrow_period / 2);
             }
         }
         else if (green_arrow_status == false) {
@@ -239,10 +212,8 @@ public class Event_Listener_From_React : MonoBehaviour
 
         user_position = new Vector3(converted_values[0], 0f, -converted_values[1]); // Have to negate z to map to this grid
 
-        // No need to perform additional adjustments as the coordinates for the vehicles are handled on the opencv side for
-        // quadrilateral vector mapping to a square and uniform resolution.
-        /*// Now to adjust the user_position coordinates:
-        user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.z - tag_centers_for_grid_corners[1]);*/
+        // Now to adjust the user_position coordinates:
+        //user_position = new Vector3(user_position.x - tag_centers_for_grid_corners[0], user_position.z - tag_centers_for_grid_corners[1]);
     }
 
     // Camera Resolution x by y

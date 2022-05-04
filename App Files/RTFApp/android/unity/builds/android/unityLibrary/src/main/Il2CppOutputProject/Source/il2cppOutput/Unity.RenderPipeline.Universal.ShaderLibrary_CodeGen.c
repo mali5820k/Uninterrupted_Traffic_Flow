@@ -12,6 +12,7 @@
 
 
 
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_RenderPipeline_Universal_ShaderLibrary;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGenModule = 
 {
@@ -27,7 +28,7 @@ const Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGen
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnity_RenderPipeline_Universal_ShaderLibrary,
 	NULL, // module initializer,
 	NULL,
 	NULL,
