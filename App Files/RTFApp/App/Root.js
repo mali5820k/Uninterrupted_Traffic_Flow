@@ -614,7 +614,7 @@ class VehicleFollowScreen extends React.Component {
         //send to unity
         if (unityRef?.current) {
           unityRef.current.postMessage(
-            'GameObject/Event_Listener_From_React',
+            'Event_Listener_From_React',
             'User_Green_Arrow_Status',
             'reset',
           );
@@ -627,12 +627,12 @@ class VehicleFollowScreen extends React.Component {
         // Just need to send a message to unity with the new data for the car
         if (unityRef?.current) {
           unityRef.current.postMessage(
-            'GameObject/Event_Listener_From_React',
+            'Event_Listener_From_React',
             'User_Car_Position',
             `${newCarData.position[0]} ${newCarData.position[1]}`,
           );
           unityRef.current.postMessage(
-            'GameObject/Event_Listener_From_React',
+            'Event_Listener_From_React',
             'User_Heading',
             `${newCarData.heading}`,
           );
@@ -654,7 +654,7 @@ class VehicleFollowScreen extends React.Component {
           };
           */
           unityRef.current.postMessage(
-            'GameObject/Event_Listener_From_React',
+            'Event_Listener_From_React',
             'Setup',
             JSON.stringify(initialData),
           );

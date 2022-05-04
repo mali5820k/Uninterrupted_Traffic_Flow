@@ -5,4 +5,4 @@ include ":UnityExport"
 project(":UnityExport").projectDir = file("./UnityExport")
 
 include ':unityLibrary'
-project(':unityLibrary').projectDir=new File('./unity/builds/android/unityLibrary')
+project(':unityLibrary').projectDir=new File('./unity/IL2CPP_builds/official_android/unityLibrary')
