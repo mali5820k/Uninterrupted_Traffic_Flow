@@ -38,17 +38,12 @@ import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {io} from 'socket.io-client';
 //import UnityView from '@azesmway/react-native-unity';
-import Unity, {UnityContext} from 'react-unity-webgl';
+//import Unity, {UnityContext} from 'react-unity-webgl';
+import {UnityModule, UnityView} from 'react-native-unity-view';
 
 const config = require('./config.json');
 const logo = require('./images/SD.png');
 let socketio = null;
-
-interface IMessage {
-  gameObject: string;
-  methodName: string;
-  message: string;
-}
 
 /**
  * GLOBAL VARIABLES
@@ -544,37 +539,78 @@ class VehicleFollowScreen extends React.Component {
       unityLoaded: false,
     };
     this.socket = socketio;
-    this.unityContext = new UnityContext({
-      loaderUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.loader.js`,
-      dataUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.data.unityweb`,
-      frameworkUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.framework.js.unityweb`,
-      codeUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.wasm.unityweb`,
-    });
+
     this.socket.on('data update', newData => {
       console.log('new data', newData);
-      globalState.centralServerData = newData;
-      if (this.state.unityLoaded) {
-        this.unityContext.send(
-          'Event_Listener_From_React',
-          'User_Car_Position',
-          `${newCarData.position[0]} ${newCarData.position[1]}`,
-        );
-        this.unityContext.send(
-          'Event_Listener_From_React',
-          'User_Heading',
-          `${newCarData.heading}`,
-        );
+      if (this.unity) {
+        this.unity.isReady().then(result => {
+          if (result) {
+            let thisCarString = `tag${globalState.selectedid}`,
+              thisCarData;
+            if (globalState.centralServerData.carData) {
+              thisCarData = globalState.centralServerData.carData[thisCarString];
+            }
+            if (!this.state.unityLoaded) {
+              this.setState(() => {
+                return {
+                  unityLoaded: true,
+                };
+              });
+              // Send initial message
+              let topLeft,
+                topRight,
+                bottomLeft,
+                bottomRight,
+                grid_res_string,
+                initialData;
+              if (globalState.centralServerData.carData) {
+                topLeft = globalState.centralServerData.carData.tag100;
+                topRight = globalState.centralServerData.carData.tag101;
+                bottomLeft = globalState.centralServerData.carData.tag102;
+                bottomRight = globalState.centralServerData.carData.tag103;
+                grid_res_string = `${topLeft.position[0]} ${topLeft.position[1]} ${topRight.position[0]} ${topRight.position[1]} ${bottomLeft.position[0]} ${bottomLeft.position[1]} ${bottomRight.position[0]} ${bottomRight.position[1]}`;
+                initialData = {
+                  position: `${thisCarData.position[0]} ${thisCarData.position[1]}`,
+                  heading: `${thisCarData.heading}`,
+                  grid_resolution: grid_res_string,
+                  green_arrow_status: 'reset',
+                  green_arrow_period: `${globalState.centralServerData.lightPeriod}`,
+                };
+              }
+              UnityModule.postMessage(
+                'Event_Listener_From_React',
+                'Setup',
+                JSON.stringify(initialData),
+              );
+            } else {
+              UnityModule.postMessage(
+                'Event_Listener_From_React',
+                'User_Car_Position',
+                `${thisCarData.position[0]} ${thisCarData.position[1]}`,
+              );
+              UnityModule.postMessage(
+                'Event_Listener_From_React',
+                'User_Heading',
+                `${thisCarData.heading}`,
+              );
+            }
+          }
+        });
       }
     });
     this.socket.on('synchronization', () => {
       console.log('traffic light sync');
       //send to unity
-      if (this.state.unityLoaded) {
-        this.unityContext.send(
-          'Event_Listener_From_React',
-          'User_Green_Arrow_Status',
-          'start twoway',
-        );
+      if (this.unity) {
+        this.unity.isReady().then(result => {
+          if (result) {
+            UnityModule.postMessage(
+              'Event_Listener_From_React',
+              'User_Green_Arrow_Status',
+              'start twoway',
+            );
+          }
+        });
       }
     });
   }
@@ -586,6 +622,10 @@ class VehicleFollowScreen extends React.Component {
       this.socket.removeAllListeners('data update');
       this.socket.removeAllListeners('synchronization');
     }
+  }
+
+  onMessage(handler) {
+    console.log('Message from Unity', handler.name, handler.data);
   }
 
   render() {
@@ -604,142 +644,16 @@ class VehicleFollowScreen extends React.Component {
       console.log('[VEHICLE FOLLOW] Parse central server data');
     }
 
-    // Parse all of the stuff from the central server and package it for Unity to use
-    let thisCarString = `tag${globalState.selectedid}`;
-    let thisCarData,
-      topLeft,
-      topRight,
-      bottomLeft,
-      bottomRight,
-      grid_res_string,
-      initialData;
-    if (globalState.centralServerData.carData) {
-      thisCarData = globalState.centralServerData.carData[thisCarString];
-      topLeft = globalState.centralServerData.carData.tag100;
-      topRight = globalState.centralServerData.carData.tag101;
-      bottomLeft = globalState.centralServerData.carData.tag102;
-      bottomRight = globalState.centralServerData.carData.tag103;
-      grid_res_string = `${topLeft.position[0]} ${topLeft.position[1]} ${topRight.position[0]} ${topRight.position[1]} ${bottomLeft.position[0]} ${bottomLeft.position[1]} ${bottomRight.position[0]} ${bottomRight.position[1]}`;
-      initialData = {
-        position: `${thisCarData.position[0]} ${thisCarData.position[1]}`,
-        heading: `${thisCarData.heading}`,
-        grid_resolution: grid_res_string,
-        green_arrow_status: 'reset',
-        green_arrow_period: `${globalState.centralServerData.lightPeriod}`,
-      };
-    } else {
+    if (
+      !globalState.centralServerData.carData ||
+      !globalState.centralServerData.carData[`tag${globalState.selectedid}`]
+    ) {
       return (
         <View style={backgroundStyle}>
           <Text>No data was retrieved from central server.</Text>
         </View>
       );
     }
-
-    const UnityView = () => {
-      useEffect(() => {
-        this.unityContext.on('loaded', () => {
-          // update state
-          this.setState(() => {
-            return {
-              unityLoaded: true,
-            };
-          });
-          // post initial message
-          this.unityContext.send(
-            'Event_Listener_From_React',
-            'Setup',
-            JSON.stringify(initialData),
-          );
-        });
-      }, []);
-
-      return (
-        <View style={{ flex: 1 }}>
-          <Unity
-            style={{ visibility: this.state.unityLoaded ? 'visible' : 'hidden' }}
-            unityContext={this.unityContext}
-          />
-        </View>
-      );
-    };
-
-    // Old code for react-native-unity
-    /*
-    const Unity = () => {
-      const unityRef = useRef<UnityView>(null);
-
-      if (config.debugMode) {
-        console.log(
-          '[VEHICLE FOLLOW > UNITY] Subscribe to synchronization and data update',
-        );
-      }
-      this.socket.on('synchronization', () => {
-        console.log('traffic light sync');
-        //send to unity
-        if (unityRef?.current) {
-          unityRef.current.postMessage(
-            'Event_Listener_From_React',
-            'User_Green_Arrow_Status',
-            'reset',
-          );
-        }
-      });
-      this.socket.on('data update', newData => {
-        console.log('new data', newData);
-        globalState.centralServerData = newData;
-        let newCarData = newData.carData[thisCarString];
-        // Just need to send a message to unity with the new data for the car
-        if (unityRef?.current) {
-          unityRef.current.postMessage(
-            'Event_Listener_From_React',
-            'User_Car_Position',
-            `${newCarData.position[0]} ${newCarData.position[1]}`,
-          );
-          unityRef.current.postMessage(
-            'Event_Listener_From_React',
-            'User_Heading',
-            `${newCarData.heading}`,
-          );
-        }
-      });
-
-      useEffect(() => {
-        if (unityRef?.current) {
-          if (config.debugMode) {
-            console.log(
-              '[VEHICLE FOLLOW > UNITY] Post initial message to Unity',
-            );
-          }
-          unityRef.current.postMessage(
-            'Event_Listener_From_React',
-            'Setup',
-            JSON.stringify(initialData),
-          );
-        } else {
-          if (config.debugMode) {
-            console.log(
-              '[VEHICLE FOLLOW > UNITY] Did not post initial message.',
-            );
-          }
-        }
-      }, []);
-
-      if (config.debugMode) {
-        console.log('[VEHICLE FOLLOW > UNITY] Draw Unity object');
-      }
-      return (
-        <View style={{flex: 1}}>
-          <UnityView
-            ref={unityRef}
-            style={{flex: 1}}
-            onUnityMessage={result => {
-              console.log('onUnityMessage', result.nativeEvent.message);
-            }}
-          />
-        </View>
-      );
-    };
-    */
 
     // This is a handler for when the user comes back to this app and the globalState is reset
     if (globalState.selectedid < 0) {
@@ -760,8 +674,15 @@ class VehicleFollowScreen extends React.Component {
 
     // New code that renders the unity component defined above
     return (
-      <View style={backgroundStyle}>
-        <UnityView />
+      <View style={[backgroundStyle, {flex: 1}]}>
+        <UnityView
+          style={{position: 'absolute', left: 0, right: 0, top: 0, bottom: 0}}
+          onUnityMessage={this.onMessage.bind(this)}
+          ref={ref => {
+            this.unity = ref;
+          }}
+        />{' '}
+        : null}}
       </View>
     );
 

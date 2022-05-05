@@ -1,8 +1,8 @@
 rootProject.name = 'RTFApp'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
-//include ":UnityExport"
-//project(":UnityExport").projectDir = file("./UnityExport")
+include ":UnityExport"
+project(":UnityExport").projectDir = file("./UnityExport")
 
 //include ':unityLibrary'
 //project(':unityLibrary').projectDir=new File('./unity/IL2CPP_builds/official_android/unityLibrary')

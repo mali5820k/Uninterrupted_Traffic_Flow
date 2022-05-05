@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@asmadsen/react-native-unity-view": "^0.0.7",
     "@react-native-community/cli-platform-android": "^7.0.1",
     "@react-navigation/native": "^6.0.8",
     "@react-navigation/native-stack": "^6.5.0",
@@ -19,7 +20,6 @@
     "react-native": "^0.68.1",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.13.1",
-    "react-unity-webgl": "^8.8.0",
     "socket.io-client": "^4.5.0"
   },
   "devDependencies": {

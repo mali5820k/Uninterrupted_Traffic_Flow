@@ -22,6 +22,9 @@ buildscript {
 
 allprojects {
     repositories {
+        flatDir {
+            dirs "${project(':UnityExport').projectDir}/libs"
+        }
 		/*flatDir {
 			dirs "${project(':unityLibrary').projectDir}/libs"
 		}
