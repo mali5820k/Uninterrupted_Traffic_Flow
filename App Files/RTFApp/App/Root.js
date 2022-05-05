@@ -37,7 +37,8 @@ import {
 import {NavigationContainer, useNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {io} from 'socket.io-client';
-import UnityView from '@azesmway/react-native-unity';
+//import UnityView from '@azesmway/react-native-unity';
+import Unity, {UnityContext} from 'react-unity-webgl';
 
 const config = require('./config.json');
 const logo = require('./images/SD.png');
@@ -540,11 +541,42 @@ class VehicleFollowScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: {
-        dataUnset: true,
-      },
+      unityLoaded: false,
     };
     this.socket = socketio;
+    this.unityContext = new UnityContext({
+      loaderUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.loader.js`,
+      dataUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.data.unityweb`,
+      frameworkUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.framework.js.unityweb`,
+      codeUrl: `${globalState.connectionDetails.useSecure ? 'https' : 'http'}://${globalState.connectionDetails.host}:${globalState.connectionDetails.port}/unity/unity.wasm.unityweb`,
+    });
+    this.socket.on('data update', newData => {
+      console.log('new data', newData);
+      globalState.centralServerData = newData;
+      if (this.state.unityLoaded) {
+        this.unityContext.send(
+          'Event_Listener_From_React',
+          'User_Car_Position',
+          `${newCarData.position[0]} ${newCarData.position[1]}`,
+        );
+        this.unityContext.send(
+          'Event_Listener_From_React',
+          'User_Heading',
+          `${newCarData.heading}`,
+        );
+      }
+    });
+    this.socket.on('synchronization', () => {
+      console.log('traffic light sync');
+      //send to unity
+      if (this.state.unityLoaded) {
+        this.unityContext.send(
+          'Event_Listener_From_React',
+          'User_Green_Arrow_Status',
+          'start twoway',
+        );
+      }
+    });
   }
 
   componentWillUnmount() {
@@ -562,6 +594,7 @@ class VehicleFollowScreen extends React.Component {
         '[VEHICLE FOLLOW] Attempting to render VehicleFollowScreen...',
       );
     }
+
     const backgroundStyle = {
       flex: 1,
       backgroundColor: this.props.isDarkMode ? Colors.black : Colors.white,
@@ -570,6 +603,7 @@ class VehicleFollowScreen extends React.Component {
     if (config.debugMode) {
       console.log('[VEHICLE FOLLOW] Parse central server data');
     }
+
     // Parse all of the stuff from the central server and package it for Unity to use
     let thisCarString = `tag${globalState.selectedid}`;
     let thisCarData,
@@ -590,7 +624,7 @@ class VehicleFollowScreen extends React.Component {
         position: `${thisCarData.position[0]} ${thisCarData.position[1]}`,
         heading: `${thisCarData.heading}`,
         grid_resolution: grid_res_string,
-        green_arrow_status: 'start',
+        green_arrow_status: 'reset',
         green_arrow_period: `${globalState.centralServerData.lightPeriod}`,
       };
     } else {
@@ -601,6 +635,36 @@ class VehicleFollowScreen extends React.Component {
       );
     }
 
+    const UnityView = () => {
+      useEffect(() => {
+        this.unityContext.on('loaded', () => {
+          // update state
+          this.setState(() => {
+            return {
+              unityLoaded: true,
+            };
+          });
+          // post initial message
+          this.unityContext.send(
+            'Event_Listener_From_React',
+            'Setup',
+            JSON.stringify(initialData),
+          );
+        });
+      }, []);
+
+      return (
+        <View style={{ flex: 1 }}>
+          <Unity
+            style={{ visibility: this.state.unityLoaded ? 'visible' : 'hidden' }}
+            unityContext={this.unityContext}
+          />
+        </View>
+      );
+    };
+
+    // Old code for react-native-unity
+    /*
     const Unity = () => {
       const unityRef = useRef<UnityView>(null);
 
@@ -646,13 +710,6 @@ class VehicleFollowScreen extends React.Component {
               '[VEHICLE FOLLOW > UNITY] Post initial message to Unity',
             );
           }
-          /*
-          const message: IMessage = {
-            gameObject: 'GameObject/Event_Listener_From_React',
-            methodName: 'Setup',
-            message: JSON.stringify(initialData),
-          };
-          */
           unityRef.current.postMessage(
             'Event_Listener_From_React',
             'Setup',
@@ -682,6 +739,7 @@ class VehicleFollowScreen extends React.Component {
         </View>
       );
     };
+    */
 
     // This is a handler for when the user comes back to this app and the globalState is reset
     if (globalState.selectedid < 0) {
@@ -703,7 +761,7 @@ class VehicleFollowScreen extends React.Component {
     // New code that renders the unity component defined above
     return (
       <View style={backgroundStyle}>
-        <Unity />
+        <UnityView />
       </View>
     );
 
