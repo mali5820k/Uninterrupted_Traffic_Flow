@@ -6,9 +6,15 @@ import os
 import time
 import moduleToServer as ms
 import json
+import imutils
+from threading import Thread
+import datetime
+import sys
 
 # Camera settings
-CAMERA_ID = 0
+#CAMERA_ID = "/media/alex/NIKON D5200/DCIM/102ALEX1/DSC_0652.MOV"
+#CAMERA_ID = 0  # Default Camera
+CAMERA_ID = 14 # USB-Video
 CAMERA_WIDTH = 1920
 CAMERA_HEIGHT = 1080
 CAMERA_FPS = 30
@@ -22,8 +28,8 @@ velocities = {}
 startTime = 0
 endTime = 0
 elapsedTime = 0
+usingVideoFile = False
 
-greenArrowData = {} # Starting and ending points of the vector, Velocity, and GUID (unique reference number to that green Arrow)
 # carData = {1: ([0, 0], [0, 0])} # This is the format
 carData = {} # position and velocity of cars with an associated GUID
 
@@ -94,7 +100,7 @@ def makePositionDict(centers, ids):
 
 # Feel free to change the parameters in the function to fit your approach
 # Function needs to draw a box around the tags that were detected.
-def debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, ids):
+def debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, ids, fps):
     if debug == False:
         return
 
@@ -105,16 +111,70 @@ def debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPosit
     print(f"Corners Array is: {corners}")
     print(f"Center of Tags are: {centers}\n")
     print(f"Tag Positions: {tagPositions}")
-    print(f"Tag Velocities: {velocities}")
+    if not usingVideoFile:
+        print(f"FPS: {fps.fps():.2f}")
     print(f"\n_________________________________________________________________________")
 
     # Do the display logic here:
-    #cv2.rectangle(img, (int(corners[0][0]), int(corners[0][1])), (int(corners[2][0]), int(corners[2][1])), (50, 50, 255), 2)
-    #cv2.line(img, (int(centers[0]), int(centers[1])), (int(centers[0]), int(centers[1])), (200, 0, 200), 6)
     color = (200, 0, 250)
     # Using this source: https://aliyasineser.medium.com/aruco-marker-tracking-with-opencv-8cb844c26628
     aruco.drawDetectedMarkers(img, unformatted_corners, borderColor = color)
 
+# Both following classes from https://pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/
+class FPS:
+    def __init__(self):
+        self._start = None
+        self._end = None
+        self._numFrames = 0
+
+    def start(self):
+        self._start = datetime.datetime.now()
+        return self
+
+    def stop(self):
+        self._end = datetime.datetime.now()
+
+    def update(self):
+        self._end = datetime.datetime.now()
+        self._numFrames += 1
+
+    def elapsed(self):
+        return (self._end - self._start).total_seconds()
+
+    def fps(self):
+        curfps = self._numFrames / self.elapsed()
+        self._start = datetime.datetime.now()
+        self._numFrames = 0
+        return curfps
+
+class WebcamVideoStream:
+    def __init__(self, src=CAMERA_ID):
+        self.stream = cv2.VideoCapture(src)
+        self.stream.set(3, CAMERA_WIDTH)
+        self.stream.set(4, CAMERA_HEIGHT)
+        self.stream.set(5, CAMERA_FPS)
+        fourcc_cap = cv2.VideoWriter_fourcc(*'MJPG')
+        self.stream.set(6, fourcc_cap)
+        (self.grabbed, self.frame) = self.stream.read()
+        self.stopped = False
+
+    def start(self):
+        Thread(target=self.update, args=()).start()
+        return self
+
+    def update(self):
+        while True:
+            if self.stopped:
+                return
+
+            (self.grabbed, self.frame) = self.stream.read()
+
+    def read(self):
+        return self.frame
+
+    def stop(self):
+        self.stopped = True
+        self.stream.release()
 
 # For the combined implementation, encapsulate this entire region below within a function call and
 # eliminate the while-loop so the actions only occur once per function call.
@@ -122,21 +182,46 @@ def main():
     global velocities
     global lastPositions
     global startTime, endTime
-    global greenArrowData, carData
+    global carData
+    global usingVideoFile
 
-    # Initialize capture stream and apply settings from above
-    cap = cv2.VideoCapture(CAMERA_ID)
-    cap.set(3, CAMERA_WIDTH)
-    cap.set(4, CAMERA_HEIGHT)
-    cap.set(5, CAMERA_FPS)
+    vs = None
+    fps = None
+
+    # If reading from file
+    if isinstance(CAMERA_ID, str):
+    ## Initialize capture stream and apply settings from above
+        print("Detected video file from CAMERA_ID")
+        usingVideoFile = True
+        vs = cv2.VideoCapture(CAMERA_ID)
+        vs.set(3, CAMERA_WIDTH)
+        vs.set(4, CAMERA_HEIGHT)
+        vs.set(5, CAMERA_FPS)
+
+    # Initialize video stream
+    elif isinstance(CAMERA_ID, int):
+        print("Detected webcam from CAMERA_ID")
+        vs = WebcamVideoStream().start()
+        fps = FPS().start()
+
+    else:
+        print(f'Type of CAMERA_ID not recognized ({type(CAMERA_ID)}, should be str or int)')
+        sys.exit(1)
 
     # setup module to server connection
     ms.setup()
 
     while True:
         try:
-            success, img = cap.read()
-            grayScale=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+            img = None
+            if usingVideoFile:
+                success, img = vs.read()
+            else:
+                img = vs.read()
+                fps.update()
+
+            #img = imutils.resize(img, width=400) # This is how you would resize the image if you wanted to
+            grayScale=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) # Convert to B&W for OpenCV
             key=getattr(aruco, f'DICT_{markerSize}X{markerSize}_{totalMarkers}')
             arucoDict=aruco.Dictionary_get(key)
             arucoParam=aruco.DetectorParameters_create()
@@ -145,17 +230,11 @@ def main():
             unformatted_corners = corners
 
             #ids type is numpy.ndarray
-            #NEED TO HAVE ARTAGS ON CAMERA, IF NOT, PROGRAM CRASHES
-            #temp=ids.tolist()
             temp = np.array(ids)
             temp = temp.flatten()
+
             rej_corners = np.array(rejected)
-            #rej_corners.flatten()
-            #rej_corners = cornersTo2D(rej_corners)
-            #rej_corners = cornersReformatted(rej_corners)
             print(f"The rejected tag values: {rej_corners}, ids: {temp}")
-            #if (len(rej_corners) != 0 and len(temp) != 0):
-                #corners.append(rejected)
 
             corners = np.array(corners)
             corners = corners.flatten()
@@ -165,14 +244,11 @@ def main():
             tagPositions = makePositionDict(centers, temp)
             startTime = time.time()
 
-            # if (not(len(lastPositions) == 0)):
-            #     velocities.update(computeVelocities(lastPositions, tagPositions))
-
             lastPositions.update(tagPositions)
             endTime = time.time()
 
             # This function will draw the boxes around each detected ArUco tag
-            debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, temp)
+            debugViewOfDetectedTags(img, unformatted_corners, corners, centers, tagPositions, temp, fps)
 
             # Assemble car data
             for i in range(0, len(centers)):
@@ -203,7 +279,7 @@ def main():
                         heading = 270
 
                 elif forwardPoint[0] > position[0] and forwardPoint[1] < position[1]: # Quadrant 1
-                    theta = np.arctan([absy/absx])[0] * 57.29578
+                    theta = np.arctan([absy/absx])[0] * 57.29578 # This literal converts to degrees
                     heading = 90 - theta
                 elif forwardPoint[0] < position[0] and forwardPoint[1] < position[1]: # Quadrant 2
                     theta = np.arctan([absy/absx])[0] * 57.29578
@@ -226,9 +302,6 @@ def main():
             cv2.imshow("Image", img)
             cv2.waitKey(1)
 
-            # Assemble greenArrowData here when it's ready:
-            #.....#
-
             # package data to send to the server:
             packaged_data = {
                     "carData": json.dumps(carData)
@@ -240,7 +313,14 @@ def main():
         # Handle CTRL+C Keyboard Interrupt for exiting program
         except KeyboardInterrupt:
             print("Quitting Program")
-            cap.release() # Release the capture stream
+
+            # Release video capture stream or stop video playback
+            if usingVideoFile:
+                vs.release()
+            else:
+                vs.stop()
+                fps.stop()
+
             cv2.destroyAllWindows() # Close all windows that were created from this program and openCV.
             break
 
