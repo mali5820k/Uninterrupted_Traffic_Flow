@@ -3,7 +3,7 @@ from flask_socketio import SocketIO, emit
 import json
 
 # Utilizing the below links,
-# https://flask-socketio.readthedocs.io/en/latest/intro.html#installation 
+# https://flask-socketio.readthedocs.io/en/latest/intro.html#installation
 # https://flask-socketio.readthedocs.io/en/latest/getting_started.html
 # https://pythonprogramminglanguage.com/python-flask-websocket/
 # https://medium.com/@abhishekchaudhary_28536/building-apps-using-flask-socketio-and-javascript-socket-io-part-1-ae448768643
@@ -16,16 +16,11 @@ port_ = 5000
 TRAFFIC_LIGHT_PERIOD = 10
 
 app = Flask(__name__)
-socketio = SocketIO(app)
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 greenArrowData = {} # Starting and ending points of the vector, Velocity, and GUID (unique reference number to that green Arrow)
-carData = {} # position and velocity of cars with an associated GUID
+carData = "{}" # position and velocity of cars with an associated GUID
 connectedUsers = {} # Users that are connected given an ID
-
-# def getOpenCVInfo():
-#     sampleJson = json.loads('{"Car ID": 1, "posX": 10, "posY": 20, "velX": 0.2, "velY": 0.0}')
-#     sampleData = json.dumps(sampleJson)
-#     return sampleData
 
 @app.route("/", methods = ["GET", "POST"])
 def index():
@@ -33,40 +28,32 @@ def index():
 
 @app.route("/debug", methods = ["GET"])
 def debugView():
-    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br> <a href=\"javascript:fetch('/sync')\"><button>Send Traffic Light Synchronization Signal</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
+    return f"<!DOCTYPE html><html><head><title>Central Server &rsaquo; Debug</title></head><body><h1>Maximum Uninterrupted Traffic Flow</h1><h2>Debug View</h2><a href=\"/\"><button>Home Page</button></a> <a href=\"javascript:location.reload(true)\"><button>Refresh Data</button></a><br> <a href=\"javascript:fetch('/sync')\"><button>Send Traffic Light Synchronization Signal</button></a> <a href=\"javascript:fetch('/update')\"><button>Manually Push Stale Data Update</button></a><br><p>Green Arrow Data:</p><samp>{greenArrowData}</samp><br><br><p>Car data:</p><samp>{carData}</samp><br><br><p>Users Connected:</p><samp>{connectedUsers}</samp></body></html>"
 
 @app.route("/sync", methods = ["GET"])
 def syncPath():
+    socketio.emit("synchronization", broadcast=True)
     return "ok"
-    emit("synchronization", broadcast=True)
 
-### For three-way handshake on new connection
-### Client must use socketIO in either javascript or python to connect and must implement socket.on('handshake', (msg) => {}) and socket.on('after connect', (msg) => {})
-### in order to complete the handshake. For debugging purposes, data messages are included in these connection events.
-### msg data can be accessed by both the server and the client through msg.data
+@app.route("/update", methods = ["GET"])
+def pushUpdate():
+    carDataJSON = json.loads(carData)
+    packagedData = {
+            "carData": carDataJSON,
+            "lightPeriod": TRAFFIC_LIGHT_PERIOD
+            }
+    socketio.emit("data update", packagedData, broadcast=True) ### broadcast sends the message to all clients connected to the server
+    print(f"Manually updated data. carData: {carData}")
+    return "ok"
 
-### All clients should have an event for "updated data" so that the car
-
-# @socketio.on('connect')
-# def connectionHandshake():
-#     print("User has connected")
-#     emit('handshake client', {'data': 'Ack from server, waiting on client handshake ack'})
-
-# @socketio.on('handshake')
-# def connectionConfirmed(msg):
-#     print(msg.data)
-#     emit('after connect', {'data': "Ack from client received, three-way handshake complete, 200 OK"})
-
-### This event will be invoked by the openCV module to update the data on the serverside and to invoke an update 
-### across all connected users
 @socketio.on('update green-arrow data')
 def updateSystemData(new_GreenArrow_And_CarData): # This param is a tuple or list of the two dictionaries
     global greenArrowData, carData
+
     # The two dictionaries are split into two separate variables
     newData = new_GreenArrow_And_CarData
     carData = newData['carData']
-    #dataToSend = json.loads(new_GreenArrow_And_CarData) ### Don't know if this is better than sending two separate jsons
-    
+
     # The two dictionaries are loaded up into JSON's and sent to the server via an emitted event
     carDataJSON = json.loads(carData)
     packagedData = {
@@ -74,7 +61,7 @@ def updateSystemData(new_GreenArrow_And_CarData): # This param is a tuple or lis
             "lightPeriod": TRAFFIC_LIGHT_PERIOD
             }
     emit("data update", packagedData, broadcast=True) ### broadcast sends the message to all clients connected to the server
-    
+
 @socketio.on('disconnect')
 def disconnectConfirmed():
     print("User has disconnected")
