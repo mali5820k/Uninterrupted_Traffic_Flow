@@ -1,0 +1,2 @@
+## For Anyone in the future who picks up on this project:
+* The state of this project is that the Unity visualization app has an unexpected behavior that prevents the x-axis of the user's vehicle from mapping correctly. You need to import the package here inside of a unity editor (Version 2021.3.0f1 Personal was used when we worked on this) from Assets -> Import Package -> Custom Package -> and then select this package. Try to do so in an empty project to avoid import errors.
